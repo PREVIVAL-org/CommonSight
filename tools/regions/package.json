@@ -1,0 +1,12 @@
+{
+  "name": "commonsight-regions",
+  "private": true,
+  "description": "Prepares region boundaries, DACH outline and mask for the map and tile clipping (Architecture 8.3).",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "dependencies": {
+    "mapshaper": "^0.6.100"
+  }
+}

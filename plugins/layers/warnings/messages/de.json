@@ -1,0 +1,22 @@
+{
+  "layer.warnings.name": "Amtliche Warnungen",
+  "layer.warnings.note.DE": "Die Warnungen aus NINA (MoWaS, KATWARN, BIWAPP, Polizei, Hochwasserportale) und die Wetterwarnungen direkt vom DWD werden gemeinsam angezeigt. Abgelaufene Meldungen und Entwarnungen sind ausgeblendet.",
+  "layer.warnings.note.AT": "Amtliche Wetterwarnungen direkt von GeoSphere Austria mit deutschen Originaltexten. Aktuelle und bevorstehende Warnungen; abgelaufene Meldungen sind ausgeblendet. Die Wetterwarnungen gelten für den Dauersiedlungsraum, nicht für hochalpine Lagen. Dazu die Warnungen des Bevölkerungswarnsystems AT-Alert (BMI und Landeswarnzentralen, veröffentlicht von der RTR); Probealarme sind als solche gekennzeichnet. Daten: GeoSphere Austria, CC BY 4.0; Gebietsgrundlage: Statistik Austria.",
+  "layer.warnings.note.CH": "Amtliche Wetterwarnungen über MeteoAlarm und die Meldungen des Bevölkerungsschutzes von Alertswiss (Bund und Kantone) werden gemeinsam angezeigt. Testmeldungen sind ausgeblendet. Abgelaufene Meldungen und Entwarnungen sind ausgeblendet.",
+  "layer.warnings.notice.count": {
+    "one": "{count} Warnung in {place}",
+    "other": "{count} Warnungen in {place}"
+  },
+  "layer.warnings.notice.none": "Keine Warnungen in {place}",
+  "layer.warnings.notice.placeSources": "den verbundenen Quellen",
+  "layer.warnings.notice.incomplete": "unvollständig",
+  "layer.warnings.notice.error": "Warnquelle derzeit nicht erreichbar",
+  "layer.warnings.notice.loading": "Warnungen werden abgerufen ...",
+  "layer.warnings.notice.unassigned": "weitere Meldungen ohne Ortszuordnung",
+  "layer.warnings.notice.open": "Warnungen anzeigen",
+  "layer.warnings.browse": "Warnmeldungen ansehen",
+  "layer.warnings.toast.new": {
+    "one": "{count} neue amtliche Warnung",
+    "other": "{count} neue amtliche Warnungen"
+  }
+}

@@ -1,0 +1,392 @@
+[
+  {
+    "id": "open-meteo-air",
+    "name": "CAMS · Open-Meteo",
+    "layer": "air",
+    "scopes": [
+      "DE",
+      "AT",
+      "CH",
+      "border"
+    ],
+    "order": 10,
+    "attribution": {
+      "text": "Luftqualität: Open-Meteo.com (CC BY 4.0) auf Basis von CAMS (Copernicus Atmosphere Monitoring Service)",
+      "url": "https://open-meteo.com/en/licence"
+    }
+  },
+  {
+    "id": "usgs",
+    "name": "USGS",
+    "layer": "nature",
+    "scopes": [
+      "DE",
+      "AT",
+      "CH",
+      "border"
+    ],
+    "order": 10,
+    "attribution": {
+      "text": "Erdbeben: U.S. Geological Survey (USGS)",
+      "url": "https://earthquake.usgs.gov/"
+    }
+  },
+  {
+    "id": "news-tagesschau",
+    "name": "tagesschau.de",
+    "layer": "news",
+    "scopes": [
+      "global"
+    ],
+    "order": 10,
+    "attribution": {
+      "text": "Nachrichten: tagesschau.de",
+      "url": "https://www.tagesschau.de/infoservices/rssfeeds"
+    }
+  },
+  {
+    "id": "news-orf",
+    "name": "ORF.at",
+    "layer": "news",
+    "scopes": [
+      "global"
+    ],
+    "order": 20,
+    "attribution": {
+      "text": "Nachrichten: ORF.at",
+      "url": "https://orf.at/"
+    }
+  },
+  {
+    "id": "news-srf",
+    "name": "SRF News",
+    "layer": "news",
+    "scopes": [
+      "global"
+    ],
+    "order": 30,
+    "attribution": {
+      "text": "Nachrichten: SRF News",
+      "url": "https://www.srf.ch/news"
+    }
+  },
+  {
+    "id": "open-meteo-pollen",
+    "name": "CAMS · Open-Meteo",
+    "layer": "pollen",
+    "scopes": [
+      "DE",
+      "AT",
+      "CH",
+      "border"
+    ],
+    "order": 10,
+    "attribution": {
+      "text": "Pollenflug: Open-Meteo.com (CC BY 4.0) auf Basis von CAMS (Copernicus Atmosphere Monitoring Service)",
+      "url": "https://open-meteo.com/en/licence"
+    }
+  },
+  {
+    "id": "bfs-odl",
+    "name": "BfS ODL",
+    "layer": "radiation",
+    "scopes": [
+      "DE"
+    ],
+    "order": 10,
+    "attribution": {
+      "text": "Strahlung: Bundesamt für Strahlenschutz (BfS), ODL (Datenlizenz Deutschland – Namensnennung – 2.0)",
+      "url": "https://odlinfo.bfs.de/",
+      "license": "dl-de/by-2-0"
+    }
+  },
+  {
+    "id": "eurdep",
+    "name": "EURDEP",
+    "layer": "radiation",
+    "scopes": [
+      "CH"
+    ],
+    "order": 10,
+    "attribution": {
+      "text": "Strahlung: EURDEP (Schweiz) über BfS",
+      "url": "https://www.imis.bfs.de/"
+    }
+  },
+  {
+    "id": "paa",
+    "name": "PAA",
+    "layer": "radiation",
+    "scopes": [
+      "border"
+    ],
+    "order": 10,
+    "attribution": {
+      "text": "Strahlung: Państwowa Agencja Atomistyki (CC BY 3.0 PL)",
+      "url": "https://monitoring.paa.gov.pl/"
+    }
+  },
+  {
+    "id": "umweltbundesamt",
+    "name": "Strahlenfrühwarnsystem",
+    "layer": "radiation",
+    "scopes": [
+      "AT"
+    ],
+    "order": 10,
+    "attribution": {
+      "text": "Strahlung: Strahlenfrühwarnsystem, BMLUK / Umweltbundesamt",
+      "url": "https://mb.strahlenschutz.gv.at/"
+    }
+  },
+  {
+    "id": "appa-bz",
+    "name": "Umweltagentur Südtirol",
+    "layer": "radiation",
+    "scopes": [
+      "border"
+    ],
+    "order": 20,
+    "attribution": {
+      "text": "Strahlung: Umweltagentur Südtirol (CC0)",
+      "url": "https://dati.retecivica.bz.it/"
+    }
+  },
+  {
+    "id": "noaa-kp",
+    "name": "NOAA Kp-Index",
+    "layer": "space",
+    "scopes": [
+      "global"
+    ],
+    "order": 10,
+    "attribution": {
+      "text": "Weltraumwetter: NOAA SWPC",
+      "url": "https://www.swpc.noaa.gov/"
+    }
+  },
+  {
+    "id": "noaa-scales",
+    "name": "NOAA-Skalen",
+    "layer": "space",
+    "scopes": [
+      "global"
+    ],
+    "order": 20,
+    "attribution": {
+      "text": "Weltraumwetter: NOAA SWPC",
+      "url": "https://www.swpc.noaa.gov/"
+    }
+  },
+  {
+    "id": "autobahn",
+    "name": "Autobahn GmbH",
+    "layer": "traffic",
+    "scopes": [
+      "DE"
+    ],
+    "order": 10,
+    "attribution": {
+      "text": "Verkehr: Autobahn GmbH des Bundes",
+      "url": "https://www.autobahn.de/"
+    }
+  },
+  {
+    "id": "oeamtc",
+    "name": "ÖAMTC",
+    "layer": "traffic",
+    "scopes": [
+      "AT"
+    ],
+    "order": 10,
+    "attribution": {
+      "text": "Verkehr: ÖAMTC",
+      "url": "https://www.oeamtc.at/verkehrsservice/"
+    }
+  },
+  {
+    "id": "at-alert",
+    "name": "AT-Alert",
+    "layer": "warnings",
+    "scopes": [
+      "AT"
+    ],
+    "order": 5,
+    "attribution": {
+      "text": "Warnungen: AT-Alert (BMI, Landeswarnzentralen), veröffentlicht von der RTR",
+      "url": "https://warnungen.at-alert.at/"
+    }
+  },
+  {
+    "id": "bbk-mowas",
+    "name": "BBK/NINA",
+    "layer": "warnings",
+    "scopes": [
+      "DE"
+    ],
+    "order": 10,
+    "attribution": {
+      "text": "Warnungen: BBK/NINA (MoWaS, KATWARN, BIWAPP, Polizei, Hochwasserportale)",
+      "url": "https://warnung.bund.de/"
+    }
+  },
+  {
+    "id": "geosphere-warnings",
+    "name": "GeoSphere Austria",
+    "layer": "warnings",
+    "scopes": [
+      "AT"
+    ],
+    "order": 10,
+    "attribution": {
+      "text": "Warnungen: GeoSphere Austria, CC BY 4.0; Gebietsgrundlage: Statistik Austria",
+      "url": "https://warnungen.zamg.at/"
+    }
+  },
+  {
+    "id": "meteoalarm-ch",
+    "name": "MeteoAlarm",
+    "layer": "warnings",
+    "scopes": [
+      "CH"
+    ],
+    "order": 10,
+    "attribution": {
+      "text": "Warnungen: MeteoSchweiz via MeteoAlarm",
+      "url": "https://meteoalarm.org/"
+    }
+  },
+  {
+    "id": "alertswiss",
+    "name": "Alertswiss (BABS)",
+    "layer": "warnings",
+    "scopes": [
+      "CH"
+    ],
+    "order": 20,
+    "attribution": {
+      "text": "Warnungen: Alertswiss, Bundesamt für Bevölkerungsschutz BABS",
+      "url": "https://www.alert.swiss/"
+    }
+  },
+  {
+    "id": "dwd-warnings",
+    "name": "DWD",
+    "layer": "warnings",
+    "scopes": [
+      "DE"
+    ],
+    "order": 20,
+    "attribution": {
+      "text": "Warnungen: Deutscher Wetterdienst (DWD)",
+      "url": "https://www.dwd.de/"
+    }
+  },
+  {
+    "id": "bafu-lindas",
+    "name": "BAFU/LINDAS",
+    "layer": "water",
+    "scopes": [
+      "CH"
+    ],
+    "order": 10,
+    "attribution": {
+      "text": "Pegel: Bundesamt für Umwelt BAFU · LINDAS",
+      "url": "https://www.hydrodaten.admin.ch/"
+    }
+  },
+  {
+    "id": "ehyd",
+    "name": "eHYD",
+    "layer": "water",
+    "scopes": [
+      "AT"
+    ],
+    "order": 10,
+    "attribution": {
+      "text": "Pegel: Hydrographie Österreich (BML) · eHYD",
+      "url": "https://ehyd.gv.at/"
+    }
+  },
+  {
+    "id": "hubeau",
+    "name": "Hub'Eau",
+    "layer": "water",
+    "scopes": [
+      "border"
+    ],
+    "order": 10,
+    "attribution": {
+      "text": "Pegel: Hub'Eau (OFB/BRGM, Licence Ouverte Etalab)",
+      "url": "https://hubeau.eaufrance.fr/page/api-hydrometrie"
+    }
+  },
+  {
+    "id": "pegelonline",
+    "name": "PEGELONLINE",
+    "layer": "water",
+    "scopes": [
+      "DE"
+    ],
+    "order": 10,
+    "attribution": {
+      "text": "Pegel: WSV · PEGELONLINE",
+      "url": "https://www.pegelonline.wsv.de/"
+    }
+  },
+  {
+    "id": "rijkswaterstaat",
+    "name": "Rijkswaterstaat",
+    "layer": "water",
+    "scopes": [
+      "border"
+    ],
+    "order": 20,
+    "attribution": {
+      "text": "Pegel: Rijkswaterstaat (CC0)",
+      "url": "https://rijkswaterstaatdata.nl/waterdata/"
+    }
+  },
+  {
+    "id": "chmi",
+    "name": "ČHMÚ",
+    "layer": "water",
+    "scopes": [
+      "border"
+    ],
+    "order": 30,
+    "attribution": {
+      "text": "Pegel: ČHMÚ (CC BY 4.0)",
+      "url": "https://opendata.chmi.cz/"
+    }
+  },
+  {
+    "id": "imgw",
+    "name": "IMGW-PIB",
+    "layer": "water",
+    "scopes": [
+      "border"
+    ],
+    "order": 40,
+    "attribution": {
+      "text": "Pegel: Źródłem pochodzenia danych jest Instytut Meteorologii i Gospodarki Wodnej – Państwowy Instytut Badawczy, dane przetworzone (CC BY 4.0)",
+      "url": "https://danepubliczne.imgw.pl/regulations"
+    }
+  },
+  {
+    "id": "open-meteo-weather",
+    "name": "Open-Meteo",
+    "layer": "weather",
+    "scopes": [
+      "DE",
+      "AT",
+      "CH",
+      "border"
+    ],
+    "order": 10,
+    "attribution": {
+      "text": "Wetter: Open-Meteo.com (CC BY 4.0)",
+      "url": "https://open-meteo.com/en/licence"
+    }
+  }
+]

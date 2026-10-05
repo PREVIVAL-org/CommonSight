@@ -1,0 +1,34 @@
+{
+    "warning": [
+        {
+            "identifier": "INRIX--vi-avl.2026-09-28_11-41-00-000_006.de0",
+            "icon": "101",
+            "isBlocked": "false",
+            "future": false,
+            "point": "52.39512565433226,12.840801623637255",
+            "startLcPosition": "37",
+            "display_type": "WARNING",
+            "subtitle": " Dreieck Havelland -> Dreieck Potsdam",
+            "title": "A10 | Phöben - Werder",
+            "startTimestamp": "2026-09-28T11:41:00Z",
+            "delayTimeValue": "14",
+            "abnormalTrafficType": "QUEUING_TRAFFIC",
+            "coordinate": {
+                "lat": 52.39512565433226,
+                "long": 12.840801623637255
+            },
+            "description": [
+                "Beginn: 28.09.26 um 13:41 Uhr",
+                "",
+                "Angespannte Verkehrslage, seit 28.09.2026, 11:41",
+                "A10: Dreieck Havelland -> Dreieck Potsdam, zwischen 4.6 km hinter AS Phöben und 3.3 km vor AD Werder",
+                "",
+                "Ereignismeldung:",
+                "- Im Stillstand",
+                "- Reisezeitverlust: 14 Minuten (zunehmend)"
+            ],
+            "routeRecommendation": [],
+            "source": "inrix"
+        }
+    ]
+}

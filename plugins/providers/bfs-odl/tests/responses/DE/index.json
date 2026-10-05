@@ -1,0 +1,11 @@
+{
+    "recordedAt": "2026-09-28T14:30:00Z",
+    "requests": [
+        {
+            "signature": "GET https://www.imis.bfs.de/ogc/opendata/ows?service=WFS&version=1.0.0&request=GetFeature&outputFormat=application%2Fjson&maxFeatures=3000&typeName=opendata%3Aodlinfo_odl_1h_latest",
+            "status": 200,
+            "headers": {},
+            "file": "001.json"
+        }
+    ]
+}

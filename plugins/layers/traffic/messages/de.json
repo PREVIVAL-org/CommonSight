@@ -1,0 +1,8 @@
+{
+  "layer.traffic.name": "Verkehr",
+  "layer.traffic.note.DE": "Nur ausgewählte Autobahnen, keine vollständige Verkehrs- oder Infrastrukturlage.",
+  "layer.traffic.note.AT": "Aktuelle und geplante Verkehrsmeldungen des ÖAMTC. Nur Meldungen mit Koordinaten erscheinen auf der Karte. Keine Aussage zu Strom- oder Mobilfunknetzen.",
+  "layer.traffic.note.CH": "Für Schweizer Echtzeit-Verkehrsdaten muss ein Datenzugang (ASTRA · opentransportdata.swiss) eingerichtet werden. Aktuelle Störungen bei der TCS-Verkehrsinfo prüfen.",
+  "layer.traffic.legend.title": "Verkehr",
+  "layer.traffic.legend.colors": "Rot und größer: Stau, stockender und dichter Verkehr. Graublau: Sperrungen, Baustellen und andere Meldungen."
+}

@@ -1,0 +1,11 @@
+{
+    "recordedAt": "2026-09-28T14:30:00Z",
+    "requests": [
+        {
+            "signature": "GET https://rss.orf.at/news.xml",
+            "status": 200,
+            "headers": {},
+            "file": "001.xml"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="vendor/phpunit/phpunit/phpunit.xsd"
+         bootstrap="tests/bootstrap.php"
+         colors="true"
+         cacheDirectory=".phpunit.cache"
+         failOnWarning="true"
+         failOnRisky="true"
+         failOnDeprecation="true"
+         failOnNotice="true"
+         displayDetailsOnTestsThatTriggerDeprecations="true"
+         displayDetailsOnTestsThatTriggerWarnings="true">
+    <testsuites>
+        <testsuite name="domain">
+            <directory>tests/Domain</directory>
+            <directory>tests/Model</directory>
+            <directory>tests/Sdk</directory>
+        </testsuite>
+        <testsuite name="application">
+            <directory>tests/Application</directory>
+        </testsuite>
+        <testsuite name="infrastructure">
+            <directory>tests/Infrastructure</directory>
+        </testsuite>
+        <testsuite name="contract">
+            <directory>tests/Contract</directory>
+        </testsuite>
+        <testsuite name="entry">
+            <directory>tests/Entry</directory>
+        </testsuite>
+        <testsuite name="architecture">
+            <directory>tests/Architecture</directory>
+        </testsuite>
+        <!-- The plugins' own tests (concept: sources as plugins). -->
+        <testsuite name="plugins">
+            <directory>../plugins</directory>
+        </testsuite>
+    </testsuites>
+    <source>
+        <include>
+            <directory>src</directory>
+        </include>
+    </source>
+    <php>
+        <!-- Like the test environment, deliberately not UTC (Architecture 12.6). -->
+        <ini name="date.timezone" value="Europe/Berlin"/>
+        <ini name="memory_limit" value="1G"/>
+    </php>
+</phpunit>

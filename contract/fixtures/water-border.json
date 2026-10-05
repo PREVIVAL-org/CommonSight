@@ -1,0 +1,5478 @@
+{
+    "schema": 1,
+    "layer": "water",
+    "scope": "border",
+    "status": "partial",
+    "source": "Hub'Eau · Rijkswaterstaat · ČHMÚ · IMGW-PIB",
+    "sourceUrl": "https://hubeau.eaufrance.fr/page/api-hydrometrie",
+    "generatedAt": "2026-10-02T15:30:00Z",
+    "updatedAt": "2026-10-02T15:15:00Z",
+    "note": {
+        "key": "layer.water.note.border"
+    },
+    "coverage": [],
+    "issues": [
+        {
+            "key": "issue.belowExpected",
+            "params": {
+                "source": "Hub'Eau",
+                "valid": 295,
+                "expected": 700
+            }
+        },
+        {
+            "key": "issue.belowExpected",
+            "params": {
+                "source": "Rijkswaterstaat",
+                "valid": 96,
+                "expected": 150
+            }
+        },
+        {
+            "key": "issue.belowExpected",
+            "params": {
+                "source": "ČHMÚ",
+                "valid": 4,
+                "expected": 300
+            }
+        },
+        {
+            "key": "issue.belowExpected",
+            "params": {
+                "source": "IMGW-PIB",
+                "valid": 25,
+                "expected": 400
+            }
+        }
+    ],
+    "stats": {},
+    "items": [
+        {
+            "kind": "measurement",
+            "id": "hubeau:V430000101",
+            "title": "L'Ouvèze au Pouzin",
+            "url": "https://www.hydro.eaufrance.fr/stationhydro/V430000101/fiche",
+            "time": "2026-10-02T15:15:00Z",
+            "lat": 44.7593,
+            "lon": 4.73417,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "FR",
+            "near": {
+                "countries": [
+                    "CH"
+                ],
+                "regionIds": [
+                    "CH-GE"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 302.8,
+            "unit": "cm",
+            "reference": {
+                "key": "reference.gaugeZero"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Hub'Eau"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T21:15:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "hubeau:X061000201",
+            "title": "La Durance à Monêtier-Allemont",
+            "url": "https://www.hydro.eaufrance.fr/stationhydro/X061000201/fiche",
+            "time": "2026-10-02T15:15:00Z",
+            "lat": 44.38046,
+            "lon": 5.94521,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "FR",
+            "near": {
+                "countries": [
+                    "CH"
+                ],
+                "regionIds": [
+                    "CH-VS"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 157.1,
+            "unit": "cm",
+            "reference": {
+                "key": "reference.gaugeZero"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Hub'Eau"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T21:15:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:grijpskerk.gaarkeuken.oost",
+            "title": "Grijpskerk Gaarkeuken oost",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T12:30:00Z",
+            "lat": 53.24909,
+            "lon": 6.317575,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HB",
+                    "DE-HH",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-SH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -89.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T18:30:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:dalfsen.vechterweerd",
+            "title": "Dalfsen, Vechterweerd",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 52.518103,
+            "lon": 6.211651,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HB",
+                    "DE-NI",
+                    "DE-NW"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -27.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:negenoord.oost",
+            "title": "Negenoord",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 51.030139,
+            "lon": 5.759722,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-SL"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 2501.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:ijmuiden.noordersluis.west",
+            "title": "IJmuiden, noordersluis, west",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 52.4678,
+            "lon": 4.604,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -54.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:edam",
+            "title": "Edam",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 52.516051,
+            "lon": 5.06988,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -26.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:almere.hollandsebrug",
+            "title": "Almere, Hollandse brug",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:10:00Z",
+            "lat": 52.3265,
+            "lon": 5.1376,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -28.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:10:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:elsloo.maas",
+            "title": "Elsloo",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 50.957736,
+            "lon": 5.755318,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-SL"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 3259.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:someren.sluis13",
+            "title": "Someren, sluis 13",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 51.3302,
+            "lon": 5.7467,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 2864.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:eisdenmazenhove.maesbempdergreend",
+            "title": "Maasbeemder Greend",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 50.978472,
+            "lon": 5.735139,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-SL"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 2904.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:wijkbijduurstede.amsterdamrijnkanaal",
+            "title": "Wijk bij Duurstede, Amsterdam-Rijnkanaal",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 51.97479,
+            "lon": 5.293258,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -42.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:almen",
+            "title": "Almen",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 52.165824,
+            "lon": 6.28472,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HB",
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 1002.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:aarlerixtel.schabbert.boven",
+            "title": "Aarle Rixtel, Schabbert, boven",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 51.5205,
+            "lon": 5.6542,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 1507.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:nieuwegein.lekkanaal",
+            "title": "Nieuwegein, lekkanaal",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 52.022729,
+            "lon": 5.113007,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -42.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:markermeer.trintelzand",
+            "title": "Markermeer Trintelzand",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:10:00Z",
+            "lat": 52.62412,
+            "lon": 5.37297,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -25.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:10:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:nieuwegein.doorslag",
+            "title": "Nieuwegein, Doorslag",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T12:50:00Z",
+            "lat": 52.0323,
+            "lon": 5.089851,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 61.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T18:50:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:rotem",
+            "title": "Rotem",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 51.0506,
+            "lon": 5.771,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-SL"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 2441.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:lixhebiefaval",
+            "title": "Lixhe Bief Aval",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 50.759639,
+            "lon": 5.680889,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-SL"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 4400.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:kadoelen.zwanediep",
+            "title": "Kadoelen, Zwanediep",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 52.658243,
+            "lon": 5.981641,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HB",
+                    "DE-NI",
+                    "DE-NW"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -28.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:weert.sluis16.beneden",
+            "title": "Weert, sluis 16, beneden",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 51.245947,
+            "lon": 5.669381,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-SL"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 3348.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:stellendam.buitenhaven",
+            "title": "Stellendam, buitenhaven",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 51.827028,
+            "lon": 4.033445,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -62.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:nijmegen.waal",
+            "title": "Nijmegen, Waal",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 51.853,
+            "lon": 5.854,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 399.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:someren.sluis11.boven",
+            "title": "Someren, sluis 11, boven",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T12:50:00Z",
+            "lat": 51.3953,
+            "lon": 5.7277,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 2512.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T18:50:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:rilland.bathsebrug",
+            "title": "Rilland, Bathsebrug",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 51.42503,
+            "lon": 4.231181,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -8.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:weert.lozen",
+            "title": "Weert, Lozen",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 51.223141,
+            "lon": 5.602491,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-SL"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 3568.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:tiel.sluis.kanaal",
+            "title": "Tiel Sluis, kanaal",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:10:00Z",
+            "lat": 51.904386,
+            "lon": 5.452592,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 149.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:10:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:someren.sluis12.boven",
+            "title": "Someren, sluis 12, boven",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 51.34945,
+            "lon": 5.74345,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 2708.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:tholen.bergsediepsluis.buiten",
+            "title": "Tholen, Bergse Diepsluis, buiten",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 51.511335,
+            "lon": 4.165743,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -129.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:maasvlakte.europahaven",
+            "title": "Maasvlakte Europahaven",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:10:00Z",
+            "lat": 51.962167,
+            "lon": 4.029139,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -54.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:10:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:negenoord.west",
+            "title": "Negenoord, west",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 51.029639,
+            "lon": 5.759194,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-SL"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 2720.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:maassluis",
+            "title": "Maassluis",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 51.917507,
+            "lon": 4.249788,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -42.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:werkendam.middelstekievitswaard",
+            "title": "Werkendam, Middelste Kievitswaard",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T12:40:00Z",
+            "lat": 51.784694,
+            "lon": 4.807028,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 52.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T18:40:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:krabbersgat.ijsselmeer",
+            "title": "Krabbersgat, IJsselmeer",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 52.694,
+            "lon": 5.284,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -22.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:breda",
+            "title": "Breda",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T12:40:00Z",
+            "lat": 51.59401,
+            "lon": 4.77129,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -2.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T18:40:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:ossenisse",
+            "title": "Ossenisse",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 51.407884,
+            "lon": 3.966769,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NW"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -129.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:kampen.ijssel",
+            "title": "Kampen, IJssel",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 52.552,
+            "lon": 5.9264,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HB",
+                    "DE-NI",
+                    "DE-NW"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -25.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:yerseke",
+            "title": "Yerseke",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 51.506154,
+            "lon": 4.07513,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NW"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -122.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:buggenum",
+            "title": "Buggenum Hanssumerweerd",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 51.22999,
+            "lon": 5.99556,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-SL"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 1420.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:stavenisse",
+            "title": "Stavenisse",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:10:00Z",
+            "lat": 51.598,
+            "lon": 4.004,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NW"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -107.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:10:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:lobith.bovenrijn.tolkamer",
+            "title": "Lobith, Bovenrijn, Tolkamer",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:10:00Z",
+            "lat": 51.8495,
+            "lon": 6.1024,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 612.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:10:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:marollegat",
+            "title": "Marollegat",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 51.479747,
+            "lon": 4.191958,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -131.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:lanaken",
+            "title": "Lanaken-Smeermaas",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:10:00Z",
+            "lat": 50.889528,
+            "lon": 5.683083,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-SL"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 3612.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:10:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:venlo",
+            "title": "Venlo",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 51.367387,
+            "lon": 6.159406,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-SL"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 1111.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:dinteloord.volkerak",
+            "title": "Dinteloord, Volkerak",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 51.65291,
+            "lon": 4.316483,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -6.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:ramspolkering.ketelmeer",
+            "title": "Ramspolkering Ketelmeerzijde",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T12:10:00Z",
+            "lat": 52.610468,
+            "lon": 5.84081401,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HB",
+                    "DE-NI",
+                    "DE-NW"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -24.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T18:10:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:eefde.sluis.beneden",
+            "title": "Eefde, sluis, beneden",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 52.159061,
+            "lon": 6.22836,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HB",
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 99.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:parksluis",
+            "title": "Parksluis",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 51.906535,
+            "lon": 4.464452,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -35.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:ommen.vecht",
+            "title": "Ommen, Vecht",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:10:00Z",
+            "lat": 52.517096,
+            "lon": 6.421919,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HB",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 264.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:10:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:megen.maas",
+            "title": "Megen Dorp",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 51.827827,
+            "lon": 5.563091,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 490.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:schoonhoven",
+            "title": "Schoonhoven",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:10:00Z",
+            "lat": 51.942,
+            "lon": 4.85,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -19.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:10:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:walsoorden",
+            "title": "Walsoorden",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 51.398427,
+            "lon": 4.026206,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -145.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:someren.sluis12.beneden",
+            "title": "Someren, sluis 12, beneden",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:10:00Z",
+            "lat": 51.3507,
+            "lon": 5.74324,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 2511.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:10:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:werkendam.binnenkievitswaard",
+            "title": "Werkendam, Binnen Kievitswaard",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T12:40:00Z",
+            "lat": 51.792222,
+            "lon": 4.830278,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 45.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T18:40:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:oosterschelde.roompotsluis.binnen",
+            "title": "Oosterschelde Roompotsluis binnen",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-06-19T08:50:00Z",
+            "lat": 51.618,
+            "lon": 3.688,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NW"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -10.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-06-19T14:50:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:sintannaland.oosterschelde",
+            "title": "Sint Annaland haven",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 51.6036,
+            "lon": 4.1096,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NW"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -117.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:spijkenisse.oudemaas",
+            "title": "Spijkenisse, Oude Maas",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 51.861661,
+            "lon": 4.333954,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -34.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:sambeek.beneden",
+            "title": "Sambeek, beneden",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 51.6458,
+            "lon": 5.972,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 797.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:belfeld.boven",
+            "title": "Belfeld, boven",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:10:00Z",
+            "lat": 51.3189,
+            "lon": 6.1123,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-SL"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 1417.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:10:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:wijhe",
+            "title": "Wijhe",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 52.387,
+            "lon": 6.126917,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HB",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -13.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:rozenburgsesluis.zuidzijde",
+            "title": "Rozenburgsesluis, zuidzijde",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 51.891244,
+            "lon": 4.229823,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -42.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:beekendonk.sluis6.boven",
+            "title": "Beek en donk, sluis 6, boven",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 51.5369,
+            "lon": 5.6343,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 1505.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:neer",
+            "title": "Neer",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 51.2604,
+            "lon": 6.0055,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-SL"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 1421.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:haghorst.sluis4.boven",
+            "title": "Haghorst, sluis 4, boven",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 51.498219,
+            "lon": 5.207719,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 1504.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:rilland.antwerpskanaalpand",
+            "title": "Rilland, Antwerps kanaalpand",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 51.405709,
+            "lon": 4.237887,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 191.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:veghel.sluis4.beneden",
+            "title": "Veghel, sluis 4, beneden",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T12:50:00Z",
+            "lat": 51.60915,
+            "lon": 5.5306,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 855.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T18:50:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:lierop.sluis10.boven",
+            "title": "Lierop, sluis 10, boven",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 51.415639,
+            "lon": 5.713889,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 2253.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:werkendam.kleinezalm",
+            "title": "Werkendam, Kleine Zalm",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T12:40:00Z",
+            "lat": 51.761722,
+            "lon": 4.821139,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 40.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T18:40:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:vlieland.haven",
+            "title": "Vlieland, haven",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 53.296127,
+            "lon": 5.091456,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 35.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:werkendam.vogelenzang",
+            "title": "Werkendam, Vogelenzang",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T12:40:00Z",
+            "lat": 51.769167,
+            "lon": 4.836139,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 44.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T18:40:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:panheel.sluis.boven",
+            "title": "Panheel boven",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 51.176126,
+            "lon": 5.856013,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-SL"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 2867.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:lemmer.ijsselmeer",
+            "title": "Lemmer, IJsselmeer",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 52.838,
+            "lon": 5.71,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HB",
+                    "DE-NI",
+                    "DE-NW"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -23.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:huibertgat",
+            "title": "Huibertgat",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 53.57375,
+            "lon": 6.398433,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HB",
+                    "DE-HH",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-SH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 99.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:schiermonnikoog.waddenzee",
+            "title": "Schiermonnikoog, Waddenzee",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 53.468937,
+            "lon": 6.202908,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HB",
+                    "DE-HH",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-SH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 101.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:amsterdam.schellingwouderbrug",
+            "title": "Amsterdam, Schellingwouderbrug",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 52.378673,
+            "lon": 4.967545,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -26.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:burgum.burgumerdaam.boezem",
+            "title": "Burgum Burgumerdaam boezem",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 53.18486,
+            "lon": 6.00312,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HB",
+                    "DE-HH",
+                    "DE-NI",
+                    "DE-NW"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -49.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:denoever.ijsselmeer.binnenhaven",
+            "title": "Den Oever, IJsselmeer binnenhaven",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 52.930195,
+            "lon": 5.047539,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -21.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:lemmer.woudagemaal.stroomkanaal",
+            "title": "Lemmer stroomkanaal Woudagemaal",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T12:00:00Z",
+            "lat": 52.84705,
+            "lon": 5.6802,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HB",
+                    "DE-NI",
+                    "DE-NW"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -50.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T18:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:erp.sluis5.boven",
+            "title": "Erp, sluis 5, boven",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T12:50:00Z",
+            "lat": 51.576461,
+            "lon": 5.587317,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 1278.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T18:50:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:herenlaak",
+            "title": "Maaseik Herenlaak",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 51.101167,
+            "lon": 5.81875,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-SL"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 2098.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:olst",
+            "title": "Olst",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 52.34201,
+            "lon": 6.10448,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HB",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -10.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:markermeer.midden",
+            "title": "Markermeer, midden",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 52.5317,
+            "lon": 5.23124,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -24.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:eemdijk",
+            "title": "Eemdijk",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T11:40:00Z",
+            "lat": 52.261221,
+            "lon": 5.32236,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -27.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T17:40:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:schaarvandenoord",
+            "title": "Schaar van de Noord",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 51.377868,
+            "lon": 4.164992,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -172.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:veghel.sluis4.boven",
+            "title": "Veghel, sluis 4, boven",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 51.60825,
+            "lon": 5.5323,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 1077.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:nijmegen.maaswaalkanaal.inlaatweurt",
+            "title": "Nijmegen Maaswaalkanaal Inlaat Weurt",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T12:40:00Z",
+            "lat": 51.84111,
+            "lon": 5.81146,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 810.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T18:40:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:krimpenaandelek.lek",
+            "title": "Krimpen aan de Lek, Lek",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 51.890722,
+            "lon": 4.628906,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -20.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:maasvlakte.hartelhaven",
+            "title": "Maasvlakte, Hartelhaven",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 51.929692,
+            "lon": 4.042464,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -55.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:haghorst.sluis4.schuif1",
+            "title": "Haghorst, sluis 4, schuif1",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 51.497942,
+            "lon": 5.207447,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 1504.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:rilland.bathsespuisluis.binnen",
+            "title": "Rilland Bathse spuisluis binnen",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 51.393198,
+            "lon": 4.235008,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -11.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:lierop.sluis9.boven",
+            "title": "Lierop ZuidWillemsvaart Sluis 9 boven",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T12:40:00Z",
+            "lat": 51.447698,
+            "lon": 5.684527,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 2058.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T18:40:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:shertogenbosch.poeldonk.aa",
+            "title": "'s-Hertogenbosch, Poeldonk, aa",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T12:30:00Z",
+            "lat": 51.683645,
+            "lon": 5.353944,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 217.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T18:30:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:delden.sluis.beneden",
+            "title": "Delden, sluis, beneden",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 52.2457,
+            "lon": 6.6754,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HB",
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 1002.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:spaanjerd",
+            "title": "Spaanjerd",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 51.129778,
+            "lon": 5.823639,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-SL"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 2096.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:shertogenbosch.engelen",
+            "title": "'s-Hertogenbosch Engelen",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T12:20:00Z",
+            "lat": 51.73365,
+            "lon": 5.273041,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 0.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T18:20:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:rotterdamsehoek.ijsselmeer",
+            "title": "Rotterdamsehoek IJsselmeer",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 52.748722,
+            "lon": 5.552,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -21.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:nieuwvossemeer",
+            "title": "Nieuw-Vossemeer",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 51.584608,
+            "lon": 4.201577,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -6.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "rijkswaterstaat:maasvlakte.amaliahaven",
+            "title": "Maasvlakte Amaliahaven",
+            "url": "https://waterinfo.rws.nl/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 51.96219,
+            "lon": 3.99496,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -53.0,
+            "unit": "cm",
+            "reference": {
+                "key": "source.rijkswaterstaat.reference.nap"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.noStages",
+                    "params": {
+                        "source": "Rijkswaterstaat"
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "chmi:0-203-1-001000",
+            "title": "Špindlerův Mlýn · Labe",
+            "url": "https://hydro.chmi.cz/hppsoldv/hpps_act_quick.php",
+            "time": "2026-10-02T13:10:00Z",
+            "lat": 50.72317,
+            "lon": 15.59804,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "CZ",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-SN",
+                    "AT-3"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 93.0,
+            "unit": "cm",
+            "reference": {
+                "key": "reference.gaugeZero"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.chmi.assessment.label.czBelowSpa"
+                },
+                "basis": {
+                    "key": "source.chmi.assessment.basis.czBelowSpa"
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:10:00Z",
+                "sourceValue": "SPA 165 / 200 / 220 cm"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "fact.discharge"
+                    },
+                    "value": 0.63021,
+                    "unit": "m³/s"
+                }
+            ]
+        },
+        {
+            "kind": "measurement",
+            "id": "chmi:0-203-1-002000",
+            "title": "Labská · Labe",
+            "url": "https://hydro.chmi.cz/hppsoldv/hpps_act_quick.php",
+            "time": "2026-10-02T13:10:00Z",
+            "lat": 50.71024,
+            "lon": 15.58513,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "CZ",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-SN",
+                    "AT-3"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 16.0,
+            "unit": "cm",
+            "reference": {
+                "key": "reference.gaugeZero"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.chmi.assessment.label.czBelowSpa"
+                },
+                "basis": {
+                    "key": "source.chmi.assessment.basis.czBelowSpa"
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:10:00Z",
+                "sourceValue": "SPA 55 / 80 / 100 cm"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "fact.discharge"
+                    },
+                    "value": 0.5201,
+                    "unit": "m³/s"
+                }
+            ]
+        },
+        {
+            "kind": "measurement",
+            "id": "chmi:0-203-1-002800",
+            "title": "Horní Lánov · Malé Labe",
+            "url": "https://hydro.chmi.cz/hppsoldv/hpps_act_quick.php",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 50.63251,
+            "lon": 15.65962,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "CZ",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-SN",
+                    "AT-3"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 6.7,
+            "unit": "cm",
+            "reference": {
+                "key": "reference.gaugeZero"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.chmi.assessment.label.czBelowSpa"
+                },
+                "basis": {
+                    "key": "source.chmi.assessment.basis.czBelowSpa"
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z",
+                "sourceValue": "SPA 105 / 145 / 160 cm"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "chmi:0-203-1-004200",
+            "title": "Vestřev · Labe",
+            "url": "https://hydro.chmi.cz/hppsoldv/hpps_act_quick.php",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 50.51441,
+            "lon": 15.74172,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "CZ",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-SN",
+                    "AT-3"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 15.0,
+            "unit": "cm",
+            "reference": {
+                "key": "reference.gaugeZero"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.chmi.assessment.label.czBelowSpa"
+                },
+                "basis": {
+                    "key": "source.chmi.assessment.basis.czBelowSpa"
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z",
+                "sourceValue": "SPA 110 / 135 / 160 cm"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "fact.discharge"
+                    },
+                    "value": 1.37023,
+                    "unit": "m³/s"
+                }
+            ]
+        },
+        {
+            "kind": "measurement",
+            "id": "imgw:151140030",
+            "title": "Przewoźniki · Skroda",
+            "url": "https://hydro.imgw.pl/#/station/hydro/151140030",
+            "time": "2026-10-02T12:50:00Z",
+            "lat": 51.5253,
+            "lon": 14.8217,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "PL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BE",
+                    "DE-MV",
+                    "DE-SN",
+                    "DE-ST",
+                    "DE-TH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 226.0,
+            "unit": "cm",
+            "reference": {
+                "key": "reference.gaugeZero"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.imgw.assessment.label.plBelow"
+                },
+                "basis": {
+                    "key": "source.imgw.assessment.basis.plBelow"
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T18:50:00Z",
+                "sourceValue": "Warn-/Alarmstufe 300 / 340 cm"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "imgw:153140190",
+            "title": "Regalica Szczecin · Regalica",
+            "url": "https://hydro.imgw.pl/#/station/hydro/153140190",
+            "time": "2026-10-02T12:50:00Z",
+            "lat": 53.3689,
+            "lon": 14.5925,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "PL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BE",
+                    "DE-MV",
+                    "DE-ST"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 529.0,
+            "unit": "cm",
+            "reference": {
+                "key": "reference.gaugeZero"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.imgw.assessment.label.plBelow"
+                },
+                "basis": {
+                    "key": "source.imgw.assessment.basis.plBelow"
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T18:50:00Z",
+                "sourceValue": "Warn-/Alarmstufe 580 / 610 cm"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "imgw:154160150",
+            "title": "Darłowo · Wieprza",
+            "url": "https://hydro.imgw.pl/#/station/hydro/154160150",
+            "time": "2026-10-02T12:50:00Z",
+            "lat": 54.4403,
+            "lon": 16.3778,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "PL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-MV"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 525.0,
+            "unit": "cm",
+            "reference": {
+                "key": "reference.gaugeZero"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.imgw.assessment.label.plBelow"
+                },
+                "basis": {
+                    "key": "source.imgw.assessment.basis.plBelow"
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T18:50:00Z",
+                "sourceValue": "Warn-/Alarmstufe 570 / 610 cm"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "imgw:153140020",
+            "title": "Widuchowa · Odra",
+            "url": "https://hydro.imgw.pl/#/station/hydro/153140020",
+            "time": "2026-10-02T12:50:00Z",
+            "lat": 53.1225,
+            "lon": 14.3819,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "PL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BE",
+                    "DE-MV",
+                    "DE-NI",
+                    "DE-SN",
+                    "DE-ST"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 528.0,
+            "unit": "cm",
+            "reference": {
+                "key": "reference.gaugeZero"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.imgw.assessment.label.plBelow"
+                },
+                "basis": {
+                    "key": "source.imgw.assessment.basis.plBelow"
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T18:50:00Z",
+                "sourceValue": "Warn-/Alarmstufe 630 / 650 cm"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "imgw:154160110",
+            "title": "Ustka · Bałtyk",
+            "url": "https://hydro.imgw.pl/#/station/hydro/154160110",
+            "time": "2026-10-02T12:50:00Z",
+            "lat": 54.5881,
+            "lon": 16.8539,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "PL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-MV"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 521.0,
+            "unit": "cm",
+            "reference": {
+                "key": "reference.gaugeZero"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.imgw.assessment.label.plBelow"
+                },
+                "basis": {
+                    "key": "source.imgw.assessment.basis.plBelow"
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T18:50:00Z",
+                "sourceValue": "Warn-/Alarmstufe 570 / 600 cm"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "imgw:153140030",
+            "title": "Gryfino · Odra",
+            "url": "https://hydro.imgw.pl/#/station/hydro/153140030",
+            "time": "2026-10-02T12:50:00Z",
+            "lat": 53.2569,
+            "lon": 14.4844,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "PL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BE",
+                    "DE-MV",
+                    "DE-NI",
+                    "DE-SN",
+                    "DE-ST"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 530.0,
+            "unit": "cm",
+            "reference": {
+                "key": "reference.gaugeZero"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.imgw.assessment.label.plBelow"
+                },
+                "basis": {
+                    "key": "source.imgw.assessment.basis.plBelow"
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T18:50:00Z",
+                "sourceValue": "Warn-/Alarmstufe 570 / 600 cm"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "imgw:153140050",
+            "title": "Szczecin · Odra",
+            "url": "https://hydro.imgw.pl/#/station/hydro/153140050",
+            "time": "2026-10-02T12:50:00Z",
+            "lat": 53.4225,
+            "lon": 14.5597,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "PL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BE",
+                    "DE-MV",
+                    "DE-ST"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 527.0,
+            "unit": "cm",
+            "reference": {
+                "key": "reference.gaugeZero"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.imgw.assessment.label.plBelow"
+                },
+                "basis": {
+                    "key": "source.imgw.assessment.basis.plBelow"
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T18:50:00Z",
+                "sourceValue": "Warn-/Alarmstufe 570 / 600 cm"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "imgw:154150030",
+            "title": "Kołobrzeg · Bałtyk",
+            "url": "https://hydro.imgw.pl/#/station/hydro/154150030",
+            "time": "2026-10-02T12:50:00Z",
+            "lat": 54.1867,
+            "lon": 15.5533,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "PL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-MV"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 523.0,
+            "unit": "cm",
+            "reference": {
+                "key": "reference.gaugeZero"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.imgw.assessment.label.plBelow"
+                },
+                "basis": {
+                    "key": "source.imgw.assessment.basis.plBelow"
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T18:50:00Z",
+                "sourceValue": "Warn-/Alarmstufe 570 / 610 cm"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "imgw:153140010",
+            "title": "Świnoujście · Zatoka Pomorska (ujście Świny)",
+            "url": "https://hydro.imgw.pl/#/station/hydro/153140010",
+            "time": "2026-10-02T12:50:00Z",
+            "lat": 53.9083,
+            "lon": 14.2644,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "PL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BE",
+                    "DE-MV",
+                    "DE-ST"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 523.0,
+            "unit": "cm",
+            "reference": {
+                "key": "reference.gaugeZero"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.imgw.assessment.label.plBelow"
+                },
+                "basis": {
+                    "key": "source.imgw.assessment.basis.plBelow"
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T18:50:00Z",
+                "sourceValue": "Warn-/Alarmstufe 560 / 580 cm"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "imgw:153140070",
+            "title": "Dziwnów · Dziwna",
+            "url": "https://hydro.imgw.pl/#/station/hydro/153140070",
+            "time": "2026-10-02T12:50:00Z",
+            "lat": 54.0206,
+            "lon": 14.7317,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "PL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BE",
+                    "DE-MV"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 527.0,
+            "unit": "cm",
+            "reference": {
+                "key": "reference.gaugeZero"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.imgw.assessment.label.plBelow"
+                },
+                "basis": {
+                    "key": "source.imgw.assessment.basis.plBelow"
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T18:50:00Z",
+                "sourceValue": "Warn-/Alarmstufe 560 / 580 cm"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "imgw:153140040",
+            "title": "Trzebież · Zalew Szczeciński",
+            "url": "https://hydro.imgw.pl/#/station/hydro/153140040",
+            "time": "2026-10-02T12:50:00Z",
+            "lat": 53.6592,
+            "lon": 14.5189,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "PL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BE",
+                    "DE-MV",
+                    "DE-ST"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 520.0,
+            "unit": "cm",
+            "reference": {
+                "key": "reference.gaugeZero"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.imgw.assessment.label.plBelow"
+                },
+                "basis": {
+                    "key": "source.imgw.assessment.basis.plBelow"
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T18:50:00Z",
+                "sourceValue": "Warn-/Alarmstufe 560 / 580 cm"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "imgw:153140060",
+            "title": "Wolin · Dziwna",
+            "url": "https://hydro.imgw.pl/#/station/hydro/153140060",
+            "time": "2026-10-02T12:50:00Z",
+            "lat": 53.8381,
+            "lon": 14.6167,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "PL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BE",
+                    "DE-MV",
+                    "DE-ST"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 521.0,
+            "unit": "cm",
+            "reference": {
+                "key": "reference.gaugeZero"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.imgw.assessment.label.plBelow"
+                },
+                "basis": {
+                    "key": "source.imgw.assessment.basis.plBelow"
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T18:50:00Z",
+                "sourceValue": "Warn-/Alarmstufe 560 / 580 cm"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "imgw:150150010",
+            "title": "Mirsk · Kwisa",
+            "url": "https://hydro.imgw.pl/#/station/hydro/150150010",
+            "time": "2026-10-02T12:50:00Z",
+            "lat": 50.9894,
+            "lon": 15.3839,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "PL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BE",
+                    "DE-SN",
+                    "DE-ST",
+                    "DE-TH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 316.0,
+            "unit": "cm",
+            "reference": {
+                "key": "reference.gaugeZero"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.imgw.assessment.label.plBelow"
+                },
+                "basis": {
+                    "key": "source.imgw.assessment.basis.plBelow"
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T18:50:00Z",
+                "sourceValue": "Warn-/Alarmstufe 420 / 470 cm"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "imgw:153150050",
+            "title": "Resko · Rega",
+            "url": "https://hydro.imgw.pl/#/station/hydro/153150050",
+            "time": "2026-10-02T12:50:00Z",
+            "lat": 53.7728,
+            "lon": 15.3953,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "PL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BE",
+                    "DE-MV"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 306.0,
+            "unit": "cm",
+            "reference": {
+                "key": "reference.gaugeZero"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.imgw.assessment.label.plBelow"
+                },
+                "basis": {
+                    "key": "source.imgw.assessment.basis.plBelow"
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T18:50:00Z",
+                "sourceValue": "Warn-/Alarmstufe 410 / 430 cm"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "imgw:151170030",
+            "title": "Trestno · Odra",
+            "url": "https://hydro.imgw.pl/#/station/hydro/151170030",
+            "time": "2026-10-02T12:50:00Z",
+            "lat": 51.0822,
+            "lon": 17.1469,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "PL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-SN"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 316.0,
+            "unit": "cm",
+            "reference": {
+                "key": "reference.gaugeZero"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.imgw.assessment.label.plBelow"
+                },
+                "basis": {
+                    "key": "source.imgw.assessment.basis.plBelow"
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T18:50:00Z",
+                "sourceValue": "Warn-/Alarmstufe 380 / 450 cm"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "imgw:152150110",
+            "title": "Skwierzyna · Warta",
+            "url": "https://hydro.imgw.pl/#/station/hydro/152150110",
+            "time": "2026-10-02T12:50:00Z",
+            "lat": 52.6019,
+            "lon": 15.5003,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "PL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BE",
+                    "DE-MV",
+                    "DE-SN",
+                    "DE-ST"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 126.0,
+            "unit": "cm",
+            "reference": {
+                "key": "reference.gaugeZero"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.imgw.assessment.label.plBelow"
+                },
+                "basis": {
+                    "key": "source.imgw.assessment.basis.plBelow"
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T18:50:00Z",
+                "sourceValue": "Warn-/Alarmstufe 380 / 460 cm"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "imgw:152140020",
+            "title": "Gozdowice · Odra",
+            "url": "https://hydro.imgw.pl/#/station/hydro/152140020",
+            "time": "2026-10-02T12:50:00Z",
+            "lat": 52.7642,
+            "lon": 14.3178,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "PL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BE",
+                    "DE-MV",
+                    "DE-NI",
+                    "DE-SN",
+                    "DE-ST"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 192.0,
+            "unit": "cm",
+            "reference": {
+                "key": "reference.gaugeZero"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.imgw.assessment.label.plBelow"
+                },
+                "basis": {
+                    "key": "source.imgw.assessment.basis.plBelow"
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T18:50:00Z",
+                "sourceValue": "Warn-/Alarmstufe 440 / 500 cm"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "imgw:152150010",
+            "title": "Świerkocin · Warta",
+            "url": "https://hydro.imgw.pl/#/station/hydro/152150010",
+            "time": "2026-10-02T12:50:00Z",
+            "lat": 52.6506,
+            "lon": 14.9994,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "PL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BE",
+                    "DE-MV",
+                    "DE-SN",
+                    "DE-ST"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 188.0,
+            "unit": "cm",
+            "reference": {
+                "key": "reference.gaugeZero"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.imgw.assessment.label.plBelow"
+                },
+                "basis": {
+                    "key": "source.imgw.assessment.basis.plBelow"
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T18:50:00Z",
+                "sourceValue": "Warn-/Alarmstufe 450 / 500 cm"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "imgw:152140010",
+            "title": "Bielinek · Odra",
+            "url": "https://hydro.imgw.pl/#/station/hydro/152140010",
+            "time": "2026-10-02T12:50:00Z",
+            "lat": 52.9292,
+            "lon": 14.1542,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "PL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BE",
+                    "DE-MV",
+                    "DE-NI",
+                    "DE-SN",
+                    "DE-ST"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 194.0,
+            "unit": "cm",
+            "reference": {
+                "key": "reference.gaugeZero"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.imgw.assessment.label.plBelow"
+                },
+                "basis": {
+                    "key": "source.imgw.assessment.basis.plBelow"
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T18:50:00Z",
+                "sourceValue": "Warn-/Alarmstufe 480 / 550 cm"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "imgw:152150080",
+            "title": "Santok 2 · Warta",
+            "url": "https://hydro.imgw.pl/#/station/hydro/152150080",
+            "time": "2026-10-02T12:50:00Z",
+            "lat": 52.7336,
+            "lon": 15.3967,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "PL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BE",
+                    "DE-MV",
+                    "DE-SN",
+                    "DE-ST"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 193.0,
+            "unit": "cm",
+            "reference": {
+                "key": "reference.gaugeZero"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.imgw.assessment.label.plBelow"
+                },
+                "basis": {
+                    "key": "source.imgw.assessment.basis.plBelow"
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T18:50:00Z",
+                "sourceValue": "Warn-/Alarmstufe 420 / 490 cm"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "imgw:152150020",
+            "title": "Stary Raduszec · Bóbr",
+            "url": "https://hydro.imgw.pl/#/station/hydro/152150020",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 52.0364,
+            "lon": 15.0786,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "PL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BE",
+                    "DE-MV",
+                    "DE-SN",
+                    "DE-ST"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 184.0,
+            "unit": "cm",
+            "reference": {
+                "key": "reference.gaugeZero"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.imgw.assessment.label.plBelow"
+                },
+                "basis": {
+                    "key": "source.imgw.assessment.basis.plBelow"
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T19:00:00Z",
+                "sourceValue": "Warn-/Alarmstufe 450 / 500 cm"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "imgw:150150090",
+            "title": "Łomnica · Łomnica",
+            "url": "https://hydro.imgw.pl/#/station/hydro/150150090",
+            "time": "2026-10-02T12:50:00Z",
+            "lat": 50.8764,
+            "lon": 15.8031,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "PL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-SN"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 212.0,
+            "unit": "cm",
+            "reference": {
+                "key": "reference.gaugeZero"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.imgw.assessment.label.plBelow"
+                },
+                "basis": {
+                    "key": "source.imgw.assessment.basis.plBelow"
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T18:50:00Z",
+                "sourceValue": "Warn-/Alarmstufe 320 / 380 cm"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "imgw:154150040",
+            "title": "Bardy · Parsęta",
+            "url": "https://hydro.imgw.pl/#/station/hydro/154150040",
+            "time": "2026-10-02T12:50:00Z",
+            "lat": 54.0917,
+            "lon": 15.7139,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "PL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-MV"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 187.0,
+            "unit": "cm",
+            "reference": {
+                "key": "reference.gaugeZero"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.imgw.assessment.label.plBelow"
+                },
+                "basis": {
+                    "key": "source.imgw.assessment.basis.plBelow"
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T18:50:00Z",
+                "sourceValue": "Warn-/Alarmstufe 360 / 400 cm"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "imgw:151150080",
+            "title": "Żagań · Bóbr",
+            "url": "https://hydro.imgw.pl/#/station/hydro/151150080",
+            "time": "2026-10-02T12:50:00Z",
+            "lat": 51.6181,
+            "lon": 15.3158,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "PL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BE",
+                    "DE-MV",
+                    "DE-SN",
+                    "DE-ST"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 195.0,
+            "unit": "cm",
+            "reference": {
+                "key": "reference.gaugeZero"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.imgw.assessment.label.plBelow"
+                },
+                "basis": {
+                    "key": "source.imgw.assessment.basis.plBelow"
+                },
+                "origin": "source",
+                "validUntil": "2026-10-02T18:50:00Z",
+                "sourceValue": "Warn-/Alarmstufe 340 / 400 cm"
+            },
+            "facts": []
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+node_modules/
+dist/
+dist-analyze/
+src/contract/generated.ts
+src/generated/
+test-results/
+playwright-report/
+*.tsbuildinfo

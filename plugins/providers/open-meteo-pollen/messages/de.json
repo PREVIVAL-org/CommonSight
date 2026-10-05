@@ -1,0 +1,16 @@
+{
+  "source.open-meteo-pollen.type.alder": "Erle",
+  "source.open-meteo-pollen.type.birch": "Birke",
+  "source.open-meteo-pollen.type.grass": "Gräser",
+  "source.open-meteo-pollen.type.mugwort": "Beifuß",
+  "source.open-meteo-pollen.type.olive": "Olive",
+  "source.open-meteo-pollen.type.ragweed": "Ambrosia",
+  "source.open-meteo-pollen.summary.strongest.alder": "vor allem Erle",
+  "source.open-meteo-pollen.summary.strongest.birch": "vor allem Birke",
+  "source.open-meteo-pollen.summary.strongest.grass": "vor allem Gräser",
+  "source.open-meteo-pollen.summary.strongest.mugwort": "vor allem Beifuß",
+  "source.open-meteo-pollen.summary.strongest.olive": "vor allem Olive",
+  "source.open-meteo-pollen.summary.strongest.ragweed": "vor allem Ambrosia",
+  "source.open-meteo-pollen.summary.none": "keine Pollen im Modell",
+  "source.open-meteo-pollen.coverage": "Modellwerte (CAMS) für {count} ausgewählte Orte."
+}

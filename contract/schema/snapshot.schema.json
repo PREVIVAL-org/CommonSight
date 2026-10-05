@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://commonsight.org/schema/v1/snapshot.schema.json",
+  "title": "Snapshot",
+  "description": "State of a layer for one scope, written by the fetcher (D-01 to D-06).",
+  "type": "object",
+  "properties": {
+    "schema": { "const": 1, "description": "version of the data model (D-06)" },
+    "layer": { "$ref": "common.schema.json#/$defs/layerId" },
+    "scope": { "$ref": "common.schema.json#/$defs/scope" },
+    "status": { "$ref": "common.schema.json#/$defs/feedStatus" },
+    "source": { "type": "string", "description": "display name of the source(s)" },
+    "sourceUrl": { "$ref": "common.schema.json#/$defs/httpUrl" },
+    "generatedAt": { "$ref": "common.schema.json#/$defs/utcInstant" },
+    "updatedAt": {
+      "description": "most recent source date",
+      "oneOf": [{ "$ref": "common.schema.json#/$defs/utcInstant" }, { "type": "null" }]
+    },
+    "note": { "$ref": "msg.schema.json" },
+    "coverage": { "type": "array", "items": { "$ref": "msg.schema.json" }, "description": "what the sources cover, one text per source, shown below the note" },
+    "issues": { "type": "array", "items": { "$ref": "msg.schema.json" }, "description": "causes when partial (D-03)" },
+    "stats": { "$ref": "layers.schema.json#/$defs/layerStats", "description": "key figures of the layer; their schema comes from its layer plugin" },
+    "items": { "type": "array", "items": { "$ref": "item.schema.json" } }
+  },
+  "required": ["schema", "layer", "scope", "status", "source", "sourceUrl", "generatedAt", "updatedAt", "note", "coverage", "issues", "stats", "items"],
+  "additionalProperties": false,
+  "allOf": [{ "$ref": "layers.schema.json#/$defs/byLayer" }]
+}

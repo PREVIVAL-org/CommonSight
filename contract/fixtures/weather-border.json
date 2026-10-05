@@ -1,0 +1,4113 @@
+{
+    "schema": 1,
+    "layer": "weather",
+    "scope": "border",
+    "status": "ok",
+    "source": "Open-Meteo",
+    "sourceUrl": "https://open-meteo.com/",
+    "generatedAt": "2026-09-28T14:30:00Z",
+    "updatedAt": "2026-10-02T11:00:00Z",
+    "note": {
+        "key": "layer.weather.note"
+    },
+    "coverage": [
+        {
+            "key": "source.open-meteo-weather.coverage",
+            "params": {
+                "count": 75
+            }
+        }
+    ],
+    "issues": [],
+    "stats": {},
+    "items": [
+        {
+            "kind": "modelValue",
+            "id": "weather:fr-strasbourg",
+            "title": "Strasbourg",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 48.5734,
+            "lon": 7.7521,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "FR",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-HE",
+                    "DE-RP",
+                    "DE-SL",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GL",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 19.6,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 7.9,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 64.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:fr-mulhouse",
+            "title": "Mulhouse",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 47.7508,
+            "lon": 7.3359,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "FR",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-RP",
+                    "DE-SL",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 19.6,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 12.3,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 61.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:fr-colmar",
+            "title": "Colmar",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 48.0794,
+            "lon": 7.3585,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "FR",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-HE",
+                    "DE-RP",
+                    "DE-SL",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 19.5,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 11.4,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 66.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:fr-metz",
+            "title": "Metz",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 49.1193,
+            "lon": 6.1757,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "FR",
+            "near": {
+                "countries": [
+                    "DE",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-HE",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-SL",
+                    "CH-JU"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 15.8,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 2.3,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 82.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:fr-nancy",
+            "title": "Nancy",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 48.6921,
+            "lon": 6.1844,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "FR",
+            "near": {
+                "countries": [
+                    "DE",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-HE",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-SL",
+                    "CH-AG",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-JU",
+                    "CH-NE",
+                    "CH-SO",
+                    "CH-VD"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 17.6,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 6.8,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 69.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:fr-besancon",
+            "title": "Besançon",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 47.2378,
+            "lon": 6.0241,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "FR",
+            "near": {
+                "countries": [
+                    "DE",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "CH-AG",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 19.6,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 11.8,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 63.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:fr-dijon",
+            "title": "Dijon",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 47.322,
+            "lon": 5.0415,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "FR",
+            "near": {
+                "countries": [
+                    "DE",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-JU",
+                    "CH-NE",
+                    "CH-SO",
+                    "CH-VD",
+                    "CH-VS"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 18.9,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 9.7,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 63.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:fr-lyon",
+            "title": "Lyon",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 45.764,
+            "lon": 4.8357,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "FR",
+            "near": {
+                "countries": [
+                    "CH"
+                ],
+                "regionIds": [
+                    "CH-BE",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-NE",
+                    "CH-VD",
+                    "CH-VS"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 19.7,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 7.6,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 63.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:fr-annecy",
+            "title": "Annecy",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 45.8992,
+            "lon": 6.1294,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "FR",
+            "near": {
+                "countries": [
+                    "CH"
+                ],
+                "regionIds": [
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SO",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 19.7,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 2.1,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 68.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:fr-grenoble",
+            "title": "Grenoble",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 45.1885,
+            "lon": 5.7245,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "FR",
+            "near": {
+                "countries": [
+                    "CH"
+                ],
+                "regionIds": [
+                    "CH-BE",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-NE",
+                    "CH-VD",
+                    "CH-VS"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 21.8,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 4.0,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 64.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:fr-reims",
+            "title": "Reims",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 49.2583,
+            "lon": 4.0317,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "FR",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-RP",
+                    "DE-SL"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 18.3,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 4.6,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 62.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:it-milano",
+            "title": "Milano",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 45.4642,
+            "lon": 9.19,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "IT",
+            "near": {
+                "countries": [
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "AT-7",
+                    "AT-8",
+                    "CH-BE",
+                    "CH-FR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-LU",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SZ",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 23.1,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 6.8,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 50.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:it-torino",
+            "title": "Torino",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 45.0703,
+            "lon": 7.6869,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "IT",
+            "near": {
+                "countries": [
+                    "CH"
+                ],
+                "regionIds": [
+                    "CH-BE",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GR",
+                    "CH-LU",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 23.7,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 4.9,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 45.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:it-como",
+            "title": "Como",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 45.8081,
+            "lon": 9.0852,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "IT",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-FR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-LU",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 23.1,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.clear"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 6.3,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 48.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:it-bergamo",
+            "title": "Bergamo",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 45.6983,
+            "lon": 9.6773,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "IT",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-LU",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 22.8,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 5.7,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 41.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:it-brescia",
+            "title": "Brescia",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 45.5416,
+            "lon": 10.2118,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "IT",
+            "near": {
+                "countries": [
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "AT-7",
+                    "AT-8",
+                    "CH-BE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SZ",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VS"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 23.9,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 7.3,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 39.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:it-verona",
+            "title": "Verona",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 45.4384,
+            "lon": 10.9916,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "IT",
+            "near": {
+                "countries": [
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "AT-2",
+                    "AT-7",
+                    "AT-8",
+                    "CH-GR",
+                    "CH-TI"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 25.3,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 13.1,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 26.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:it-trento",
+            "title": "Trento",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 46.0748,
+            "lon": 11.1217,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "IT",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-2",
+                    "AT-5",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-SG",
+                    "CH-SZ",
+                    "CH-TI",
+                    "CH-UR"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 24.6,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 0.4,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 40.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:it-bolzano",
+            "title": "Bolzano/Bozen",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 46.4983,
+            "lon": 11.3548,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "IT",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-2",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-SG",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 23.3,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 4.1,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 43.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:it-aosta",
+            "title": "Aosta",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 45.7349,
+            "lon": 7.3131,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "IT",
+            "near": {
+                "countries": [
+                    "CH"
+                ],
+                "regionIds": [
+                    "CH-AG",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 21.9,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 4.1,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 52.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:it-venezia",
+            "title": "Venezia",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 45.4408,
+            "lon": 12.3155,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "IT",
+            "near": {
+                "countries": [
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "AT-2",
+                    "AT-5",
+                    "AT-7",
+                    "CH-GR"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 23.0,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 15.6,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 39.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:it-udine",
+            "title": "Udine",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 46.0711,
+            "lon": 13.2346,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "IT",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-2",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 23.7,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 18.2,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 31.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:it-trieste",
+            "title": "Trieste",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 45.6495,
+            "lon": 13.7768,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "IT",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-2",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 24.3,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 19.6,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 33.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:it-genova",
+            "title": "Genova",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 44.4056,
+            "lon": 8.9463,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "IT",
+            "near": {
+                "countries": [
+                    "CH"
+                ],
+                "regionIds": [
+                    "CH-GR",
+                    "CH-TI",
+                    "CH-VS"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 25.7,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 16.2,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 51.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:si-ljubljana",
+            "title": "Ljubljana",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 46.0569,
+            "lon": 14.5058,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "SI",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 19.9,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 3.9,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 47.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:si-maribor",
+            "title": "Maribor",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 46.5547,
+            "lon": 15.6459,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "SI",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 20.5,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 6.3,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 38.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:hr-zagreb",
+            "title": "Zagreb",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 45.815,
+            "lon": 15.9819,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "HR",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-6"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 21.1,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 7.5,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 35.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:hr-rijeka",
+            "title": "Rijeka",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 45.3271,
+            "lon": 14.4422,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "HR",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-2",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 25.8,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 16.2,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 21.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:hu-sopron",
+            "title": "Sopron",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 47.6817,
+            "lon": 16.5845,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "HU",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 22.5,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 14.8,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 25.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:hu-gyor",
+            "title": "Győr",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 47.6875,
+            "lon": 17.6504,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "HU",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-3",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 23.4,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 3.6,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 31.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:hu-szombathely",
+            "title": "Szombathely",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 47.2307,
+            "lon": 16.6218,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "HU",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 21.6,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 11.1,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 29.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:hu-budapest",
+            "title": "Budapest",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 47.4979,
+            "lon": 19.0402,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "HU",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-3"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 22.1,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.clear"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 6.5,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 24.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:sk-bratislava",
+            "title": "Bratislava",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 48.1486,
+            "lon": 17.1077,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "SK",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-3",
+                    "AT-4",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 22.6,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 13.5,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 28.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:sk-trnava",
+            "title": "Trnava",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 48.3774,
+            "lon": 17.5883,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "SK",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-3",
+                    "AT-4",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 22.8,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 13.2,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 30.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:sk-nitra",
+            "title": "Nitra",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 48.3069,
+            "lon": 18.0864,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "SK",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-3",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 23.1,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 9.5,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 30.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:sk-zilina",
+            "title": "Žilina",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 49.2232,
+            "lon": 18.7394,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "SK",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-3",
+                    "AT-9"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 21.2,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.clear"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 1.1,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 25.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:cz-praha",
+            "title": "Praha",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 50.0755,
+            "lon": 14.4378,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "CZ",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BY",
+                    "DE-SN",
+                    "DE-ST",
+                    "DE-TH",
+                    "AT-3",
+                    "AT-4"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 17.2,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 3.1,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 51.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:cz-brno",
+            "title": "Brno",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 49.1951,
+            "lon": 16.6068,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "CZ",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-3",
+                    "AT-4",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 21.8,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 14.4,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 33.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:cz-plzen",
+            "title": "Plzeň",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 49.7384,
+            "lon": 13.3736,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "CZ",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BY",
+                    "DE-SN",
+                    "DE-ST",
+                    "DE-TH",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 19.0,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 4.7,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 48.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:cz-ceske-budejovice",
+            "title": "České Budějovice",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 48.9745,
+            "lon": 14.4743,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "CZ",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "DE-SN",
+                    "AT-1",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 19.3,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 2.6,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 40.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:cz-karlovy-vary",
+            "title": "Karlovy Vary",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 50.2319,
+            "lon": 12.8711,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "CZ",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BY",
+                    "DE-SN",
+                    "DE-ST",
+                    "DE-TH",
+                    "AT-4"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 15.2,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.rain"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 2.0,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 75.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:cz-usti",
+            "title": "Ústí nad Labem",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 50.6607,
+            "lon": 14.0323,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "CZ",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BE",
+                    "DE-BY",
+                    "DE-SN",
+                    "DE-ST",
+                    "DE-TH"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 19.4,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 3.3,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 50.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:cz-liberec",
+            "title": "Liberec",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 50.7663,
+            "lon": 15.0543,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "CZ",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-SN",
+                    "DE-ST",
+                    "DE-TH"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 19.0,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 5.4,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 44.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:cz-hradec-kralove",
+            "title": "Hradec Králové",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 50.2104,
+            "lon": 15.8327,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "CZ",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-SN",
+                    "AT-3",
+                    "AT-4"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 20.6,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 5.1,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 41.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:cz-ostrava",
+            "title": "Ostrava",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 49.8209,
+            "lon": 18.2625,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "CZ",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-3"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 21.8,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 3.1,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 41.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:pl-wroclaw",
+            "title": "Wrocław",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 51.1079,
+            "lon": 17.0385,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "PL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-SN"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 20.6,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 9.4,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 50.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:pl-szczecin",
+            "title": "Szczecin",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 53.4285,
+            "lon": 14.5528,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "PL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BE",
+                    "DE-MV",
+                    "DE-ST"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 17.2,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 5.5,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 69.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:pl-poznan",
+            "title": "Poznań",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 52.4064,
+            "lon": 16.9252,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "PL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-SN"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 21.1,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 9.7,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 44.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:pl-zielona-gora",
+            "title": "Zielona Góra",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 51.9356,
+            "lon": 15.5062,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "PL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BE",
+                    "DE-MV",
+                    "DE-SN",
+                    "DE-ST"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 19.8,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 6.4,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 58.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:pl-gorzow",
+            "title": "Gorzów Wielkopolski",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 52.7368,
+            "lon": 15.2288,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "PL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BE",
+                    "DE-MV",
+                    "DE-SN",
+                    "DE-ST"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 19.0,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 5.4,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 55.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:pl-jelenia-gora",
+            "title": "Jelenia Góra",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 50.9044,
+            "lon": 15.7194,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "PL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-SN"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 19.5,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 8.6,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 51.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:pl-koszalin",
+            "title": "Koszalin",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 54.1944,
+            "lon": 16.1722,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "PL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-MV"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 19.4,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 9.4,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 53.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:dk-kobenhavn",
+            "title": "København",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 55.6761,
+            "lon": 12.5683,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "DK",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-MV",
+                    "DE-SH"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 15.9,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.rain"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 10.1,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 90.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.1,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:dk-odense",
+            "title": "Odense",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 55.4038,
+            "lon": 10.4024,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "DK",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HH",
+                    "DE-MV",
+                    "DE-NI",
+                    "DE-SH"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 17.6,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.clear"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 11.9,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 79.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:dk-aarhus",
+            "title": "Aarhus",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 56.1629,
+            "lon": 10.2039,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "DK",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-SH"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 16.7,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 14.0,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 82.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:dk-esbjerg",
+            "title": "Esbjerg",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 55.4765,
+            "lon": 8.4594,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "DK",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HH",
+                    "DE-NI",
+                    "DE-SH"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 17.0,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.clear"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 11.2,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 72.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:dk-sonderborg",
+            "title": "Sønderborg",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 54.9138,
+            "lon": 9.7922,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "DK",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HB",
+                    "DE-HH",
+                    "DE-MV",
+                    "DE-NI",
+                    "DE-SH"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 17.3,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.clear"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 10.4,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 77.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:se-malmo",
+            "title": "Malmö",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 55.605,
+            "lon": 13.0038,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "SE",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-MV",
+                    "DE-SH"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 15.8,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.rain"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 11.2,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 92.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.1,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:nl-amsterdam",
+            "title": "Amsterdam",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 52.3676,
+            "lon": 4.9041,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 19.7,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.clear"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 8.3,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 65.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:nl-rotterdam",
+            "title": "Rotterdam",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 51.9244,
+            "lon": 4.4777,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 19.5,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.clear"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 8.6,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 59.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:nl-utrecht",
+            "title": "Utrecht",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 52.0907,
+            "lon": 5.1214,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 19.3,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.clear"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 7.6,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 66.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:nl-groningen",
+            "title": "Groningen",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 53.2194,
+            "lon": 6.5665,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HB",
+                    "DE-HH",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-SH"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 19.2,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.clear"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 8.3,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 65.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:nl-enschede",
+            "title": "Enschede",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 52.2215,
+            "lon": 6.8937,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HB",
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 18.6,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 5.4,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 67.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:nl-nijmegen",
+            "title": "Nijmegen",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 51.8126,
+            "lon": 5.8372,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 18.6,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 7.2,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 66.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:nl-eindhoven",
+            "title": "Eindhoven",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 51.4416,
+            "lon": 5.4697,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 18.4,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 7.2,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 66.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:nl-maastricht",
+            "title": "Maastricht",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 50.8514,
+            "lon": 5.691,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "NL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-SL"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 18.0,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 3.2,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 71.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:be-bruxelles",
+            "title": "Bruxelles/Brussel",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 50.8503,
+            "lon": 4.3517,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "BE",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 19.2,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 4.3,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 57.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:be-antwerpen",
+            "title": "Antwerpen",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 51.2194,
+            "lon": 4.4025,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "BE",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NW",
+                    "DE-RP"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 18.8,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 5.8,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 63.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:be-liege",
+            "title": "Liège",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 50.6326,
+            "lon": 5.5797,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "BE",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HE",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-SL"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 18.5,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 1.1,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 63.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:be-namur",
+            "title": "Namur",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 50.4674,
+            "lon": 4.872,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "BE",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-SL"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 18.1,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 0.4,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 64.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:be-eupen",
+            "title": "Eupen",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 50.6304,
+            "lon": 6.0317,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "BE",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-SL"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 17.8,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 6.5,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 65.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:lu-luxembourg",
+            "title": "Luxembourg",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 49.6116,
+            "lon": 6.1319,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "LU",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-HE",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-SL"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 18.4,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 5.8,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 69.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:li-vaduz",
+            "title": "Vaduz",
+            "url": "https://open-meteo.com/",
+            "time": "2026-10-02T11:00:00Z",
+            "lat": 47.141,
+            "lon": 9.5209,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "LI",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-5",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 19.0,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 7.7,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 74.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        }
+    ]
+}

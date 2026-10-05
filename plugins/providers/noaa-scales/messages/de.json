@@ -1,0 +1,9 @@
+{
+  "source.noaa-scales.issue.missingScale": "NOAA-Skala {scale} fehlt.",
+  "source.noaa-scales.index.G.name": "Geomagnetischer Sturm",
+  "source.noaa-scales.index.R.name": "Funkstörungen (Kurzwelle)",
+  "source.noaa-scales.index.S.name": "Solarer Strahlungssturm",
+  "source.noaa-scales.index.noaa.description": "NOAA-Skala {scale}0-{scale}5. Globale Einordnung, keine lokale Empfangsprognose.",
+  "source.noaa-scales.index.S.description": "NOAA-Skala S0-S5. Betrifft Teilchen im Weltraum, nicht die Gamma-Messstationen am Boden.",
+  "source.noaa-scales.scale.noaa": "{scale} 0-5"
+}

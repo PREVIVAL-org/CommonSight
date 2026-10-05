@@ -1,0 +1,324 @@
+{
+    "schema": 1,
+    "layer": "warnings",
+    "scope": "AT",
+    "status": "partial",
+    "source": "GeoSphere Austria · AT-Alert",
+    "sourceUrl": "https://warnungen.zamg.at/",
+    "generatedAt": "2026-09-28T12:00:00Z",
+    "updatedAt": "2026-10-03T12:00:00Z",
+    "note": {
+        "key": "layer.warnings.note.AT"
+    },
+    "coverage": [],
+    "issues": [
+        {
+            "key": "issue.formatDrift",
+            "params": {
+                "source": "AT-Alert",
+                "rejected": 1,
+                "total": 4
+            }
+        },
+        {
+            "key": "issue.formatDrift",
+            "params": {
+                "source": "GeoSphere Austria",
+                "rejected": 2,
+                "total": 5
+            }
+        },
+        {
+            "key": "issue.invalidRecords",
+            "params": {
+                "source": "GeoSphere Austria",
+                "count": 2
+            }
+        },
+        {
+            "key": "issue.missingGeometry",
+            "params": {
+                "source": "GeoSphere Austria",
+                "count": 2
+            }
+        },
+        {
+            "key": "issue.missingDetailText",
+            "params": {
+                "source": "GeoSphere Austria",
+                "count": 2
+            }
+        }
+    ],
+    "stats": {},
+    "items": [
+        {
+            "kind": "warning",
+            "id": "geosphere:w4c1v1:1790596800:1790704800",
+            "title": "Hitzewarnung · Rot",
+            "url": "https://warnungen.zamg.at/",
+            "regionIds": [
+                "AT-9"
+            ],
+            "regionMatch": "source",
+            "lang": "de",
+            "near": {
+                "countries": [],
+                "regionIds": []
+            },
+            "hazard": {
+                "key": "hazard.heat"
+            },
+            "severity": "Extreme",
+            "awareness": "red",
+            "area": "Wien",
+            "onset": "2026-09-28T12:00:00Z",
+            "expires": "2026-09-29T18:00:00Z",
+            "sections": [],
+            "category": "weather"
+        },
+        {
+            "kind": "warning",
+            "id": "at-alert:AlertLevel2.German.30001.20261003",
+            "title": "Hochwasser an der Mur",
+            "url": "https://warnungen.at-alert.at/de/alerts/AlertLevel2.German.30001.20261003",
+            "source": "AT-Alert",
+            "time": "2026-10-03T12:00:00Z",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            15.3,
+                            47.0
+                        ],
+                        [
+                            15.7,
+                            47.0
+                        ],
+                        [
+                            15.7,
+                            47.3
+                        ],
+                        [
+                            15.3,
+                            47.3
+                        ],
+                        [
+                            15.3,
+                            47.0
+                        ]
+                    ]
+                ]
+            },
+            "regionIds": [
+                "AT-6"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [],
+                "regionIds": []
+            },
+            "hazard": {
+                "key": "source.at-alert.level.AlertLevel2"
+            },
+            "severity": "Extreme",
+            "area": "",
+            "onset": "2026-10-03T12:00:00Z",
+            "expires": "2026-10-03T21:00:00Z",
+            "sections": [
+                {
+                    "heading": "description",
+                    "text": "Die Mur tritt in Graz über die Ufer. Meiden Sie das Ufer <100 m."
+                }
+            ],
+            "category": "civilProtection"
+        },
+        {
+            "kind": "warning",
+            "id": "geosphere:w12345c1v2:1790586000:1790625600",
+            "title": "Gewitterwarnung · Orange",
+            "url": "https://warnungen.zamg.at/",
+            "time": "2026-09-28T08:45:00Z",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            16.222803,
+                            48.138349
+                        ],
+                        [
+                            16.558513,
+                            48.12951
+                        ],
+                        [
+                            16.568012,
+                            48.282304
+                        ],
+                        [
+                            16.231313,
+                            48.291168
+                        ],
+                        [
+                            16.222803,
+                            48.138349
+                        ]
+                    ]
+                ]
+            },
+            "regionIds": [
+                "AT-3",
+                "AT-9"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [],
+                "regionIds": []
+            },
+            "hazard": {
+                "key": "hazard.thunderstorm"
+            },
+            "severity": "Severe",
+            "awareness": "orange",
+            "area": "Niederösterreich, Wien",
+            "onset": "2026-09-28T09:00:00Z",
+            "expires": "2026-09-28T20:00:00Z",
+            "sections": [
+                {
+                    "heading": "description",
+                    "text": "Gewitter mit Starkregen, Hagel und Sturmböen."
+                },
+                {
+                    "heading": "situation",
+                    "text": "Eine Kaltfront überquert den Osten."
+                },
+                {
+                    "heading": "impact",
+                    "text": "Überflutungen von Straßen & Unterführungen möglich."
+                },
+                {
+                    "heading": "advice",
+                    "text": "Aufenthalt im Freien vermeiden."
+                }
+            ],
+            "category": "weather"
+        },
+        {
+            "kind": "warning",
+            "id": "geosphere:w777c1v1:1790596800:1790704800",
+            "title": "Windwarnung · Gelb",
+            "url": "https://warnungen.zamg.at/",
+            "regionIds": [
+                "AT-7"
+            ],
+            "regionMatch": "source",
+            "lang": "de",
+            "near": {
+                "countries": [],
+                "regionIds": []
+            },
+            "hazard": {
+                "key": "hazard.wind"
+            },
+            "severity": "Moderate",
+            "awareness": "yellow",
+            "area": "Tirol",
+            "onset": "2026-09-28T12:00:00Z",
+            "expires": "2026-09-29T18:00:00Z",
+            "sections": [],
+            "category": "weather"
+        },
+        {
+            "kind": "warning",
+            "id": "at-alert:AlertLevel3.German.21500.20261002",
+            "title": "Amtliche Information!",
+            "url": "https://warnungen.at-alert.at/de/alerts/AlertLevel3.German.21500.20261002",
+            "source": "AT-Alert",
+            "time": "2026-10-02T09:59:33Z",
+            "regionIds": [
+                "AT-2"
+            ],
+            "regionMatch": "area",
+            "lang": "de",
+            "near": {
+                "countries": [],
+                "regionIds": []
+            },
+            "hazard": {
+                "key": "source.at-alert.level.test"
+            },
+            "severity": "Minor",
+            "area": "Kärnten",
+            "onset": "2026-10-02T09:59:33Z",
+            "expires": "2026-10-03T21:00:00Z",
+            "sections": [
+                {
+                    "heading": "description",
+                    "text": "2026-10-02 11:59:33 Für den Bereich Kärnten. SYSTEMTEST für AT-ALERT Dies ist nur ein Systemtest."
+                }
+            ],
+            "category": "civilProtection"
+        },
+        {
+            "kind": "warning",
+            "id": "at-alert:AlertLevel1.German.20656.20261003",
+            "title": "PROBEALARM - TESTALERT",
+            "url": "https://warnungen.at-alert.at/de/alerts/AlertLevel1.German.20656.20261003",
+            "source": "AT-Alert",
+            "time": "2026-10-03T10:46:09Z",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            16.3,
+                            47.6
+                        ],
+                        [
+                            16.7,
+                            47.6
+                        ],
+                        [
+                            16.7,
+                            47.9
+                        ],
+                        [
+                            16.3,
+                            47.9
+                        ],
+                        [
+                            16.3,
+                            47.6
+                        ]
+                    ]
+                ]
+            },
+            "regionIds": [
+                "AT-1"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [],
+                "regionIds": []
+            },
+            "hazard": {
+                "key": "source.at-alert.level.test"
+            },
+            "severity": "Minor",
+            "area": "Burgenland",
+            "onset": "2026-10-03T10:46:09Z",
+            "expires": "2026-10-03T11:01:09Z",
+            "sections": [
+                {
+                    "heading": "description",
+                    "text": "Probewarnung - Österreichweite Testauslösung von Sirenen und AT-Alert ENDE des Zivilschutzprobealarms. Es besteht keine Gefahr!"
+                }
+            ],
+            "category": "civilProtection"
+        }
+    ]
+}

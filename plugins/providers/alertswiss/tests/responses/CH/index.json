@@ -1,0 +1,14 @@
+{
+    "recordedAt": "2026-10-04T08:05:57Z",
+    "requests": [
+        {
+            "signature": "GET https://www.alert.swiss/content/alertswiss-internet/de/home/_jcr_content/polyalert.alertswiss_alerts.actual.json",
+            "status": 200,
+            "headers": {
+                "lastModified": "Sun, 04 Oct 2026 08:05:53 GMT",
+                "contentType": "application/json;charset=utf-8"
+            },
+            "file": "001.json"
+        }
+    ]
+}

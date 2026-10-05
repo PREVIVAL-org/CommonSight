@@ -1,0 +1,14 @@
+{
+  "DE": {
+    "name": "BBK / NINA · Deutscher Wetterdienst",
+    "url": "https://warnung.bund.de/"
+  },
+  "AT": {
+    "name": "GeoSphere Austria · AT-Alert",
+    "url": "https://warnungen.zamg.at/"
+  },
+  "CH": {
+    "name": "MeteoSchweiz · MeteoAlarm · Alertswiss",
+    "url": "https://www.naturgefahren.ch/"
+  }
+}

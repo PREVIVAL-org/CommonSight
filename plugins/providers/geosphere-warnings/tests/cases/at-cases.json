@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[615000, 475000], [640000, 475000], [640000, 492000], [615000, 492000], [615000, 475000]]]
+      },
+      "properties": { "warnid": "w12345c1v2", "wtype": 5, "wlevel": 2, "start": 1790586000, "end": 1790625600, "gemeinden": ["90001", "31001", "3100"] }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": { "warnid": "w777c1v1", "wtype": 1, "wlevel": 1, "start": 1790596800, "end": 1790704800, "gemeinden": ["70101"] }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[400000, 400000], [410000, 400000], [410000, 410000], [400000, 400000]]]
+      },
+      "properties": { "warnid": "w1c1v1", "wtype": 3, "wlevel": 1, "start": 1790575200, "end": 1790586000, "gemeinden": ["50101"] }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": { "warnid": "w2c1v1", "wtype": 2, "wlevel": 0, "start": 1790586000, "end": 1790704800, "gemeinden": ["60101"] }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": { "warnid": "w3c1v1", "wtype": 9, "wlevel": 1, "start": 1790586000, "end": 1790704800, "gemeinden": ["60101"] }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": { "warnid": "", "wtype": 2, "wlevel": 1, "start": 1790586000, "end": 1790704800, "gemeinden": [] }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[615000, 475000], [640000, 475000], [640000, 492000], [615000, 492000]]]
+      },
+      "properties": { "warnid": "w4c1v1", "wtype": 6, "wlevel": 3, "start": 1790596800, "end": 1790704800, "gemeinden": ["90001"] }
+    }
+  ]
+}

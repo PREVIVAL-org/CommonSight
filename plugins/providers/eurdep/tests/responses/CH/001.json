@@ -1,0 +1,690 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "id": "eurdep_latestValue.fid--7c20ea55_1a0e8612053_2e6b",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.56,
+                    46.49
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "id": "CH500000",
+                "name": "AdelbodenSMN",
+                "site_status": 1,
+                "site_status_text": "in Betrieb",
+                "height_above_sea": 1320,
+                "analyzed_range_in_h": 6,
+                "start_measure": "2026-09-28T12:00:00Z",
+                "end_measure": "2026-09-28T13:00:00Z",
+                "value": 0.113,
+                "unit": "µSv/h",
+                "validated": 2,
+                "nuclide": "Gamma-ODL-Brutto",
+                "duration": "1h"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "eurdep_latestValue.fid--7c20ea55_1a0e8612053_2e6c",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.92,
+                    46.33
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "id": "CH500050",
+                "name": "AigleSMN",
+                "site_status": 1,
+                "site_status_text": "in Betrieb",
+                "height_above_sea": 381,
+                "analyzed_range_in_h": 6,
+                "start_measure": "2026-09-28T12:00:00Z",
+                "end_measure": "2026-09-28T13:00:00Z",
+                "value": 0.131,
+                "unit": "µSv/h",
+                "validated": 2,
+                "nuclide": "Gamma-ODL-Brutto",
+                "duration": "1h"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "eurdep_latestValue.fid--7c20ea55_1a0e8612053_2e6d",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.62,
+                    46.89
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "id": "CH500100",
+                "name": "AltdorfSMN",
+                "site_status": 1,
+                "site_status_text": "in Betrieb",
+                "height_above_sea": 438,
+                "analyzed_range_in_h": 6,
+                "start_measure": "2026-09-28T12:00:00Z",
+                "end_measure": "2026-09-28T13:00:00Z",
+                "value": 0.136,
+                "unit": "µSv/h",
+                "validated": 2,
+                "nuclide": "Gamma-ODL-Brutto",
+                "duration": "1h"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "eurdep_latestValue.fid--7c20ea55_1a0e8612053_2e6e",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.58,
+                    47.54
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "id": "CH500150",
+                "name": "Basel/ Binningen SMN",
+                "site_status": 1,
+                "site_status_text": "in Betrieb",
+                "height_above_sea": 316,
+                "analyzed_range_in_h": 6,
+                "start_measure": "2026-09-28T12:00:00Z",
+                "end_measure": "2026-09-28T13:00:00Z",
+                "value": 0.121,
+                "unit": "µSv/h",
+                "validated": 2,
+                "nuclide": "Gamma-ODL-Brutto",
+                "duration": "1h"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "eurdep_latestValue.fid--7c20ea55_1a0e8612053_2e6f",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.46,
+                    46.99
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "id": "CH500200",
+                "name": "Bern/ Zollikofen SMN",
+                "site_status": 1,
+                "site_status_text": "in Betrieb",
+                "height_above_sea": 553,
+                "analyzed_range_in_h": 6,
+                "start_measure": "2026-09-28T12:00:00Z",
+                "end_measure": "2026-09-28T13:00:00Z",
+                "value": 0.111,
+                "unit": "µSv/h",
+                "validated": 2,
+                "nuclide": "Gamma-ODL-Brutto",
+                "duration": "1h"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "eurdep_latestValue.fid--7c20ea55_1a0e8612053_2e70",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.23,
+                    47.56
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "id": "CH500250",
+                "name": "BeznauSMN",
+                "site_status": 1,
+                "site_status_text": "in Betrieb",
+                "height_above_sea": 326,
+                "analyzed_range_in_h": 6,
+                "start_measure": "2026-09-28T12:00:00Z",
+                "end_measure": "2026-09-28T13:00:00Z",
+                "value": 0.105,
+                "unit": "µSv/h",
+                "validated": 2,
+                "nuclide": "Gamma-ODL-Brutto",
+                "duration": "1h"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "eurdep_latestValue.fid--7c20ea55_1a0e8612053_2e71",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.08,
+                    47.38
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "id": "CH500300",
+                "name": "Buchs/ Aarau SMN",
+                "site_status": 1,
+                "site_status_text": "in Betrieb",
+                "height_above_sea": 387,
+                "analyzed_range_in_h": 6,
+                "start_measure": "2026-09-28T12:00:00Z",
+                "end_measure": "2026-09-28T13:00:00Z",
+                "value": 0.102,
+                "unit": "µSv/h",
+                "validated": 2,
+                "nuclide": "Gamma-ODL-Brutto",
+                "duration": "1h"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "eurdep_latestValue.fid--7c20ea55_1a0e8612053_2e72",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.79,
+                    47.08
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "id": "CH500350",
+                "name": "LaChaux-de-Fonds SMN",
+                "site_status": 1,
+                "site_status_text": "in Betrieb",
+                "height_above_sea": 1018,
+                "analyzed_range_in_h": 6,
+                "start_measure": "2026-09-28T12:00:00Z",
+                "end_measure": "2026-09-28T13:00:00Z",
+                "value": 0.128,
+                "unit": "µSv/h",
+                "validated": 2,
+                "nuclide": "Gamma-ODL-Brutto",
+                "duration": "1h"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "eurdep_latestValue.fid--7c20ea55_1a0e8612053_2e73",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.23,
+                    46.4
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "id": "CH500400",
+                "name": "Nyon/ Changins SMN",
+                "site_status": 1,
+                "site_status_text": "in Betrieb",
+                "height_above_sea": 455,
+                "analyzed_range_in_h": 6,
+                "start_measure": "2026-09-28T12:00:00Z",
+                "end_measure": "2026-09-28T13:00:00Z",
+                "value": 0.123,
+                "unit": "µSv/h",
+                "validated": 2,
+                "nuclide": "Gamma-ODL-Brutto",
+                "duration": "1h"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "eurdep_latestValue.fid--7c20ea55_1a0e8612053_2e74",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.04,
+                    47.12
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "id": "CH500450",
+                "name": "ChasseralSMN",
+                "site_status": 1,
+                "site_status_text": "in Betrieb",
+                "height_above_sea": 1450,
+                "analyzed_range_in_h": 6,
+                "start_measure": "2026-09-28T12:00:00Z",
+                "end_measure": "2026-09-28T13:00:00Z",
+                "value": 0.16,
+                "unit": "µSv/h",
+                "validated": 2,
+                "nuclide": "Gamma-ODL-Brutto",
+                "duration": "1h"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "eurdep_latestValue.fid--7c20ea55_1a0e8612053_2e75",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.53,
+                    46.87
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "id": "CH500500",
+                "name": "ChurSMN",
+                "site_status": 1,
+                "site_status_text": "in Betrieb",
+                "height_above_sea": 556,
+                "analyzed_range_in_h": 6,
+                "start_measure": "2026-09-28T12:00:00Z",
+                "end_measure": "2026-09-28T13:00:00Z",
+                "value": 0.117,
+                "unit": "µSv/h",
+                "validated": 2,
+                "nuclide": "Gamma-ODL-Brutto",
+                "duration": "1h"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "eurdep_latestValue.fid--7c20ea55_1a0e8612053_2e76",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.84,
+                    46.81
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "id": "CH500550",
+                "name": "DavosSMN",
+                "site_status": 1,
+                "site_status_text": "in Betrieb",
+                "height_above_sea": 1594,
+                "analyzed_range_in_h": 6,
+                "start_measure": "2026-09-28T12:00:00Z",
+                "end_measure": "2026-09-28T13:00:00Z",
+                "value": 0.149,
+                "unit": "µSv/h",
+                "validated": 2,
+                "nuclide": "Gamma-ODL-Brutto",
+                "duration": "1h"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "eurdep_latestValue.fid--7c20ea55_1a0e8612053_2e77",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.85,
+                    46.71
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "id": "CH500600",
+                "name": "Disentis/ Sedrun SMN",
+                "site_status": 1,
+                "site_status_text": "in Betrieb",
+                "height_above_sea": 1197,
+                "analyzed_range_in_h": 6,
+                "start_measure": "2026-09-28T12:00:00Z",
+                "end_measure": "2026-09-28T13:00:00Z",
+                "value": 0.114,
+                "unit": "µSv/h",
+                "validated": 2,
+                "nuclide": "Gamma-ODL-Brutto",
+                "duration": "1h"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "eurdep_latestValue.fid--7c20ea55_1a0e8612053_2e78",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.1,
+                    46.42
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "id": "CH500650",
+                "name": "LaDôle SMN",
+                "site_status": 1,
+                "site_status_text": "in Betrieb",
+                "height_above_sea": 1670,
+                "analyzed_range_in_h": 6,
+                "start_measure": "2026-09-28T12:00:00Z",
+                "end_measure": "2026-09-28T13:00:00Z",
+                "value": 0.121,
+                "unit": "µSv/h",
+                "validated": 2,
+                "nuclide": "Gamma-ODL-Brutto",
+                "duration": "1h"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "eurdep_latestValue.fid--7c20ea55_1a0e8612053_2e79",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.41,
+                    46.82
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "id": "CH500700",
+                "name": "EngelbergSMN",
+                "site_status": 1,
+                "site_status_text": "in Betrieb",
+                "height_above_sea": 1037,
+                "analyzed_range_in_h": 6,
+                "start_measure": "2026-09-28T12:00:00Z",
+                "end_measure": "2026-09-28T13:00:00Z",
+                "value": 0.097,
+                "unit": "µSv/h",
+                "validated": 2,
+                "nuclide": "Gamma-ODL-Brutto",
+                "duration": "1h"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "eurdep_latestValue.fid--7c20ea55_1a0e8612053_2e7a",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.94,
+                    47.42
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "id": "CH500750",
+                "name": "Fahy/ Boncourt SMN",
+                "site_status": 1,
+                "site_status_text": "in Betrieb",
+                "height_above_sea": 596,
+                "analyzed_range_in_h": 6,
+                "start_measure": "2026-09-28T12:00:00Z",
+                "end_measure": "2026-09-28T13:00:00Z",
+                "value": 0.128,
+                "unit": "µSv/h",
+                "validated": 2,
+                "nuclide": "Gamma-ODL-Brutto",
+                "duration": "1h"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "eurdep_latestValue.fid--7c20ea55_1a0e8612053_2e7b",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.58,
+                    46.84
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "id": "CH500800",
+                "name": "Bullet/ La Frétaz SMN",
+                "site_status": 1,
+                "site_status_text": "in Betrieb",
+                "height_above_sea": 1205,
+                "analyzed_range_in_h": 6,
+                "start_measure": "2026-09-28T12:00:00Z",
+                "end_measure": "2026-09-28T13:00:00Z",
+                "value": 0.122,
+                "unit": "µSv/h",
+                "validated": 2,
+                "nuclide": "Gamma-ODL-Brutto",
+                "duration": "1h"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "eurdep_latestValue.fid--7c20ea55_1a0e8612053_2e7c",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.07,
+                    47.03
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "id": "CH500850",
+                "name": "GlarusSMN",
+                "site_status": 1,
+                "site_status_text": "in Betrieb",
+                "height_above_sea": 517,
+                "analyzed_range_in_h": 6,
+                "start_measure": "2026-09-28T12:00:00Z",
+                "end_measure": "2026-09-28T13:00:00Z",
+                "value": 0.101,
+                "unit": "µSv/h",
+                "validated": 2,
+                "nuclide": "Gamma-ODL-Brutto",
+                "duration": "1h"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "eurdep_latestValue.fid--7c20ea55_1a0e8612053_2e7d",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.97,
+                    47.36
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "id": "CH500900",
+                "name": "GösgenSMN",
+                "site_status": 1,
+                "site_status_text": "in Betrieb",
+                "height_above_sea": 380,
+                "analyzed_range_in_h": 6,
+                "start_measure": "2026-09-28T12:00:00Z",
+                "end_measure": "2026-09-28T13:00:00Z",
+                "value": 0.109,
+                "unit": "µSv/h",
+                "validated": 2,
+                "nuclide": "Gamma-ODL-Brutto",
+                "duration": "1h"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "eurdep_latestValue.fid--7c20ea55_1a0e8612053_2e7e",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.17,
+                    45.87
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "id": "CH500950",
+                "name": "Coldu Grand St-Bernard SMN",
+                "site_status": 1,
+                "site_status_text": "in Betrieb",
+                "height_above_sea": 2472,
+                "analyzed_range_in_h": 6,
+                "start_measure": "2026-09-28T12:00:00Z",
+                "end_measure": "2026-09-28T13:00:00Z",
+                "value": 0.143,
+                "unit": "µSv/h",
+                "validated": 2,
+                "nuclide": "Gamma-ODL-Brutto",
+                "duration": "1h"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "eurdep_latestValue.fid--7c20ea55_1a0e8612053_2e7f",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.62,
+                    46.65
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "id": "CH501000",
+                "name": "Gütschob Andermatt SMN",
+                "site_status": 1,
+                "site_status_text": "in Betrieb",
+                "height_above_sea": 2287,
+                "analyzed_range_in_h": 6,
+                "start_measure": "2026-09-28T12:00:00Z",
+                "end_measure": "2026-09-28T13:00:00Z",
+                "value": 0.184,
+                "unit": "µSv/h",
+                "validated": 2,
+                "nuclide": "Gamma-ODL-Brutto",
+                "duration": "1h"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "eurdep_latestValue.fid--7c20ea55_1a0e8612053_2e80",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.28,
+                    47.6
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "id": "CH501050",
+                "name": "GüttingenSMN",
+                "site_status": 1,
+                "site_status_text": "in Betrieb",
+                "height_above_sea": 440,
+                "analyzed_range_in_h": 6,
+                "start_measure": "2026-09-28T12:00:00Z",
+                "end_measure": "2026-09-28T13:00:00Z",
+                "value": 0.109,
+                "unit": "µSv/h",
+                "validated": 2,
+                "nuclide": "Gamma-ODL-Brutto",
+                "duration": "1h"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "eurdep_latestValue.fid--7c20ea55_1a0e8612053_2e81",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.13,
+                    46.25
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "id": "CH501100",
+                "name": "Genève-CointrinSMN",
+                "site_status": 1,
+                "site_status_text": "in Betrieb",
+                "height_above_sea": 420,
+                "analyzed_range_in_h": 6,
+                "start_measure": "2026-09-28T12:00:00Z",
+                "end_measure": "2026-09-28T13:00:00Z",
+                "value": 0.11,
+                "unit": "µSv/h",
+                "validated": 2,
+                "nuclide": "Gamma-ODL-Brutto",
+                "duration": "1h"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "eurdep_latestValue.fid--7c20ea55_1a0e8612053_2e82",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.94,
+                    47.37
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "id": "CH501200",
+                "name": "HörnliSMN",
+                "site_status": 1,
+                "site_status_text": "in Betrieb",
+                "height_above_sea": 1132,
+                "analyzed_range_in_h": 6,
+                "start_measure": "2026-09-28T12:00:00Z",
+                "end_measure": "2026-09-28T13:00:00Z",
+                "value": 0.097,
+                "unit": "µSv/h",
+                "validated": 2,
+                "nuclide": "Gamma-ODL-Brutto",
+                "duration": "1h"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "eurdep_latestValue.fid--7c20ea55_1a0e8612053_2e83",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.99,
+                    46.55
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "id": "CH501250",
+                "name": "JungfraujochSMN",
+                "site_status": 1,
+                "site_status_text": "in Betrieb",
+                "height_above_sea": 3580,
+                "analyzed_range_in_h": 6,
+                "start_measure": "2026-09-28T12:00:00Z",
+                "end_measure": "2026-09-28T13:00:00Z",
+                "value": 0.172,
+                "unit": "µSv/h",
+                "validated": 2,
+                "nuclide": "Gamma-ODL-Brutto",
+                "duration": "1h"
+            }
+        }
+    ],
+    "totalFeatures": 133,
+    "numberMatched": 133,
+    "numberReturned": 133,
+    "timeStamp": "2026-09-28T14:18:15.262Z",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+        }
+    }
+}

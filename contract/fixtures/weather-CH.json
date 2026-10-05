@@ -1,0 +1,2102 @@
+{
+    "schema": 1,
+    "layer": "weather",
+    "scope": "CH",
+    "status": "ok",
+    "source": "Open-Meteo",
+    "sourceUrl": "https://open-meteo.com/",
+    "generatedAt": "2026-09-28T14:30:00Z",
+    "updatedAt": "2026-09-28T14:15:00Z",
+    "note": {
+        "key": "layer.weather.note"
+    },
+    "coverage": [
+        {
+            "key": "source.open-meteo-weather.coverage",
+            "params": {
+                "count": 26
+            }
+        }
+    ],
+    "issues": [],
+    "stats": {},
+    "items": [
+        {
+            "kind": "modelValue",
+            "id": "weather:ch-bern",
+            "title": "Bern",
+            "url": "https://open-meteo.com/",
+            "time": "2026-09-28T14:15:00Z",
+            "lat": 46.948,
+            "lon": 7.4474,
+            "regionIds": [
+                "CH-BE"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 25.7,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 1.4,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 41.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:ch-zuerich",
+            "title": "Zürich",
+            "url": "https://open-meteo.com/",
+            "time": "2026-09-28T14:15:00Z",
+            "lat": 47.3769,
+            "lon": 8.5417,
+            "regionIds": [
+                "CH-ZH"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-RP",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 27.3,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.clear"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 1.1,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 30.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:ch-basel",
+            "title": "Basel",
+            "url": "https://open-meteo.com/",
+            "time": "2026-09-28T14:15:00Z",
+            "lat": 47.5596,
+            "lon": 7.5886,
+            "regionIds": [
+                "CH-BS"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-RP",
+                    "DE-SL",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 29.4,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 3.8,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 26.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:ch-genf",
+            "title": "Genf",
+            "url": "https://open-meteo.com/",
+            "time": "2026-09-28T14:15:00Z",
+            "lat": 46.2044,
+            "lon": 6.1432,
+            "regionIds": [
+                "CH-GE"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "CH-AG",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SO",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 27.7,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 7.1,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 35.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:ch-luzern",
+            "title": "Luzern",
+            "url": "https://open-meteo.com/",
+            "time": "2026-09-28T14:15:00Z",
+            "lat": 47.0502,
+            "lon": 8.3093,
+            "regionIds": [
+                "CH-LU"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 25.6,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.clear"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 2.4,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 39.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:ch-lugano",
+            "title": "Lugano",
+            "url": "https://open-meteo.com/",
+            "time": "2026-09-28T14:15:00Z",
+            "lat": 46.0037,
+            "lon": 8.9511,
+            "regionIds": [
+                "CH-TI"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-FR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 24.4,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 11.2,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 51.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:ch-chur",
+            "title": "Chur",
+            "url": "https://open-meteo.com/",
+            "time": "2026-09-28T14:15:00Z",
+            "lat": 46.8508,
+            "lon": 9.532,
+            "regionIds": [
+                "CH-GR"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-5",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 26.4,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.clear"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 12.9,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 33.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:ch-aargau",
+            "title": "Modellpunkt Aargau",
+            "url": "https://open-meteo.com/",
+            "time": "2026-09-28T14:15:00Z",
+            "lat": 47.37909,
+            "lon": 8.213,
+            "regionIds": [
+                "CH-AG"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-RP",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 26.2,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 2.9,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 35.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:ch-appenzell-ausserrhoden",
+            "title": "Modellpunkt Appenzell Ausserrhoden",
+            "url": "https://open-meteo.com/",
+            "time": "2026-09-28T14:15:00Z",
+            "lat": 47.358,
+            "lon": 9.27964,
+            "regionIds": [
+                "CH-AR"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-RP",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 22.3,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.clear"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 5.2,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 42.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:ch-appenzell-innerrhoden",
+            "title": "Modellpunkt Appenzell Innerrhoden",
+            "url": "https://open-meteo.com/",
+            "time": "2026-09-28T14:15:00Z",
+            "lat": 47.31043,
+            "lon": 9.40529,
+            "regionIds": [
+                "CH-AI"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 20.9,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.clear"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 5.5,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 57.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:ch-basel-landschaft",
+            "title": "Modellpunkt Basel-Landschaft",
+            "url": "https://open-meteo.com/",
+            "time": "2026-09-28T14:15:00Z",
+            "lat": 47.45115,
+            "lon": 7.8227,
+            "regionIds": [
+                "CH-BL"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-RP",
+                    "DE-SL",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 27.9,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 8.7,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 28.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:ch-freiburg",
+            "title": "Modellpunkt Freiburg",
+            "url": "https://open-meteo.com/",
+            "time": "2026-09-28T14:15:00Z",
+            "lat": 46.723,
+            "lon": 7.11074,
+            "regionIds": [
+                "CH-FR"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 25.3,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 5.0,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 37.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:ch-glarus",
+            "title": "Modellpunkt Glarus",
+            "url": "https://open-meteo.com/",
+            "time": "2026-09-28T14:15:00Z",
+            "lat": 46.98526,
+            "lon": 9.09336,
+            "regionIds": [
+                "CH-GL"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 20.4,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.clear"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 0.8,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 47.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:ch-jura",
+            "title": "Modellpunkt Jura",
+            "url": "https://open-meteo.com/",
+            "time": "2026-09-28T14:15:00Z",
+            "lat": 47.32719,
+            "lon": 7.28839,
+            "regionIds": [
+                "CH-JU"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-RP",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 27.3,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 5.1,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 36.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:ch-neuenburg",
+            "title": "Modellpunkt Neuenburg",
+            "url": "https://open-meteo.com/",
+            "time": "2026-09-28T14:15:00Z",
+            "lat": 47.00773,
+            "lon": 6.83585,
+            "regionIds": [
+                "CH-NE"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 21.3,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 4.2,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 44.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:ch-nidwalden",
+            "title": "Modellpunkt Nidwalden",
+            "url": "https://open-meteo.com/",
+            "time": "2026-09-28T14:15:00Z",
+            "lat": 46.89554,
+            "lon": 8.40421,
+            "regionIds": [
+                "CH-NW"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 22.1,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.clear"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 3.6,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 50.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:ch-obwalden",
+            "title": "Modellpunkt Obwalden",
+            "url": "https://open-meteo.com/",
+            "time": "2026-09-28T14:15:00Z",
+            "lat": 46.86655,
+            "lon": 8.19983,
+            "regionIds": [
+                "CH-OW"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 23.2,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.clear"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 1.6,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 57.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:ch-schaffhausen",
+            "title": "Modellpunkt Schaffhausen",
+            "url": "https://open-meteo.com/",
+            "time": "2026-09-28T14:15:00Z",
+            "lat": 47.72341,
+            "lon": 8.58552,
+            "regionIds": [
+                "CH-SH"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-HE",
+                    "DE-RP",
+                    "DE-SL",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 25.9,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 8.0,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 27.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:ch-schwyz",
+            "title": "Modellpunkt Schwyz",
+            "url": "https://open-meteo.com/",
+            "time": "2026-09-28T14:15:00Z",
+            "lat": 47.05415,
+            "lon": 8.70231,
+            "regionIds": [
+                "CH-SZ"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 20.4,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.clear"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 4.7,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 53.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:ch-solothurn",
+            "title": "Modellpunkt Solothurn",
+            "url": "https://open-meteo.com/",
+            "time": "2026-09-28T14:15:00Z",
+            "lat": 47.28566,
+            "lon": 7.57539,
+            "regionIds": [
+                "CH-SO"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-RP",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 25.4,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 6.4,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 40.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:ch-st-gallen",
+            "title": "Modellpunkt St. Gallen",
+            "url": "https://open-meteo.com/",
+            "time": "2026-09-28T14:15:00Z",
+            "lat": 47.21138,
+            "lon": 9.23436,
+            "regionIds": [
+                "CH-SG"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 20.4,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.clear"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 6.1,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 60.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:ch-thurgau",
+            "title": "Modellpunkt Thurgau",
+            "url": "https://open-meteo.com/",
+            "time": "2026-09-28T14:15:00Z",
+            "lat": 47.53552,
+            "lon": 9.16282,
+            "regionIds": [
+                "CH-TG"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-RP",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 25.5,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.clear"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 2.5,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 41.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:ch-uri",
+            "title": "Modellpunkt Uri",
+            "url": "https://open-meteo.com/",
+            "time": "2026-09-28T14:15:00Z",
+            "lat": 46.76091,
+            "lon": 8.63296,
+            "regionIds": [
+                "CH-UR"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 19.5,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.clear"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 4.7,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 48.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:ch-waadt",
+            "title": "Modellpunkt Waadt",
+            "url": "https://open-meteo.com/",
+            "time": "2026-09-28T14:15:00Z",
+            "lat": 46.56167,
+            "lon": 6.51707,
+            "regionIds": [
+                "CH-VD"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "CH-AG",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 25.6,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 9.1,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 37.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:ch-wallis",
+            "title": "Modellpunkt Wallis",
+            "url": "https://open-meteo.com/",
+            "time": "2026-09-28T14:15:00Z",
+            "lat": 46.25597,
+            "lon": 7.62453,
+            "regionIds": [
+                "CH-VS"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 15.0,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.cloudy"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 7.6,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 38.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "weather:ch-zug",
+            "title": "Modellpunkt Zug",
+            "url": "https://open-meteo.com/",
+            "time": "2026-09-28T14:15:00Z",
+            "lat": 47.165,
+            "lon": 8.53798,
+            "regionIds": [
+                "CH-ZG"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "temperature",
+            "value": 23.0,
+            "unit": "°C",
+            "summary": {
+                "key": "source.open-meteo-weather.summary.weather.clear"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.wind"
+                    },
+                    "value": 4.0,
+                    "unit": "km/h"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.humidity"
+                    },
+                    "value": 46.0,
+                    "unit": "%"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-weather.fact.precipitation"
+                    },
+                    "value": 0.0,
+                    "unit": "mm"
+                }
+            ]
+        }
+    ]
+}

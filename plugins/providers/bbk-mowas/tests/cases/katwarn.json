@@ -1,0 +1,13 @@
+[
+    {
+        "id": "kat.0f1e2d3c4b5a69788796a5b4_public_topics",
+        "version": 1,
+        "startDate": "2026-09-28T10:00:00+02:00",
+        "severity": "Severe",
+        "urgency": "Immediate",
+        "type": "Alert",
+        "i18nTitle": {
+            "de": "Großbrand in Industriegebiet – Fenster und Türen geschlossen halten"
+        }
+    }
+]

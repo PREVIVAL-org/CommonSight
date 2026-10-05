@@ -1,0 +1,11 @@
+{
+    "recordedAt": "2026-09-28T14:30:00Z",
+    "requests": [
+        {
+            "signature": "GET https://api.open-meteo.com/v1/forecast?latitude=48.2082%2C48.3069%2C47.0707%2C47.8095%2C47.2692%2C46.6247%2C47.5031%2C47.47671%2C48.22171&longitude=16.3738%2C14.2858%2C15.4395%2C13.055%2C11.4041%2C14.3053%2C9.7471%2C16.48652%2C15.57607&current=temperature_2m%2Crelative_humidity_2m%2Cweather_code%2Cwind_speed_10m%2Cprecipitation&timezone=UTC",
+            "status": 200,
+            "headers": {},
+            "file": "001.json"
+        }
+    ]
+}

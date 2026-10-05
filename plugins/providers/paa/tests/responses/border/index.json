@@ -1,0 +1,11 @@
+{
+    "recordedAt": "2026-10-02T15:30:00Z",
+    "requests": [
+        {
+            "signature": "GET https://monitoring.paa.gov.pl/geoserver/ows?service=WFS&version=2.0.0&request=GetFeature&typeNames=paa%3Akcad_siec_pms_moc_dawki_mapa&outputFormat=application%2Fjson&srsName=EPSG%3A4326",
+            "status": 200,
+            "headers": {},
+            "file": "001.json"
+        }
+    ]
+}

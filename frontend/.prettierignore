@@ -1,0 +1,7 @@
+dist/
+dist-analyze/
+node_modules/
+src/contract/generated.ts
+playwright-report/
+test-results/
+package-lock.json

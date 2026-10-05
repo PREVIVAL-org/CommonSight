@@ -1,0 +1,18 @@
+{
+  "source.ehyd.assessment.label.atClass1": "Niederwasser",
+  "source.ehyd.assessment.basis.atClass1": "eHYD: Niederwasserkategorie. Keine Aussage zu anderen Gefahren.",
+  "source.ehyd.assessment.label.atClass2": "Mittelwasser",
+  "source.ehyd.assessment.basis.atClass2": "eHYD: Mittelwasserkategorie.",
+  "source.ehyd.assessment.label.atClass3": "Erhöhte Wasserführung · unter HQ1",
+  "source.ehyd.assessment.basis.atClass3": "eHYD: oberhalb des Mittelwasserbereichs, noch unter der ersten Hochwasserkategorie.",
+  "source.ehyd.assessment.label.atClass4": "Hochwasser Stufe 1",
+  "source.ehyd.assessment.basis.atClass4": "eHYD: HQ1 bis unter HQ10. Orange dargestellt.",
+  "source.ehyd.assessment.label.atClass5": "Hochwasser Stufe 2",
+  "source.ehyd.assessment.basis.atClass5": "eHYD: HQ10 bis unter HQ30. Rot dargestellt.",
+  "source.ehyd.assessment.label.atClass6": "Hochwasser Stufe 3",
+  "source.ehyd.assessment.basis.atClass6": "eHYD: ab HQ30. Rot dargestellt.",
+  "source.ehyd.assessment.basis.atReducedFreshness": "eHYD kennzeichnet den Wert als eingeschränkt aktuell (älter als 24 Stunden, Code {code}).",
+  "source.ehyd.assessment.basis.atUnknownCode": "eHYD liefert keine aktuelle, bekannte Pegelkategorie (Code {code}).",
+  "source.ehyd.assessment.basis.atMissing": "eHYD-Klassifizierung fehlt.",
+  "source.ehyd.fact.hydroService": "Hydrographischer Dienst"
+}

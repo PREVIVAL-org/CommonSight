@@ -1,0 +1,71 @@
+{
+    "name": "commonsight/backend",
+    "description": "CommonSight: fetcher and status endpoint",
+    "type": "project",
+    "license": "AGPL-3.0-only",
+    "require": {
+        "php": ">=8.3",
+        "ext-curl": "*",
+        "ext-dom": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "ext-xmlreader": "*",
+        "ext-zlib": "*"
+    },
+    "require-dev": {
+        "deptrac/deptrac": "^3.0",
+        "friendsofphp/php-cs-fixer": "^3.64",
+        "opis/json-schema": "^2.3",
+        "phpstan/phpstan": "^2.0",
+        "phpunit/phpunit": "^11.4",
+        "tomasvotruba/cognitive-complexity": "^1.0"
+    },
+    "suggest": {
+        "ext-brotli": "precompressed snapshots as .br"
+    },
+    "autoload": {
+        "psr-4": {
+            "CommonSight\\": "src/"
+        },
+        "classmap": [
+            "../plugins/"
+        ],
+        "exclude-from-classmap": [
+            "../plugins/*/*/tests/",
+            "../plugins/*/*/tools/"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CommonSight\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "8.3.0"
+        },
+        "optimize-autoloader": true,
+        "sort-packages": true,
+        "allow-plugins": {
+            "phpstan/extension-installer": true
+        }
+    },
+    "scripts": {
+        "build-contract": [
+            "@composer dump-autoload --quiet",
+            "php bin/build-contract.php"
+        ],
+        "test": "phpunit",
+        "stan": "phpstan analyse --memory-limit=1G",
+        "deptrac": "deptrac analyse --no-progress",
+        "cs": "php-cs-fixer fix --dry-run --diff",
+        "cs-fix": "php-cs-fixer fix",
+        "check-all": [
+            "@build-contract",
+            "@cs",
+            "@stan",
+            "@deptrac",
+            "@test"
+        ]
+    }
+}

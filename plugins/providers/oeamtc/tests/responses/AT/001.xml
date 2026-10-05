@@ -1,0 +1,419 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:georss="http://www.georss.org/georss" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ÖAMTC Verkehrsservice</title>
+    <link>http://www.oeamtc.at/verkehrsservice</link>
+    <atom:link href="http://www.oeamtc.at/verkehrsservice/output/rss/oeamtc_verkehrsservice_oesterreich.xml" rel="self" type="application/rss+xml" />
+    <description>Aktuelle Verkehrsinfos aus Österreich</description>
+    <language>de-at</language>
+    <copyright>copyright by ÖAMTC Mobilitätsinformationen</copyright>
+    <pubDate>Sun, 04 Oct 2026 10:36:28 GMT</pubDate>
+    <lastBuildDate>Sun, 04 Oct 2026 10:35:34 GMT</lastBuildDate>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <ttl>10</ttl>
+    <image>
+      <title>ÖAMTC Verkehrsservice</title>
+      <url>http://www.oeamtc.at/spritfeed/spritfeed_logo.png</url>
+      <link>http://www.oeamtc.at/verkehrsservice</link>
+    </image>
+    <item>
+      <guid isPermaLink="false">{55a865f9-88d6-496b-32b0-a4a1bf46fe7e}</guid>
+      <title>A1 West Autobahn, Salzburg Richtung Rosenheim</title>
+      <link>https://www.oeamtc.at/verkehrsservice/?region=at-5&amp;filter=stau</link>
+      <category>Stau</category>
+      <description>zwischen Knoten Salzburg und Grenzübergang Walserberg
+Polizeikontrolle, Zeitverlust für PKW von bis zu 6 Minuten bei der Ausreise, aus Österreich, (Meldung automatisch von ASFINAG-Sensoren erstellt)</description>
+      <pubDate>Sun, 04 Oct 2026 10:30:11 GMT</pubDate>
+      <georss:line>47.76843 12.94371 47.76858 12.94751 </georss:line>
+    </item>
+    <item>
+      <guid isPermaLink="false">{e9091b72-82f7-e67c-7354-3933302d2641}</guid>
+      <title>A1 West Autobahn, St. Pölten - Linz</title>
+      <link>https://www.oeamtc.at/verkehrsservice/?region=at-4&amp;filter=baustellen</link>
+      <category>Baustelle</category>
+      <description>zwischen Einfahrt Enns-West und Knoten Linz
+in beiden Richtungen 1 Fahrstreifen gesperrt, Nachtbaustelle, vom 21.09.2026 bis 20.12.2026, täglich zwischen 20:00 Uhr und 05:00 Uhr</description>
+      <pubDate>Mon, 21 Sep 2026 08:29:16 GMT</pubDate>
+      <georss:line>48.22255 14.30178 48.21782 14.40827 48.20817 14.4353 </georss:line>
+    </item>
+    <item>
+      <guid isPermaLink="false">{d8f23747-dd18-a7f4-380e-8a280defb76d}</guid>
+      <title>A1 West Autobahn, St. Pölten Richtung Linz</title>
+      <link>https://www.oeamtc.at/verkehrsservice/?region=at-3&amp;filter=baustellen</link>
+      <category>Baustelle</category>
+      <description>Ausfahrt Sankt Valentin
+Ausfahrt gesperrt, Baustelle, von 08.11.2026 bis 04.12.2026</description>
+      <pubDate>Fri, 04 Sep 2026 10:39:46 GMT</pubDate>
+      <georss:point>48.19319 14.52665 </georss:point>
+    </item>
+    <item>
+      <guid isPermaLink="false">{76cfdc9b-7275-07f8-7397-9fcfb70d2acb}</guid>
+      <title>A1 West Autobahn, St. Pölten - Linz</title>
+      <link>https://www.oeamtc.at/verkehrsservice/?region=at-3&amp;filter=baustellen</link>
+      <category>Baustelle</category>
+      <description>zwischen Haag und Sankt Valentin
+in beiden Richtungen Fahrbahn auf zwei Fahrstreifen verengt, Baustelle, bis 01.12.2026</description>
+      <pubDate>Thu, 03 Sep 2026 11:48:02 GMT</pubDate>
+      <georss:line>48.19368 14.52413 48.16284 14.55357 48.13773 14.58219 48.13104 14.59727 </georss:line>
+    </item>
+    <item>
+      <guid isPermaLink="false">{2b226e9e-dc3a-754e-7cd2-b60a5a68ea29}</guid>
+      <title>A1 West Autobahn, St. Pölten Richtung Linz</title>
+      <link>https://www.oeamtc.at/verkehrsservice/?region=at-3&amp;filter=baustellen</link>
+      <category>Baustelle</category>
+      <description>Einfahrt Haag
+Einfahrt gesperrt, Baustelle, bis 08.11.2026</description>
+      <pubDate>Thu, 03 Sep 2026 11:46:01 GMT</pubDate>
+      <georss:point>48.13143 14.59927 </georss:point>
+    </item>
+    <item>
+      <guid isPermaLink="false">{6a0c9033-1e39-9750-1849-52375f6185d5}</guid>
+      <title>A1 West Autobahn, St. Pölten Richtung Linz</title>
+      <link>https://www.oeamtc.at/verkehrsservice/?region=at-3&amp;filter=baustellen</link>
+      <category>Baustelle</category>
+      <description>Ausfahrt Haag
+Ausfahrt gesperrt, Baustelle, bis 08.11.2026</description>
+      <pubDate>Thu, 03 Sep 2026 11:44:31 GMT</pubDate>
+      <georss:point>48.13127 14.59985 </georss:point>
+    </item>
+    <item>
+      <guid isPermaLink="false">{5ba97a5a-5046-7a64-e2ca-cb62b0b3df13}</guid>
+      <title>A1 West Autobahn, St. Pölten Richtung Linz</title>
+      <link>https://www.oeamtc.at/verkehrsservice/?region=at-3&amp;filter=baustellen</link>
+      <category>Baustelle</category>
+      <description>zwischen Sankt Pölten Süd und Raststätte Raststation Sankt Pölten
+Verkehr wird über die Gegenfahrbahn geleitet, geänderte Verkehrsführung, Instandsetzungsarbeiten, bis 31.10.2026 17:00 Uhr</description>
+      <pubDate>Tue, 07 Apr 2026 12:26:49 GMT</pubDate>
+      <georss:line>48.17759 15.5611 48.17705 15.61587 </georss:line>
+    </item>
+    <item>
+      <guid isPermaLink="false">{56a34793-0230-5a05-a387-031ce937c8b3}</guid>
+      <title>A2 Süd Autobahn, Graz Richtung Klagenfurt</title>
+      <link>https://www.oeamtc.at/verkehrsservice/?region=at-6&amp;filter=baustellen</link>
+      <category>Baustelle</category>
+      <description>Einfahrt Modriach
+gesperrt, Instandsetzungsarbeiten, bis 31.10.2026 08:00 Uhr</description>
+      <pubDate>Mon, 30 Mar 2026 16:56:52 GMT</pubDate>
+      <georss:point>46.96288 15.0472 </georss:point>
+    </item>
+    <item>
+      <guid isPermaLink="false">{05255446-a3dd-8ea9-143c-cb7a8f873133}</guid>
+      <title>A2 Süd Autobahn, Graz Richtung Klagenfurt</title>
+      <link>https://www.oeamtc.at/verkehrsservice/?region=at-6&amp;filter=baustellen</link>
+      <category>Baustelle</category>
+      <description>Ausfahrt Modriach
+gesperrt, Instandsetzungsarbeiten, bis 31.10.2026 08:00 Uhr</description>
+      <pubDate>Mon, 30 Mar 2026 17:31:13 GMT</pubDate>
+      <georss:line>46.96377 15.04905 46.96365 15.04919 46.96356 15.04939 46.96335 15.04966 46.96303 15.0501 46.96281 15.05044 46.96267 15.05077 46.96259 15.05098 46.96252 15.0512 46.96245 15.05144 46.96238 15.05174 46.96234 15.05193 46.9623 15.05217 46.96227 15.05241 46.96224 15.05271 46.96222 15.05296 46.96221 15.05318 46.9622 15.05341 46.9622 15.05363 46.9622 15.05382 46.96221 15.05403 46.96222 15.05422 46.96223 15.05441 46.96225 15.05462 46.96227 15.05481 46.9623 15.05505 46.96232 15.0552 46.96233 15.05534 46.96233 15.05559 </georss:line>
+    </item>
+    <item>
+      <guid isPermaLink="false">{b05f79aa-5ecd-2425-5b8c-f520cb954e54}</guid>
+      <title>A2 Süd Autobahn, Wien - Graz</title>
+      <link>https://www.oeamtc.at/verkehrsservice/?region=at-6&amp;filter=baustellen</link>
+      <category>Baustelle</category>
+      <description>in Höhe Laßnitzhöhe
+in beiden Richtungen 1 Fahrstreifen gesperrt, Baustelle, bis 07.10.2026 04:45 Uhr</description>
+      <pubDate>Tue, 29 Sep 2026 09:31:14 GMT</pubDate>
+      <georss:point>47.06176 15.59597 </georss:point>
+    </item>
+    <item>
+      <guid isPermaLink="false">{48b03d37-6987-9b78-b97f-57c98d3ece51}</guid>
+      <title>A2 Süd Autobahn, Wien - Graz</title>
+      <link>https://www.oeamtc.at/verkehrsservice/?region=at-6&amp;filter=baustellen</link>
+      <category>Baustelle</category>
+      <description>in Höhe Laßnitzhöhe
+in beiden Richtungen 1 Fahrstreifen gesperrt, Fahrbahnerneuerung, Baustelle, bis 16.10.2026 05:45 Uhr</description>
+      <pubDate>Wed, 23 Sep 2026 08:48:23 GMT</pubDate>
+      <georss:point>47.06176 15.59597 </georss:point>
+    </item>
+    <item>
+      <guid isPermaLink="false">{382fa8db-0fc8-1a40-300a-e34eae9c425a}</guid>
+      <title>A2 Süd Autobahn, Wien - Graz</title>
+      <link>https://www.oeamtc.at/verkehrsservice/?region=at-6&amp;filter=baustellen</link>
+      <category>Baustelle</category>
+      <description>zwischen Gleisdorf Süd und Gleisdorf West
+in beiden Richtungen Gegenverkehr, Fahrbahnerneuerung, Baustelle, von 29.10.2026 05:00 Uhr bis 04.12.2026 04:45 Uhr</description>
+      <pubDate>Wed, 23 Sep 2026 08:45:56 GMT</pubDate>
+      <georss:line>47.09856 15.68897 47.0923 15.72976 </georss:line>
+    </item>
+    <item>
+      <guid isPermaLink="false">{1c4049bd-acba-8cce-ac56-1a3a518facb1}</guid>
+      <title>A2 Süd Autobahn, Wien - Graz</title>
+      <link>https://www.oeamtc.at/verkehrsservice/?region=at-6&amp;filter=baustellen</link>
+      <category>Baustelle</category>
+      <description>zwischen Gleisdorf Süd und Gleisdorf West
+in beiden Richtungen Gegenverkehr, geänderte Verkehrsführung, Fahrbahnverengung, Baustelle, bis 19.10.2026 04:45 Uhr</description>
+      <pubDate>Wed, 27 May 2026 08:43:42 GMT</pubDate>
+      <georss:line>47.09856 15.68897 47.0923 15.72976 </georss:line>
+    </item>
+    <item>
+      <guid isPermaLink="false">{2ad3a747-afed-a58e-2224-65138631b681}</guid>
+      <title>A2 Süd Autobahn, Wien - Graz</title>
+      <link>https://www.oeamtc.at/verkehrsservice/?region=at-3&amp;filter=baustellen</link>
+      <category>Baustelle</category>
+      <description>zwischen Grimmenstein und Krumbach
+in beiden Richtungen Verkehr wird über die Gegenfahrbahn geleitet, Fahrbahnverengung, Baustelle, bis 07.11.2026</description>
+      <pubDate>Sat, 08 Aug 2026 11:18:50 GMT</pubDate>
+      <georss:line>47.55475 16.12993 47.57135 16.11356 47.61141 16.12912 47.63238 16.1289 </georss:line>
+    </item>
+    <item>
+      <guid isPermaLink="false">{eda450b0-aa0c-974c-3831-75193fe6917e}</guid>
+      <title>A2 Süd Autobahn, Wien - Graz</title>
+      <link>https://www.oeamtc.at/verkehrsservice/?region=at-3&amp;filter=baustellen</link>
+      <category>Baustelle</category>
+      <description>zwischen Grimmenstein und Aspang
+in beiden Richtungen Fahrbahn auf einen Fahrstreifen verengt, Nachtbaustelle, vom 02.10.2026 bis 08.10.2026, täglich zwischen 20:00 Uhr und 05:00 Uhr</description>
+      <pubDate>Fri, 02 Oct 2026 12:59:38 GMT</pubDate>
+      <georss:line>47.52325 16.10766 47.5248 16.10957 47.53013 16.11198 47.54154 16.11588 47.55475 16.12993 47.57135 16.11356 47.61141 16.12912 47.63238 16.1289 </georss:line>
+    </item>
+    <item>
+      <guid isPermaLink="false">{006967f7-d0a6-9077-74a3-dd75c6e78e45}</guid>
+      <title>A2 Süd Autobahn, Wien - Graz</title>
+      <link>https://www.oeamtc.at/verkehrsservice/?region=at-3&amp;filter=baustellen</link>
+      <category>Baustelle</category>
+      <description>zwischen Grimmenstein und Krumbach
+in beiden Richtungen Gegenverkehr, Fahrbahnverengung, geänderte Verkehrsführung, Baustelle, bis 26.10.2026 23:45 Uhr</description>
+      <pubDate>Tue, 14 Jul 2026 12:15:49 GMT</pubDate>
+      <georss:line>47.55475 16.12993 47.57135 16.11356 47.61141 16.12912 47.63238 16.1289 </georss:line>
+    </item>
+    <item>
+      <guid isPermaLink="false">{dc9d0927-e7a4-45e8-e634-59d142b4f8ef}</guid>
+      <title>A2 Süd Autobahn, Wien - Graz</title>
+      <link>https://www.oeamtc.at/verkehrsservice/?region=at-3&amp;filter=baustellen</link>
+      <category>Baustelle</category>
+      <description>zwischen Wöllersdorf und Knoten Wiener Neustadt
+in beiden Richtungen Verkehr wird über die Gegenfahrbahn geleitet, Fahrbahnverengung, Baustelle, bis 15.10.2026 22:00 Uhr</description>
+      <pubDate>Tue, 07 Apr 2026 15:00:13 GMT</pubDate>
+      <georss:line>47.78745 16.2052 47.8051 16.19953 47.83485 16.18232 47.84628 16.18145 47.85748 16.18472 </georss:line>
+    </item>
+    <item>
+      <guid isPermaLink="false">{630ab75d-5783-3735-f796-dde0d010f5fc}</guid>
+      <title>A2 Süd Autobahn, Wien Richtung Graz</title>
+      <link>https://www.oeamtc.at/verkehrsservice/?region=at-3&amp;filter=baustellen</link>
+      <category>Baustelle</category>
+      <description>zwischen Leobersdorf und Wöllersdorf
+Fahrstreifen gesperrt, Baustelle, von 14.10.2026 20:30 Uhr bis 15.10.2026 05:00 Uhr</description>
+      <pubDate>Tue, 29 Sep 2026 10:13:28 GMT</pubDate>
+      <georss:line>47.85748 16.18472 47.90781 16.20789 47.91161 16.20801 47.93522 16.21086 </georss:line>
+    </item>
+    <item>
+      <guid isPermaLink="false">{e5f33cf2-69d9-1b97-8850-5d5b2c47f13b}</guid>
+      <title>A2 Süd Autobahn, Klagenfurt Richtung Graz</title>
+      <link>https://www.oeamtc.at/verkehrsservice/?region=at-6&amp;filter=baustellen</link>
+      <category>Baustelle</category>
+      <description>Ausfahrt Modriach
+gesperrt, Instandsetzungsarbeiten, bis 31.10.2026 08:00 Uhr</description>
+      <pubDate>Wed, 01 Apr 2026 11:37:44 GMT</pubDate>
+      <georss:point>46.96198 15.04836 </georss:point>
+    </item>
+    <item>
+      <guid isPermaLink="false">{39718bee-8bdd-57c8-f471-677ca52beb2d}</guid>
+      <title>A2 Süd Autobahn, Klagenfurt Richtung Graz</title>
+      <link>https://www.oeamtc.at/verkehrsservice/?region=at-6&amp;filter=baustellen</link>
+      <category>Baustelle</category>
+      <description>Einfahrt Modriach
+gesperrt, Instandsetzungsarbeiten, bis 31.10.2026 08:00 Uhr</description>
+      <pubDate>Wed, 01 Apr 2026 11:35:50 GMT</pubDate>
+      <georss:point>46.96198 15.04836 </georss:point>
+    </item>
+    <item>
+      <guid isPermaLink="false">{52baf559-99cd-b3bc-5003-41a3577abdba}</guid>
+      <title>A2 Süd Autobahn, Graz Richtung Wien</title>
+      <link>https://www.oeamtc.at/verkehrsservice/?region=at-6&amp;filter=baustellen</link>
+      <category>Baustelle</category>
+      <description>in Höhe Ilz Fürstenfeld
+1 Fahrstreifen gesperrt, Baustelle</description>
+      <pubDate>Mon, 15 Jun 2026 07:34:56 GMT</pubDate>
+      <georss:point>47.0807 15.96043 </georss:point>
+    </item>
+    <item>
+      <guid isPermaLink="false">{08a54c69-9925-8bb6-070a-5e7022c516c0}</guid>
+      <title>A2 Süd Autobahn, Graz Richtung Wien</title>
+      <link>https://www.oeamtc.at/verkehrsservice/?region=at-3&amp;filter=baustellen</link>
+      <category>Baustelle</category>
+      <description>Knoten Wiener Neustadt Überleitung zur S4
+Fahrstreifen gesperrt, Fahrbahnverengung, minimale Fahrbahnbreite von 3,50 m, Baustelle, bis 15.10.2026 05:00 Uhr</description>
+      <pubDate>Mon, 16 Feb 2026 17:32:46 GMT</pubDate>
+      <georss:point>47.7863 16.20871 </georss:point>
+    </item>
+    <item>
+      <guid isPermaLink="false">{1eb76753-f3dc-bc0c-e752-e43c1f502665}</guid>
+      <title>A2 Süd Autobahn, Graz Richtung Wien</title>
+      <link>https://www.oeamtc.at/verkehrsservice/?region=at-3&amp;filter=baustellen</link>
+      <category>Baustelle</category>
+      <description>zwischen Wöllersdorf und Leobersdorf
+Fahrstreifen gesperrt, Baustelle, vom 12.10.2026 bis 15.10.2026, täglich zwischen 19:00 Uhr und 04:00 Uhr</description>
+      <pubDate>Tue, 29 Sep 2026 10:44:06 GMT</pubDate>
+      <georss:line>47.93522 16.21086 47.91161 16.20801 47.90781 16.20789 47.85748 16.18472 </georss:line>
+    </item>
+    <item>
+      <guid isPermaLink="false">{185266da-163a-c519-c3e6-f6e2270cb049}</guid>
+      <title>A4 Ost Autobahn, Wien - Budapest (H)</title>
+      <link>https://www.oeamtc.at/verkehrsservice/?region=at-1&amp;filter=baustellen</link>
+      <category>Baustelle</category>
+      <description>zwischen Knoten Bruckneudorf und Neusiedl am See Gewerbepark
+in beiden Richtungen Fahrstreifen gesperrt, Baustelle, bis 31.10.2026 02:00 Uhr</description>
+      <pubDate>Mon, 16 Feb 2026 17:39:32 GMT</pubDate>
+      <georss:line>47.97357 16.85621 47.9777 16.84422 48.00488 16.83424 48.02043 16.83723 </georss:line>
+    </item>
+    <item>
+      <guid isPermaLink="false">{85228aed-4db9-9859-1329-a4cbf0b71d19}</guid>
+      <title>A4 Donaukanal Straße, Wien Richtung Budapest (H)</title>
+      <link>https://www.oeamtc.at/verkehrsservice/?region=at-9&amp;filter=baustellen</link>
+      <category>Baustelle</category>
+      <description>zwischen Stadionbrücke - Schüttelstraße und Knoten Prater
+Fahrbahn auf einen Fahrstreifen verengt, Nachtbaustelle, vom 02.10.2026 bis 05.10.2026, täglich zwischen 22:00 Uhr und 05:00 Uhr</description>
+      <pubDate>Thu, 24 Sep 2026 16:32:13 GMT</pubDate>
+      <georss:line>48.19268 16.41592 48.19705 16.41134 </georss:line>
+    </item>
+    <item>
+      <guid isPermaLink="false">{d8264a8d-4c1c-c63c-3958-66b43ee84c1c}</guid>
+      <title>A4 Ost Autobahn, Budapest (H) - Wien</title>
+      <link>https://www.oeamtc.at/verkehrsservice/?region=at-1&amp;filter=baustellen</link>
+      <category>Baustelle</category>
+      <description>in Höhe Gols/Weiden
+in beiden Richtungen rechter Fahrstreifen gesperrt, Nachtbaustelle, von 05.10.2026 20:00 Uhr bis 06.10.2026 05:00 Uhr</description>
+      <pubDate>Wed, 30 Sep 2026 10:41:01 GMT</pubDate>
+      <georss:point>47.94739 16.93363 </georss:point>
+    </item>
+    <item>
+      <guid isPermaLink="false">{a3b465ed-fb4f-9618-d33c-a1faeaaa4cef}</guid>
+      <title>A4 Ost Autobahn, Budapest (H) Richtung Wien</title>
+      <link>https://www.oeamtc.at/verkehrsservice/?region=at-1&amp;filter=baustellen</link>
+      <category>Baustelle</category>
+      <description>zwischen Neusiedl am See Gewerbepark und Neusiedl am See
+1 Fahrstreifen gesperrt, Nachtbaustelle, von 06.10.2026 20:00 Uhr bis 07.10.2026 05:00 Uhr</description>
+      <pubDate>Wed, 30 Sep 2026 10:42:20 GMT</pubDate>
+      <georss:line>47.9777 16.84422 47.97357 16.85621 </georss:line>
+    </item>
+    <item>
+      <guid isPermaLink="false">{e93f20c0-6428-cf9b-7c4f-a5b1a9b42c0e}</guid>
+      <title>A4 Ost Autobahn, Budapest (H) - Wien</title>
+      <link>https://www.oeamtc.at/verkehrsservice/?region=at-9&amp;filter=baustellen</link>
+      <category>Baustelle</category>
+      <description>zwischen Knoten Schwechat und Knoten Prater
+in beiden Richtungen geänderte Verkehrsführung, Fahrbahnverengung, Baustelle, zulässige Höchstgeschwindigkeit von 60 km/h, bis 15.12.2026 13:00 Uhr</description>
+      <pubDate>Thu, 18 Dec 2025 08:29:09 GMT</pubDate>
+      <georss:line>48.19268 16.41592 48.18686 16.43008 48.18235 16.44538 48.1801 16.4511 48.17133 16.4556 48.15667 16.47831 48.15072 16.48943 </georss:line>
+    </item>
+    <item>
+      <guid isPermaLink="false">{9be45e54-4a6a-91c5-6df8-d762cd82d603}</guid>
+      <title>A7 Freistadt Richtung Linz</title>
+      <link>https://www.oeamtc.at/verkehrsservice/?region=at-4&amp;filter=baustellen</link>
+      <category>Baustelle</category>
+      <description>Einfahrt Muldenstraße
+Einfahrt gesperrt, Nachtbaustelle, vom 05.10.2026 bis 15.10.2026, Mo. - Fr. zwischen 20:00 Uhr und 05:00 Uhr</description>
+      <pubDate>Thu, 01 Oct 2026 11:28:01 GMT</pubDate>
+      <georss:point>48.26952 14.29548 </georss:point>
+    </item>
+    <item>
+      <guid isPermaLink="false">{f01af668-41af-fc70-113d-c270cf878e78}</guid>
+      <title>A7 Mühlkreis Autobahn, Freistadt Richtung Wiener Straße</title>
+      <link>https://www.oeamtc.at/verkehrsservice/?region=at-4&amp;filter=baustellen</link>
+      <category>Baustelle</category>
+      <description>Ausfahrt Wiener Straße
+Ausfahrt gesperrt, Baustelle, bis 05.10.2026, Ausfahrt Wankmüllerhofstraße befahrbar</description>
+      <pubDate>Sun, 10 May 2026 10:04:14 GMT</pubDate>
+      <georss:point>48.28292 14.30647 </georss:point>
+    </item>
+    <item>
+      <guid isPermaLink="false">{cc702280-3521-921d-cf2a-d6c35b46e58e}</guid>
+      <title>A7 Mühlkreis Autobahn, Freistadt Richtung Linz</title>
+      <link>https://www.oeamtc.at/verkehrsservice/?region=at-4&amp;filter=sperren</link>
+      <category>Sperre</category>
+      <description>zwischen Voest-Alpine und Hummelhof
+gesperrt, Sicherheitsübung, eine Umleitung ist eingerichtet, von 24.10.2026 19:00 Uhr bis 25.10.2026 05:00 Uhr</description>
+      <pubDate>Wed, 16 Sep 2026 08:43:38 GMT</pubDate>
+      <georss:line>48.27841 14.29505 48.2797 14.29994 48.2822 14.30475 48.28455 14.3131 48.28689 14.31759 </georss:line>
+    </item>
+    <item>
+      <guid isPermaLink="false">{543cbedc-6d7a-fd85-c3ef-9917d0334dc4}</guid>
+      <title>A7 Mühlkreis Autobahn, Linz - Freistadt</title>
+      <link>https://www.oeamtc.at/verkehrsservice/?region=at-4&amp;filter=baustellen</link>
+      <category>Baustelle</category>
+      <description>zwischen Knoten Linz und Salzburger Straße
+in beiden Richtungen geänderte Verkehrsführung, Fahrbahnverengung, Baustelle, von 14.09.2026 05:00 Uhr bis 17.10.2026 20:00 Uhr</description>
+      <pubDate>Wed, 09 Sep 2026 07:50:19 GMT</pubDate>
+      <georss:line>48.26015 14.29713 48.24418 14.29749 48.23548 14.29766 48.22255 14.30178 </georss:line>
+    </item>
+    <item>
+      <guid isPermaLink="false">{7a07a743-8513-af22-a434-150d65940f1b}</guid>
+      <title>A7 Mühlkreis Autobahn, Linz Richtung Freistadt</title>
+      <link>https://www.oeamtc.at/verkehrsservice/?region=at-4&amp;filter=sperren</link>
+      <category>Sperre</category>
+      <description>zwischen Hummelhof und Voest-Alpine
+gesperrt, Sicherheitsübung, eine Umleitung ist eingerichtet, von 24.10.2026 20:00 Uhr bis 25.10.2026 05:00 Uhr</description>
+      <pubDate>Wed, 16 Sep 2026 08:49:22 GMT</pubDate>
+      <georss:line>48.28689 14.31759 48.28455 14.3131 48.2822 14.30475 48.2797 14.29994 48.27841 14.29505 </georss:line>
+    </item>
+    <item>
+      <guid isPermaLink="false">{5640f46e-9b6e-676f-fb76-f140cc076fac}</guid>
+      <title>A7 Mühlkreis Autobahn, Linz - Freistadt</title>
+      <link>https://www.oeamtc.at/verkehrsservice/?region=at-4&amp;filter=baustellen</link>
+      <category>Baustelle</category>
+      <description>zwischen Hummelhof und Linz-Industriezeile
+in beiden Richtungen Verkehr wird über die Gegenfahrbahn geleitet, Fahrbahnverengung, Baustelle, bis 05.10.2026</description>
+      <pubDate>Thu, 26 Feb 2026 14:03:44 GMT</pubDate>
+      <georss:line>48.29354 14.31876 48.28689 14.31759 48.28455 14.3131 48.2822 14.30475 48.2797 14.29994 48.27841 14.29505 </georss:line>
+    </item>
+    <item>
+      <guid isPermaLink="false">{9c9205f9-dfd2-f797-519b-d0ff42cd4573}</guid>
+      <title>A7 Mühlkreis Autobahn, Linz Richtung Freistadt</title>
+      <link>https://www.oeamtc.at/verkehrsservice/?region=at-4&amp;filter=baustellen</link>
+      <category>Baustelle</category>
+      <description>Einfahrt Wiener Straße
+Einfahrt gesperrt, Baustelle, bis 16.05.2027, Auffahrt über die Wiener Straße</description>
+      <pubDate>Sun, 10 May 2026 10:06:26 GMT</pubDate>
+      <georss:point>48.28193 14.30485 </georss:point>
+    </item>
+    <item>
+      <guid isPermaLink="false">{6ce0a298-5149-9481-98fd-760e7b26138c}</guid>
+      <title>A8 Innkreis Autobahn, Wels Richtung Voralpenkreuz</title>
+      <link>https://www.oeamtc.at/verkehrsservice/?region=at-4&amp;filter=baustellen</link>
+      <category>Baustelle</category>
+      <description>zwischen Wels West und Raststätte Raststation Voralpenkreuz
+gesperrt, Baustelle, von 15.09.2026 bis voraussichtlich 16.06.2027, Tunnelsanierungen Noitzmühle und Steinhaus</description>
+      <pubDate>Wed, 02 Sep 2026 14:27:20 GMT</pubDate>
+      <georss:line>48.06287 14.0381 48.07203 14.02372 48.11266 14.0116 48.13965 13.99435 48.14465 13.98802 48.15156 13.98151 </georss:line>
+    </item>
+    <item>
+      <guid isPermaLink="false">{44ba8039-65cc-27cf-f7e5-b189529feb74}</guid>
+      <title>A8 Innkreis Autobahn, Voralpenkreuz Richtung Wels</title>
+      <link>https://www.oeamtc.at/verkehrsservice/?region=at-4&amp;filter=baustellen</link>
+      <category>Baustelle</category>
+      <description>zwischen Knoten Voralpenkreuz und Wels West
+linker Fahrstreifen gesperrt, Baustelle, von 15.09.2026 07:00 Uhr bis 31.10.2026 17:00 Uhr</description>
+      <pubDate>Thu, 13 Aug 2026 12:11:03 GMT</pubDate>
+      <georss:line>48.15156 13.98151 48.14465 13.98802 48.13965 13.99435 48.11266 14.0116 48.07203 14.02372 48.06287 14.0381 </georss:line>
+    </item>
+    <item>
+      <guid isPermaLink="false">{e9f90886-f2b4-6e7f-52a5-bbf4044028ec}</guid>
+      <title>A8, A3 Innkreis Autobahn, Wels Richtung Passau</title>
+      <link>https://www.oeamtc.at/verkehrsservice/?region=at-4&amp;filter=</link>
+      <description>zwischen Innbrücke Suben und Ende der Straße
+Polizeikontrolle, Zeitverlust für PKW von bis zu 7 Minuten bei der Ausreise, aus Österreich, (Meldung automatisch von ASFINAG-Sensoren erstellt)</description>
+      <pubDate>Sun, 04 Oct 2026 10:30:11 GMT</pubDate>
+      <georss:line>48.41068 13.42586 48.40957 13.42689 </georss:line>
+    </item>
+    <item>
+      <guid isPermaLink="false">{d87ce79b-22fa-134a-807c-7d8f7ae29339}</guid>
+      <title>A9 Pyhrn Autobahn, St. Michael - Marburg</title>
+      <link>https://www.oeamtc.at/verkehrsservice/?region=at-6&amp;filter=baustellen</link>
+      <category>Baustelle</category>
+      <description>zwischen Graz Webling und Schwarzlsee
+in beiden Richtungen geänderte Verkehrsführung im Baustellenbereich, Fahrbahnverengung, Instandsetzungsarbeiten, zulässige Höchstgeschwindigkeit von 60 km/h, bis voraussichtlich 08.11.2026</description>
+      <pubDate>Fri, 11 Sep 2026 16:33:09 GMT</pubDate>
+      <georss:line>46.98535 15.4176 46.99803 15.4096 47.01254 15.40763 47.01599 15.40825 47.0328 15.41165 </georss:line>
+    </item>
+    <item>
+      <guid isPermaLink="false">{5507e7f6-e95c-e18a-0bfa-c9f3eb1876a4}</guid>
+      <title>A9 St. Michael - Graz</title>
+      <link>https://www.oeamtc.at/verkehrsservice/?region=at-6&amp;filter=baustellen</link>
+      <category>Baustelle</category>
+      <description>Plabutschtunnel
+in beiden Richtungen gesperrt, Nachtbaustelle, Tunnelwartungsarbeiten, vom 19.10.2026 bis 23.10.2026, Mo. - Do. zwischen 20:00 Uhr und 05:00 Uhr</description>
+      <pubDate>Fri, 18 Sep 2026 12:28:17 GMT</pubDate>
+      <georss:line>47.0328 15.41165 47.06894 15.37954 47.113 15.37509 </georss:line>
+    </item>
+  </channel>
+</rss>

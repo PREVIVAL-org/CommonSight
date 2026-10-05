@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "layer": "nature",
+  "scope": "AT",
+  "status": "ok",
+  "source": "USGS",
+  "sourceUrl": "https://earthquake.usgs.gov/",
+  "generatedAt": "2026-09-28T11:40:00Z",
+  "updatedAt": "2026-09-28T11:39:00Z",
+  "note": {
+    "key": "layer.nature.note"
+  },
+  "coverage": [],
+  "issues": [],
+  "stats": {},
+  "items": [
+    {
+      "kind": "earthquake",
+      "id": "us7000abcd",
+      "title": "M 3.2 - 10 km NE of Innsbruck, Austria",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000abcd",
+      "time": "2026-09-27T22:14:00Z",
+      "lat": 47.33,
+      "lon": 11.48,
+      "regionIds": ["AT-7"],
+      "regionMatch": "point",
+      "magnitude": 3.2,
+      "depthKm": 10.4,
+      "place": "10 km NE of Innsbruck, Austria"
+    }
+  ]
+}

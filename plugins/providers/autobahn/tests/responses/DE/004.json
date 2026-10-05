@@ -1,0 +1,91 @@
+{
+  "closure": [
+    {
+      "identifier": "2026-000572--vi-fbm.2026-10-02_20-00-00-000.devi-zus.2026-05-08_20-00-00-000_005.de12",
+      "icon": "250",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.57544940522507,7.670347617845843,51.52231399701857,7.658006408720079",
+      "point": "51.57544940522507,7.670347617845843",
+      "startLcPosition": "105",
+      "impact": {
+        "lower": "Dortmund/Unna",
+        "upper": "Kamen-Zentrum",
+        "symbols": [
+          "SEPARATE",
+          "CLOSED",
+          "CLOSED",
+          "CLOSED",
+          "BORDER_RIGHT",
+          "CLOSED"
+        ]
+      },
+      "display_type": "CLOSURE",
+      "subtitle": " Münster -> Dortmund",
+      "title": "A1 | Kamen-Zentrum - Dortmund/Unna",
+      "startTimestamp": "2026-10-02T20:00:00+02:00",
+      "coordinate": {
+        "lat": 51.57544940522507,
+        "long": 7.670347617845843
+      },
+      "description": [
+        "Zeitraum dieser Bauphase:",
+        "Beginn: 02.10.26 um 20:00 Uhr",
+        "Ende: 05.10.26 um 05:00 Uhr",
+        "(Ende der Gesamtmaßnahme: 05.10.26)",
+        "",
+        "A1: Münster -> Dortmund, zwischen AS Kamen-Zentrum und AK Dortmund/Unna",
+        "",
+        "Länge: konnte nicht ermittelt werden",
+        "",
+        "A1 - Erneuerung an der Decke - AlD 572"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": []
+    },
+    {
+      "identifier": "2026-019284--vi-fbm.2026-10-09_21-00-00-000.devi-zus.2026-10-09_21-00-00-000.de10",
+      "icon": "250",
+      "isBlocked": "false",
+      "future": true,
+      "extent": "53.505677683743954,10.081480141443167,53.50666828315792,10.081059304433765",
+      "point": "53.505677683743954,10.081480141443167",
+      "startLcPosition": "1",
+      "impact": {
+        "lower": "Hamburg-Südost",
+        "upper": "Hamburg-Allermöhe",
+        "symbols": [
+          "SEPARATE",
+          "CLOSED",
+          "CLOSED",
+          "BORDER_RIGHT",
+          "CLOSED"
+        ]
+      },
+      "display_type": "CLOSURE",
+      "subtitle": " Geesthacht -> Hamburg",
+      "title": "A1 | Hamburg-Allermöhe - Hamburg-Südost",
+      "startTimestamp": "2026-10-09T21:00:00+02:00",
+      "coordinate": {
+        "lat": 53.505677683743954,
+        "long": 10.081480141443167
+      },
+      "description": [
+        "Zeitraum dieser Bauphase:",
+        "Beginn: 09.10.26 um 21:00 Uhr",
+        "Ende: 12.10.26 um 05:00 Uhr",
+        "(Ende der Gesamtmaßnahme: 12.10.26)",
+        "",
+        "A25: Geesthacht -> Hamburg, zwischen 3.1 km hinter AS Hamburg-Allermöhe und AD Hamburg-Südost",
+        "",
+        "Länge: konnte nicht ermittelt werden",
+        "",
+        "A1, AD Norderelbe bis AS Billstedt, Vollsperrung für Bauwerksarbeiten"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": []
+    }
+  ]
+}

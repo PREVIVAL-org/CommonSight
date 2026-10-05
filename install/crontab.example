@@ -1,0 +1,9 @@
+# Schedule of CommonSight (doc/INSTALLATION.md). Replace @PHP@ (PHP CLI), @APP@ (application directory)
+# and @WEBROOT@ (webroot), then enter the lines with `crontab -e` or in the cron job manager of the hoster.
+# One line per lane: each runs the due sources of its lane (lanes and budgets in config.php, section lanes).
+
+* * * * *     @PHP@ -d memory_limit=256M @APP@/current/bin/fetcher.php run --lane fast  >> @APP@/logs/cron.log 2>&1
+*/5 * * * *   @PHP@ -d memory_limit=256M @APP@/current/bin/fetcher.php run --lane heavy >> @APP@/logs/cron.log 2>&1
+*/30 * * * *  @PHP@ -d memory_limit=256M @APP@/current/bin/fetcher.php run --lane slow  >> @APP@/logs/cron.log 2>&1
+17 3 5 * *    PHP=@PHP@ CS_APP=@APP@ CS_WEB=@WEBROOT@ @APP@/current/bin/update-tiles.sh >> @APP@/logs/tiles.log 2>&1
+*/30 * * * *  @PHP@ @APP@/current/bin/fetcher.php housekeeping >> @APP@/logs/cron.log 2>&1

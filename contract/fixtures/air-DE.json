@@ -1,0 +1,849 @@
+{
+    "schema": 1,
+    "layer": "air",
+    "scope": "DE",
+    "status": "ok",
+    "source": "CAMS · Open-Meteo",
+    "sourceUrl": "https://open-meteo.com/en/docs/air-quality-api",
+    "generatedAt": "2026-09-28T14:30:00Z",
+    "updatedAt": "2026-09-28T14:00:00Z",
+    "note": {
+        "key": "layer.air.note"
+    },
+    "coverage": [
+        {
+            "key": "source.open-meteo-air.coverage",
+            "params": {
+                "count": 16
+            }
+        }
+    ],
+    "issues": [],
+    "stats": {},
+    "items": [
+        {
+            "kind": "modelValue",
+            "id": "air:de-berlin",
+            "title": "Berlin",
+            "url": "https://open-meteo.com/en/docs/air-quality-api",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 52.52,
+            "lon": 13.405,
+            "regionIds": [
+                "DE-BE"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BE",
+                    "DE-MV",
+                    "DE-NI",
+                    "DE-SN",
+                    "DE-ST",
+                    "DE-TH"
+                ]
+            },
+            "quantity": "airQualityIndex",
+            "value": 34.0,
+            "unit": "EU-AQI",
+            "summary": {
+                "key": "source.open-meteo-air.summary.aqi.fair"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm25"
+                    },
+                    "value": 8.3,
+                    "unit": "µg/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm10"
+                    },
+                    "value": 12.2,
+                    "unit": "µg/m³"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "air:de-hamburg",
+            "title": "Hamburg",
+            "url": "https://open-meteo.com/en/docs/air-quality-api",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 53.5511,
+            "lon": 9.9937,
+            "regionIds": [
+                "DE-HH"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-HB",
+                    "DE-HH",
+                    "DE-MV",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-SH",
+                    "DE-ST"
+                ]
+            },
+            "quantity": "airQualityIndex",
+            "value": 40.0,
+            "unit": "EU-AQI",
+            "summary": {
+                "key": "source.open-meteo-air.summary.aqi.fair"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm25"
+                    },
+                    "value": 15.3,
+                    "unit": "µg/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm10"
+                    },
+                    "value": 20.9,
+                    "unit": "µg/m³"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "air:de-muenchen",
+            "title": "München",
+            "url": "https://open-meteo.com/en/docs/air-quality-api",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 48.1351,
+            "lon": 11.582,
+            "regionIds": [
+                "DE-BY"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-2",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-GR",
+                    "CH-SG",
+                    "CH-TG"
+                ]
+            },
+            "quantity": "airQualityIndex",
+            "value": 41.0,
+            "unit": "EU-AQI",
+            "summary": {
+                "key": "source.open-meteo-air.summary.aqi.moderate"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm25"
+                    },
+                    "value": 8.2,
+                    "unit": "µg/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm10"
+                    },
+                    "value": 12.3,
+                    "unit": "µg/m³"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "air:de-koeln",
+            "title": "Köln",
+            "url": "https://open-meteo.com/en/docs/air-quality-api",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 50.9375,
+            "lon": 6.9603,
+            "regionIds": [
+                "DE-NW"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-SL"
+                ]
+            },
+            "quantity": "airQualityIndex",
+            "value": 30.0,
+            "unit": "EU-AQI",
+            "summary": {
+                "key": "source.open-meteo-air.summary.aqi.fair"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm25"
+                    },
+                    "value": 10.2,
+                    "unit": "µg/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm10"
+                    },
+                    "value": 16.3,
+                    "unit": "µg/m³"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "air:de-frankfurt",
+            "title": "Frankfurt",
+            "url": "https://open-meteo.com/en/docs/air-quality-api",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 50.1109,
+            "lon": 8.6821,
+            "regionIds": [
+                "DE-HE"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-SL",
+                    "DE-TH"
+                ]
+            },
+            "quantity": "airQualityIndex",
+            "value": 41.0,
+            "unit": "EU-AQI",
+            "summary": {
+                "key": "source.open-meteo-air.summary.aqi.moderate"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm25"
+                    },
+                    "value": 11.9,
+                    "unit": "µg/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm10"
+                    },
+                    "value": 17.2,
+                    "unit": "µg/m³"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "air:de-stuttgart",
+            "title": "Stuttgart",
+            "url": "https://open-meteo.com/en/docs/air-quality-api",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 48.7758,
+            "lon": 9.1829,
+            "regionIds": [
+                "DE-BW"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-HE",
+                    "DE-RP",
+                    "DE-SL",
+                    "DE-TH",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "airQualityIndex",
+            "value": 51.0,
+            "unit": "EU-AQI",
+            "summary": {
+                "key": "source.open-meteo-air.summary.aqi.moderate"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm25"
+                    },
+                    "value": 6.7,
+                    "unit": "µg/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm10"
+                    },
+                    "value": 11.5,
+                    "unit": "µg/m³"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "air:de-dresden",
+            "title": "Dresden",
+            "url": "https://open-meteo.com/en/docs/air-quality-api",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 51.0504,
+            "lon": 13.7373,
+            "regionIds": [
+                "DE-SN"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BE",
+                    "DE-BY",
+                    "DE-SN",
+                    "DE-ST",
+                    "DE-TH"
+                ]
+            },
+            "quantity": "airQualityIndex",
+            "value": 31.0,
+            "unit": "EU-AQI",
+            "summary": {
+                "key": "source.open-meteo-air.summary.aqi.fair"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm25"
+                    },
+                    "value": 8.5,
+                    "unit": "µg/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm10"
+                    },
+                    "value": 13.3,
+                    "unit": "µg/m³"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "air:de-brandenburg",
+            "title": "Modellpunkt Brandenburg",
+            "url": "https://open-meteo.com/en/docs/air-quality-api",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 52.45789,
+            "lon": 14.15975,
+            "regionIds": [
+                "DE-BB"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BE",
+                    "DE-MV",
+                    "DE-NI",
+                    "DE-SN",
+                    "DE-ST",
+                    "DE-TH"
+                ]
+            },
+            "quantity": "airQualityIndex",
+            "value": 33.0,
+            "unit": "EU-AQI",
+            "summary": {
+                "key": "source.open-meteo-air.summary.aqi.fair"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm25"
+                    },
+                    "value": 7.6,
+                    "unit": "µg/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm10"
+                    },
+                    "value": 9.8,
+                    "unit": "µg/m³"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "air:de-bremen",
+            "title": "Modellpunkt Bremen",
+            "url": "https://open-meteo.com/en/docs/air-quality-api",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 53.12027,
+            "lon": 8.80673,
+            "regionIds": [
+                "DE-HB"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-HB",
+                    "DE-HE",
+                    "DE-HH",
+                    "DE-MV",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-SH",
+                    "DE-ST"
+                ]
+            },
+            "quantity": "airQualityIndex",
+            "value": 35.0,
+            "unit": "EU-AQI",
+            "summary": {
+                "key": "source.open-meteo-air.summary.aqi.fair"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm25"
+                    },
+                    "value": 12.5,
+                    "unit": "µg/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm10"
+                    },
+                    "value": 18.5,
+                    "unit": "µg/m³"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "air:de-mecklenburg-vorpommern",
+            "title": "Modellpunkt Mecklenburg-Vorpommern",
+            "url": "https://open-meteo.com/en/docs/air-quality-api",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 53.89753,
+            "lon": 12.66011,
+            "regionIds": [
+                "DE-MV"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BE",
+                    "DE-HH",
+                    "DE-MV",
+                    "DE-NI",
+                    "DE-SH",
+                    "DE-ST"
+                ]
+            },
+            "quantity": "airQualityIndex",
+            "value": 31.0,
+            "unit": "EU-AQI",
+            "summary": {
+                "key": "source.open-meteo-air.summary.aqi.fair"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm25"
+                    },
+                    "value": 8.2,
+                    "unit": "µg/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm10"
+                    },
+                    "value": 12.4,
+                    "unit": "µg/m³"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "air:de-niedersachsen",
+            "title": "Modellpunkt Niedersachsen",
+            "url": "https://open-meteo.com/en/docs/air-quality-api",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 52.59437,
+            "lon": 8.83805,
+            "regionIds": [
+                "DE-NI"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-HB",
+                    "DE-HE",
+                    "DE-HH",
+                    "DE-MV",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-SH",
+                    "DE-ST",
+                    "DE-TH"
+                ]
+            },
+            "quantity": "airQualityIndex",
+            "value": 32.0,
+            "unit": "EU-AQI",
+            "summary": {
+                "key": "source.open-meteo-air.summary.aqi.fair"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm25"
+                    },
+                    "value": 7.9,
+                    "unit": "µg/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm10"
+                    },
+                    "value": 16.6,
+                    "unit": "µg/m³"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "air:de-rheinland-pfalz",
+            "title": "Modellpunkt Rheinland-Pfalz",
+            "url": "https://open-meteo.com/en/docs/air-quality-api",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 49.95425,
+            "lon": 7.27348,
+            "regionIds": [
+                "DE-RP"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-HE",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-SL"
+                ]
+            },
+            "quantity": "airQualityIndex",
+            "value": 37.0,
+            "unit": "EU-AQI",
+            "summary": {
+                "key": "source.open-meteo-air.summary.aqi.fair"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm25"
+                    },
+                    "value": 8.2,
+                    "unit": "µg/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm10"
+                    },
+                    "value": 11.9,
+                    "unit": "µg/m³"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "air:de-saarland",
+            "title": "Modellpunkt Saarland",
+            "url": "https://open-meteo.com/en/docs/air-quality-api",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 49.37664,
+            "lon": 6.97006,
+            "regionIds": [
+                "DE-SL"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-HE",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-SL"
+                ]
+            },
+            "quantity": "airQualityIndex",
+            "value": 36.0,
+            "unit": "EU-AQI",
+            "summary": {
+                "key": "source.open-meteo-air.summary.aqi.fair"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm25"
+                    },
+                    "value": 6.0,
+                    "unit": "µg/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm10"
+                    },
+                    "value": 11.0,
+                    "unit": "µg/m³"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "air:de-sachsen-anhalt",
+            "title": "Modellpunkt Sachsen-Anhalt",
+            "url": "https://open-meteo.com/en/docs/air-quality-api",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 51.99039,
+            "lon": 11.55876,
+            "regionIds": [
+                "DE-ST"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BE",
+                    "DE-BY",
+                    "DE-HE",
+                    "DE-HH",
+                    "DE-MV",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-SH",
+                    "DE-SN",
+                    "DE-ST",
+                    "DE-TH"
+                ]
+            },
+            "quantity": "airQualityIndex",
+            "value": 41.0,
+            "unit": "EU-AQI",
+            "summary": {
+                "key": "source.open-meteo-air.summary.aqi.moderate"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm25"
+                    },
+                    "value": 8.5,
+                    "unit": "µg/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm10"
+                    },
+                    "value": 12.7,
+                    "unit": "µg/m³"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "air:de-schleswig-holstein",
+            "title": "Modellpunkt Schleswig-Holstein",
+            "url": "https://open-meteo.com/en/docs/air-quality-api",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 54.20991,
+            "lon": 9.95874,
+            "regionIds": [
+                "DE-SH"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-HB",
+                    "DE-HH",
+                    "DE-MV",
+                    "DE-NI",
+                    "DE-SH",
+                    "DE-ST"
+                ]
+            },
+            "quantity": "airQualityIndex",
+            "value": 41.0,
+            "unit": "EU-AQI",
+            "summary": {
+                "key": "source.open-meteo-air.summary.aqi.moderate"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm25"
+                    },
+                    "value": 17.5,
+                    "unit": "µg/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm10"
+                    },
+                    "value": 22.0,
+                    "unit": "µg/m³"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "air:de-thueringen",
+            "title": "Modellpunkt Thüringen",
+            "url": "https://open-meteo.com/en/docs/air-quality-api",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 50.92712,
+            "lon": 11.31553,
+            "regionIds": [
+                "DE-TH"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-SN",
+                    "DE-ST",
+                    "DE-TH"
+                ]
+            },
+            "quantity": "airQualityIndex",
+            "value": 41.0,
+            "unit": "EU-AQI",
+            "summary": {
+                "key": "source.open-meteo-air.summary.aqi.moderate"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm25"
+                    },
+                    "value": 7.6,
+                    "unit": "µg/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm10"
+                    },
+                    "value": 11.5,
+                    "unit": "µg/m³"
+                }
+            ]
+        }
+    ]
+}

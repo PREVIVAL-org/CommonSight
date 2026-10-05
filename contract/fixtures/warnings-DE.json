@@ -1,0 +1,747 @@
+{
+    "schema": 1,
+    "layer": "warnings",
+    "scope": "DE",
+    "status": "partial",
+    "source": "BBK / NINA · Deutscher Wetterdienst",
+    "sourceUrl": "https://warnung.bund.de/",
+    "generatedAt": "2026-09-28T12:00:00Z",
+    "updatedAt": "2026-09-28T12:48:44Z",
+    "note": {
+        "key": "layer.warnings.note.DE"
+    },
+    "coverage": [],
+    "issues": [
+        {
+            "key": "issue.missingGeometry",
+            "params": {
+                "source": "DWD",
+                "count": 1
+            }
+        }
+    ],
+    "stats": {},
+    "items": [
+        {
+            "kind": "warning",
+            "id": "katwarn:kat.0f1e2d3c4b5a69788796a5b4_public_topics",
+            "title": "Großbrand in Industriegebiet – Fenster und Türen geschlossen halten",
+            "url": "https://warnung.bund.de/meldung/kat.0f1e2d3c4b5a69788796a5b4_public_topics",
+            "source": "BBK / NINA · KATWARN",
+            "time": "2026-09-28T08:00:00Z",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.7812,
+                            49.3211
+                        ],
+                        [
+                            6.8612,
+                            49.3211
+                        ],
+                        [
+                            6.8612,
+                            49.3811
+                        ],
+                        [
+                            6.7812,
+                            49.3811
+                        ],
+                        [
+                            6.7812,
+                            49.3211
+                        ]
+                    ]
+                ]
+            },
+            "regionIds": [
+                "DE-SL"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [],
+                "regionIds": []
+            },
+            "hazard": {
+                "key": "hazard.civilProtection"
+            },
+            "severity": "Severe",
+            "area": "",
+            "onset": "2026-09-28T08:00:00Z",
+            "sections": [],
+            "category": "civilProtection"
+        },
+        {
+            "kind": "warning",
+            "id": "dwd:Warnungen_Landkreise.brokengeo-1",
+            "title": "Amtliche UNWETTERWARNUNG vor SCHWEREM GEWITTER mit ORKANBÖEN",
+            "url": "https://www.dwd.de/warnungen",
+            "source": "Deutscher Wetterdienst",
+            "time": "2026-09-28T11:30:00Z",
+            "regionIds": [],
+            "regionMatch": "none",
+            "lang": "de",
+            "near": {
+                "countries": [],
+                "regionIds": []
+            },
+            "hazard": {
+                "key": "hazard.source",
+                "params": {
+                    "text": "SCHWERES GEWITTER mit ORKANBÖEN"
+                }
+            },
+            "severity": "Severe",
+            "area": "Landkreis Berchtesgadener Land",
+            "onset": "2026-09-28T12:00:00Z",
+            "expires": "2026-09-28T18:00:00Z",
+            "sections": [
+                {
+                    "heading": "description",
+                    "text": "Von Südwesten ziehen Gewitter auf."
+                }
+            ],
+            "category": "weather"
+        },
+        {
+            "kind": "warning",
+            "id": "lhp:lhp.HOCHWASSERZENTRALEN.DE.NI",
+            "title": "Hochwasserinformation für die Aller",
+            "url": "https://warnung.bund.de/meldung/lhp.HOCHWASSERZENTRALEN.DE.NI",
+            "source": "BBK / NINA · Hochwasserportal",
+            "time": "2026-09-28T08:00:00Z",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.7812,
+                            49.3211
+                        ],
+                        [
+                            6.8612,
+                            49.3211
+                        ],
+                        [
+                            6.8612,
+                            49.3811
+                        ],
+                        [
+                            6.7812,
+                            49.3811
+                        ],
+                        [
+                            6.7812,
+                            49.3211
+                        ]
+                    ]
+                ]
+            },
+            "regionIds": [
+                "DE-SL"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [],
+                "regionIds": []
+            },
+            "hazard": {
+                "key": "source.bbk-mowas.hazard.flood"
+            },
+            "severity": "Moderate",
+            "area": "",
+            "onset": "2026-09-28T08:00:00Z",
+            "sections": [],
+            "category": "flood"
+        },
+        {
+            "kind": "warning",
+            "id": "dwd:Warnungen_Landkreise.stormarn-1",
+            "title": "Amtliche WARNUNG vor STURMBÖEN",
+            "url": "https://www.wettergefahren.de",
+            "source": "Deutscher Wetterdienst",
+            "time": "2026-09-28T10:00:00Z",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            10.1511,
+                            53.6003
+                        ],
+                        [
+                            10.4876,
+                            53.6003
+                        ],
+                        [
+                            10.4876,
+                            53.8412
+                        ],
+                        [
+                            10.1511,
+                            53.8412
+                        ],
+                        [
+                            10.1511,
+                            53.6003
+                        ]
+                    ]
+                ]
+            },
+            "regionIds": [
+                "DE-SH"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [],
+                "regionIds": []
+            },
+            "hazard": {
+                "key": "hazard.source",
+                "params": {
+                    "text": "STURMBÖEN"
+                }
+            },
+            "severity": "Moderate",
+            "area": "Kreis Stormarn",
+            "onset": "2026-09-28T11:00:00Z",
+            "expires": "2026-09-28T20:00:00Z",
+            "sections": [
+                {
+                    "heading": "description",
+                    "text": "Es treten Sturmböen mit Geschwindigkeiten um 70 km/h (20m/s, 38kn, Bft 8) aus westlicher Richtung auf."
+                },
+                {
+                    "heading": "advice",
+                    "text": "ACHTUNG! Hinweis auf mögliche Gefahren: Es können zum Beispiel einzelne Äste herabstürzen."
+                }
+            ],
+            "category": "weather"
+        },
+        {
+            "kind": "warning",
+            "id": "mowas:mow.DE-SL-SLS-W038-20260904-000",
+            "title": "1. AKTUALISIERUNG: Bakteriologische Beeinträchtigung des Trinkwassers - Chlorung - Biringen, Fürweiler, Gerlfangen und Oberesch - Gde. ReSi",
+            "url": "https://warnung.bund.de/meldung/mow.DE-SL-SLS-W038-20260904-000",
+            "source": "BBK / NINA · MoWaS",
+            "time": "2026-09-04T11:05:28Z",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.7812,
+                            49.3211
+                        ],
+                        [
+                            6.8612,
+                            49.3211
+                        ],
+                        [
+                            6.8612,
+                            49.3811
+                        ],
+                        [
+                            6.7812,
+                            49.3811
+                        ],
+                        [
+                            6.7812,
+                            49.3211
+                        ]
+                    ]
+                ]
+            },
+            "regionIds": [
+                "DE-SL"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [],
+                "regionIds": []
+            },
+            "hazard": {
+                "key": "hazard.civilProtection"
+            },
+            "severity": "Minor",
+            "area": "",
+            "onset": "2026-09-04T11:05:28Z",
+            "sections": [],
+            "category": "civilProtection"
+        },
+        {
+            "kind": "warning",
+            "id": "mowas:mow.DE-BW-LB-W026-20260921-000",
+            "title": "Trinkwasserverunreinigung - Winzerhausen Holzweiler Hof",
+            "url": "https://warnung.bund.de/meldung/mow.DE-BW-LB-W026-20260921-000",
+            "source": "BBK / NINA · MoWaS",
+            "time": "2026-09-21T16:18:43Z",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.7812,
+                            49.3211
+                        ],
+                        [
+                            6.8612,
+                            49.3211
+                        ],
+                        [
+                            6.8612,
+                            49.3811
+                        ],
+                        [
+                            6.7812,
+                            49.3811
+                        ],
+                        [
+                            6.7812,
+                            49.3211
+                        ]
+                    ]
+                ]
+            },
+            "regionIds": [
+                "DE-SL"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [],
+                "regionIds": []
+            },
+            "hazard": {
+                "key": "hazard.civilProtection"
+            },
+            "severity": "Minor",
+            "area": "",
+            "onset": "2026-09-21T16:18:43Z",
+            "sections": [],
+            "category": "civilProtection"
+        },
+        {
+            "kind": "warning",
+            "id": "mowas:mow.DE-BW-KA-W138-20260925-000",
+            "title": "Verunreinigung des Trink- / Leitungswassers - Hambrücken",
+            "url": "https://warnung.bund.de/meldung/mow.DE-BW-KA-W138-20260925-000",
+            "source": "BBK / NINA · MoWaS",
+            "time": "2026-09-25T07:01:07Z",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.7812,
+                            49.3211
+                        ],
+                        [
+                            6.8612,
+                            49.3211
+                        ],
+                        [
+                            6.8612,
+                            49.3811
+                        ],
+                        [
+                            6.7812,
+                            49.3811
+                        ],
+                        [
+                            6.7812,
+                            49.3211
+                        ]
+                    ]
+                ]
+            },
+            "regionIds": [
+                "DE-SL"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [],
+                "regionIds": []
+            },
+            "hazard": {
+                "key": "hazard.civilProtection"
+            },
+            "severity": "Minor",
+            "area": "",
+            "onset": "2026-09-25T07:01:07Z",
+            "sections": [],
+            "category": "civilProtection"
+        },
+        {
+            "kind": "warning",
+            "id": "mowas:mow.DE-ST-WB-W056-20260925-001",
+            "title": "Abkochgebot für Trinkwasser nach Rohrbruch - Stadt Annaburg, Ortsteile Labrun und Prettin",
+            "url": "https://warnung.bund.de/meldung/mow.DE-ST-WB-W056-20260925-001",
+            "source": "BBK / NINA · MoWaS",
+            "time": "2026-09-25T11:46:47Z",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.7812,
+                            49.3211
+                        ],
+                        [
+                            6.8612,
+                            49.3211
+                        ],
+                        [
+                            6.8612,
+                            49.3811
+                        ],
+                        [
+                            6.7812,
+                            49.3811
+                        ],
+                        [
+                            6.7812,
+                            49.3211
+                        ]
+                    ]
+                ]
+            },
+            "regionIds": [
+                "DE-SL"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [],
+                "regionIds": []
+            },
+            "hazard": {
+                "key": "hazard.civilProtection"
+            },
+            "severity": "Minor",
+            "area": "",
+            "onset": "2026-09-25T11:46:47Z",
+            "sections": [],
+            "category": "civilProtection"
+        },
+        {
+            "kind": "warning",
+            "id": "mowas:mow.DE-BB-P-SE082-20260925-82-000",
+            "title": "Kampfmittelfund bei Groß Glienicke - Potsdam - Groß Glienicke",
+            "url": "https://warnung.bund.de/meldung/mow.DE-BB-P-SE082-20260925-82-000",
+            "source": "BBK / NINA · MoWaS",
+            "time": "2026-09-25T12:44:49Z",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.7812,
+                            49.3211
+                        ],
+                        [
+                            6.8612,
+                            49.3211
+                        ],
+                        [
+                            6.8612,
+                            49.3811
+                        ],
+                        [
+                            6.7812,
+                            49.3811
+                        ],
+                        [
+                            6.7812,
+                            49.3211
+                        ]
+                    ]
+                ]
+            },
+            "regionIds": [
+                "DE-SL"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [],
+                "regionIds": []
+            },
+            "hazard": {
+                "key": "hazard.civilProtection"
+            },
+            "severity": "Minor",
+            "area": "",
+            "onset": "2026-09-25T12:44:49Z",
+            "sections": [],
+            "category": "civilProtection"
+        },
+        {
+            "kind": "warning",
+            "id": "mowas:mow.DE-TH-G-W109-20260926-000",
+            "title": "Versorgungsunterbrechung Gas - Stadt Greiz",
+            "url": "https://warnung.bund.de/meldung/mow.DE-TH-G-W109-20260926-000",
+            "source": "BBK / NINA · MoWaS",
+            "time": "2026-09-26T11:08:00Z",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.7812,
+                            49.3211
+                        ],
+                        [
+                            6.8612,
+                            49.3211
+                        ],
+                        [
+                            6.8612,
+                            49.3811
+                        ],
+                        [
+                            6.7812,
+                            49.3811
+                        ],
+                        [
+                            6.7812,
+                            49.3211
+                        ]
+                    ]
+                ]
+            },
+            "regionIds": [
+                "DE-SL"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [],
+                "regionIds": []
+            },
+            "hazard": {
+                "key": "hazard.civilProtection"
+            },
+            "severity": "Minor",
+            "area": "",
+            "onset": "2026-09-26T11:08:00Z",
+            "sections": [],
+            "category": "civilProtection"
+        },
+        {
+            "kind": "warning",
+            "id": "mowas:mow.DE-HE-WI-W097-20260926-000",
+            "title": "Vorsorgliches Abkochgebot für Trinkwasser in Teilen Wiesbadens - Wiesbaden-Mitte (Teile), Wiesbaden-Nordost (Teile)",
+            "url": "https://warnung.bund.de/meldung/mow.DE-HE-WI-W097-20260926-000",
+            "source": "BBK / NINA · MoWaS",
+            "time": "2026-09-26T12:54:01Z",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.7812,
+                            49.3211
+                        ],
+                        [
+                            6.8612,
+                            49.3211
+                        ],
+                        [
+                            6.8612,
+                            49.3811
+                        ],
+                        [
+                            6.7812,
+                            49.3811
+                        ],
+                        [
+                            6.7812,
+                            49.3211
+                        ]
+                    ]
+                ]
+            },
+            "regionIds": [
+                "DE-SL"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [],
+                "regionIds": []
+            },
+            "hazard": {
+                "key": "hazard.civilProtection"
+            },
+            "severity": "Minor",
+            "area": "",
+            "onset": "2026-09-26T12:54:01Z",
+            "sections": [],
+            "category": "civilProtection"
+        },
+        {
+            "kind": "warning",
+            "id": "mowas:mow.DE-NW-HAM-SE085-20260928-85-001",
+            "title": "Belästigung durch Rauchgase in der Stadt Hamm - Hamm- Innenstadt",
+            "url": "https://warnung.bund.de/meldung/mow.DE-NW-HAM-SE085-20260928-85-001",
+            "source": "BBK / NINA · MoWaS",
+            "time": "2026-09-28T12:17:54Z",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.7812,
+                            49.3211
+                        ],
+                        [
+                            6.8612,
+                            49.3211
+                        ],
+                        [
+                            6.8612,
+                            49.3811
+                        ],
+                        [
+                            6.7812,
+                            49.3811
+                        ],
+                        [
+                            6.7812,
+                            49.3211
+                        ]
+                    ]
+                ]
+            },
+            "regionIds": [
+                "DE-SL"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [],
+                "regionIds": []
+            },
+            "hazard": {
+                "key": "hazard.civilProtection"
+            },
+            "severity": "Minor",
+            "area": "",
+            "onset": "2026-09-28T12:17:54Z",
+            "sections": [],
+            "category": "civilProtection"
+        },
+        {
+            "kind": "warning",
+            "id": "mowas:mow.DE-BY-BA-W140-20260928-000",
+            "title": "Trinkwasserverunreinigung - Abkochgebot für Gemeindeteil Geisfeld in Strullendorf - Geisfeld (Strullendorf)",
+            "url": "https://warnung.bund.de/meldung/mow.DE-BY-BA-W140-20260928-000",
+            "source": "BBK / NINA · MoWaS",
+            "time": "2026-09-28T12:46:06Z",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.7812,
+                            49.3211
+                        ],
+                        [
+                            6.8612,
+                            49.3211
+                        ],
+                        [
+                            6.8612,
+                            49.3811
+                        ],
+                        [
+                            6.7812,
+                            49.3811
+                        ],
+                        [
+                            6.7812,
+                            49.3211
+                        ]
+                    ]
+                ]
+            },
+            "regionIds": [
+                "DE-SL"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [],
+                "regionIds": []
+            },
+            "hazard": {
+                "key": "hazard.civilProtection"
+            },
+            "severity": "Minor",
+            "area": "",
+            "onset": "2026-09-28T12:46:06Z",
+            "sections": [],
+            "category": "civilProtection"
+        },
+        {
+            "kind": "warning",
+            "id": "mowas:mow.DE-BY-BA-W140-20260928-001",
+            "title": "Trinkwasserverunreinigung - Abkochgebot für Zapfendorf und Unterleiterbach - Zapfendorf, Unterleiterbach",
+            "url": "https://warnung.bund.de/meldung/mow.DE-BY-BA-W140-20260928-001",
+            "source": "BBK / NINA · MoWaS",
+            "time": "2026-09-28T12:48:44Z",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.7812,
+                            49.3211
+                        ],
+                        [
+                            6.8612,
+                            49.3211
+                        ],
+                        [
+                            6.8612,
+                            49.3811
+                        ],
+                        [
+                            6.7812,
+                            49.3811
+                        ],
+                        [
+                            6.7812,
+                            49.3211
+                        ]
+                    ]
+                ]
+            },
+            "regionIds": [
+                "DE-SL"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [],
+                "regionIds": []
+            },
+            "hazard": {
+                "key": "hazard.civilProtection"
+            },
+            "severity": "Minor",
+            "area": "",
+            "onset": "2026-09-28T12:48:44Z",
+            "sections": [],
+            "category": "civilProtection"
+        }
+    ]
+}

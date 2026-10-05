@@ -1,0 +1,14 @@
+{
+  "layer.radiation.name": "Strahlung",
+  "layer.radiation.legend.title": "Strahlung",
+  "layer.radiation.legend.scale": "orange ab {elevated} µSv/h, rot ab {high} µSv/h; unterhalb der ersten Schwelle ocker; grau, wenn der letzte Wert älter als {maxAgeHours} Stunden ist. Das sind konfigurierbare Darstellungsschwellen, keine amtlichen Alarmstufen oder gesundheitlichen Grenzwerte. Natürlicher Untergrund und Regen können höhere Werte verursachen.",
+  "layer.radiation.legend.pending": "Darstellungsschwellen werden mit den Messdaten geladen.",
+  "layer.radiation.note": "Gemessene Gamma-Ortsdosisleistung. Natürliche Strahlung ist orts- und wetterabhängig. Die Farben sind Darstellungsschwellen (orange ab {elevated} µSv/h, rot ab {high} µSv/h), keine amtlichen Alarmstufen. Regen und lokale Besonderheiten können erhöhte Werte verursachen. Grau: keine aktuelle Bewertung.",
+  "layer.radiation.tile.title": "Strahlung",
+  "layer.radiation.tile.olderValue": "älterer Wert",
+  "layer.radiation.assessment.normal": "ODL unter Darstellungsschwelle",
+  "layer.radiation.assessment.elevated": "ODL: erste Darstellungsschwelle erreicht",
+  "layer.radiation.assessment.high": "ODL: zweite Darstellungsschwelle erreicht",
+  "layer.radiation.assessment.basis": "Darstellung: orange ab {elevated} µSv/h, rot ab {high} µSv/h. Keine amtliche Alarmstufe oder gesundheitliche Bewertung. Natürlicher Untergrund, Wetter und Messstörungen können den Wert beeinflussen.",
+  "layer.radiation.assessment.invalid": "ODL-Wert oder Einheit kann nicht sicher eingeordnet werden."
+}

@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://commonsight.org/schema/v1/status.schema.json",
+  "title": "StatusResponse",
+  "description": "Response of the status endpoint (Architecture 6.2): state of all layers of a country and of the global layers, plus the layers of the border zone.",
+  "type": "object",
+  "properties": {
+    "schema": { "const": 1 },
+    "serverTime": { "$ref": "common.schema.json#/$defs/utcInstant" },
+    "scope": { "$ref": "common.schema.json#/$defs/country" },
+    "vicinityKm": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "description": "radius (\"Umkreis\") around the selected country or region within which items count as its vicinity, in km (config.php vicinityKm, ADR 0038); missing in answers of older releases"
+    },
+    "layers": {
+      "type": "object",
+      "propertyNames": { "$ref": "common.schema.json#/$defs/layerId" },
+      "additionalProperties": { "$ref": "#/$defs/layerStatus" }
+    },
+    "border": {
+      "description": "layers with data from the border zone beyond DACH (scope border), the same in every country",
+      "type": "object",
+      "propertyNames": { "$ref": "common.schema.json#/$defs/layerId" },
+      "additionalProperties": { "$ref": "#/$defs/layerStatus" }
+    }
+  },
+  "required": ["schema", "serverTime", "scope", "layers"],
+  "additionalProperties": false,
+  "$defs": {
+    "layerStatus": {
+      "title": "LayerStatus",
+      "type": "object",
+      "properties": {
+        "scope": { "$ref": "common.schema.json#/$defs/scope" },
+        "status": {
+          "description": "pending = no snapshot available yet (A-04)",
+          "type": "string",
+          "enum": ["ok", "partial", "error", "setup", "pending"]
+        },
+        "version": { "type": ["string", "null"], "pattern": "^[0-9a-f]{8}$" },
+        "url": { "type": ["string", "null"], "description": "relative to the base URL, e.g. data/v1/AT/warnings.3f9a1c2e.json" },
+        "checkedAt": { "oneOf": [{ "$ref": "common.schema.json#/$defs/utcInstant" }, { "type": "null" }] },
+        "generatedAt": { "oneOf": [{ "$ref": "common.schema.json#/$defs/utcInstant" }, { "type": "null" }] },
+        "sourceUpdatedAt": { "oneOf": [{ "$ref": "common.schema.json#/$defs/utcInstant" }, { "type": "null" }] },
+        "itemCount": { "type": "integer", "minimum": 0 },
+        "issues": { "type": "array", "items": { "$ref": "msg.schema.json" } },
+        "stale": { "type": "boolean" },
+        "intervalSec": { "type": "integer", "minimum": 1 },
+        "lastError": {
+          "description": "last failed attempt since the last success (D-05)",
+          "oneOf": [
+            {
+              "type": "object",
+              "properties": {
+                "at": { "$ref": "common.schema.json#/$defs/utcInstant" },
+                "message": { "$ref": "msg.schema.json" }
+              },
+              "required": ["at", "message"],
+              "additionalProperties": false
+            },
+            { "type": "null" }
+          ]
+        }
+      },
+      "required": ["scope", "status", "version", "url", "checkedAt", "generatedAt", "sourceUpdatedAt", "itemCount", "issues", "stale", "intervalSec", "lastError"],
+      "additionalProperties": false
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+    "recordedAt": "2026-10-02T15:30:00Z",
+    "requests": [
+        {
+            "signature": "GET https://hubeau.eaufrance.fr/api/v2/hydrometrie/observations_tr?bbox=1.627%2C43.202%2C8.197%2C44.742&grandeur_hydro=H&date_debut_obs=2026-10-02T13%3A30%3A00Z&size=20000&fields=code_station%2Cdate_obs%2Cresultat_obs",
+            "status": 200,
+            "headers": {},
+            "file": "001.json"
+        },
+        {
+            "signature": "GET https://hubeau.eaufrance.fr/api/v2/hydrometrie/observations_tr?bbox=1.627%2C44.742%2C8.197%2C46.281&grandeur_hydro=H&date_debut_obs=2026-10-02T13%3A30%3A00Z&size=20000&fields=code_station%2Cdate_obs%2Cresultat_obs",
+            "status": 200,
+            "headers": {},
+            "file": "001.json"
+        },
+        {
+            "signature": "GET https://hubeau.eaufrance.fr/api/v2/hydrometrie/observations_tr?bbox=1.627%2C46.281%2C8.197%2C47.820&grandeur_hydro=H&date_debut_obs=2026-10-02T13%3A30%3A00Z&size=20000&fields=code_station%2Cdate_obs%2Cresultat_obs",
+            "status": 200,
+            "headers": {},
+            "file": "001.json"
+        },
+        {
+            "signature": "GET https://hubeau.eaufrance.fr/api/v2/hydrometrie/observations_tr?bbox=1.627%2C47.820%2C8.197%2C49.359&grandeur_hydro=H&date_debut_obs=2026-10-02T13%3A30%3A00Z&size=20000&fields=code_station%2Cdate_obs%2Cresultat_obs",
+            "status": 200,
+            "headers": {},
+            "file": "001.json"
+        },
+        {
+            "signature": "GET https://hubeau.eaufrance.fr/api/v2/hydrometrie/observations_tr?bbox=1.627%2C49.359%2C8.197%2C50.899&grandeur_hydro=H&date_debut_obs=2026-10-02T13%3A30%3A00Z&size=20000&fields=code_station%2Cdate_obs%2Cresultat_obs",
+            "status": 200,
+            "headers": {},
+            "file": "001.json"
+        }
+    ]
+}

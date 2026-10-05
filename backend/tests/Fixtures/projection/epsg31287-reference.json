@@ -1,0 +1,91 @@
+{
+  "description": "Reference points EPSG:31287 → WGS84, generated with proj4js (tools/projection/reference.mjs). Tolerance 0.5 m.",
+  "definition": "+proj=lcc +lat_0=47.5 +lon_0=13.3333333333333 +lat_1=49 +lat_2=46 +x_0=400000 +y_0=400000 +ellps=bessel +towgs84=577.326,90.129,463.919,5.137,1.474,5.297,2.4232 +units=m +no_defs",
+  "generatedWith": "proj4js 2.22.0",
+  "cases": [
+    {
+      "name": "Wien Stephansdom",
+      "easting": 625890.894,
+      "northing": 483218.196,
+      "lon": 16.37338,
+      "lat": 48.20849
+    },
+    {
+      "name": "Graz Schlossberg",
+      "easting": 559791.013,
+      "northing": 355094.583,
+      "lon": 15.43748,
+      "lat": 47.07603
+    },
+    {
+      "name": "Linz Hauptplatz",
+      "easting": 470698.789,
+      "northing": 490121.876,
+      "lon": 14.28583,
+      "lat": 48.30639
+    },
+    {
+      "name": "Salzburg Dom",
+      "easting": 378576.041,
+      "northing": 433182.969,
+      "lon": 13.04651,
+      "lat": 47.79767
+    },
+    {
+      "name": "Innsbruck Goldenes Dachl",
+      "easting": 253310.418,
+      "northing": 376177.88,
+      "lon": 11.39333,
+      "lat": 47.26861
+    },
+    {
+      "name": "Bregenz Hafen",
+      "easting": 129696.005,
+      "northing": 406847.282,
+      "lon": 9.74216,
+      "lat": 47.50478
+    },
+    {
+      "name": "Klagenfurt Lindwurm",
+      "easting": 474728.263,
+      "northing": 303224.61,
+      "lon": 14.30862,
+      "lat": 46.62453
+    },
+    {
+      "name": "Eisenstadt Schloss",
+      "easting": 638280.091,
+      "northing": 443622.992,
+      "lon": 16.51816,
+      "lat": 47.84811
+    },
+    {
+      "name": "St. Pölten town hall",
+      "easting": 570188.873,
+      "northing": 480845.314,
+      "lon": 15.62311,
+      "lat": 48.20432
+    },
+    {
+      "name": "Großglockner",
+      "easting": 351514.331,
+      "northing": 352977.787,
+      "lon": 12.69403,
+      "lat": 47.07458
+    },
+    {
+      "name": "Gmünd, northern edge",
+      "easting": 521083.977,
+      "northing": 542514.408,
+      "lon": 14.98,
+      "lat": 48.77
+    },
+    {
+      "name": "Bad Radkersburg, south-eastern edge",
+      "easting": 603186.125,
+      "northing": 313500.436,
+      "lon": 15.99,
+      "lat": 46.69
+    }
+  ]
+}

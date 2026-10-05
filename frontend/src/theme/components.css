@@ -1,0 +1,935 @@
+/*
+ * Building blocks: panels, buttons, inputs, switches, layer list, map, legends, key figures, news, lists,
+ * detail sheet, toasts.
+ */
+.panel {
+  border: 1px solid var(--_border);
+  border-radius: var(--_radius-lg);
+  background: var(--_surface);
+  box-shadow: var(--_shadow);
+}
+
+.panel-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--_space-2);
+  padding: var(--_space-3) var(--_space-4);
+  border-bottom: 1px solid var(--_border);
+  background: var(--_surface-subtle);
+  border-radius: var(--_radius-lg) var(--_radius-lg) 0 0;
+}
+
+.panel-title {
+  margin: 0;
+  color: var(--_text-strong);
+  font-size: var(--_font-size-lg);
+  font-weight: var(--_font-weight-strong);
+}
+
+.panel-body {
+  padding: var(--_space-3) var(--_space-4);
+}
+
+.muted {
+  color: var(--_text-muted);
+  font-size: var(--_font-size-sm);
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--_space-2);
+  min-height: 36px;
+  padding: var(--_space-1) var(--_space-3);
+  border: 1px solid var(--_button-border);
+  border-radius: var(--_radius);
+  background: var(--_button-bg);
+  color: var(--_button-text);
+  font: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: var(--_button-hover);
+}
+
+.button:disabled {
+  cursor: default;
+  opacity: 0.65;
+}
+
+.button-link {
+  min-height: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--_link);
+  text-decoration: underline;
+}
+
+.button-link:hover {
+  background: none;
+  color: var(--_link-hover);
+}
+
+.input,
+.select {
+  min-height: 36px;
+  padding: var(--_space-1) var(--_space-3);
+  border: 1px solid var(--_input-border);
+  border-radius: var(--_radius);
+  background: var(--_input-bg);
+  color: var(--_input-text);
+  font: inherit;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: var(--_space-1);
+  font-size: var(--_font-size-sm);
+  color: var(--_text-muted);
+}
+
+.switch {
+  position: relative;
+  flex: 0 0 auto;
+  width: 38px;
+  height: 22px;
+  /* No browser padding of the button, otherwise the thumb is offset to the right. */
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  background: var(--_switch-off);
+  cursor: pointer;
+}
+
+.switch[data-state='checked'] {
+  background: var(--_switch-on);
+}
+
+/* Off: 2 px from the left edge; on: 2 px from the right edge (38 - 18 - 2 * 2 = 16 px travel). */
+.switch-thumb {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  display: block;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 0.3);
+  transition: transform 120ms ease;
+}
+
+.switch-thumb[data-state='checked'] {
+  transform: translateX(16px);
+}
+
+/* Status badges of the layers (U-31) */
+.status {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--_space-1);
+  padding: 1px var(--_space-2);
+  border-radius: 999px;
+  font-size: var(--_font-size-sm);
+  white-space: nowrap;
+}
+
+.status[data-availability='ok'] {
+  background: var(--_ok-bg);
+  color: var(--_ok);
+}
+
+.status[data-availability='partial'],
+.status[data-availability='setup'] {
+  background: var(--_warn-bg);
+  color: var(--_warn);
+}
+
+.status[data-availability='error'] {
+  background: var(--_error-bg);
+  color: var(--_error);
+}
+
+.status[data-availability='loading'],
+.status[data-availability='pending'] {
+  background: var(--_surface-subtle);
+  color: var(--_text-muted);
+}
+
+/* Layer list (U-20 to U-22) */
+.layer-list {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Layers without a map (space weather) set apart below the map layers. */
+.layer-list-other {
+  margin-top: var(--_space-3);
+  border-top: 2px solid var(--_border-strong);
+  background: var(--_surface-subtle);
+}
+
+.layer-list-other .icon-button {
+  width: 38px;
+  height: 32px;
+}
+
+.layer-row {
+  display: flex;
+  align-items: center;
+  gap: var(--_space-2);
+  min-height: 60px;
+  padding: var(--_space-3) var(--_space-4);
+  border-bottom: 1px solid var(--_border);
+}
+
+.layer-row[data-active='true'] {
+  background: var(--_accent-subtle);
+}
+
+.layer-icon {
+  display: inline-grid;
+  place-items: center;
+  flex: 0 0 auto;
+  width: 28px;
+  height: 28px;
+  border-radius: var(--_radius);
+  background: color-mix(in srgb, var(--layer-color) 16%, transparent);
+  color: var(--layer-color);
+}
+
+.layer-label {
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+  min-width: 0;
+  cursor: pointer;
+}
+
+/* Long names wrap (e.g. "Amtliche / Warnungen") instead of being truncated. */
+.layer-name {
+  color: var(--_text-strong);
+  font-weight: var(--_font-weight-strong);
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+}
+
+/* Status indicator per layer (U-20, T-08) */
+.status-indicator {
+  display: inline-grid;
+  flex: 0 0 auto;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  color: var(--_text-muted);
+  cursor: help;
+}
+
+.status-indicator[data-availability='ok'] {
+  color: var(--_ok);
+}
+
+.status-indicator[data-availability='partial'],
+.status-indicator[data-availability='setup'] {
+  color: var(--_warn);
+}
+
+.status-indicator[data-availability='error'] {
+  color: var(--_error);
+}
+
+.layer-foot {
+  display: flex;
+  flex-direction: column;
+  gap: var(--_space-2);
+  padding: var(--_space-3) var(--_space-4);
+}
+
+.source-status {
+  margin: 0;
+}
+
+/* Map (K-01 to K-14) */
+.map-panel {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Fills the height of the map area; the legend sits below it. */
+.map-stage {
+  position: relative;
+  flex: 1 1 auto;
+  min-height: 0;
+  background: var(--_map-mask);
+}
+
+.map-canvas-slot,
+.map-canvas-slot > div {
+  position: absolute;
+  inset: 0;
+}
+
+:host(:fullscreen) .map-panel {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  border-radius: 0;
+}
+
+:host(:fullscreen) .map-stage {
+  height: 100%;
+}
+
+.map-overlay {
+  position: absolute;
+  z-index: 3;
+}
+
+.map-notice {
+  top: var(--_space-3);
+  left: 50%;
+  display: flex;
+  align-items: center;
+  gap: var(--_space-2);
+  max-width: min(560px, calc(100% - 140px));
+  padding: var(--_space-1) var(--_space-2) var(--_space-1) var(--_space-3);
+  border: 1px solid var(--_border);
+  border-radius: 999px;
+  background: var(--_surface-raised);
+  box-shadow: var(--_shadow-raised);
+  transform: translateX(-50%);
+  font-size: var(--_font-size-sm);
+}
+
+.map-notice[data-tone='warn'] {
+  border-color: #fa9966;
+}
+
+.map-notice[data-tone='error'] {
+  border-color: var(--_error);
+  color: var(--_error);
+}
+
+.map-notice-text {
+  min-width: 0;
+}
+
+/*
+ * Like the layers' "teilweise verfügbar" (partially available) indicator: 16 px, warning color; does not
+ * shrink with long text.
+ */
+.map-notice-icon {
+  flex: 0 0 auto;
+}
+
+.map-notice[data-tone='warn'] .map-notice-icon {
+  color: var(--_warn);
+}
+
+.map-notice-text .button-link,
+.legend .button-link {
+  display: inline;
+  font-size: inherit;
+  font-weight: var(--_font-weight-strong);
+  vertical-align: baseline;
+}
+
+.map-tools {
+  top: var(--_space-3);
+  left: var(--_space-3);
+  display: flex;
+  flex-direction: column;
+  gap: var(--_space-1);
+}
+
+.map-tools .icon-button {
+  background: var(--_surface-raised);
+  box-shadow: var(--_shadow);
+}
+
+.map-message {
+  inset: auto var(--_space-3) var(--_space-6) var(--_space-3);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--_space-2);
+  padding: var(--_space-2) var(--_space-3);
+  border-radius: var(--_radius);
+  background: var(--_surface-raised);
+  box-shadow: var(--_shadow-raised);
+  text-align: center;
+}
+
+.map-message[data-tone='error'] {
+  color: var(--_error);
+}
+
+/* Left the number of active layers, right the link "Legende". */
+.legend {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--_space-3);
+  padding: var(--_space-2) var(--_space-4);
+  border-top: 1px solid var(--_border);
+  background: var(--_surface-subtle);
+  font-size: var(--_font-size-sm);
+}
+
+.legend-info {
+  display: flex;
+  align-items: center;
+  gap: var(--_space-3);
+  min-width: 0;
+}
+
+/* Automatic update (U-50 to U-54): text and icon shape tell the state (arrows, crossed-out Wi-Fi, warning sign),
+   always in the secondary text color (contrast ≥ 7:1). Fixed-width digits so that the countdown does not jitter. */
+.live {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--_space-1);
+  color: var(--_text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.live svg {
+  flex: none;
+}
+
+/* One full turn at every fetch (the icon is created anew per fetch); as long as the fetch runs it keeps turning.
+   Switched off with reduced motion (layout.css). */
+.live-icon {
+  animation: live-spin 1s ease-in-out;
+}
+
+.live[data-state='syncing'] .live-icon {
+  animation: live-spin 1s linear infinite;
+}
+
+@keyframes live-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Narrow screens: icon and seconds only ("42 s"); the full text stays for screen readers. */
+.live-short {
+  display: none;
+}
+
+@media (max-width: 860px) {
+  .live-short {
+    display: inline;
+  }
+
+  .live-text {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+}
+
+/* Meaning of the measuring point colors (U-25): swatches look like the points on the map. */
+.legend-swatches {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--_space-2) var(--_space-4);
+  margin: 0;
+}
+
+.legend-swatches > span {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--_space-1);
+}
+
+.swatch {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  background: var(--swatch-color);
+  box-shadow: 0 0 0 1px var(--_border-strong);
+}
+
+/* Grey points are drawn hollow and semi-transparent on the map. */
+.swatch[data-hollow='true'] {
+  border-color: var(--swatch-color);
+  background: transparent;
+  box-shadow: none;
+}
+
+.color-legend p {
+  margin: 0;
+}
+
+/* Map tooltip (MapLibre popup) */
+.cs-tooltip .maplibregl-popup-content {
+  padding: var(--_space-2) var(--_space-3);
+  border: 1px solid var(--_border);
+  border-radius: var(--_radius);
+  background: var(--_surface-raised);
+  color: var(--_text);
+  box-shadow: var(--_shadow-raised);
+  font-family: var(--_font-family);
+  font-size: var(--_font-size-sm);
+  line-height: 1.4;
+}
+
+.cs-tooltip .maplibregl-popup-tip {
+  display: none;
+}
+
+.cs-tooltip-title {
+  color: var(--_text-strong);
+  font-weight: var(--_font-weight-strong);
+}
+
+.cs-tooltip-meta {
+  margin-top: var(--_space-1);
+  color: var(--_text-muted);
+}
+
+.maplibregl-ctrl-attrib {
+  font-size: 11px;
+}
+
+/* Map credits in the colors of the theme; MapLibre's own are a white box with dark links, also in dark mode (K-13). */
+.maplibregl-ctrl.maplibregl-ctrl-attrib {
+  background: color-mix(in srgb, var(--_surface) 88%, transparent);
+  color: var(--_text);
+}
+
+.maplibregl-ctrl-attrib a {
+  color: var(--_link);
+}
+
+.root[data-theme='dark'] .maplibregl-ctrl-attrib-button {
+  filter: invert(1);
+}
+
+/* Key figures (U-27) */
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--_space-3);
+  padding: var(--_space-3) var(--_space-4) var(--_space-4);
+}
+
+.metric {
+  display: flex;
+  flex-direction: column;
+  gap: var(--_space-1);
+  padding: var(--_space-3);
+  border: 1px solid var(--_border);
+  border-radius: var(--_radius);
+  background: var(--_surface);
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.metric:hover {
+  background: var(--_hover);
+}
+
+.metric[data-highlight='true'] {
+  border-color: #f97316;
+}
+
+.metric-title {
+  color: var(--_text-muted);
+  font-size: var(--_font-size-sm);
+  font-weight: var(--_font-weight-strong);
+}
+
+.metric-value {
+  color: var(--_text-strong);
+  font-size: var(--_font-size-xl);
+  font-weight: var(--_font-weight-strong);
+  line-height: 1.2;
+}
+
+.metric-hint {
+  align-self: flex-start;
+  padding: 0 var(--_space-2);
+  border-radius: 999px;
+  background: var(--_warn-bg);
+  color: var(--_warn);
+  font-size: var(--_font-size-sm);
+}
+
+/* News (U-26) */
+.select.topic-filter {
+  min-width: 0;
+}
+
+.news-list {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  gap: var(--_space-2);
+  min-height: 0;
+  margin: 0;
+  padding: var(--_space-3) var(--_space-4);
+  overflow-y: auto;
+  list-style: none;
+}
+
+.placeholder {
+  height: 64px;
+  border-radius: var(--_radius);
+  background: linear-gradient(90deg, var(--_surface-subtle), var(--_hover), var(--_surface-subtle));
+  background-size: 200% 100%;
+  animation: cs-shimmer 1.4s ease infinite;
+}
+
+@keyframes cs-shimmer {
+  to {
+    background-position: -200% 0;
+  }
+}
+
+/* Like the map legend (.legend) so that the bottom edges look the same side by side. */
+.panel-foot {
+  padding: var(--_space-2) var(--_space-4);
+  border-top: 1px solid var(--_border);
+  background: var(--_surface-subtle);
+  color: var(--_text-muted);
+  font-size: var(--_font-size-sm);
+  border-radius: 0 0 var(--_radius-lg) var(--_radius-lg);
+}
+
+/* List views (U-30 to U-36) */
+.list-view {
+  display: flex;
+  flex-direction: column;
+  gap: var(--_space-3);
+}
+
+/* Section "Grenzgebiet" (border area): items beyond the border, set apart from the DACH items. */
+.border-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--_space-2);
+  margin-top: var(--_space-3);
+  padding-top: var(--_space-4);
+  border-top: 1px solid var(--_border);
+}
+
+.border-section h3 {
+  margin: 0;
+  color: var(--_text-strong);
+  font-size: var(--_font-size-lg);
+  font-weight: var(--_font-weight-strong);
+}
+
+.border-section p {
+  margin: 0;
+}
+
+.list-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: var(--_space-3);
+  padding: var(--_space-3) var(--_space-4);
+}
+
+.list-controls .field:nth-child(2) {
+  flex: 1 1 240px;
+}
+
+.segmented {
+  display: inline-flex;
+  border: 1px solid var(--_button-border);
+  border-radius: var(--_radius);
+  overflow: hidden;
+}
+
+.segmented button {
+  padding: var(--_space-1) var(--_space-3);
+  border: 0;
+  background: var(--_button-bg);
+  color: var(--_button-text);
+  font: inherit;
+  cursor: pointer;
+}
+
+/* Like the active tab: in dark mode the accent is too light for white text. */
+.segmented button[aria-pressed='true'] {
+  background: var(--_tab-active);
+  color: var(--_tab-active-text);
+}
+
+.status-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--_space-2) var(--_space-3);
+  padding: var(--_space-2) var(--_space-4);
+  font-size: var(--_font-size-sm);
+}
+
+.notice {
+  padding: var(--_space-2) var(--_space-3);
+  border-radius: var(--_radius);
+  background: var(--_warn-bg);
+  color: var(--_warn);
+  font-size: var(--_font-size-sm);
+}
+
+.notice[data-tone='error'] {
+  background: var(--_error-bg);
+  color: var(--_error);
+}
+
+.notice[data-tone='info'] {
+  background: var(--_surface-subtle);
+  color: var(--_text-muted);
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: var(--_space-3);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.empty {
+  display: flex;
+  flex-direction: column;
+  gap: var(--_space-2);
+  align-items: flex-start;
+  padding: var(--_space-5);
+  border: 1px dashed var(--_border-strong);
+  border-radius: var(--_radius-lg);
+  background: var(--_surface);
+}
+
+.empty-title {
+  margin: 0;
+  color: var(--_text-strong);
+  font-size: var(--_font-size-lg);
+  font-weight: var(--_font-weight-strong);
+}
+
+.layer-note {
+  margin: 0;
+  color: var(--_text-muted);
+  font-size: var(--_font-size-sm);
+}
+
+.table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--_border);
+  border-radius: var(--_radius-lg);
+  background: var(--_surface);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--_font-size-sm);
+}
+
+.table th,
+.table td {
+  padding: var(--_space-2) var(--_space-3);
+  border-bottom: 1px solid var(--_border);
+  text-align: left;
+  vertical-align: top;
+}
+
+.table th {
+  background: var(--_surface-subtle);
+  color: var(--_text-strong);
+  font-weight: var(--_font-weight-strong);
+}
+
+/* Detail sheet (U-40 to U-44) */
+.sheet-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  background: var(--_overlay);
+}
+
+.sheet {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 61;
+  display: flex;
+  flex-direction: column;
+  width: min(580px, 100vw);
+  background: var(--_surface-raised);
+  color: var(--_text);
+  box-shadow: var(--_shadow-raised);
+  font-family: var(--_font-family);
+  font-size: var(--_font-size);
+  line-height: var(--_line-height);
+}
+
+.sheet-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--_space-3);
+  padding: var(--_space-4);
+  border-bottom: 1px solid var(--_border);
+}
+
+/* The announced part of the status line keeps the line's own layout. */
+/* A real box, not display: contents: some browsers drop such elements from the accessibility tree, and the live
+   region would stay silent. Wraps like the status line around it. */
+.status-line-live {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: inherit;
+}
+
+.sheet-title {
+  margin: 0;
+  color: var(--_text-strong);
+  font-size: var(--_font-size-xl);
+  font-weight: var(--_font-weight-strong);
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+}
+
+/* The title column may shrink, so a long title wraps and the close button stays in view. */
+.sheet-head > :first-child {
+  min-width: 0;
+}
+
+.sheet-subtitle {
+  margin: var(--_space-1) 0 0;
+  color: var(--_text-muted);
+  font-size: var(--_font-size-sm);
+}
+
+.sheet-body {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  gap: var(--_space-4);
+  padding: var(--_space-4);
+  overflow-y: auto;
+}
+
+.sheet-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--_space-2);
+}
+
+.sheet-section h3 {
+  margin: 0;
+  color: var(--_text-strong);
+  font-size: var(--_font-size-lg);
+}
+
+.source-row {
+  display: flex;
+  flex-direction: column;
+  gap: var(--_space-1);
+  padding: var(--_space-3);
+  border: 1px solid var(--_border);
+  border-radius: var(--_radius);
+}
+
+.source-row-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--_space-2);
+}
+
+.link-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--_space-1);
+  margin: 0;
+  padding-left: var(--_space-4);
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--_space-3);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Toasts (U-05) */
+.toasts {
+  position: fixed;
+  right: var(--_space-4);
+  bottom: var(--_space-4);
+  z-index: 70;
+  display: flex;
+  flex-direction: column;
+  gap: var(--_space-2);
+  max-width: min(360px, calc(100vw - 32px));
+}
+
+.toast {
+  display: flex;
+  align-items: center;
+  gap: var(--_space-2);
+  padding: var(--_space-2) var(--_space-3);
+  border: 1px solid var(--_border);
+  border-left: 4px solid var(--_accent);
+  border-radius: var(--_radius);
+  background: var(--_surface-raised);
+  color: var(--_text);
+  box-shadow: var(--_shadow-raised);
+  font-family: var(--_font-family);
+  font-size: var(--_font-size-sm);
+}
+
+.toast[data-tone='error'] {
+  border-left-color: var(--_error);
+}
+
+.toast .icon-button {
+  width: 28px;
+  height: 28px;
+  margin-left: auto;
+}
+
+.tooltip-content {
+  z-index: 80;
+  padding: var(--_space-1) var(--_space-2);
+  border-radius: var(--_radius-sm);
+  background: var(--_text-strong);
+  color: var(--_surface);
+  font-family: var(--_font-family);
+  font-size: var(--_font-size-sm);
+}

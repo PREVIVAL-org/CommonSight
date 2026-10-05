@@ -1,0 +1,1900 @@
+{
+    "schema": 1,
+    "layer": "radiation",
+    "scope": "CH",
+    "status": "partial",
+    "source": "EURDEP · BfS/IMIS",
+    "sourceUrl": "https://www.naz.ch/de/aktuell/tagesmittelwerte",
+    "generatedAt": "2026-09-28T14:30:00Z",
+    "updatedAt": "2026-09-28T13:00:00Z",
+    "note": {
+        "key": "layer.radiation.note",
+        "params": {
+            "elevated": 0.3,
+            "high": 1.0
+        }
+    },
+    "coverage": [],
+    "issues": [
+        {
+            "key": "issue.belowExpected",
+            "params": {
+                "source": "EURDEP",
+                "valid": 25,
+                "expected": 30
+            }
+        }
+    ],
+    "stats": {
+        "colorScale": {
+            "elevated": 0.3,
+            "high": 1.0,
+            "unit": "µSv/h",
+            "maxAgeHours": 12,
+            "origin": "display"
+        }
+    },
+    "items": [
+        {
+            "kind": "measurement",
+            "id": "odl:CH500000",
+            "title": "AdelbodenSMN",
+            "url": "https://www.naz.ch/de/aktuell/tagesmittelwerte",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 46.49,
+            "lon": 7.56,
+            "regionIds": [
+                "CH-BE"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.113,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:CH500050",
+            "title": "AigleSMN",
+            "url": "https://www.naz.ch/de/aktuell/tagesmittelwerte",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 46.33,
+            "lon": 6.92,
+            "regionIds": [
+                "CH-VS"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "CH-AG",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.131,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:CH500100",
+            "title": "AltdorfSMN",
+            "url": "https://www.naz.ch/de/aktuell/tagesmittelwerte",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 46.89,
+            "lon": 8.62,
+            "regionIds": [
+                "CH-UR"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.136,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:CH500150",
+            "title": "Basel/ Binningen SMN",
+            "url": "https://www.naz.ch/de/aktuell/tagesmittelwerte",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 47.54,
+            "lon": 7.58,
+            "regionIds": [
+                "CH-BL"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-RP",
+                    "DE-SL",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.121,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:CH500200",
+            "title": "Bern/ Zollikofen SMN",
+            "url": "https://www.naz.ch/de/aktuell/tagesmittelwerte",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 46.99,
+            "lon": 7.46,
+            "regionIds": [
+                "CH-BE"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.111,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:CH500250",
+            "title": "BeznauSMN",
+            "url": "https://www.naz.ch/de/aktuell/tagesmittelwerte",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 47.56,
+            "lon": 8.23,
+            "regionIds": [
+                "CH-AG"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-RP",
+                    "DE-SL",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.105,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:CH500300",
+            "title": "Buchs/ Aarau SMN",
+            "url": "https://www.naz.ch/de/aktuell/tagesmittelwerte",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 47.38,
+            "lon": 8.08,
+            "regionIds": [
+                "CH-AG"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-RP",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.102,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:CH500350",
+            "title": "LaChaux-de-Fonds SMN",
+            "url": "https://www.naz.ch/de/aktuell/tagesmittelwerte",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 47.08,
+            "lon": 6.79,
+            "regionIds": [
+                "CH-NE"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.128,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:CH500400",
+            "title": "Nyon/ Changins SMN",
+            "url": "https://www.naz.ch/de/aktuell/tagesmittelwerte",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 46.4,
+            "lon": 6.23,
+            "regionIds": [
+                "CH-VD"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "CH-AG",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.123,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:CH500450",
+            "title": "ChasseralSMN",
+            "url": "https://www.naz.ch/de/aktuell/tagesmittelwerte",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 47.12,
+            "lon": 7.04,
+            "regionIds": [
+                "CH-BE"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.16,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:CH500500",
+            "title": "ChurSMN",
+            "url": "https://www.naz.ch/de/aktuell/tagesmittelwerte",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 46.87,
+            "lon": 9.53,
+            "regionIds": [
+                "CH-GR"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-5",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.117,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:CH500550",
+            "title": "DavosSMN",
+            "url": "https://www.naz.ch/de/aktuell/tagesmittelwerte",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 46.81,
+            "lon": 9.84,
+            "regionIds": [
+                "CH-GR"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-5",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.149,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:CH500600",
+            "title": "Disentis/ Sedrun SMN",
+            "url": "https://www.naz.ch/de/aktuell/tagesmittelwerte",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 46.71,
+            "lon": 8.85,
+            "regionIds": [
+                "CH-GR"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.114,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:CH500650",
+            "title": "LaDôle SMN",
+            "url": "https://www.naz.ch/de/aktuell/tagesmittelwerte",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 46.42,
+            "lon": 6.1,
+            "regionIds": [
+                "CH-VD"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "CH-AG",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.121,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:CH500700",
+            "title": "EngelbergSMN",
+            "url": "https://www.naz.ch/de/aktuell/tagesmittelwerte",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 46.82,
+            "lon": 8.41,
+            "regionIds": [
+                "CH-OW"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.097,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:CH500750",
+            "title": "Fahy/ Boncourt SMN",
+            "url": "https://www.naz.ch/de/aktuell/tagesmittelwerte",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 47.42,
+            "lon": 6.94,
+            "regionIds": [],
+            "regionMatch": "none",
+            "near": {
+                "countries": [
+                    "DE",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-RP",
+                    "DE-SL",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.128,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:CH500800",
+            "title": "Bullet/ La Frétaz SMN",
+            "url": "https://www.naz.ch/de/aktuell/tagesmittelwerte",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 46.84,
+            "lon": 6.58,
+            "regionIds": [
+                "CH-VD"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "CH-AG",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.122,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:CH500850",
+            "title": "GlarusSMN",
+            "url": "https://www.naz.ch/de/aktuell/tagesmittelwerte",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 47.03,
+            "lon": 9.07,
+            "regionIds": [
+                "CH-GL"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.101,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:CH500900",
+            "title": "GösgenSMN",
+            "url": "https://www.naz.ch/de/aktuell/tagesmittelwerte",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 47.36,
+            "lon": 7.97,
+            "regionIds": [
+                "CH-SO"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-RP",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.109,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:CH500950",
+            "title": "Coldu Grand St-Bernard SMN",
+            "url": "https://www.naz.ch/de/aktuell/tagesmittelwerte",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 45.87,
+            "lon": 7.17,
+            "regionIds": [
+                "CH-VS"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "CH-AG",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.143,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:CH501000",
+            "title": "Gütschob Andermatt SMN",
+            "url": "https://www.naz.ch/de/aktuell/tagesmittelwerte",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 46.65,
+            "lon": 8.62,
+            "regionIds": [
+                "CH-UR"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.184,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:CH501050",
+            "title": "GüttingenSMN",
+            "url": "https://www.naz.ch/de/aktuell/tagesmittelwerte",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 47.6,
+            "lon": 9.28,
+            "regionIds": [
+                "CH-TG"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-RP",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.109,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:CH501100",
+            "title": "Genève-CointrinSMN",
+            "url": "https://www.naz.ch/de/aktuell/tagesmittelwerte",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 46.25,
+            "lon": 6.13,
+            "regionIds": [
+                "CH-GE"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "CH-AG",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.11,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:CH501200",
+            "title": "HörnliSMN",
+            "url": "https://www.naz.ch/de/aktuell/tagesmittelwerte",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 47.37,
+            "lon": 8.94,
+            "regionIds": [
+                "CH-ZH"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-RP",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.097,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:CH501250",
+            "title": "JungfraujochSMN",
+            "url": "https://www.naz.ch/de/aktuell/tagesmittelwerte",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 46.55,
+            "lon": 7.99,
+            "regionIds": [
+                "CH-VS"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.172,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        }
+    ]
+}

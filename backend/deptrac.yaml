@@ -1,0 +1,73 @@
+# Dependency direction of the responsibility types (Architecture 1.3.2, 1.3.3, V13).
+# Entry -> application flow -> domain logic -> model; input/output via ports.
+# Plugins (../plugins) use only Model, Sdk and ports; the core uses no plugin. That plugins do not use each other is
+# checked by tests/Architecture/PluginIsolationTest, because deptrac would need one layer per plugin.
+deptrac:
+  paths:
+    - ./src
+    - ../plugins
+  # The plugins' tests and tools, like tests/ of the core, are not part of the dependency rules.
+  exclude_files:
+    - '#/plugins/[^/]+/[^/]+/(tests|tools)/#'
+  layers:
+    - name: Model
+      collectors:
+        - { type: classLike, value: '^CommonSight\\Model\\.*' }
+    # Reading XML from a string: pure, no input/output, so domain logic and parsers may use it.
+    - name: XmlPort
+      collectors:
+        - { type: classLike, value: '^CommonSight\\Port\\(XmlEntryReader|XmlDocument|MalformedXml)$' }
+    # All other ports: input/output (network, files, locks, clock, log, plugin store and data).
+    - name: Port
+      collectors:
+        - type: bool
+          must:
+            - { type: classLike, value: '^CommonSight\\Port\\.*' }
+          must_not:
+            - { type: classLike, value: '^CommonSight\\Port\\(XmlEntryReader|XmlDocument|MalformedXml)$' }
+    # Toolkit and contract for plugins (concept: sources as plugins).
+    - name: Sdk
+      collectors:
+        - { type: classLike, value: '^CommonSight\\Sdk\\.*' }
+    - name: Domain
+      collectors:
+        - { type: classLike, value: '^CommonSight\\Domain\\.*' }
+    - name: Application
+      collectors:
+        - { type: classLike, value: '^CommonSight\\Application\\.*' }
+    - name: Infrastructure
+      collectors:
+        - { type: classLike, value: '^CommonSight\\Infrastructure\\.*' }
+    - name: Config
+      collectors:
+        - { type: classLike, value: '^CommonSight\\Config\\.*' }
+    - name: Entry
+      collectors:
+        - { type: classLike, value: '^CommonSight\\Entry\\.*' }
+    # The pure parts of a plugin: parsers, mappers and record types, without network or store.
+    - name: PluginPure
+      collectors:
+        - { type: classLike, value: '^CommonSight\\Plugin\\[A-Za-z0-9]+\\(.*(Parser|Mapper)|Record\\.*)$' }
+    - name: Plugin
+      collectors:
+        - type: bool
+          must:
+            - { type: classLike, value: '^CommonSight\\Plugin\\.*' }
+          must_not:
+            - { type: classLike, value: '^CommonSight\\Plugin\\[A-Za-z0-9]+\\(.*(Parser|Mapper)|Record\\.*)$' }
+  ruleset:
+    Model: ~
+    XmlPort: [Model]
+    Port: [Model, XmlPort]
+    # The SDK is pure like the domain logic; it names the ports of the plugin environment, but uses none.
+    Sdk: [Model, Port, XmlPort]
+    # Domain logic knows only the model, the SDK and the XML interface (pure reading of a string, no I/O).
+    Domain: [Model, XmlPort, Sdk]
+    Application: [Domain, Model, Port, XmlPort, Sdk]
+    Infrastructure: [Model, Port, XmlPort, Config, Domain, Sdk]
+    Config: [Model, Domain, Sdk]
+    Entry: [Application, Domain, Model, Port, XmlPort, Infrastructure, Config, Sdk]
+    Plugin: [Model, Sdk, Port, XmlPort, PluginPure]
+    # Parsers, mappers and record types never touch network or store themselves; they may use other classes of their
+    # plugin (e.g. an assessor of the source's own stages).
+    PluginPure: [Model, Sdk, XmlPort, Plugin]

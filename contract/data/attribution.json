@@ -1,0 +1,14 @@
+{
+  "basemap": {
+    "text": "© OpenStreetMap-Mitwirkende (ODbL) · Protomaps",
+    "url": "https://www.openstreetmap.org/copyright"
+  },
+  "regions": {
+    "DE": { "text": "Regionsgrenzen © BKG (2021), geoBoundaries · dl-de/by-2-0", "url": "https://www.govdata.de/dl-de/by-2-0", "license": "dl-de/by-2-0" },
+    "AT": { "text": "Regionsgrenzen © BEV / geoBoundaries (2017) · CC BY-SA 2.0", "url": "https://creativecommons.org/licenses/by-sa/2.0/", "license": "CC BY-SA 2.0" },
+    "CH": { "text": "Regionsgrenzen © swisstopo (2026)", "url": "https://www.swisstopo.admin.ch/de/nutzungsbedingungen-kostenlose-geodaten-und-geodienste", "license": "Nutzungsbedingungen swisstopo" }
+  },
+  "dataUse": [
+    { "label": "Kartengrundlage", "text": "Grundkarte aus OpenStreetMap-Daten (ODbL) mit Protomaps, eigenes Kartenarchiv ohne Drittanbieter-Server. Regionsgrenzen: BKG, BEV (CC BY-SA 2.0), swisstopo.", "url": "https://www.openstreetmap.org/copyright" }
+  ]
+}

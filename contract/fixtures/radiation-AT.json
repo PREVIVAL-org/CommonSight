@@ -1,0 +1,5518 @@
+{
+    "schema": 1,
+    "layer": "radiation",
+    "scope": "AT",
+    "status": "ok",
+    "source": "Umweltbundesamt · Strahlenfrühwarnsystem",
+    "sourceUrl": "https://mb.strahlenschutz.gv.at/",
+    "generatedAt": "2026-10-02T15:30:00Z",
+    "updatedAt": "2026-10-02T13:00:00Z",
+    "note": {
+        "key": "layer.radiation.note",
+        "params": {
+            "elevated": 0.3,
+            "high": 1.0
+        }
+    },
+    "coverage": [],
+    "issues": [],
+    "stats": {
+        "colorScale": {
+            "elevated": 0.3,
+            "high": 1.0,
+            "unit": "µSv/h",
+            "maxAgeHours": 12,
+            "origin": "display"
+        }
+    },
+    "items": [
+        {
+            "kind": "measurement",
+            "id": "odl:AT0012",
+            "title": "Braunau/Inn AMS",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 48.25,
+            "lon": 13.03333,
+            "regionIds": [
+                "AT-4"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.094,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0103",
+            "title": "Eisenstadt",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.85,
+            "lon": 16.53333,
+            "regionIds": [
+                "AT-1"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.088,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0104",
+            "title": "Frauenkirchen",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.83333,
+            "lon": 16.91667,
+            "regionIds": [
+                "AT-1"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.08,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0106",
+            "title": "Güssing",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.05,
+            "lon": 16.31667,
+            "regionIds": [
+                "AT-1"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.067,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0112",
+            "title": "Mattersburg",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.73333,
+            "lon": 16.4,
+            "regionIds": [
+                "AT-1"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.074,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0113",
+            "title": "Neusiedl/See",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.95,
+            "lon": 16.83333,
+            "regionIds": [
+                "AT-1"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.085,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0114",
+            "title": "Oberpullendorf",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.48333,
+            "lon": 16.5,
+            "regionIds": [
+                "AT-1"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.079,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0115",
+            "title": "Oberwart",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.28333,
+            "lon": 16.2,
+            "regionIds": [
+                "AT-1"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.071,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0117",
+            "title": "Rust",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.8,
+            "lon": 16.66667,
+            "regionIds": [
+                "AT-1"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.082,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0120",
+            "title": "Stegersbach",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.15,
+            "lon": 16.16667,
+            "regionIds": [
+                "AT-1"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.11,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0305",
+            "title": "Bad Eisenkappel",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 46.48333,
+            "lon": 14.58333,
+            "regionIds": [
+                "AT-2"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.096,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0306",
+            "title": "Feldkirchen",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 46.71667,
+            "lon": 14.08333,
+            "regionIds": [
+                "AT-2"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.086,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0313",
+            "title": "Hermagor",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 46.61667,
+            "lon": 13.35,
+            "regionIds": [
+                "AT-2"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.089,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0314",
+            "title": "Klagenfurt",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 46.61667,
+            "lon": 14.3,
+            "regionIds": [
+                "AT-2"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.076,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0318",
+            "title": "Lavamünd",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 46.62,
+            "lon": 14.98,
+            "regionIds": [
+                "AT-2"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.101,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0404",
+            "title": "St. Veit/Glan",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 46.75,
+            "lon": 14.33333,
+            "regionIds": [
+                "AT-2"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.088,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0405",
+            "title": "Spittal/Drau",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 46.78333,
+            "lon": 13.48333,
+            "regionIds": [
+                "AT-2"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.108,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0408",
+            "title": "Villach",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 46.6,
+            "lon": 13.85,
+            "regionIds": [
+                "AT-2"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.08,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0410",
+            "title": "Völkermarkt",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 46.65,
+            "lon": 14.61667,
+            "regionIds": [
+                "AT-2"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.081,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0413",
+            "title": "Wolfsberg",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 46.83333,
+            "lon": 14.81667,
+            "regionIds": [
+                "AT-2"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.103,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0503",
+            "title": "Amstetten",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 48.11667,
+            "lon": 14.86667,
+            "regionIds": [
+                "AT-3"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.081,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0505",
+            "title": "Baden",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.98333,
+            "lon": 16.25,
+            "regionIds": [
+                "AT-3"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.097,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0508",
+            "title": "Bruck/Leitha",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 48.01667,
+            "lon": 16.76667,
+            "regionIds": [
+                "AT-3"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.083,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0512",
+            "title": "Gänserndorf",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 48.33333,
+            "lon": 16.73333,
+            "regionIds": [
+                "AT-3"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-3",
+                    "AT-4",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.097,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0514",
+            "title": "Gmünd",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 48.75,
+            "lon": 14.96667,
+            "regionIds": [
+                "AT-3"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.131,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0520",
+            "title": "Hainburg",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 48.13333,
+            "lon": 16.93333,
+            "regionIds": [
+                "AT-3"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.106,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0601",
+            "title": "Hollabrunn",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 48.53333,
+            "lon": 16.06667,
+            "regionIds": [
+                "AT-3"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.092,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0602",
+            "title": "Horn",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 48.66667,
+            "lon": 15.65,
+            "regionIds": [
+                "AT-3"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.106,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0604",
+            "title": "Korneuburg",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 48.35,
+            "lon": 16.31667,
+            "regionIds": [
+                "AT-3"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.078,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0605",
+            "title": "Krems",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 48.42,
+            "lon": 15.62,
+            "regionIds": [
+                "AT-3"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.105,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0606",
+            "title": "Laa/Thaya",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 48.71667,
+            "lon": 16.38333,
+            "regionIds": [
+                "AT-3"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-3",
+                    "AT-4",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.082,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0609",
+            "title": "Lilienfeld",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 48.0,
+            "lon": 15.58333,
+            "regionIds": [
+                "AT-3"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.08,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0612",
+            "title": "Mannersdorf",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.98,
+            "lon": 16.56,
+            "regionIds": [
+                "AT-3"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.099,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0614",
+            "title": "Melk",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 48.21667,
+            "lon": 15.33333,
+            "regionIds": [
+                "AT-3"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.074,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0615",
+            "title": "Mistelbach",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 48.56667,
+            "lon": 16.6,
+            "regionIds": [
+                "AT-3"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-3",
+                    "AT-4",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.102,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0616",
+            "title": "Mödling",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 48.06667,
+            "lon": 16.26667,
+            "regionIds": [
+                "AT-3"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.091,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0618",
+            "title": "Neunkirchen",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.71667,
+            "lon": 16.08333,
+            "regionIds": [
+                "AT-3"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.09,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0702",
+            "title": "Retz",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 48.75,
+            "lon": 15.95,
+            "regionIds": [
+                "AT-3"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-3",
+                    "AT-4",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.097,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0705",
+            "title": "St. Pölten LRG",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 48.2,
+            "lon": 15.61667,
+            "regionIds": [
+                "AT-3"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.079,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0707",
+            "title": "Scheibbs",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 48.0,
+            "lon": 15.16667,
+            "regionIds": [
+                "AT-3"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.105,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0714",
+            "title": "Tulln",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 48.33,
+            "lon": 16.08,
+            "regionIds": [
+                "AT-3"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.071,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0715",
+            "title": "Waidhofen/Thaya",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 48.8,
+            "lon": 15.26667,
+            "regionIds": [
+                "AT-3"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.103,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0716",
+            "title": "Waidhofen/Ybbs",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.95,
+            "lon": 14.78333,
+            "regionIds": [
+                "AT-3"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.094,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0717",
+            "title": "Wr. Neustadt-FLH",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.81667,
+            "lon": 16.21667,
+            "regionIds": [
+                "AT-3"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.069,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0723",
+            "title": "Zistersdorf",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 48.53333,
+            "lon": 16.75,
+            "regionIds": [
+                "AT-3"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-3",
+                    "AT-4",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.095,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0801",
+            "title": "Zwettl",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 48.6,
+            "lon": 15.21667,
+            "regionIds": [
+                "AT-3"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.196,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0908",
+            "title": "Eferding",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 48.3,
+            "lon": 13.98333,
+            "regionIds": [
+                "AT-4"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.112,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0912",
+            "title": "Freistadt",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 48.46667,
+            "lon": 14.48333,
+            "regionIds": [
+                "AT-4"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.109,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0913",
+            "title": "Gmunden",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.93333,
+            "lon": 13.8,
+            "regionIds": [
+                "AT-4"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.089,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0915",
+            "title": "Grieskirchen",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 48.23333,
+            "lon": 13.81667,
+            "regionIds": [
+                "AT-4"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.08,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT0918",
+            "title": "Kirchdorf",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.9,
+            "lon": 14.11667,
+            "regionIds": [
+                "AT-4"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.075,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1002",
+            "title": "Linz LFK",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 48.3,
+            "lon": 14.3,
+            "regionIds": [
+                "AT-4"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.101,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1012",
+            "title": "Pfaffing",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 48.03333,
+            "lon": 12.88333,
+            "regionIds": [
+                "AT-4"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.097,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1014",
+            "title": "Perg",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 48.23333,
+            "lon": 14.63333,
+            "regionIds": [
+                "AT-4"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.174,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1016",
+            "title": "Ried/Innkreis",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 48.2,
+            "lon": 13.46667,
+            "regionIds": [
+                "AT-4"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.097,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1017",
+            "title": "Rohrbach",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 48.56667,
+            "lon": 13.98333,
+            "regionIds": [
+                "AT-4"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.137,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1020",
+            "title": "Schärding",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 48.45,
+            "lon": 13.41667,
+            "regionIds": [],
+            "regionMatch": "none",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.101,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1021",
+            "title": "Steyr",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 48.03333,
+            "lon": 14.4,
+            "regionIds": [
+                "AT-4"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.075,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1102",
+            "title": "Ulrichsberg",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 48.71,
+            "lon": 13.95,
+            "regionIds": [
+                "AT-4"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.14,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1104",
+            "title": "Vöcklabruck",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 48.0,
+            "lon": 13.63333,
+            "regionIds": [
+                "AT-4"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.087,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1105",
+            "title": "Wels",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 48.15,
+            "lon": 14.01667,
+            "regionIds": [
+                "AT-4"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.073,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1116",
+            "title": "Dachstein",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.46667,
+            "lon": 13.61667,
+            "regionIds": [
+                "AT-6"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.119,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1207",
+            "title": "Hallein",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.67,
+            "lon": 13.12,
+            "regionIds": [
+                "AT-5"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.096,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1208",
+            "title": "Krimml",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.21667,
+            "lon": 12.16667,
+            "regionIds": [
+                "AT-5"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-GR",
+                    "CH-SG"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.123,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1210",
+            "title": "Lofer",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.56667,
+            "lon": 12.68333,
+            "regionIds": [
+                "AT-5"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-8",
+                    "CH-GR"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.076,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1216",
+            "title": "Salzburg WD",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.78333,
+            "lon": 13.05,
+            "regionIds": [
+                "AT-5"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.085,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1219",
+            "title": "St. Johann/Pongau",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.33333,
+            "lon": 13.2,
+            "regionIds": [
+                "AT-5"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.067,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1222",
+            "title": "Sonnblick",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.05,
+            "lon": 12.95,
+            "regionIds": [
+                "AT-2"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "CH-GR"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.185,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1223",
+            "title": "Tamsweg",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.11667,
+            "lon": 13.8,
+            "regionIds": [
+                "AT-5"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.11,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1305",
+            "title": "Zell/See I",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.31667,
+            "lon": 12.78333,
+            "regionIds": [
+                "AT-5"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-8",
+                    "CH-GR"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.099,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1307",
+            "title": "Obertauern",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.23333,
+            "lon": 13.55,
+            "regionIds": [
+                "AT-5"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.095,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1407",
+            "title": "Bruck/Mur",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.4,
+            "lon": 15.25,
+            "regionIds": [
+                "AT-6"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.074,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1409",
+            "title": "Deutschlandsberg",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 46.83,
+            "lon": 15.27,
+            "regionIds": [
+                "AT-6"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.101,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1411",
+            "title": "Feldbach",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 46.95,
+            "lon": 15.88333,
+            "regionIds": [
+                "AT-6"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.116,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1415",
+            "title": "Fürstenfeld",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.03333,
+            "lon": 16.06667,
+            "regionIds": [
+                "AT-6"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.083,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1420",
+            "title": "Graz ZAMG",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.03333,
+            "lon": 15.4,
+            "regionIds": [
+                "AT-6"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.1,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1422",
+            "title": "Hartberg",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.26667,
+            "lon": 15.96667,
+            "regionIds": [
+                "AT-6"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.091,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1423",
+            "title": "Hieflau",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.6,
+            "lon": 14.73333,
+            "regionIds": [
+                "AT-6"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.074,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1501",
+            "title": "Judenburg",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.16667,
+            "lon": 14.65,
+            "regionIds": [
+                "AT-6"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.11,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1504",
+            "title": "Knittelfeld",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.2,
+            "lon": 14.81667,
+            "regionIds": [
+                "AT-6"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.102,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1508",
+            "title": "Leibnitz",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 46.76667,
+            "lon": 15.53333,
+            "regionIds": [
+                "AT-6"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.08,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1509",
+            "title": "Leoben",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.36667,
+            "lon": 15.06667,
+            "regionIds": [
+                "AT-6"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.087,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1512",
+            "title": "Liezen",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.55,
+            "lon": 14.23333,
+            "regionIds": [
+                "AT-6"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.095,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1513",
+            "title": "Mariazell",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.75,
+            "lon": 15.3,
+            "regionIds": [
+                "AT-6"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.086,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1515",
+            "title": "Murau",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.11667,
+            "lon": 14.18333,
+            "regionIds": [
+                "AT-6"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.102,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1516",
+            "title": "Mürzzuschlag",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.6,
+            "lon": 15.66667,
+            "regionIds": [
+                "AT-6"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.08,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1521",
+            "title": "Bad Radkersburg",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 46.68333,
+            "lon": 16.0,
+            "regionIds": [
+                "AT-6"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.097,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1604",
+            "title": "Strass",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 46.71667,
+            "lon": 15.61667,
+            "regionIds": [
+                "AT-6"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.088,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1608",
+            "title": "Voitsberg",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.05,
+            "lon": 15.13333,
+            "regionIds": [
+                "AT-6"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.116,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1610",
+            "title": "Weiz",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.2,
+            "lon": 15.63333,
+            "regionIds": [
+                "AT-6"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.107,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1705",
+            "title": "Galtür",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 46.96667,
+            "lon": 10.18333,
+            "regionIds": [
+                "AT-7"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-2",
+                    "AT-5",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-LU",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.104,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1707",
+            "title": "Imst",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.23333,
+            "lon": 10.73333,
+            "regionIds": [
+                "AT-7"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-2",
+                    "AT-4",
+                    "AT-5",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-LU",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.073,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1708",
+            "title": "Innsbruck FW",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.25,
+            "lon": 11.4,
+            "regionIds": [
+                "AT-7"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-2",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.092,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1712",
+            "title": "Kitzbühel",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.45,
+            "lon": 12.38333,
+            "regionIds": [
+                "AT-7"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-8",
+                    "CH-GR"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.111,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1713",
+            "title": "Kufstein",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.56667,
+            "lon": 12.16667,
+            "regionIds": [
+                "AT-7"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-GR",
+                    "CH-SG"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.077,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1714",
+            "title": "Landeck",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.13333,
+            "lon": 10.55,
+            "regionIds": [
+                "AT-7"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-2",
+                    "AT-4",
+                    "AT-5",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-LU",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.098,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1715",
+            "title": "Lienz",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 46.81667,
+            "lon": 12.75,
+            "regionIds": [
+                "AT-7"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-8",
+                    "CH-GR"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.085,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1718",
+            "title": "Nauders",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 46.88333,
+            "lon": 10.48333,
+            "regionIds": [
+                "AT-7"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-2",
+                    "AT-5",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-LU",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.132,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1801",
+            "title": "Reutte",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 47.48333,
+            "lon": 10.7,
+            "regionIds": [
+                "AT-7"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-2",
+                    "AT-4",
+                    "AT-5",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-LU",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.08,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:AT1804",
+            "title": "St. Jakob/Defereggen",
+            "url": "https://mb.strahlenschutz.gv.at/",
+            "time": "2026-10-02T13:00:00Z",
+            "lat": 46.92,
+            "lon": 12.37,
+            "regionIds": [
+                "AT-7"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-8",
+                    "CH-GR"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.124,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-03T01:00:00Z"
+            },
+            "facts": []
+        }
+    ]
+}

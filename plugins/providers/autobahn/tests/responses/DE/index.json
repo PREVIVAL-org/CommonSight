@@ -1,0 +1,221 @@
+{
+    "recordedAt": "2026-09-28T14:30:00Z",
+    "requests": [
+        {
+            "signature": "GET https://verkehr.autobahn.de/o/autobahn/A1/services/warning",
+            "status": 200,
+            "headers": {},
+            "file": "001.json"
+        },
+        {
+            "signature": "GET https://verkehr.autobahn.de/o/autobahn/A2/services/warning",
+            "status": 200,
+            "headers": {},
+            "file": "002.json"
+        },
+        {
+            "signature": "GET https://verkehr.autobahn.de/o/autobahn/A3/services/warning",
+            "status": 200,
+            "headers": {},
+            "file": "002.json"
+        },
+        {
+            "signature": "GET https://verkehr.autobahn.de/o/autobahn/A4/services/warning",
+            "status": 200,
+            "headers": {},
+            "file": "002.json"
+        },
+        {
+            "signature": "GET https://verkehr.autobahn.de/o/autobahn/A5/services/warning",
+            "status": 200,
+            "headers": {},
+            "file": "002.json"
+        },
+        {
+            "signature": "GET https://verkehr.autobahn.de/o/autobahn/A6/services/warning",
+            "status": 200,
+            "headers": {},
+            "file": "002.json"
+        },
+        {
+            "signature": "GET https://verkehr.autobahn.de/o/autobahn/A7/services/warning",
+            "status": 200,
+            "headers": {},
+            "file": "002.json"
+        },
+        {
+            "signature": "GET https://verkehr.autobahn.de/o/autobahn/A8/services/warning",
+            "status": 200,
+            "headers": {},
+            "file": "002.json"
+        },
+        {
+            "signature": "GET https://verkehr.autobahn.de/o/autobahn/A9/services/warning",
+            "status": 200,
+            "headers": {},
+            "file": "002.json"
+        },
+        {
+            "signature": "GET https://verkehr.autobahn.de/o/autobahn/A10/services/warning",
+            "status": 200,
+            "headers": {},
+            "file": "003.json"
+        },
+        {
+            "signature": "GET https://verkehr.autobahn.de/o/autobahn/A81/services/warning",
+            "status": 200,
+            "headers": {},
+            "file": "002.json"
+        },
+        {
+            "signature": "GET https://verkehr.autobahn.de/o/autobahn/A93/services/warning",
+            "status": 200,
+            "headers": {},
+            "file": "002.json"
+        },
+        {
+            "signature": "GET https://verkehr.autobahn.de/o/autobahn/A1/services/closure",
+            "status": 200,
+            "headers": {},
+            "file": "004.json"
+        },
+        {
+            "signature": "GET https://verkehr.autobahn.de/o/autobahn/A1/services/roadworks",
+            "status": 200,
+            "headers": {},
+            "file": "005.json"
+        },
+        {
+            "signature": "GET https://verkehr.autobahn.de/o/autobahn/A2/services/closure",
+            "status": 200,
+            "headers": {},
+            "file": "006.json"
+        },
+        {
+            "signature": "GET https://verkehr.autobahn.de/o/autobahn/A2/services/roadworks",
+            "status": 200,
+            "headers": {},
+            "file": "007.json"
+        },
+        {
+            "signature": "GET https://verkehr.autobahn.de/o/autobahn/A3/services/closure",
+            "status": 200,
+            "headers": {},
+            "file": "006.json"
+        },
+        {
+            "signature": "GET https://verkehr.autobahn.de/o/autobahn/A3/services/roadworks",
+            "status": 200,
+            "headers": {},
+            "file": "007.json"
+        },
+        {
+            "signature": "GET https://verkehr.autobahn.de/o/autobahn/A4/services/closure",
+            "status": 200,
+            "headers": {},
+            "file": "006.json"
+        },
+        {
+            "signature": "GET https://verkehr.autobahn.de/o/autobahn/A4/services/roadworks",
+            "status": 200,
+            "headers": {},
+            "file": "007.json"
+        },
+        {
+            "signature": "GET https://verkehr.autobahn.de/o/autobahn/A5/services/closure",
+            "status": 200,
+            "headers": {},
+            "file": "006.json"
+        },
+        {
+            "signature": "GET https://verkehr.autobahn.de/o/autobahn/A5/services/roadworks",
+            "status": 200,
+            "headers": {},
+            "file": "007.json"
+        },
+        {
+            "signature": "GET https://verkehr.autobahn.de/o/autobahn/A6/services/closure",
+            "status": 200,
+            "headers": {},
+            "file": "006.json"
+        },
+        {
+            "signature": "GET https://verkehr.autobahn.de/o/autobahn/A6/services/roadworks",
+            "status": 200,
+            "headers": {},
+            "file": "007.json"
+        },
+        {
+            "signature": "GET https://verkehr.autobahn.de/o/autobahn/A7/services/closure",
+            "status": 200,
+            "headers": {},
+            "file": "006.json"
+        },
+        {
+            "signature": "GET https://verkehr.autobahn.de/o/autobahn/A7/services/roadworks",
+            "status": 200,
+            "headers": {},
+            "file": "007.json"
+        },
+        {
+            "signature": "GET https://verkehr.autobahn.de/o/autobahn/A8/services/closure",
+            "status": 200,
+            "headers": {},
+            "file": "006.json"
+        },
+        {
+            "signature": "GET https://verkehr.autobahn.de/o/autobahn/A8/services/roadworks",
+            "status": 200,
+            "headers": {},
+            "file": "007.json"
+        },
+        {
+            "signature": "GET https://verkehr.autobahn.de/o/autobahn/A9/services/closure",
+            "status": 200,
+            "headers": {},
+            "file": "006.json"
+        },
+        {
+            "signature": "GET https://verkehr.autobahn.de/o/autobahn/A9/services/roadworks",
+            "status": 200,
+            "headers": {},
+            "file": "007.json"
+        },
+        {
+            "signature": "GET https://verkehr.autobahn.de/o/autobahn/A10/services/closure",
+            "status": 200,
+            "headers": {},
+            "file": "006.json"
+        },
+        {
+            "signature": "GET https://verkehr.autobahn.de/o/autobahn/A10/services/roadworks",
+            "status": 200,
+            "headers": {},
+            "file": "007.json"
+        },
+        {
+            "signature": "GET https://verkehr.autobahn.de/o/autobahn/A81/services/closure",
+            "status": 200,
+            "headers": {},
+            "file": "006.json"
+        },
+        {
+            "signature": "GET https://verkehr.autobahn.de/o/autobahn/A81/services/roadworks",
+            "status": 200,
+            "headers": {},
+            "file": "007.json"
+        },
+        {
+            "signature": "GET https://verkehr.autobahn.de/o/autobahn/A93/services/closure",
+            "status": 200,
+            "headers": {},
+            "file": "006.json"
+        },
+        {
+            "signature": "GET https://verkehr.autobahn.de/o/autobahn/A93/services/roadworks",
+            "status": 200,
+            "headers": {},
+            "file": "007.json"
+        }
+    ]
+}

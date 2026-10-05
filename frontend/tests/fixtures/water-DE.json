@@ -1,0 +1,149 @@
+{
+  "schema": 1,
+  "layer": "water",
+  "scope": "DE",
+  "status": "ok",
+  "source": "WSV · PEGELONLINE",
+  "sourceUrl": "https://www.pegelonline.wsv.de/",
+  "generatedAt": "2026-09-28T11:50:00Z",
+  "updatedAt": "2026-09-28T11:45:00Z",
+  "note": {
+    "key": "layer.water.note.DE"
+  },
+  "coverage": [],
+  "issues": [],
+  "stats": {},
+  "items": [
+    {
+      "kind": "measurement",
+      "id": "pegelonline:2730010",
+      "title": "KÖLN · RHEIN",
+      "url": "https://www.pegelonline.wsv.de/gast/stammdaten?pegelnr=2730010",
+      "time": "2026-09-28T11:45:00Z",
+      "lat": 50.9366,
+      "lon": 6.9631,
+      "regionIds": ["DE-NW"],
+      "regionMatch": "point",
+      "quantity": "waterLevel",
+      "value": 612,
+      "unit": "cm",
+      "reference": {
+        "key": "reference.gaugeZero"
+      },
+      "assessment": {
+        "level": "elevated",
+        "label": {
+          "key": "source.pegelonline.assessment.label.deMhw"
+        },
+        "basis": {
+          "key": "source.pegelonline.assessment.basis.deMhw"
+        },
+        "origin": "source",
+        "validUntil": "2026-09-28T17:45:00Z"
+      },
+      "facts": []
+    },
+    {
+      "kind": "measurement",
+      "id": "pegelonline:5930010",
+      "title": "DRESDEN · ELBE",
+      "url": "https://www.pegelonline.wsv.de/gast/stammdaten?pegelnr=5930010",
+      "time": "2026-09-28T02:00:00Z",
+      "lat": 51.0544,
+      "lon": 13.7389,
+      "regionIds": ["DE-SN"],
+      "regionMatch": "point",
+      "quantity": "waterLevel",
+      "value": 845.5,
+      "unit": "cm",
+      "reference": {
+        "key": "reference.gaugeZero"
+      },
+      "assessment": {
+        "level": "high",
+        "label": {
+          "key": "source.pegelonline.assessment.label.deHsw"
+        },
+        "basis": {
+          "key": "source.pegelonline.assessment.basis.deHsw"
+        },
+        "origin": "source",
+        "validUntil": "2026-09-28T08:00:00Z"
+      },
+      "facts": [
+        {
+          "label": {
+            "key": "fact.discharge"
+          },
+          "value": 1234.5,
+          "unit": "m³/s"
+        }
+      ]
+    },
+    {
+      "kind": "measurement",
+      "id": "pegelonline:1000001",
+      "title": "PASSAU · DONAU",
+      "url": "https://www.pegelonline.wsv.de/gast/stammdaten?pegelnr=1000001",
+      "time": "2026-09-27T20:00:00Z",
+      "lat": 48.5741,
+      "lon": 13.4646,
+      "regionIds": ["DE-BY"],
+      "regionMatch": "point",
+      "quantity": "waterLevel",
+      "value": 400,
+      "unit": "cm",
+      "reference": {
+        "key": "reference.gaugeZero"
+      },
+      "assessment": {
+        "level": "unknown",
+        "label": {
+          "key": "assessment.label.none"
+        },
+        "basis": {
+          "key": "assessment.basis.stale",
+          "params": {
+            "hours": 6
+          }
+        },
+        "origin": "source",
+        "previous": {
+          "level": "normal",
+          "label": {
+            "key": "source.pegelonline.assessment.label.deBelowMhw"
+          }
+        }
+      },
+      "facts": []
+    },
+    {
+      "kind": "measurement",
+      "id": "pegelonline:2000002",
+      "title": "HAMBURG ST. PAULI · ELBE",
+      "url": "https://www.pegelonline.wsv.de/gast/stammdaten?pegelnr=2000002",
+      "time": "2026-09-28T11:40:00Z",
+      "lat": 53.5456,
+      "lon": 9.9701,
+      "regionIds": ["DE-HH"],
+      "regionMatch": "point",
+      "quantity": "waterLevel",
+      "value": 502,
+      "unit": "cm",
+      "reference": {
+        "key": "reference.gaugeZero"
+      },
+      "assessment": {
+        "level": "normal",
+        "label": {
+          "key": "source.pegelonline.assessment.label.deBelowMhw"
+        },
+        "basis": {
+          "key": "source.pegelonline.assessment.basis.deBelowMhw"
+        },
+        "origin": "source"
+      },
+      "facts": []
+    }
+  ]
+}

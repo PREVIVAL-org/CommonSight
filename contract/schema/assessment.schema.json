@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://commonsight.org/schema/v1/assessment.schema.json",
+  "title": "Assessment",
+  "description": "Assessment of a measured value (D-20, D-21). Display category, not an official warning level.",
+  "type": "object",
+  "properties": {
+    "level": { "$ref": "common.schema.json#/$defs/level" },
+    "label": { "$ref": "msg.schema.json" },
+    "basis": { "$ref": "msg.schema.json" },
+    "origin": {
+      "description": "source = classification by the source, display = own display threshold",
+      "type": "string",
+      "enum": ["source", "display"]
+    },
+    "validUntil": { "$ref": "common.schema.json#/$defs/utcInstant" },
+    "sourceValue": {
+      "description": "original level of the source, e.g. BAFU level 3 or eHYD code 410 (D-21)",
+      "type": ["string", "number"]
+    },
+    "previous": {
+      "description": "Last assessment before the measured value became stale (B-01)",
+      "type": "object",
+      "properties": {
+        "level": { "$ref": "common.schema.json#/$defs/level" },
+        "label": { "$ref": "msg.schema.json" }
+      },
+      "required": ["level", "label"],
+      "additionalProperties": false
+    }
+  },
+  "required": ["level", "label", "basis", "origin"],
+  "additionalProperties": false
+}

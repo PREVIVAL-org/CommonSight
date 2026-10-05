@@ -1,0 +1,5 @@
+{
+  "layer.nature.name": "Naturgefahren",
+  "layer.nature.empty": "Keine Einträge im abgefragten Umfang (Erdbeben: letzte 7 Tage im Landesumfeld). Dies ist keine allgemeine Entwarnung.",
+  "layer.nature.note": "Erdbeben der letzten sieben Tage im Landesumfeld einschließlich der Grenzgebiete; keine vollständige Erfassung kleiner lokaler Beben. Für weitere Naturgefahren die Wetterwarnungen, Pegel und die verlinkten Lawinen- und Gefahrenportale nutzen."
+}

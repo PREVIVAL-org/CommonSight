@@ -1,0 +1,11 @@
+{
+    "recordedAt": "2026-09-28T14:30:00Z",
+    "requests": [
+        {
+            "signature": "GET https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-09-21T14%3A30%3A00Z&minlatitude=41.75&maxlatitude=59.08&minlongitude=1.6&maxlongitude=21.18&orderby=time&limit=150",
+            "status": 200,
+            "headers": {},
+            "file": "001.json"
+        }
+    ]
+}

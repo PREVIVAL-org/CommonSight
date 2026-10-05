@@ -1,0 +1,11 @@
+{
+  "modelQuantities": [
+    {
+      "id": "pollenConcentration",
+      "label": "Pollenkonzentration",
+      "definition": "Pollen grains per cubic metre of air from a pollen model (CAMS), not a measurement.",
+      "decimals": 1,
+      "shortSuffix": ""
+    }
+  ]
+}

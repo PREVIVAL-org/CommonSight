@@ -1,0 +1,856 @@
+[
+    {
+        "uuid": "b475386c-30cc-453a-b3b7-1d17ace13595",
+        "number": "48300105",
+        "shortname": "CELLE",
+        "longname": "CELLE",
+        "km": 1.74,
+        "agency": "VERDEN",
+        "longitude": 10.062164,
+        "latitude": 52.622706,
+        "voiceServiceNumber": "+49228 286527 001",
+        "water": {
+            "shortname": "ALLER",
+            "longname": "ALLER"
+        },
+        "timeseries": [
+            {
+                "shortname": "W",
+                "longname": "WASSERSTAND ROHDATEN",
+                "unit": "cm",
+                "equidistance": 15,
+                "currentMeasurement": {
+                    "timestamp": "2026-09-28T16:15:00+02:00",
+                    "value": 114.0,
+                    "stateMnwMhw": "low",
+                    "stateNswHsw": "normal"
+                },
+                "gaugeZero": {
+                    "unit": "m. ü. NN",
+                    "value": 31.82,
+                    "validFrom": "1936-11-01"
+                }
+            },
+            {
+                "shortname": "WT",
+                "longname": "WASSERTEMPERATUR ROHDATEN",
+                "unit": "°C",
+                "equidistance": 15,
+                "currentMeasurement": {
+                    "timestamp": "2026-09-10T10:30:00+02:00",
+                    "value": 0.0
+                }
+            }
+        ]
+    },
+    {
+        "uuid": "8b4f9f7c-3376-4dd8-95c1-de55b1be4dfd",
+        "number": "48700103",
+        "shortname": "MARKLENDORF",
+        "longname": "MARKLENDORF",
+        "km": 38.47,
+        "agency": "VERDEN",
+        "longitude": 9.703456,
+        "latitude": 52.682757,
+        "voiceServiceNumber": "+49228 286527 002",
+        "water": {
+            "shortname": "ALLER",
+            "longname": "ALLER"
+        },
+        "timeseries": [
+            {
+                "shortname": "W",
+                "longname": "WASSERSTAND ROHDATEN",
+                "unit": "cm",
+                "equidistance": 15,
+                "currentMeasurement": {
+                    "timestamp": "2026-09-28T16:15:00+02:00",
+                    "value": 85.0,
+                    "stateMnwMhw": "low",
+                    "stateNswHsw": "normal"
+                },
+                "gaugeZero": {
+                    "unit": "m. ü. NN",
+                    "value": 23.01,
+                    "validFrom": "1950-11-01"
+                }
+            }
+        ]
+    },
+    {
+        "uuid": "522286e2-b2b3-4d0d-9a11-01b3ea418c76",
+        "number": "48900102",
+        "shortname": "AHLDEN",
+        "longname": "AHLDEN",
+        "km": 58.71,
+        "agency": "VERDEN",
+        "longitude": 9.570881,
+        "latitude": 52.762431,
+        "voiceServiceNumber": "+49228 286527 003",
+        "water": {
+            "shortname": "ALLER",
+            "longname": "ALLER"
+        },
+        "timeseries": [
+            {
+                "shortname": "W",
+                "longname": "WASSERSTAND ROHDATEN",
+                "unit": "cm",
+                "equidistance": 15,
+                "currentMeasurement": {
+                    "timestamp": "2026-09-28T16:15:00+02:00",
+                    "value": -9.0,
+                    "stateMnwMhw": "low",
+                    "stateNswHsw": "normal"
+                }
+            }
+        ]
+    },
+    {
+        "uuid": "5aaed954-de4e-4528-8f65-f3f530bc8325",
+        "number": "48900204",
+        "shortname": "RETHEM",
+        "longname": "RETHEM",
+        "km": 82.32,
+        "agency": "VERDEN",
+        "longitude": 9.382841,
+        "latitude": 52.789098,
+        "voiceServiceNumber": "+49228 286527 004",
+        "water": {
+            "shortname": "ALLER",
+            "longname": "ALLER"
+        },
+        "timeseries": [
+            {
+                "shortname": "W",
+                "longname": "WASSERSTAND ROHDATEN",
+                "unit": "cm",
+                "equidistance": 15,
+                "currentMeasurement": {
+                    "timestamp": "2026-09-28T16:15:00+02:00",
+                    "value": 17.0,
+                    "stateMnwMhw": "low",
+                    "stateNswHsw": "normal"
+                },
+                "gaugeZero": {
+                    "unit": "m. ü. NN",
+                    "value": 14.31,
+                    "validFrom": "1954-01-01"
+                }
+            }
+        ]
+    },
+    {
+        "uuid": "47174d8f-1b8e-4599-8a59-b580dd55bc87",
+        "number": "48900237",
+        "shortname": "EITZE",
+        "longname": "EITZE",
+        "km": 107.75,
+        "agency": "VERDEN",
+        "longitude": 9.276769,
+        "latitude": 52.904065,
+        "voiceServiceNumber": "+49228 286527 005",
+        "water": {
+            "shortname": "ALLER",
+            "longname": "ALLER"
+        },
+        "timeseries": [
+            {
+                "shortname": "W",
+                "longname": "WASSERSTAND ROHDATEN",
+                "unit": "cm",
+                "equidistance": 15,
+                "currentMeasurement": {
+                    "timestamp": "2026-09-28T16:15:00+02:00",
+                    "value": 222.0,
+                    "stateMnwMhw": "low",
+                    "stateNswHsw": "unknown"
+                },
+                "gaugeZero": {
+                    "unit": "m. ü. NN",
+                    "value": 8.0,
+                    "validFrom": "1985-03-13"
+                }
+            }
+        ]
+    },
+    {
+        "uuid": "6c6f84c2-b7ea-4720-8ecd-a83c100c6291",
+        "number": "123456785",
+        "shortname": "DORDRECHT",
+        "longname": "DORDRECHT",
+        "km": 975.0,
+        "agency": "RIJKSWATERSTAAT",
+        "water": {
+            "shortname": "ALTE_MAAS",
+            "longname": "ALTE MAAS"
+        },
+        "timeseries": [
+            {
+                "shortname": "W",
+                "longname": "WASSERSTAND ROHDATEN",
+                "unit": "cm",
+                "equidistance": 10,
+                "currentMeasurement": {
+                    "timestamp": "2026-09-28T16:10:00+02:00",
+                    "value": 27.0,
+                    "stateMnwMhw": "unknown",
+                    "stateNswHsw": "unknown"
+                }
+            }
+        ]
+    },
+    {
+        "uuid": "ee52ce62-212c-4735-b438-26fbdc37e3e2",
+        "number": "586640",
+        "shortname": "BERLIN-PLÖTZENSEE OP",
+        "longname": "BERLIN-PLÖTZENSEE OP",
+        "km": 7.4,
+        "agency": "STANDORT BERLIN",
+        "longitude": 13.323142,
+        "latitude": 52.5437,
+        "voiceServiceNumber": "+49228 286527 006",
+        "water": {
+            "shortname": "BSK",
+            "longname": "BERLIN-SPANDAUER-SCHIFFFAHRTSKANAL"
+        },
+        "timeseries": [
+            {
+                "shortname": "W",
+                "longname": "WASSERSTAND ROHDATEN",
+                "unit": "cm",
+                "equidistance": 15,
+                "currentMeasurement": {
+                    "timestamp": "2026-09-28T16:15:00+02:00",
+                    "value": 327.0,
+                    "stateMnwMhw": "normal",
+                    "stateNswHsw": "unknown"
+                },
+                "gaugeZero": {
+                    "unit": "m. ü. NHN",
+                    "value": 28.0,
+                    "validFrom": "2019-11-01"
+                }
+            }
+        ]
+    },
+    {
+        "uuid": "45721a68-566c-4e2a-a6c7-a7595982a779",
+        "number": "586650",
+        "shortname": "BERLIN-PLÖTZENSEE UP",
+        "longname": "BERLIN-PLÖTZENSEE UP",
+        "km": 7.5,
+        "agency": "STANDORT BERLIN",
+        "longitude": 13.323859,
+        "latitude": 52.543036,
+        "voiceServiceNumber": "+49228 286527 007",
+        "water": {
+            "shortname": "BSK",
+            "longname": "BERLIN-SPANDAUER-SCHIFFFAHRTSKANAL"
+        },
+        "timeseries": [
+            {
+                "shortname": "W",
+                "longname": "WASSERSTAND ROHDATEN",
+                "unit": "cm",
+                "equidistance": 15,
+                "currentMeasurement": {
+                    "timestamp": "2026-09-28T16:15:00+02:00",
+                    "value": 273.0,
+                    "stateMnwMhw": "normal",
+                    "stateNswHsw": "unknown"
+                },
+                "gaugeZero": {
+                    "unit": "m. ü. NHN",
+                    "value": 28.0,
+                    "validFrom": "2019-11-01"
+                }
+            }
+        ]
+    },
+    {
+        "uuid": "aa9179c1-17ef-4c61-a48a-74193fa7bfdf",
+        "number": "906",
+        "shortname": "KONSTANZ",
+        "longname": "KONSTANZ",
+        "km": 0.0,
+        "agency": "REGIERUNGSPRÄSIDIUM FREIBURG",
+        "longitude": 9.181039,
+        "latitude": 47.66075,
+        "voiceServiceNumber": "+49228 286527 008",
+        "water": {
+            "shortname": "BODENSEE",
+            "longname": "BODENSEE"
+        },
+        "timeseries": [
+            {
+                "shortname": "W",
+                "longname": "WASSERSTAND ROHDATEN",
+                "unit": "cm",
+                "equidistance": 15,
+                "currentMeasurement": {
+                    "timestamp": "2026-09-28T16:00:00+02:00",
+                    "value": 253.0,
+                    "stateMnwMhw": "low",
+                    "stateNswHsw": "unknown"
+                },
+                "gaugeZero": {
+                    "unit": "m. ü. NHN",
+                    "value": 391.89,
+                    "validFrom": "2004-04-14"
+                }
+            }
+        ]
+    },
+    {
+        "uuid": "28ec91e8-90c0-44d1-8fd2-b0b64c00c43b",
+        "number": "126013",
+        "shortname": "ABBENFLETH SPERRWERK",
+        "longname": "ABBENFLETH SPERRWERK",
+        "km": 2.95,
+        "agency": "STANDORT HAMBURG",
+        "longitude": 9.494307,
+        "latitude": 53.668963,
+        "water": {
+            "shortname": "BSE",
+            "longname": "BÜTZFLETHER SÜDERELBE"
+        },
+        "timeseries": [
+            {
+                "shortname": "LF",
+                "longname": "ELEKTRISCHE_LEITFÄHIGKEIT_ROHDATEN",
+                "unit": "µS/cm",
+                "equidistance": 1,
+                "currentMeasurement": {
+                    "timestamp": "2026-09-28T16:15:00+02:00",
+                    "value": 3961.0
+                }
+            },
+            {
+                "shortname": "WT",
+                "longname": "WASSERTEMPERATUR ROHDATEN",
+                "unit": "°C",
+                "equidistance": 1,
+                "currentMeasurement": {
+                    "timestamp": "2026-09-28T16:15:00+02:00",
+                    "value": 16.9
+                }
+            }
+        ]
+    },
+    {
+        "uuid": "6b595707-8c47-4bc7-a803-dbc327775c26",
+        "number": "586810",
+        "shortname": "BERLIN-SCHMÖCKWITZ",
+        "longname": "BERLIN-SCHMÖCKWITZ",
+        "km": 0.3,
+        "agency": "STANDORT BERLIN",
+        "longitude": 13.653581,
+        "latitude": 52.374398,
+        "voiceServiceNumber": "+49228 286527 009",
+        "water": {
+            "shortname": "DAW",
+            "longname": "DAHME-WASSERSTRASSE"
+        },
+        "timeseries": [
+            {
+                "shortname": "W",
+                "longname": "WASSERSTAND ROHDATEN",
+                "unit": "cm",
+                "equidistance": 15,
+                "currentMeasurement": {
+                    "timestamp": "2026-09-28T16:00:00+02:00",
+                    "value": 39.0,
+                    "stateMnwMhw": "normal",
+                    "stateNswHsw": "unknown"
+                },
+                "gaugeZero": {
+                    "unit": "m. ü. NHN",
+                    "value": 31.957,
+                    "validFrom": "2019-11-01"
+                }
+            }
+        ]
+    },
+    {
+        "uuid": "c9a6c3bf-02d4-4945-83e8-b7c6cf9701fa",
+        "number": "586280",
+        "shortname": "NEUE MÜHLE SCHLEUSE UP",
+        "longname": "NEUE MÜHLE SCHLEUSE UP",
+        "km": 9.4,
+        "agency": "STANDORT BERLIN",
+        "longitude": 13.649641,
+        "latitude": 52.297475,
+        "voiceServiceNumber": "+49228 286527 010",
+        "water": {
+            "shortname": "DAW",
+            "longname": "DAHME-WASSERSTRASSE"
+        },
+        "timeseries": [
+            {
+                "shortname": "W",
+                "longname": "WASSERSTAND ROHDATEN",
+                "unit": "cm",
+                "equidistance": 15,
+                "currentMeasurement": {
+                    "timestamp": "2026-09-28T16:00:00+02:00",
+                    "value": 125.0,
+                    "stateMnwMhw": "normal",
+                    "stateNswHsw": "unknown"
+                },
+                "gaugeZero": {
+                    "unit": "m. ü. NHN",
+                    "value": 31.117,
+                    "validFrom": "2019-11-01"
+                }
+            }
+        ]
+    },
+    {
+        "uuid": "0e0dbcc9-0a7d-494a-bc92-52e56a7fffe2",
+        "number": "586270",
+        "shortname": "NEUE MÜHLE SCHLEUSE OP",
+        "longname": "NEUE MÜHLE SCHLEUSE OP",
+        "km": 9.56,
+        "agency": "STANDORT BERLIN",
+        "longitude": 13.651758,
+        "latitude": 52.296816,
+        "voiceServiceNumber": "+49228 286527 011",
+        "water": {
+            "shortname": "DAW",
+            "longname": "DAHME-WASSERSTRASSE"
+        },
+        "timeseries": [
+            {
+                "shortname": "W",
+                "longname": "WASSERSTAND ROHDATEN",
+                "unit": "cm",
+                "equidistance": 15,
+                "currentMeasurement": {
+                    "timestamp": "2026-09-28T16:00:00+02:00",
+                    "value": 266.0,
+                    "stateMnwMhw": "normal",
+                    "stateNswHsw": "unknown"
+                },
+                "gaugeZero": {
+                    "unit": "m. ü. NHN",
+                    "value": 31.117,
+                    "validFrom": "2019-11-01"
+                }
+            },
+            {
+                "shortname": "WT",
+                "longname": "WASSERTEMPERATUR ROHDATEN",
+                "unit": "°C",
+                "equidistance": 60,
+                "currentMeasurement": {
+                    "timestamp": "2026-09-28T16:00:00+02:00",
+                    "value": 16.9
+                }
+            }
+        ]
+    },
+    {
+        "uuid": "facc5c16-f700-4248-9893-a395bffaf2e4",
+        "number": "27800090",
+        "shortname": "WALTROP",
+        "longname": "WALTROP",
+        "km": 2.144,
+        "agency": "RHEINE",
+        "longitude": 7.380201,
+        "latitude": 51.639741,
+        "voiceServiceNumber": "+49228 286527 012",
+        "water": {
+            "shortname": "DHK",
+            "longname": "DATTELN-HAMM-KANAL"
+        },
+        "timeseries": [
+            {
+                "shortname": "W",
+                "longname": "WASSERSTAND ROHDATEN",
+                "unit": "m+NN",
+                "equidistance": 1,
+                "currentMeasurement": {
+                    "timestamp": "2026-09-28T16:00:00+02:00",
+                    "value": 56.55,
+                    "stateMnwMhw": "unknown",
+                    "stateNswHsw": "unknown"
+                }
+            }
+        ]
+    },
+    {
+        "uuid": "4ef9dd9c-b32b-43fc-bc5e-3849d4ab7ecc",
+        "number": "27800080",
+        "shortname": "HAMM UW",
+        "longname": "HAMM UW",
+        "km": 36.59,
+        "agency": "RHEINE",
+        "longitude": 7.815789,
+        "latitude": 51.684812,
+        "voiceServiceNumber": "+49228 286527 013",
+        "water": {
+            "shortname": "DHK",
+            "longname": "DATTELN-HAMM-KANAL"
+        },
+        "timeseries": [
+            {
+                "shortname": "W",
+                "longname": "WASSERSTAND ROHDATEN",
+                "unit": "m+NN",
+                "equidistance": 1,
+                "currentMeasurement": {
+                    "timestamp": "2026-09-28T16:00:00+02:00",
+                    "value": 56.54,
+                    "stateMnwMhw": "unknown",
+                    "stateNswHsw": "unknown"
+                }
+            }
+        ]
+    },
+    {
+        "uuid": "4dbce62d-a015-4011-afcd-423bb8d4b7a1",
+        "number": "27800060",
+        "shortname": "HAMM OW",
+        "longname": "HAMM OW",
+        "km": 38.72,
+        "agency": "RHEINE",
+        "longitude": 7.842759,
+        "latitude": 51.693782,
+        "voiceServiceNumber": "+49228 286527 014",
+        "water": {
+            "shortname": "DHK",
+            "longname": "DATTELN-HAMM-KANAL"
+        },
+        "timeseries": [
+            {
+                "shortname": "W",
+                "longname": "WASSERSTAND ROHDATEN",
+                "unit": "m+NN",
+                "equidistance": 1,
+                "currentMeasurement": {
+                    "timestamp": "2026-09-28T16:00:00+02:00",
+                    "value": 58.19,
+                    "stateMnwMhw": "unknown",
+                    "stateNswHsw": "unknown"
+                }
+            }
+        ]
+    },
+    {
+        "uuid": "d31767ef-2cf8-4046-9881-d5651d81ade8",
+        "number": "27800050",
+        "shortname": "WERRIES OW",
+        "longname": "WERRIES OW",
+        "km": 40.611,
+        "agency": "RHEINE",
+        "longitude": 7.870046,
+        "latitude": 51.695153,
+        "voiceServiceNumber": "+49228 286527 015",
+        "water": {
+            "shortname": "DHK",
+            "longname": "DATTELN-HAMM-KANAL"
+        },
+        "timeseries": [
+            {
+                "shortname": "W",
+                "longname": "WASSERSTAND ROHDATEN",
+                "unit": "m+NN",
+                "equidistance": 1,
+                "currentMeasurement": {
+                    "timestamp": "2026-09-28T16:00:00+02:00",
+                    "value": 63.29,
+                    "stateMnwMhw": "unknown",
+                    "stateNswHsw": "unknown"
+                }
+            }
+        ]
+    },
+    {
+        "uuid": "33092c28-201a-4210-89c9-ce68cad61ed1",
+        "number": "44100206",
+        "shortname": "HELMINGHAUSEN",
+        "longname": "HELMINGHAUSEN",
+        "km": 90.0,
+        "agency": "HANN-MÜNDEN",
+        "longitude": 8.73078,
+        "latitude": 51.381475,
+        "voiceServiceNumber": "+49228 286527 016",
+        "water": {
+            "shortname": "DIEMEL",
+            "longname": "DIEMEL"
+        },
+        "timeseries": [
+            {
+                "shortname": "Q",
+                "longname": "ABFLUSS",
+                "unit": "m³/s",
+                "equidistance": 15,
+                "currentMeasurement": {
+                    "timestamp": "2026-09-28T06:45:00+02:00",
+                    "value": 1.11
+                }
+            },
+            {
+                "shortname": "W",
+                "longname": "WASSERSTAND ROHDATEN",
+                "unit": "cm",
+                "equidistance": 15,
+                "currentMeasurement": {
+                    "timestamp": "2026-09-28T16:15:00+02:00",
+                    "value": 67.0,
+                    "stateMnwMhw": "normal",
+                    "stateNswHsw": "unknown"
+                },
+                "gaugeZero": {
+                    "unit": "m. ü. NN",
+                    "value": 336.97,
+                    "validFrom": "1980-09-01"
+                }
+            }
+        ]
+    },
+    {
+        "uuid": "5cdc6555-87d7-4fcd-834d-cbbe24c9d08b",
+        "number": "44100104",
+        "shortname": "DIEMELTALSPERRE",
+        "longname": "DIEMELTALSPERRE",
+        "km": 90.6,
+        "agency": "HANN-MÜNDEN",
+        "longitude": 8.728648,
+        "latitude": 51.377695,
+        "voiceServiceNumber": "+49228 286527 017",
+        "water": {
+            "shortname": "DIEMEL",
+            "longname": "DIEMEL"
+        },
+        "timeseries": [
+            {
+                "shortname": "W",
+                "longname": "WASSERSTAND ROHDATEN",
+                "unit": "m+PNP",
+                "equidistance": 15,
+                "currentMeasurement": {
+                    "timestamp": "2026-09-28T16:15:00+02:00",
+                    "value": 370.89,
+                    "stateMnwMhw": "unknown",
+                    "stateNswHsw": "unknown"
+                },
+                "gaugeZero": {
+                    "unit": "m. ü. NN",
+                    "value": 0.041,
+                    "validFrom": "1980-01-01"
+                }
+            },
+            {
+                "shortname": "V",
+                "longname": "VOLUMEN",
+                "unit": "m³",
+                "equidistance": 15,
+                "currentMeasurement": {
+                    "timestamp": "2026-09-28T06:45:00+02:00",
+                    "value": 12337593.0
+                }
+            }
+        ]
+    },
+    {
+        "uuid": "7deedc21-2878-40cc-ab47-f6da0d9002f1",
+        "number": "44100024",
+        "shortname": "WILHELMSBRÜCKE",
+        "longname": "WILHELMSBRÜCKE",
+        "km": 97.4,
+        "agency": "HANN-MÜNDEN",
+        "longitude": 8.723953,
+        "latitude": 51.346315,
+        "voiceServiceNumber": "+49228 286527 018",
+        "water": {
+            "shortname": "DIEMEL",
+            "longname": "DIEMEL"
+        },
+        "timeseries": [
+            {
+                "shortname": "Q",
+                "longname": "ABFLUSS",
+                "unit": "m³/s",
+                "equidistance": 15,
+                "currentMeasurement": {
+                    "timestamp": "2026-09-28T06:00:00+02:00",
+                    "value": 0.069
+                }
+            },
+            {
+                "shortname": "W",
+                "longname": "WASSERSTAND ROHDATEN",
+                "unit": "cm",
+                "equidistance": 15,
+                "currentMeasurement": {
+                    "timestamp": "2026-09-28T16:00:00+02:00",
+                    "value": 4.0,
+                    "stateMnwMhw": "low",
+                    "stateNswHsw": "unknown"
+                },
+                "gaugeZero": {
+                    "unit": "m. ü. NN",
+                    "value": 376.978,
+                    "validFrom": "1941-11-01"
+                }
+            }
+        ]
+    },
+    {
+        "uuid": "f7b5c3d3-33f6-4ba4-a509-cf2b1a9d7297",
+        "number": "42015",
+        "shortname": "THEBNERSTRASSL",
+        "longname": "THEBNERSTRASSL",
+        "km": 1879.2,
+        "agency": "VIA DONAU",
+        "water": {
+            "shortname": "DONAU",
+            "longname": "DONAU"
+        },
+        "timeseries": [
+            {
+                "shortname": "W",
+                "longname": "WASSERSTAND ROHDATEN",
+                "unit": "cm",
+                "equidistance": 15,
+                "currentMeasurement": {
+                    "timestamp": "2026-09-28T16:00:00+02:00",
+                    "value": 56.0,
+                    "stateMnwMhw": "unknown",
+                    "stateNswHsw": "normal"
+                },
+                "gaugeZero": {
+                    "unit": "m ü. A.",
+                    "value": 133.26,
+                    "validFrom": "2012-09-01"
+                }
+            }
+        ]
+    },
+    {
+        "uuid": "35846b8b-e589-4654-9eb5-a650048f8468",
+        "number": "42014",
+        "shortname": "WILDUNGSMAUER",
+        "longname": "WILDUNGSMAUER",
+        "km": 1894.7,
+        "agency": "VIA DONAU",
+        "water": {
+            "shortname": "DONAU",
+            "longname": "DONAU"
+        },
+        "timeseries": [
+            {
+                "shortname": "W",
+                "longname": "WASSERSTAND ROHDATEN",
+                "unit": "cm",
+                "equidistance": 15,
+                "currentMeasurement": {
+                    "timestamp": "2026-09-28T16:00:00+02:00",
+                    "value": 77.0,
+                    "stateMnwMhw": "unknown",
+                    "stateNswHsw": "normal"
+                },
+                "gaugeZero": {
+                    "unit": "m ü. A.",
+                    "value": 139.48,
+                    "validFrom": "2006-10-01"
+                }
+            }
+        ]
+    },
+    {
+        "uuid": "ff44be4a-f934-446c-afb0-a1cf7702c48c",
+        "number": "42013",
+        "shortname": "KORNEUBURG",
+        "longname": "KORNEUBURG",
+        "km": 1941.5,
+        "agency": "VIA DONAU",
+        "water": {
+            "shortname": "DONAU",
+            "longname": "DONAU"
+        },
+        "timeseries": [
+            {
+                "shortname": "W",
+                "longname": "WASSERSTAND ROHDATEN",
+                "unit": "cm",
+                "equidistance": 15,
+                "currentMeasurement": {
+                    "timestamp": "2026-09-28T16:00:00+02:00",
+                    "value": 174.0,
+                    "stateMnwMhw": "unknown",
+                    "stateNswHsw": "normal"
+                },
+                "gaugeZero": {
+                    "unit": "m ü. A.",
+                    "value": 159.87,
+                    "validFrom": "2006-10-01"
+                }
+            }
+        ]
+    },
+    {
+        "uuid": "ce4e3050-2d16-459a-8101-61535132398c",
+        "number": "42012",
+        "shortname": "DÜRNSTEIN",
+        "longname": "DÜRNSTEIN",
+        "km": 2009.2,
+        "agency": "VIA DONAU",
+        "water": {
+            "shortname": "DONAU",
+            "longname": "DONAU"
+        },
+        "timeseries": [
+            {
+                "shortname": "W",
+                "longname": "WASSERSTAND ROHDATEN",
+                "unit": "cm",
+                "equidistance": 15,
+                "currentMeasurement": {
+                    "timestamp": "2026-09-28T15:45:00+02:00",
+                    "value": 279.0,
+                    "stateMnwMhw": "unknown",
+                    "stateNswHsw": "normal"
+                },
+                "gaugeZero": {
+                    "unit": "m ü. A.",
+                    "value": 191.2,
+                    "validFrom": "2012-09-01"
+                }
+            }
+        ]
+    },
+    {
+        "uuid": "56178f74-b3ef-4192-aad5-4f82d4a91a59",
+        "number": "42011",
+        "shortname": "KIENSTOCK",
+        "longname": "KIENSTOCK",
+        "km": 2015.2,
+        "agency": "VIA DONAU",
+        "water": {
+            "shortname": "DONAU",
+            "longname": "DONAU"
+        },
+        "timeseries": [
+            {
+                "shortname": "W",
+                "longname": "WASSERSTAND ROHDATEN",
+                "unit": "cm",
+                "equidistance": 15,
+                "currentMeasurement": {
+                    "timestamp": "2026-09-28T16:00:00+02:00",
+                    "value": 100.0,
+                    "stateMnwMhw": "unknown",
+                    "stateNswHsw": "normal"
+                },
+                "gaugeZero": {
+                    "unit": "m ü. A.",
+                    "value": 194.0,
+                    "validFrom": "2006-10-01"
+                }
+            }
+        ]
+    }
+]

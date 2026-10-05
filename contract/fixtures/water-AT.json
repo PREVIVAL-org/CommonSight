@@ -1,0 +1,1297 @@
+{
+    "schema": 1,
+    "layer": "water",
+    "scope": "AT",
+    "status": "partial",
+    "source": "Hydrographie Österreich · eHYD",
+    "sourceUrl": "https://ehyd.gv.at/",
+    "generatedAt": "2026-09-28T14:30:00Z",
+    "updatedAt": "2026-09-28T12:30:00Z",
+    "note": {
+        "key": "layer.water.note.AT"
+    },
+    "coverage": [],
+    "issues": [
+        {
+            "key": "issue.belowExpected",
+            "params": {
+                "source": "eHYD",
+                "valid": 24,
+                "expected": 150
+            }
+        }
+    ],
+    "stats": {},
+    "items": [
+        {
+            "kind": "measurement",
+            "id": "ehyd:210013",
+            "title": "Nickelsdorf · Leitha",
+            "url": "http://wasser.bgld.gv.at/hydrographie/die-fluesse/nickelsdorf-leitha",
+            "time": "2026-09-28T12:15:00Z",
+            "lat": 47.945458466,
+            "lon": 17.091152139,
+            "regionIds": [
+                "AT-1"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "discharge",
+            "value": 0.053,
+            "unit": "m³/s",
+            "reference": {
+                "key": "reference.dischargeAtGauge"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.ehyd.assessment.label.atClass1"
+                },
+                "basis": {
+                    "key": "source.ehyd.assessment.basis.atClass1"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T18:15:00Z",
+                "sourceValue": 130
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.ehyd.fact.hydroService"
+                    },
+                    "value": "Burgenland"
+                }
+            ]
+        },
+        {
+            "kind": "measurement",
+            "id": "ehyd:210039",
+            "title": "Piringsdorf · Rabnitz",
+            "url": "http://wasser.bgld.gv.at/hydrographie/die-fluesse/piringsdorf",
+            "time": "2026-09-28T12:15:00Z",
+            "lat": 47.449195044,
+            "lon": 16.418381946,
+            "regionIds": [
+                "AT-1"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "discharge",
+            "value": 0.103,
+            "unit": "m³/s",
+            "reference": {
+                "key": "reference.dischargeAtGauge"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.ehyd.assessment.label.atClass1"
+                },
+                "basis": {
+                    "key": "source.ehyd.assessment.basis.atClass1"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T18:15:00Z",
+                "sourceValue": 130
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.ehyd.fact.hydroService"
+                    },
+                    "value": "Burgenland"
+                }
+            ]
+        },
+        {
+            "kind": "measurement",
+            "id": "ehyd:210054",
+            "title": "Mannersdorf an der Rabnitz · Rabnitz",
+            "url": "http://wasser.bgld.gv.at/hydrographie/die-fluesse/mannersdorf-an-der-rabnitz",
+            "time": "2026-09-28T12:15:00Z",
+            "lat": 47.432418739,
+            "lon": 16.531688973,
+            "regionIds": [
+                "AT-1"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "discharge",
+            "value": 0.172,
+            "unit": "m³/s",
+            "reference": {
+                "key": "reference.dischargeAtGauge"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.ehyd.assessment.label.atClass1"
+                },
+                "basis": {
+                    "key": "source.ehyd.assessment.basis.atClass1"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T18:15:00Z",
+                "sourceValue": 130
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.ehyd.fact.hydroService"
+                    },
+                    "value": "Burgenland"
+                }
+            ]
+        },
+        {
+            "kind": "measurement",
+            "id": "ehyd:210062",
+            "title": "Oberpullendorf · Stoob",
+            "url": "http://wasser.bgld.gv.at/hydrographie/die-fluesse/oberpullendorf",
+            "time": "2026-09-28T12:15:00Z",
+            "lat": 47.498559117,
+            "lon": 16.51069718,
+            "regionIds": [
+                "AT-1"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "discharge",
+            "value": 0.057,
+            "unit": "m³/s",
+            "reference": {
+                "key": "reference.dischargeAtGauge"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.ehyd.assessment.label.atClass1"
+                },
+                "basis": {
+                    "key": "source.ehyd.assessment.basis.atClass1"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T18:15:00Z",
+                "sourceValue": 130
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.ehyd.fact.hydroService"
+                    },
+                    "value": "Burgenland"
+                }
+            ]
+        },
+        {
+            "kind": "measurement",
+            "id": "ehyd:210096",
+            "title": "Schützen am Gebirge · Wulka",
+            "url": "http://wasser.bgld.gv.at/hydrographie/die-fluesse/schuetzen-am-gebirge",
+            "time": "2026-09-28T12:15:00Z",
+            "lat": 47.85221309,
+            "lon": 16.637486667,
+            "regionIds": [
+                "AT-1"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "discharge",
+            "value": 0.202,
+            "unit": "m³/s",
+            "reference": {
+                "key": "reference.dischargeAtGauge"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.ehyd.assessment.label.atClass1"
+                },
+                "basis": {
+                    "key": "source.ehyd.assessment.basis.atClass1"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T18:15:00Z",
+                "sourceValue": 130
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.ehyd.fact.hydroService"
+                    },
+                    "value": "Burgenland"
+                }
+            ]
+        },
+        {
+            "kind": "measurement",
+            "id": "ehyd:210120",
+            "title": "Mörbisch am See · Neusiedler See",
+            "url": "http://wasser.bgld.gv.at/hydrographie/die-seen/moerbisch",
+            "time": "2026-09-28T12:15:00Z",
+            "lat": 47.751751824,
+            "lon": 16.698252867,
+            "regionIds": [
+                "AT-1"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 114.91,
+            "unit": "m ü.A",
+            "reference": {
+                "key": "reference.seaLevel"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.ehyd.assessment.label.atClass1"
+                },
+                "basis": {
+                    "key": "source.ehyd.assessment.basis.atClass1"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T18:15:00Z",
+                "sourceValue": 130
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.ehyd.fact.hydroService"
+                    },
+                    "value": "Burgenland"
+                }
+            ]
+        },
+        {
+            "kind": "measurement",
+            "id": "ehyd:210146",
+            "title": "Neusiedl am See (Seebad) · Neusiedler See",
+            "url": "http://wasser.bgld.gv.at/hydrographie/die-seen/neusiedl",
+            "time": "2026-09-28T12:15:00Z",
+            "lat": 47.929759544,
+            "lon": 16.835540033,
+            "regionIds": [
+                "AT-1"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 114.96,
+            "unit": "m ü.A",
+            "reference": {
+                "key": "reference.seaLevel"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.ehyd.assessment.label.atClass1"
+                },
+                "basis": {
+                    "key": "source.ehyd.assessment.basis.atClass1"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T18:15:00Z",
+                "sourceValue": 130
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.ehyd.fact.hydroService"
+                    },
+                    "value": "Burgenland"
+                }
+            ]
+        },
+        {
+            "kind": "measurement",
+            "id": "ehyd:210153",
+            "title": "Podersdorf am See (Badebucht) · Neusiedler See",
+            "url": "http://wasser.bgld.gv.at/hydrographie/die-seen/podersdorf",
+            "time": "2026-09-28T12:15:00Z",
+            "lat": 47.860104509,
+            "lon": 16.827971736,
+            "regionIds": [
+                "AT-1"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 114.94,
+            "unit": "m ü.A",
+            "reference": {
+                "key": "reference.seaLevel"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.ehyd.assessment.label.atClass1"
+                },
+                "basis": {
+                    "key": "source.ehyd.assessment.basis.atClass1"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T18:15:00Z",
+                "sourceValue": 130
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.ehyd.fact.hydroService"
+                    },
+                    "value": "Burgenland"
+                }
+            ]
+        },
+        {
+            "kind": "measurement",
+            "id": "ehyd:210203",
+            "title": "Markt Allhau · Stögersbach",
+            "url": "http://wasser.bgld.gv.at/hydrographie/die-fluesse/markt-allhau",
+            "time": "2026-09-28T12:15:00Z",
+            "lat": 47.292896546,
+            "lon": 16.084976183,
+            "regionIds": [
+                "AT-1"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "discharge",
+            "value": 0.054,
+            "unit": "m³/s",
+            "reference": {
+                "key": "reference.dischargeAtGauge"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.ehyd.assessment.label.atClass1"
+                },
+                "basis": {
+                    "key": "source.ehyd.assessment.basis.atClass1"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T18:15:00Z",
+                "sourceValue": 130
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.ehyd.fact.hydroService"
+                    },
+                    "value": "Burgenland"
+                }
+            ]
+        },
+        {
+            "kind": "measurement",
+            "id": "ehyd:210211",
+            "title": "Dobersdorf · Lafnitz",
+            "url": "http://wasser.bgld.gv.at/hydrographie/die-fluesse/dobersdorf",
+            "time": "2026-09-28T12:15:00Z",
+            "lat": 47.021345342,
+            "lon": 16.136237708,
+            "regionIds": [
+                "AT-1"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "discharge",
+            "value": 0.955,
+            "unit": "m³/s",
+            "reference": {
+                "key": "reference.dischargeAtGauge"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.ehyd.assessment.label.atClass1"
+                },
+                "basis": {
+                    "key": "source.ehyd.assessment.basis.atClass1"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T18:15:00Z",
+                "sourceValue": 130
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.ehyd.fact.hydroService"
+                    },
+                    "value": "Burgenland"
+                }
+            ]
+        },
+        {
+            "kind": "measurement",
+            "id": "ehyd:210229",
+            "title": "Oberwart · Pinka",
+            "url": "http://wasser.bgld.gv.at/hydrographie/die-fluesse/oberwart",
+            "time": "2026-09-28T12:15:00Z",
+            "lat": 47.277369081,
+            "lon": 16.219200543,
+            "regionIds": [
+                "AT-1"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "discharge",
+            "value": 0.267,
+            "unit": "m³/s",
+            "reference": {
+                "key": "reference.dischargeAtGauge"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.ehyd.assessment.label.atClass1"
+                },
+                "basis": {
+                    "key": "source.ehyd.assessment.basis.atClass1"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T18:15:00Z",
+                "sourceValue": 130
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.ehyd.fact.hydroService"
+                    },
+                    "value": "Burgenland"
+                }
+            ]
+        },
+        {
+            "kind": "measurement",
+            "id": "ehyd:210237",
+            "title": "Woppendorf · Pinka",
+            "url": "http://wasser.bgld.gv.at/hydrographie/die-fluesse/woppendorf",
+            "time": "2026-09-28T11:30:00Z",
+            "lat": 47.203655387,
+            "lon": 16.39227058,
+            "regionIds": [
+                "AT-1"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "discharge",
+            "value": 0.342,
+            "unit": "m³/s",
+            "reference": {
+                "key": "reference.dischargeAtGauge"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.ehyd.assessment.label.atClass1"
+                },
+                "basis": {
+                    "key": "source.ehyd.assessment.basis.atClass1"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T17:30:00Z",
+                "sourceValue": 130
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.ehyd.fact.hydroService"
+                    },
+                    "value": "Burgenland"
+                }
+            ]
+        },
+        {
+            "kind": "measurement",
+            "id": "ehyd:210294",
+            "title": "Heiligenbrunn · Strem",
+            "url": "http://wasser.bgld.gv.at/hydrographie/die-fluesse/heiligenbrunn",
+            "time": "2026-09-28T12:15:00Z",
+            "lat": 47.033183058,
+            "lon": 16.421035741,
+            "regionIds": [
+                "AT-1"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "discharge",
+            "value": 0.154,
+            "unit": "m³/s",
+            "reference": {
+                "key": "reference.dischargeAtGauge"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.ehyd.assessment.label.atClass1"
+                },
+                "basis": {
+                    "key": "source.ehyd.assessment.basis.atClass1"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T18:15:00Z",
+                "sourceValue": 130
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.ehyd.fact.hydroService"
+                    },
+                    "value": "Burgenland"
+                }
+            ]
+        },
+        {
+            "kind": "measurement",
+            "id": "ehyd:210310",
+            "title": "Rattersdorf · Güns",
+            "url": "http://wasser.bgld.gv.at/hydrographie/die-fluesse/rattersdorf",
+            "time": "2026-09-28T12:15:00Z",
+            "lat": 47.410432157,
+            "lon": 16.499142378,
+            "regionIds": [
+                "AT-1"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "discharge",
+            "value": 0.177,
+            "unit": "m³/s",
+            "reference": {
+                "key": "reference.dischargeAtGauge"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.ehyd.assessment.label.atClass1"
+                },
+                "basis": {
+                    "key": "source.ehyd.assessment.basis.atClass1"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T18:15:00Z",
+                "sourceValue": 130
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.ehyd.fact.hydroService"
+                    },
+                    "value": "Burgenland"
+                }
+            ]
+        },
+        {
+            "kind": "measurement",
+            "id": "ehyd:210401",
+            "title": "Eltendorf · Lafnitz",
+            "url": "http://wasser.bgld.gv.at/hydrographie/die-fluesse/eltendorf",
+            "time": "2026-09-28T12:15:00Z",
+            "lat": 46.990417663,
+            "lon": 16.204054885,
+            "regionIds": [
+                "AT-1"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "discharge",
+            "value": 2.62,
+            "unit": "m³/s",
+            "reference": {
+                "key": "reference.dischargeAtGauge"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.ehyd.assessment.label.atClass1"
+                },
+                "basis": {
+                    "key": "source.ehyd.assessment.basis.atClass1"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T18:15:00Z",
+                "sourceValue": 130
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.ehyd.fact.hydroService"
+                    },
+                    "value": "Burgenland"
+                }
+            ]
+        },
+        {
+            "kind": "measurement",
+            "id": "ehyd:210419",
+            "title": "Pinkafeld · Pinka",
+            "url": "http://wasser.bgld.gv.at/hydrographie/die-fluesse/pinkafeld",
+            "time": "2026-09-28T12:15:00Z",
+            "lat": 47.370761014,
+            "lon": 16.119023816,
+            "regionIds": [
+                "AT-1"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "discharge",
+            "value": 0.29,
+            "unit": "m³/s",
+            "reference": {
+                "key": "reference.dischargeAtGauge"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.ehyd.assessment.label.atClass1"
+                },
+                "basis": {
+                    "key": "source.ehyd.assessment.basis.atClass1"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T18:15:00Z",
+                "sourceValue": 130
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.ehyd.fact.hydroService"
+                    },
+                    "value": "Burgenland"
+                }
+            ]
+        },
+        {
+            "kind": "measurement",
+            "id": "ehyd:210468",
+            "title": "Neumarkt · Raab",
+            "url": "http://wasser.bgld.gv.at/hydrographie/die-fluesse/neumarkt",
+            "time": "2026-09-28T12:15:00Z",
+            "lat": 46.929184369,
+            "lon": 16.156924687,
+            "regionIds": [
+                "AT-1"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "discharge",
+            "value": 0.533,
+            "unit": "m³/s",
+            "reference": {
+                "key": "reference.dischargeAtGauge"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.ehyd.assessment.label.atClass1"
+                },
+                "basis": {
+                    "key": "source.ehyd.assessment.basis.atClass1"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T18:15:00Z",
+                "sourceValue": 130
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.ehyd.fact.hydroService"
+                    },
+                    "value": "Burgenland"
+                }
+            ]
+        },
+        {
+            "kind": "measurement",
+            "id": "ehyd:210484",
+            "title": "Rauchwart · Strem",
+            "url": "http://wasser.bgld.gv.at/hydrographie/die-fluesse/rauchwart",
+            "time": "2026-09-28T12:15:00Z",
+            "lat": 47.129864387,
+            "lon": 16.232049527,
+            "regionIds": [
+                "AT-1"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "discharge",
+            "value": 0.089,
+            "unit": "m³/s",
+            "reference": {
+                "key": "reference.dischargeAtGauge"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.ehyd.assessment.label.atClass1"
+                },
+                "basis": {
+                    "key": "source.ehyd.assessment.basis.atClass1"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T18:15:00Z",
+                "sourceValue": 130
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.ehyd.fact.hydroService"
+                    },
+                    "value": "Burgenland"
+                }
+            ]
+        },
+        {
+            "kind": "measurement",
+            "id": "ehyd:210500",
+            "title": "Lutzmannsburg · Rabnitz",
+            "url": "http://wasser.bgld.gv.at/hydrographie/die-fluesse/lutzmannsburg",
+            "time": "2026-09-28T12:15:00Z",
+            "lat": 47.460059312,
+            "lon": 16.643193098,
+            "regionIds": [
+                "AT-1"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "discharge",
+            "value": 0.223,
+            "unit": "m³/s",
+            "reference": {
+                "key": "reference.dischargeAtGauge"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.ehyd.assessment.label.atClass1"
+                },
+                "basis": {
+                    "key": "source.ehyd.assessment.basis.atClass1"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T18:15:00Z",
+                "sourceValue": 130
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.ehyd.fact.hydroService"
+                    },
+                    "value": "Burgenland"
+                }
+            ]
+        },
+        {
+            "kind": "measurement",
+            "id": "ehyd:215012",
+            "title": "Siget in der Wart · Zickenbach",
+            "url": "http://wasser.bgld.gv.at/hydrographie/die-fluesse/siget-in-der-wart",
+            "time": "2026-09-28T12:15:00Z",
+            "lat": 47.262568527,
+            "lon": 16.278032676,
+            "regionIds": [
+                "AT-1"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "discharge",
+            "value": 0.04,
+            "unit": "m³/s",
+            "reference": {
+                "key": "reference.dischargeAtGauge"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.ehyd.assessment.label.atClass1"
+                },
+                "basis": {
+                    "key": "source.ehyd.assessment.basis.atClass1"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T18:15:00Z",
+                "sourceValue": 130
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.ehyd.fact.hydroService"
+                    },
+                    "value": "Burgenland"
+                }
+            ]
+        },
+        {
+            "kind": "measurement",
+            "id": "ehyd:215038",
+            "title": "Moschendorf · Pinka",
+            "url": "http://wasser.bgld.gv.at/hydrographie/die-fluesse/moschendorf",
+            "time": "2026-09-28T12:15:00Z",
+            "lat": 47.059283361,
+            "lon": 16.463718859,
+            "regionIds": [
+                "AT-1"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "discharge",
+            "value": 0.37,
+            "unit": "m³/s",
+            "reference": {
+                "key": "reference.dischargeAtGauge"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.ehyd.assessment.label.atClass1"
+                },
+                "basis": {
+                    "key": "source.ehyd.assessment.basis.atClass1"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T18:15:00Z",
+                "sourceValue": 130
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.ehyd.fact.hydroService"
+                    },
+                    "value": "Burgenland"
+                }
+            ]
+        },
+        {
+            "kind": "measurement",
+            "id": "ehyd:215046",
+            "title": "Heiligenkreuz · Lafnitz",
+            "url": "http://wasser.bgld.gv.at/hydrographie/die-fluesse/heiligenkreuz",
+            "time": "2026-09-28T12:10:00Z",
+            "lat": 46.965847785,
+            "lon": 16.255169827,
+            "regionIds": [
+                "AT-1"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "discharge",
+            "value": 3.02,
+            "unit": "m³/s",
+            "reference": {
+                "key": "reference.dischargeAtGauge"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.ehyd.assessment.label.atClass1"
+                },
+                "basis": {
+                    "key": "source.ehyd.assessment.basis.atClass1"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T18:10:00Z",
+                "sourceValue": 130
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.ehyd.fact.hydroService"
+                    },
+                    "value": "Burgenland"
+                }
+            ]
+        },
+        {
+            "kind": "measurement",
+            "id": "ehyd:212324",
+            "title": "Oberdrauburg-Ort · Drau",
+            "url": "https://info.ktn.gv.at/asp/hydro/daten/svg/2001001q3d.svg",
+            "time": "2026-09-28T12:30:00Z",
+            "lat": 46.747614942,
+            "lon": 12.972969722,
+            "regionIds": [
+                "AT-2"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "CH-GR"
+                ]
+            },
+            "quantity": "discharge",
+            "value": 30.5,
+            "unit": "m³/s",
+            "reference": {
+                "key": "reference.dischargeAtGauge"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.ehyd.assessment.label.atClass1"
+                },
+                "basis": {
+                    "key": "source.ehyd.assessment.basis.atClass1"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T18:30:00Z",
+                "sourceValue": 130
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.ehyd.fact.hydroService"
+                    },
+                    "value": "Kärnten"
+                }
+            ]
+        },
+        {
+            "kind": "measurement",
+            "id": "ehyd:212357",
+            "title": "Sachsenburg-Süd · Drau",
+            "url": "https://info.ktn.gv.at/asp/hydro/daten/svg/2001003q3d.svg",
+            "time": "2026-09-28T12:30:00Z",
+            "lat": 46.827063534,
+            "lon": 13.349301232,
+            "regionIds": [
+                "AT-2"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7"
+                ]
+            },
+            "quantity": "discharge",
+            "value": 44.1,
+            "unit": "m³/s",
+            "reference": {
+                "key": "reference.dischargeAtGauge"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.ehyd.assessment.label.atClass1"
+                },
+                "basis": {
+                    "key": "source.ehyd.assessment.basis.atClass1"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T18:30:00Z",
+                "sourceValue": 130
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.ehyd.fact.hydroService"
+                    },
+                    "value": "Kärnten"
+                }
+            ]
+        }
+    ]
+}

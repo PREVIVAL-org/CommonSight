@@ -1,0 +1,160 @@
+/* Boxes per item kind in the compact and full variants (U-80 to U-82). */
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--_space-2);
+  padding: var(--_space-3);
+  border: 1px solid var(--_border);
+  border-left: 4px solid var(--card-accent, var(--_border-strong));
+  border-radius: var(--_radius);
+  background: var(--_surface);
+  box-shadow: var(--_shadow);
+}
+
+.card[data-variant='full'] {
+  padding: var(--_space-4);
+}
+
+.card-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--_space-1) var(--_space-2);
+  color: var(--_text-muted);
+  font-size: var(--_font-size-sm);
+}
+
+.card-category {
+  font-weight: var(--_font-weight-strong);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.card-title {
+  margin: 0;
+  color: var(--_text-strong);
+  font-size: var(--_font-size-lg);
+  font-weight: var(--_font-weight-strong);
+  line-height: 1.3;
+  /* Long compound names (stations, warnings) wrap instead of widening the page. */
+  overflow-wrap: anywhere;
+}
+
+.card-title-button {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.card-title-button:hover {
+  text-decoration: underline;
+}
+
+.card-value {
+  color: var(--_text-strong);
+  font-size: var(--_font-size-xl);
+  font-weight: var(--_font-weight-strong);
+  line-height: 1.2;
+}
+
+.card-sub {
+  color: var(--_text-muted);
+  font-size: var(--_font-size-sm);
+}
+
+.card-text {
+  margin: 0;
+  white-space: pre-line;
+}
+
+.card-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--_space-2) var(--_space-4);
+  margin-top: auto;
+  padding-top: var(--_space-1);
+  font-size: var(--_font-size-sm);
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--_space-1);
+  align-self: flex-start;
+  padding: 1px var(--_space-2);
+  border: 2px solid var(--badge-color, var(--_border-strong));
+  border-radius: var(--_radius-sm);
+  background: color-mix(in srgb, var(--badge-color, var(--_border-strong)) 18%, transparent);
+  color: var(--_text-strong);
+  font-size: var(--_font-size-sm);
+  font-weight: var(--_font-weight-strong);
+}
+
+.badge[data-dashed='true'] {
+  border-style: dashed;
+}
+
+.badge-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--badge-color, var(--_border-strong));
+}
+
+.facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: var(--_space-1) var(--_space-3);
+  margin: 0;
+  font-size: var(--_font-size-sm);
+}
+
+.facts dt {
+  color: var(--_text-muted);
+}
+
+.facts dd {
+  margin: 0;
+  color: var(--_text-strong);
+  font-weight: var(--_font-weight-strong);
+}
+
+.sections {
+  display: flex;
+  flex-direction: column;
+  gap: var(--_space-2);
+}
+
+.sections h4 {
+  margin: 0;
+  color: var(--_text-strong);
+  font-size: var(--_font-size);
+}
+
+.scale-bar {
+  position: relative;
+  height: 8px;
+  border-radius: 999px;
+  background: var(--_surface-subtle);
+  box-shadow: inset 0 0 0 1px var(--_border);
+}
+
+.scale-bar-fill {
+  position: absolute;
+  inset: 0 auto 0 0;
+  border-radius: 999px;
+  background: var(--card-accent, var(--_accent));
+}
+
+.sparkline {
+  width: 100%;
+  max-width: 240px;
+  height: 36px;
+  color: var(--card-accent, var(--_accent));
+}

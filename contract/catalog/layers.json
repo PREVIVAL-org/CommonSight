@@ -1,0 +1,112 @@
+[
+  {
+    "id": "warnings",
+    "scope": "country",
+    "color": "#dc8c2b",
+    "icon": "triangle-alert",
+    "onMap": true,
+    "regionFilter": true,
+    "view": "events",
+    "defaultActive": true,
+    "border": false
+  },
+  {
+    "id": "weather",
+    "scope": "country",
+    "color": "#388bbb",
+    "icon": "cloud-sun",
+    "onMap": true,
+    "regionFilter": true,
+    "view": "measurements",
+    "defaultActive": true,
+    "border": true
+  },
+  {
+    "id": "air",
+    "scope": "country",
+    "color": "#348f7b",
+    "icon": "wind",
+    "onMap": true,
+    "regionFilter": true,
+    "view": "measurements",
+    "defaultActive": false,
+    "border": true
+  },
+  {
+    "id": "pollen",
+    "scope": "country",
+    "color": "#c2507e",
+    "icon": "flower-2",
+    "onMap": true,
+    "regionFilter": true,
+    "view": "measurements",
+    "defaultActive": false,
+    "border": true
+  },
+  {
+    "id": "water",
+    "scope": "country",
+    "color": "#398ed4",
+    "icon": "waves-horizontal",
+    "onMap": true,
+    "regionFilter": true,
+    "view": "measurements",
+    "defaultActive": true,
+    "border": true
+  },
+  {
+    "id": "radiation",
+    "scope": "country",
+    "color": "#b0a235",
+    "icon": "radiation",
+    "onMap": true,
+    "regionFilter": true,
+    "view": "measurements",
+    "defaultActive": false,
+    "border": true
+  },
+  {
+    "id": "space",
+    "scope": "global",
+    "color": "#a37dc2",
+    "icon": "satellite",
+    "onMap": false,
+    "regionFilter": false,
+    "view": "measurements",
+    "defaultActive": false,
+    "border": false
+  },
+  {
+    "id": "nature",
+    "scope": "country",
+    "color": "#9476ce",
+    "icon": "activity",
+    "onMap": true,
+    "regionFilter": true,
+    "view": "events",
+    "defaultActive": false,
+    "border": true
+  },
+  {
+    "id": "traffic",
+    "scope": "country",
+    "color": "#768d9f",
+    "icon": "route",
+    "onMap": true,
+    "regionFilter": true,
+    "view": "events",
+    "defaultActive": false,
+    "border": false
+  },
+  {
+    "id": "news",
+    "scope": "global",
+    "color": "#657488",
+    "icon": "newspaper",
+    "onMap": false,
+    "regionFilter": false,
+    "view": null,
+    "defaultActive": false,
+    "border": false
+  }
+]

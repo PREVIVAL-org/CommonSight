@@ -1,0 +1,1984 @@
+{
+    "schema": 1,
+    "layer": "traffic",
+    "scope": "AT",
+    "status": "ok",
+    "source": "ÖAMTC · GeoRSS",
+    "sourceUrl": "https://www.oeamtc.at/verkehrsservice/",
+    "generatedAt": "2026-09-28T14:30:00Z",
+    "updatedAt": "2026-10-04T08:35:34Z",
+    "note": {
+        "key": "layer.traffic.note.AT"
+    },
+    "coverage": [],
+    "issues": [],
+    "stats": {},
+    "items": [
+        {
+            "kind": "trafficNotice",
+            "id": "oeamtc:{55a865f9-88d6-496b-32b0-a4a1bf46fe7e}",
+            "title": "A1 West Autobahn, Salzburg Richtung Rosenheim",
+            "url": "https://www.oeamtc.at/verkehrsservice/?region=at-5&filter=stau",
+            "time": "2026-10-04T08:30:11Z",
+            "lat": 47.76843,
+            "lon": 12.94371,
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        12.94371,
+                        47.76843
+                    ],
+                    [
+                        12.94751,
+                        47.76858
+                    ]
+                ]
+            },
+            "regionIds": [
+                "AT-5"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7"
+                ]
+            },
+            "noticeType": "Stau",
+            "category": "jam",
+            "description": "zwischen Knoten Salzburg und Grenzübergang Walserberg Polizeikontrolle, Zeitverlust für PKW von bis zu 6 Minuten bei der Ausreise, aus Österreich, (Meldung automatisch von ASFINAG-Sensoren erstellt)"
+        },
+        {
+            "kind": "trafficNotice",
+            "id": "oeamtc:{e9091b72-82f7-e67c-7354-3933302d2641}",
+            "title": "A1 West Autobahn, St. Pölten - Linz",
+            "url": "https://www.oeamtc.at/verkehrsservice/?region=at-4&filter=baustellen",
+            "time": "2026-09-21T06:29:16Z",
+            "lat": 48.22255,
+            "lon": 14.30178,
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        14.30178,
+                        48.22255
+                    ],
+                    [
+                        14.40827,
+                        48.21782
+                    ],
+                    [
+                        14.4353,
+                        48.20817
+                    ]
+                ]
+            },
+            "regionIds": [
+                "AT-4"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "noticeType": "Baustelle",
+            "category": "roadworks",
+            "description": "zwischen Einfahrt Enns-West und Knoten Linz in beiden Richtungen 1 Fahrstreifen gesperrt, Nachtbaustelle, vom 21.09.2026 bis 20.12.2026, täglich zwischen 20:00 Uhr und 05:00 Uhr"
+        },
+        {
+            "kind": "trafficNotice",
+            "id": "oeamtc:{d8f23747-dd18-a7f4-380e-8a280defb76d}",
+            "title": "A1 West Autobahn, St. Pölten Richtung Linz",
+            "url": "https://www.oeamtc.at/verkehrsservice/?region=at-3&filter=baustellen",
+            "time": "2026-09-04T08:39:46Z",
+            "lat": 48.19319,
+            "lon": 14.52665,
+            "regionIds": [
+                "AT-3"
+            ],
+            "regionMatch": "point",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "noticeType": "Baustelle",
+            "category": "roadworks",
+            "description": "Ausfahrt Sankt Valentin Ausfahrt gesperrt, Baustelle, von 08.11.2026 bis 04.12.2026"
+        },
+        {
+            "kind": "trafficNotice",
+            "id": "oeamtc:{76cfdc9b-7275-07f8-7397-9fcfb70d2acb}",
+            "title": "A1 West Autobahn, St. Pölten - Linz",
+            "url": "https://www.oeamtc.at/verkehrsservice/?region=at-3&filter=baustellen",
+            "time": "2026-09-03T09:48:02Z",
+            "lat": 48.19368,
+            "lon": 14.52413,
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        14.52413,
+                        48.19368
+                    ],
+                    [
+                        14.55357,
+                        48.16284
+                    ],
+                    [
+                        14.58219,
+                        48.13773
+                    ],
+                    [
+                        14.59727,
+                        48.13104
+                    ]
+                ]
+            },
+            "regionIds": [
+                "AT-3"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "noticeType": "Baustelle",
+            "category": "roadworks",
+            "description": "zwischen Haag und Sankt Valentin in beiden Richtungen Fahrbahn auf zwei Fahrstreifen verengt, Baustelle, bis 01.12.2026"
+        },
+        {
+            "kind": "trafficNotice",
+            "id": "oeamtc:{2b226e9e-dc3a-754e-7cd2-b60a5a68ea29}",
+            "title": "A1 West Autobahn, St. Pölten Richtung Linz",
+            "url": "https://www.oeamtc.at/verkehrsservice/?region=at-3&filter=baustellen",
+            "time": "2026-09-03T09:46:01Z",
+            "lat": 48.13143,
+            "lon": 14.59927,
+            "regionIds": [
+                "AT-3"
+            ],
+            "regionMatch": "point",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "noticeType": "Baustelle",
+            "category": "roadworks",
+            "description": "Einfahrt Haag Einfahrt gesperrt, Baustelle, bis 08.11.2026"
+        },
+        {
+            "kind": "trafficNotice",
+            "id": "oeamtc:{6a0c9033-1e39-9750-1849-52375f6185d5}",
+            "title": "A1 West Autobahn, St. Pölten Richtung Linz",
+            "url": "https://www.oeamtc.at/verkehrsservice/?region=at-3&filter=baustellen",
+            "time": "2026-09-03T09:44:31Z",
+            "lat": 48.13127,
+            "lon": 14.59985,
+            "regionIds": [
+                "AT-3"
+            ],
+            "regionMatch": "point",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "noticeType": "Baustelle",
+            "category": "roadworks",
+            "description": "Ausfahrt Haag Ausfahrt gesperrt, Baustelle, bis 08.11.2026"
+        },
+        {
+            "kind": "trafficNotice",
+            "id": "oeamtc:{5ba97a5a-5046-7a64-e2ca-cb62b0b3df13}",
+            "title": "A1 West Autobahn, St. Pölten Richtung Linz",
+            "url": "https://www.oeamtc.at/verkehrsservice/?region=at-3&filter=baustellen",
+            "time": "2026-04-07T10:26:49Z",
+            "lat": 48.17759,
+            "lon": 15.5611,
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        15.5611,
+                        48.17759
+                    ],
+                    [
+                        15.61587,
+                        48.17705
+                    ]
+                ]
+            },
+            "regionIds": [
+                "AT-3"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "noticeType": "Baustelle",
+            "category": "roadworks",
+            "description": "zwischen Sankt Pölten Süd und Raststätte Raststation Sankt Pölten Verkehr wird über die Gegenfahrbahn geleitet, geänderte Verkehrsführung, Instandsetzungsarbeiten, bis 31.10.2026 17:00 Uhr"
+        },
+        {
+            "kind": "trafficNotice",
+            "id": "oeamtc:{56a34793-0230-5a05-a387-031ce937c8b3}",
+            "title": "A2 Süd Autobahn, Graz Richtung Klagenfurt",
+            "url": "https://www.oeamtc.at/verkehrsservice/?region=at-6&filter=baustellen",
+            "time": "2026-03-30T14:56:52Z",
+            "lat": 46.96288,
+            "lon": 15.0472,
+            "regionIds": [
+                "AT-6"
+            ],
+            "regionMatch": "point",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "noticeType": "Baustelle",
+            "category": "roadworks",
+            "description": "Einfahrt Modriach gesperrt, Instandsetzungsarbeiten, bis 31.10.2026 08:00 Uhr"
+        },
+        {
+            "kind": "trafficNotice",
+            "id": "oeamtc:{05255446-a3dd-8ea9-143c-cb7a8f873133}",
+            "title": "A2 Süd Autobahn, Graz Richtung Klagenfurt",
+            "url": "https://www.oeamtc.at/verkehrsservice/?region=at-6&filter=baustellen",
+            "time": "2026-03-30T15:31:13Z",
+            "lat": 46.96377,
+            "lon": 15.04905,
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        15.04905,
+                        46.96377
+                    ],
+                    [
+                        15.04919,
+                        46.96365
+                    ],
+                    [
+                        15.04939,
+                        46.96356
+                    ],
+                    [
+                        15.04966,
+                        46.96335
+                    ],
+                    [
+                        15.0501,
+                        46.96303
+                    ],
+                    [
+                        15.05044,
+                        46.96281
+                    ],
+                    [
+                        15.05077,
+                        46.96267
+                    ],
+                    [
+                        15.05098,
+                        46.96259
+                    ],
+                    [
+                        15.0512,
+                        46.96252
+                    ],
+                    [
+                        15.05144,
+                        46.96245
+                    ],
+                    [
+                        15.05174,
+                        46.96238
+                    ],
+                    [
+                        15.05193,
+                        46.96234
+                    ],
+                    [
+                        15.05217,
+                        46.9623
+                    ],
+                    [
+                        15.05241,
+                        46.96227
+                    ],
+                    [
+                        15.05271,
+                        46.96224
+                    ],
+                    [
+                        15.05296,
+                        46.96222
+                    ],
+                    [
+                        15.05318,
+                        46.96221
+                    ],
+                    [
+                        15.05341,
+                        46.9622
+                    ],
+                    [
+                        15.05363,
+                        46.9622
+                    ],
+                    [
+                        15.05382,
+                        46.9622
+                    ],
+                    [
+                        15.05403,
+                        46.96221
+                    ],
+                    [
+                        15.05422,
+                        46.96222
+                    ],
+                    [
+                        15.05441,
+                        46.96223
+                    ],
+                    [
+                        15.05462,
+                        46.96225
+                    ],
+                    [
+                        15.05481,
+                        46.96227
+                    ],
+                    [
+                        15.05505,
+                        46.9623
+                    ],
+                    [
+                        15.0552,
+                        46.96232
+                    ],
+                    [
+                        15.05534,
+                        46.96233
+                    ],
+                    [
+                        15.05559,
+                        46.96233
+                    ]
+                ]
+            },
+            "regionIds": [
+                "AT-6"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "noticeType": "Baustelle",
+            "category": "roadworks",
+            "description": "Ausfahrt Modriach gesperrt, Instandsetzungsarbeiten, bis 31.10.2026 08:00 Uhr"
+        },
+        {
+            "kind": "trafficNotice",
+            "id": "oeamtc:{b05f79aa-5ecd-2425-5b8c-f520cb954e54}",
+            "title": "A2 Süd Autobahn, Wien - Graz",
+            "url": "https://www.oeamtc.at/verkehrsservice/?region=at-6&filter=baustellen",
+            "time": "2026-09-29T07:31:14Z",
+            "lat": 47.06176,
+            "lon": 15.59597,
+            "regionIds": [
+                "AT-6"
+            ],
+            "regionMatch": "point",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "noticeType": "Baustelle",
+            "category": "roadworks",
+            "description": "in Höhe Laßnitzhöhe in beiden Richtungen 1 Fahrstreifen gesperrt, Baustelle, bis 07.10.2026 04:45 Uhr"
+        },
+        {
+            "kind": "trafficNotice",
+            "id": "oeamtc:{48b03d37-6987-9b78-b97f-57c98d3ece51}",
+            "title": "A2 Süd Autobahn, Wien - Graz",
+            "url": "https://www.oeamtc.at/verkehrsservice/?region=at-6&filter=baustellen",
+            "time": "2026-09-23T06:48:23Z",
+            "lat": 47.06176,
+            "lon": 15.59597,
+            "regionIds": [
+                "AT-6"
+            ],
+            "regionMatch": "point",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "noticeType": "Baustelle",
+            "category": "roadworks",
+            "description": "in Höhe Laßnitzhöhe in beiden Richtungen 1 Fahrstreifen gesperrt, Fahrbahnerneuerung, Baustelle, bis 16.10.2026 05:45 Uhr"
+        },
+        {
+            "kind": "trafficNotice",
+            "id": "oeamtc:{382fa8db-0fc8-1a40-300a-e34eae9c425a}",
+            "title": "A2 Süd Autobahn, Wien - Graz",
+            "url": "https://www.oeamtc.at/verkehrsservice/?region=at-6&filter=baustellen",
+            "time": "2026-09-23T06:45:56Z",
+            "lat": 47.09856,
+            "lon": 15.68897,
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        15.68897,
+                        47.09856
+                    ],
+                    [
+                        15.72976,
+                        47.0923
+                    ]
+                ]
+            },
+            "regionIds": [
+                "AT-6"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "noticeType": "Baustelle",
+            "category": "roadworks",
+            "description": "zwischen Gleisdorf Süd und Gleisdorf West in beiden Richtungen Gegenverkehr, Fahrbahnerneuerung, Baustelle, von 29.10.2026 05:00 Uhr bis 04.12.2026 04:45 Uhr"
+        },
+        {
+            "kind": "trafficNotice",
+            "id": "oeamtc:{1c4049bd-acba-8cce-ac56-1a3a518facb1}",
+            "title": "A2 Süd Autobahn, Wien - Graz",
+            "url": "https://www.oeamtc.at/verkehrsservice/?region=at-6&filter=baustellen",
+            "time": "2026-05-27T06:43:42Z",
+            "lat": 47.09856,
+            "lon": 15.68897,
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        15.68897,
+                        47.09856
+                    ],
+                    [
+                        15.72976,
+                        47.0923
+                    ]
+                ]
+            },
+            "regionIds": [
+                "AT-6"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "noticeType": "Baustelle",
+            "category": "roadworks",
+            "description": "zwischen Gleisdorf Süd und Gleisdorf West in beiden Richtungen Gegenverkehr, geänderte Verkehrsführung, Fahrbahnverengung, Baustelle, bis 19.10.2026 04:45 Uhr"
+        },
+        {
+            "kind": "trafficNotice",
+            "id": "oeamtc:{2ad3a747-afed-a58e-2224-65138631b681}",
+            "title": "A2 Süd Autobahn, Wien - Graz",
+            "url": "https://www.oeamtc.at/verkehrsservice/?region=at-3&filter=baustellen",
+            "time": "2026-08-08T09:18:50Z",
+            "lat": 47.55475,
+            "lon": 16.12993,
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        16.12993,
+                        47.55475
+                    ],
+                    [
+                        16.11356,
+                        47.57135
+                    ],
+                    [
+                        16.12912,
+                        47.61141
+                    ],
+                    [
+                        16.1289,
+                        47.63238
+                    ]
+                ]
+            },
+            "regionIds": [
+                "AT-3"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "noticeType": "Baustelle",
+            "category": "roadworks",
+            "description": "zwischen Grimmenstein und Krumbach in beiden Richtungen Verkehr wird über die Gegenfahrbahn geleitet, Fahrbahnverengung, Baustelle, bis 07.11.2026"
+        },
+        {
+            "kind": "trafficNotice",
+            "id": "oeamtc:{eda450b0-aa0c-974c-3831-75193fe6917e}",
+            "title": "A2 Süd Autobahn, Wien - Graz",
+            "url": "https://www.oeamtc.at/verkehrsservice/?region=at-3&filter=baustellen",
+            "time": "2026-10-02T10:59:38Z",
+            "lat": 47.52325,
+            "lon": 16.10766,
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        16.10766,
+                        47.52325
+                    ],
+                    [
+                        16.10957,
+                        47.5248
+                    ],
+                    [
+                        16.11198,
+                        47.53013
+                    ],
+                    [
+                        16.11588,
+                        47.54154
+                    ],
+                    [
+                        16.12993,
+                        47.55475
+                    ],
+                    [
+                        16.11356,
+                        47.57135
+                    ],
+                    [
+                        16.12912,
+                        47.61141
+                    ],
+                    [
+                        16.1289,
+                        47.63238
+                    ]
+                ]
+            },
+            "regionIds": [
+                "AT-3",
+                "AT-6"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "noticeType": "Baustelle",
+            "category": "roadworks",
+            "description": "zwischen Grimmenstein und Aspang in beiden Richtungen Fahrbahn auf einen Fahrstreifen verengt, Nachtbaustelle, vom 02.10.2026 bis 08.10.2026, täglich zwischen 20:00 Uhr und 05:00 Uhr"
+        },
+        {
+            "kind": "trafficNotice",
+            "id": "oeamtc:{006967f7-d0a6-9077-74a3-dd75c6e78e45}",
+            "title": "A2 Süd Autobahn, Wien - Graz",
+            "url": "https://www.oeamtc.at/verkehrsservice/?region=at-3&filter=baustellen",
+            "time": "2026-07-14T10:15:49Z",
+            "lat": 47.55475,
+            "lon": 16.12993,
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        16.12993,
+                        47.55475
+                    ],
+                    [
+                        16.11356,
+                        47.57135
+                    ],
+                    [
+                        16.12912,
+                        47.61141
+                    ],
+                    [
+                        16.1289,
+                        47.63238
+                    ]
+                ]
+            },
+            "regionIds": [
+                "AT-3"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "noticeType": "Baustelle",
+            "category": "roadworks",
+            "description": "zwischen Grimmenstein und Krumbach in beiden Richtungen Gegenverkehr, Fahrbahnverengung, geänderte Verkehrsführung, Baustelle, bis 26.10.2026 23:45 Uhr"
+        },
+        {
+            "kind": "trafficNotice",
+            "id": "oeamtc:{dc9d0927-e7a4-45e8-e634-59d142b4f8ef}",
+            "title": "A2 Süd Autobahn, Wien - Graz",
+            "url": "https://www.oeamtc.at/verkehrsservice/?region=at-3&filter=baustellen",
+            "time": "2026-04-07T13:00:13Z",
+            "lat": 47.78745,
+            "lon": 16.2052,
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        16.2052,
+                        47.78745
+                    ],
+                    [
+                        16.19953,
+                        47.8051
+                    ],
+                    [
+                        16.18232,
+                        47.83485
+                    ],
+                    [
+                        16.18145,
+                        47.84628
+                    ],
+                    [
+                        16.18472,
+                        47.85748
+                    ]
+                ]
+            },
+            "regionIds": [
+                "AT-3"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "noticeType": "Baustelle",
+            "category": "roadworks",
+            "description": "zwischen Wöllersdorf und Knoten Wiener Neustadt in beiden Richtungen Verkehr wird über die Gegenfahrbahn geleitet, Fahrbahnverengung, Baustelle, bis 15.10.2026 22:00 Uhr"
+        },
+        {
+            "kind": "trafficNotice",
+            "id": "oeamtc:{630ab75d-5783-3735-f796-dde0d010f5fc}",
+            "title": "A2 Süd Autobahn, Wien Richtung Graz",
+            "url": "https://www.oeamtc.at/verkehrsservice/?region=at-3&filter=baustellen",
+            "time": "2026-09-29T08:13:28Z",
+            "lat": 47.85748,
+            "lon": 16.18472,
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        16.18472,
+                        47.85748
+                    ],
+                    [
+                        16.20789,
+                        47.90781
+                    ],
+                    [
+                        16.20801,
+                        47.91161
+                    ],
+                    [
+                        16.21086,
+                        47.93522
+                    ]
+                ]
+            },
+            "regionIds": [
+                "AT-3"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "noticeType": "Baustelle",
+            "category": "roadworks",
+            "description": "zwischen Leobersdorf und Wöllersdorf Fahrstreifen gesperrt, Baustelle, von 14.10.2026 20:30 Uhr bis 15.10.2026 05:00 Uhr"
+        },
+        {
+            "kind": "trafficNotice",
+            "id": "oeamtc:{e5f33cf2-69d9-1b97-8850-5d5b2c47f13b}",
+            "title": "A2 Süd Autobahn, Klagenfurt Richtung Graz",
+            "url": "https://www.oeamtc.at/verkehrsservice/?region=at-6&filter=baustellen",
+            "time": "2026-04-01T09:37:44Z",
+            "lat": 46.96198,
+            "lon": 15.04836,
+            "regionIds": [
+                "AT-6"
+            ],
+            "regionMatch": "point",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "noticeType": "Baustelle",
+            "category": "roadworks",
+            "description": "Ausfahrt Modriach gesperrt, Instandsetzungsarbeiten, bis 31.10.2026 08:00 Uhr"
+        },
+        {
+            "kind": "trafficNotice",
+            "id": "oeamtc:{39718bee-8bdd-57c8-f471-677ca52beb2d}",
+            "title": "A2 Süd Autobahn, Klagenfurt Richtung Graz",
+            "url": "https://www.oeamtc.at/verkehrsservice/?region=at-6&filter=baustellen",
+            "time": "2026-04-01T09:35:50Z",
+            "lat": 46.96198,
+            "lon": 15.04836,
+            "regionIds": [
+                "AT-6"
+            ],
+            "regionMatch": "point",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "noticeType": "Baustelle",
+            "category": "roadworks",
+            "description": "Einfahrt Modriach gesperrt, Instandsetzungsarbeiten, bis 31.10.2026 08:00 Uhr"
+        },
+        {
+            "kind": "trafficNotice",
+            "id": "oeamtc:{52baf559-99cd-b3bc-5003-41a3577abdba}",
+            "title": "A2 Süd Autobahn, Graz Richtung Wien",
+            "url": "https://www.oeamtc.at/verkehrsservice/?region=at-6&filter=baustellen",
+            "time": "2026-06-15T05:34:56Z",
+            "lat": 47.0807,
+            "lon": 15.96043,
+            "regionIds": [
+                "AT-6"
+            ],
+            "regionMatch": "point",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "noticeType": "Baustelle",
+            "category": "roadworks",
+            "description": "in Höhe Ilz Fürstenfeld 1 Fahrstreifen gesperrt, Baustelle"
+        },
+        {
+            "kind": "trafficNotice",
+            "id": "oeamtc:{08a54c69-9925-8bb6-070a-5e7022c516c0}",
+            "title": "A2 Süd Autobahn, Graz Richtung Wien",
+            "url": "https://www.oeamtc.at/verkehrsservice/?region=at-3&filter=baustellen",
+            "time": "2026-02-16T16:32:46Z",
+            "lat": 47.7863,
+            "lon": 16.20871,
+            "regionIds": [
+                "AT-3"
+            ],
+            "regionMatch": "point",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "noticeType": "Baustelle",
+            "category": "roadworks",
+            "description": "Knoten Wiener Neustadt Überleitung zur S4 Fahrstreifen gesperrt, Fahrbahnverengung, minimale Fahrbahnbreite von 3,50 m, Baustelle, bis 15.10.2026 05:00 Uhr"
+        },
+        {
+            "kind": "trafficNotice",
+            "id": "oeamtc:{1eb76753-f3dc-bc0c-e752-e43c1f502665}",
+            "title": "A2 Süd Autobahn, Graz Richtung Wien",
+            "url": "https://www.oeamtc.at/verkehrsservice/?region=at-3&filter=baustellen",
+            "time": "2026-09-29T08:44:06Z",
+            "lat": 47.93522,
+            "lon": 16.21086,
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        16.21086,
+                        47.93522
+                    ],
+                    [
+                        16.20801,
+                        47.91161
+                    ],
+                    [
+                        16.20789,
+                        47.90781
+                    ],
+                    [
+                        16.18472,
+                        47.85748
+                    ]
+                ]
+            },
+            "regionIds": [
+                "AT-3"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "noticeType": "Baustelle",
+            "category": "roadworks",
+            "description": "zwischen Wöllersdorf und Leobersdorf Fahrstreifen gesperrt, Baustelle, vom 12.10.2026 bis 15.10.2026, täglich zwischen 19:00 Uhr und 04:00 Uhr"
+        },
+        {
+            "kind": "trafficNotice",
+            "id": "oeamtc:{185266da-163a-c519-c3e6-f6e2270cb049}",
+            "title": "A4 Ost Autobahn, Wien - Budapest (H)",
+            "url": "https://www.oeamtc.at/verkehrsservice/?region=at-1&filter=baustellen",
+            "time": "2026-02-16T16:39:32Z",
+            "lat": 47.97357,
+            "lon": 16.85621,
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        16.85621,
+                        47.97357
+                    ],
+                    [
+                        16.84422,
+                        47.9777
+                    ],
+                    [
+                        16.83424,
+                        48.00488
+                    ],
+                    [
+                        16.83723,
+                        48.02043
+                    ]
+                ]
+            },
+            "regionIds": [
+                "AT-1"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "noticeType": "Baustelle",
+            "category": "roadworks",
+            "description": "zwischen Knoten Bruckneudorf und Neusiedl am See Gewerbepark in beiden Richtungen Fahrstreifen gesperrt, Baustelle, bis 31.10.2026 02:00 Uhr"
+        },
+        {
+            "kind": "trafficNotice",
+            "id": "oeamtc:{85228aed-4db9-9859-1329-a4cbf0b71d19}",
+            "title": "A4 Donaukanal Straße, Wien Richtung Budapest (H)",
+            "url": "https://www.oeamtc.at/verkehrsservice/?region=at-9&filter=baustellen",
+            "time": "2026-09-24T14:32:13Z",
+            "lat": 48.19268,
+            "lon": 16.41592,
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        16.41592,
+                        48.19268
+                    ],
+                    [
+                        16.41134,
+                        48.19705
+                    ]
+                ]
+            },
+            "regionIds": [
+                "AT-9"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "noticeType": "Baustelle",
+            "category": "roadworks",
+            "description": "zwischen Stadionbrücke - Schüttelstraße und Knoten Prater Fahrbahn auf einen Fahrstreifen verengt, Nachtbaustelle, vom 02.10.2026 bis 05.10.2026, täglich zwischen 22:00 Uhr und 05:00 Uhr"
+        },
+        {
+            "kind": "trafficNotice",
+            "id": "oeamtc:{d8264a8d-4c1c-c63c-3958-66b43ee84c1c}",
+            "title": "A4 Ost Autobahn, Budapest (H) - Wien",
+            "url": "https://www.oeamtc.at/verkehrsservice/?region=at-1&filter=baustellen",
+            "time": "2026-09-30T08:41:01Z",
+            "lat": 47.94739,
+            "lon": 16.93363,
+            "regionIds": [
+                "AT-1"
+            ],
+            "regionMatch": "point",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "noticeType": "Baustelle",
+            "category": "roadworks",
+            "description": "in Höhe Gols/Weiden in beiden Richtungen rechter Fahrstreifen gesperrt, Nachtbaustelle, von 05.10.2026 20:00 Uhr bis 06.10.2026 05:00 Uhr"
+        },
+        {
+            "kind": "trafficNotice",
+            "id": "oeamtc:{a3b465ed-fb4f-9618-d33c-a1faeaaa4cef}",
+            "title": "A4 Ost Autobahn, Budapest (H) Richtung Wien",
+            "url": "https://www.oeamtc.at/verkehrsservice/?region=at-1&filter=baustellen",
+            "time": "2026-09-30T08:42:20Z",
+            "lat": 47.9777,
+            "lon": 16.84422,
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        16.84422,
+                        47.9777
+                    ],
+                    [
+                        16.85621,
+                        47.97357
+                    ]
+                ]
+            },
+            "regionIds": [
+                "AT-1"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "noticeType": "Baustelle",
+            "category": "roadworks",
+            "description": "zwischen Neusiedl am See Gewerbepark und Neusiedl am See 1 Fahrstreifen gesperrt, Nachtbaustelle, von 06.10.2026 20:00 Uhr bis 07.10.2026 05:00 Uhr"
+        },
+        {
+            "kind": "trafficNotice",
+            "id": "oeamtc:{e93f20c0-6428-cf9b-7c4f-a5b1a9b42c0e}",
+            "title": "A4 Ost Autobahn, Budapest (H) - Wien",
+            "url": "https://www.oeamtc.at/verkehrsservice/?region=at-9&filter=baustellen",
+            "time": "2025-12-18T07:29:09Z",
+            "lat": 48.19268,
+            "lon": 16.41592,
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        16.41592,
+                        48.19268
+                    ],
+                    [
+                        16.43008,
+                        48.18686
+                    ],
+                    [
+                        16.44538,
+                        48.18235
+                    ],
+                    [
+                        16.4511,
+                        48.1801
+                    ],
+                    [
+                        16.4556,
+                        48.17133
+                    ],
+                    [
+                        16.47831,
+                        48.15667
+                    ],
+                    [
+                        16.48943,
+                        48.15072
+                    ]
+                ]
+            },
+            "regionIds": [
+                "AT-3",
+                "AT-9"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "noticeType": "Baustelle",
+            "category": "roadworks",
+            "description": "zwischen Knoten Schwechat und Knoten Prater in beiden Richtungen geänderte Verkehrsführung, Fahrbahnverengung, Baustelle, zulässige Höchstgeschwindigkeit von 60 km/h, bis 15.12.2026 13:00 Uhr"
+        },
+        {
+            "kind": "trafficNotice",
+            "id": "oeamtc:{9be45e54-4a6a-91c5-6df8-d762cd82d603}",
+            "title": "A7 Freistadt Richtung Linz",
+            "url": "https://www.oeamtc.at/verkehrsservice/?region=at-4&filter=baustellen",
+            "time": "2026-10-01T09:28:01Z",
+            "lat": 48.26952,
+            "lon": 14.29548,
+            "regionIds": [
+                "AT-4"
+            ],
+            "regionMatch": "point",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "noticeType": "Baustelle",
+            "category": "roadworks",
+            "description": "Einfahrt Muldenstraße Einfahrt gesperrt, Nachtbaustelle, vom 05.10.2026 bis 15.10.2026, Mo. - Fr. zwischen 20:00 Uhr und 05:00 Uhr"
+        },
+        {
+            "kind": "trafficNotice",
+            "id": "oeamtc:{f01af668-41af-fc70-113d-c270cf878e78}",
+            "title": "A7 Mühlkreis Autobahn, Freistadt Richtung Wiener Straße",
+            "url": "https://www.oeamtc.at/verkehrsservice/?region=at-4&filter=baustellen",
+            "time": "2026-05-10T08:04:14Z",
+            "lat": 48.28292,
+            "lon": 14.30647,
+            "regionIds": [
+                "AT-4"
+            ],
+            "regionMatch": "point",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "noticeType": "Baustelle",
+            "category": "roadworks",
+            "description": "Ausfahrt Wiener Straße Ausfahrt gesperrt, Baustelle, bis 05.10.2026, Ausfahrt Wankmüllerhofstraße befahrbar"
+        },
+        {
+            "kind": "trafficNotice",
+            "id": "oeamtc:{cc702280-3521-921d-cf2a-d6c35b46e58e}",
+            "title": "A7 Mühlkreis Autobahn, Freistadt Richtung Linz",
+            "url": "https://www.oeamtc.at/verkehrsservice/?region=at-4&filter=sperren",
+            "time": "2026-09-16T06:43:38Z",
+            "lat": 48.27841,
+            "lon": 14.29505,
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        14.29505,
+                        48.27841
+                    ],
+                    [
+                        14.29994,
+                        48.2797
+                    ],
+                    [
+                        14.30475,
+                        48.2822
+                    ],
+                    [
+                        14.3131,
+                        48.28455
+                    ],
+                    [
+                        14.31759,
+                        48.28689
+                    ]
+                ]
+            },
+            "regionIds": [
+                "AT-4"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "noticeType": "Sperre",
+            "category": "closure",
+            "description": "zwischen Voest-Alpine und Hummelhof gesperrt, Sicherheitsübung, eine Umleitung ist eingerichtet, von 24.10.2026 19:00 Uhr bis 25.10.2026 05:00 Uhr"
+        },
+        {
+            "kind": "trafficNotice",
+            "id": "oeamtc:{543cbedc-6d7a-fd85-c3ef-9917d0334dc4}",
+            "title": "A7 Mühlkreis Autobahn, Linz - Freistadt",
+            "url": "https://www.oeamtc.at/verkehrsservice/?region=at-4&filter=baustellen",
+            "time": "2026-09-09T05:50:19Z",
+            "lat": 48.26015,
+            "lon": 14.29713,
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        14.29713,
+                        48.26015
+                    ],
+                    [
+                        14.29749,
+                        48.24418
+                    ],
+                    [
+                        14.29766,
+                        48.23548
+                    ],
+                    [
+                        14.30178,
+                        48.22255
+                    ]
+                ]
+            },
+            "regionIds": [
+                "AT-4"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "noticeType": "Baustelle",
+            "category": "roadworks",
+            "description": "zwischen Knoten Linz und Salzburger Straße in beiden Richtungen geänderte Verkehrsführung, Fahrbahnverengung, Baustelle, von 14.09.2026 05:00 Uhr bis 17.10.2026 20:00 Uhr"
+        },
+        {
+            "kind": "trafficNotice",
+            "id": "oeamtc:{7a07a743-8513-af22-a434-150d65940f1b}",
+            "title": "A7 Mühlkreis Autobahn, Linz Richtung Freistadt",
+            "url": "https://www.oeamtc.at/verkehrsservice/?region=at-4&filter=sperren",
+            "time": "2026-09-16T06:49:22Z",
+            "lat": 48.28689,
+            "lon": 14.31759,
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        14.31759,
+                        48.28689
+                    ],
+                    [
+                        14.3131,
+                        48.28455
+                    ],
+                    [
+                        14.30475,
+                        48.2822
+                    ],
+                    [
+                        14.29994,
+                        48.2797
+                    ],
+                    [
+                        14.29505,
+                        48.27841
+                    ]
+                ]
+            },
+            "regionIds": [
+                "AT-4"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "noticeType": "Sperre",
+            "category": "closure",
+            "description": "zwischen Hummelhof und Voest-Alpine gesperrt, Sicherheitsübung, eine Umleitung ist eingerichtet, von 24.10.2026 20:00 Uhr bis 25.10.2026 05:00 Uhr"
+        },
+        {
+            "kind": "trafficNotice",
+            "id": "oeamtc:{5640f46e-9b6e-676f-fb76-f140cc076fac}",
+            "title": "A7 Mühlkreis Autobahn, Linz - Freistadt",
+            "url": "https://www.oeamtc.at/verkehrsservice/?region=at-4&filter=baustellen",
+            "time": "2026-02-26T13:03:44Z",
+            "lat": 48.29354,
+            "lon": 14.31876,
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        14.31876,
+                        48.29354
+                    ],
+                    [
+                        14.31759,
+                        48.28689
+                    ],
+                    [
+                        14.3131,
+                        48.28455
+                    ],
+                    [
+                        14.30475,
+                        48.2822
+                    ],
+                    [
+                        14.29994,
+                        48.2797
+                    ],
+                    [
+                        14.29505,
+                        48.27841
+                    ]
+                ]
+            },
+            "regionIds": [
+                "AT-4"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "noticeType": "Baustelle",
+            "category": "roadworks",
+            "description": "zwischen Hummelhof und Linz-Industriezeile in beiden Richtungen Verkehr wird über die Gegenfahrbahn geleitet, Fahrbahnverengung, Baustelle, bis 05.10.2026"
+        },
+        {
+            "kind": "trafficNotice",
+            "id": "oeamtc:{9c9205f9-dfd2-f797-519b-d0ff42cd4573}",
+            "title": "A7 Mühlkreis Autobahn, Linz Richtung Freistadt",
+            "url": "https://www.oeamtc.at/verkehrsservice/?region=at-4&filter=baustellen",
+            "time": "2026-05-10T08:06:26Z",
+            "lat": 48.28193,
+            "lon": 14.30485,
+            "regionIds": [
+                "AT-4"
+            ],
+            "regionMatch": "point",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "noticeType": "Baustelle",
+            "category": "roadworks",
+            "description": "Einfahrt Wiener Straße Einfahrt gesperrt, Baustelle, bis 16.05.2027, Auffahrt über die Wiener Straße"
+        },
+        {
+            "kind": "trafficNotice",
+            "id": "oeamtc:{6ce0a298-5149-9481-98fd-760e7b26138c}",
+            "title": "A8 Innkreis Autobahn, Wels Richtung Voralpenkreuz",
+            "url": "https://www.oeamtc.at/verkehrsservice/?region=at-4&filter=baustellen",
+            "time": "2026-09-02T12:27:20Z",
+            "lat": 48.06287,
+            "lon": 14.0381,
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        14.0381,
+                        48.06287
+                    ],
+                    [
+                        14.02372,
+                        48.07203
+                    ],
+                    [
+                        14.0116,
+                        48.11266
+                    ],
+                    [
+                        13.99435,
+                        48.13965
+                    ],
+                    [
+                        13.98802,
+                        48.14465
+                    ],
+                    [
+                        13.98151,
+                        48.15156
+                    ]
+                ]
+            },
+            "regionIds": [
+                "AT-4"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "noticeType": "Baustelle",
+            "category": "roadworks",
+            "description": "zwischen Wels West und Raststätte Raststation Voralpenkreuz gesperrt, Baustelle, von 15.09.2026 bis voraussichtlich 16.06.2027, Tunnelsanierungen Noitzmühle und Steinhaus"
+        },
+        {
+            "kind": "trafficNotice",
+            "id": "oeamtc:{44ba8039-65cc-27cf-f7e5-b189529feb74}",
+            "title": "A8 Innkreis Autobahn, Voralpenkreuz Richtung Wels",
+            "url": "https://www.oeamtc.at/verkehrsservice/?region=at-4&filter=baustellen",
+            "time": "2026-08-13T10:11:03Z",
+            "lat": 48.15156,
+            "lon": 13.98151,
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.98151,
+                        48.15156
+                    ],
+                    [
+                        13.98802,
+                        48.14465
+                    ],
+                    [
+                        13.99435,
+                        48.13965
+                    ],
+                    [
+                        14.0116,
+                        48.11266
+                    ],
+                    [
+                        14.02372,
+                        48.07203
+                    ],
+                    [
+                        14.0381,
+                        48.06287
+                    ]
+                ]
+            },
+            "regionIds": [
+                "AT-4"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "noticeType": "Baustelle",
+            "category": "roadworks",
+            "description": "zwischen Knoten Voralpenkreuz und Wels West linker Fahrstreifen gesperrt, Baustelle, von 15.09.2026 07:00 Uhr bis 31.10.2026 17:00 Uhr"
+        },
+        {
+            "kind": "trafficNotice",
+            "id": "oeamtc:{e9f90886-f2b4-6e7f-52a5-bbf4044028ec}",
+            "title": "A8, A3 Innkreis Autobahn, Wels Richtung Passau",
+            "url": "https://www.oeamtc.at/verkehrsservice/?region=at-4&filter=",
+            "time": "2026-10-04T08:30:11Z",
+            "lat": 48.41068,
+            "lon": 13.42586,
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.42586,
+                        48.41068
+                    ],
+                    [
+                        13.42689,
+                        48.40957
+                    ]
+                ]
+            },
+            "regionIds": [
+                "AT-4"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7"
+                ]
+            },
+            "category": "other",
+            "description": "zwischen Innbrücke Suben und Ende der Straße Polizeikontrolle, Zeitverlust für PKW von bis zu 7 Minuten bei der Ausreise, aus Österreich, (Meldung automatisch von ASFINAG-Sensoren erstellt)"
+        },
+        {
+            "kind": "trafficNotice",
+            "id": "oeamtc:{d87ce79b-22fa-134a-807c-7d8f7ae29339}",
+            "title": "A9 Pyhrn Autobahn, St. Michael - Marburg",
+            "url": "https://www.oeamtc.at/verkehrsservice/?region=at-6&filter=baustellen",
+            "time": "2026-09-11T14:33:09Z",
+            "lat": 46.98535,
+            "lon": 15.4176,
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        15.4176,
+                        46.98535
+                    ],
+                    [
+                        15.4096,
+                        46.99803
+                    ],
+                    [
+                        15.40763,
+                        47.01254
+                    ],
+                    [
+                        15.40825,
+                        47.01599
+                    ],
+                    [
+                        15.41165,
+                        47.0328
+                    ]
+                ]
+            },
+            "regionIds": [
+                "AT-6"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "noticeType": "Baustelle",
+            "category": "roadworks",
+            "description": "zwischen Graz Webling und Schwarzlsee in beiden Richtungen geänderte Verkehrsführung im Baustellenbereich, Fahrbahnverengung, Instandsetzungsarbeiten, zulässige Höchstgeschwindigkeit von 60 km/h, bis voraussichtlich 08.11.2026"
+        },
+        {
+            "kind": "trafficNotice",
+            "id": "oeamtc:{5507e7f6-e95c-e18a-0bfa-c9f3eb1876a4}",
+            "title": "A9 St. Michael - Graz",
+            "url": "https://www.oeamtc.at/verkehrsservice/?region=at-6&filter=baustellen",
+            "time": "2026-09-18T10:28:17Z",
+            "lat": 47.0328,
+            "lon": 15.41165,
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        15.41165,
+                        47.0328
+                    ],
+                    [
+                        15.37954,
+                        47.06894
+                    ],
+                    [
+                        15.37509,
+                        47.113
+                    ]
+                ]
+            },
+            "regionIds": [
+                "AT-6"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "noticeType": "Baustelle",
+            "category": "roadworks",
+            "description": "Plabutschtunnel in beiden Richtungen gesperrt, Nachtbaustelle, Tunnelwartungsarbeiten, vom 19.10.2026 bis 23.10.2026, Mo. - Do. zwischen 20:00 Uhr und 05:00 Uhr"
+        }
+    ]
+}

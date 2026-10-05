@@ -1,0 +1,79 @@
+# Local environment of CommonSight, set up as in operation. Use it via ./dev.sh (doc/DEVELOPMENT.md).
+# ./run/ is the home of the hosting account: commonsight/ (application) and public_html/ (webroot).
+
+name: commonsight
+
+x-account: &account
+  args:
+    CS_UID: ${CS_UID:-1000}
+    CS_GID: ${CS_GID:-1000}
+
+services:
+  # Apache 2.4 with .htaccess, PHP via FastCGI.
+  web:
+    build: docker/web
+    ports:
+      # Only on this machine; CS_HTTP_BIND=0.0.0.0 opens it to the network on purpose (e.g. to test on a phone).
+      - "${CS_HTTP_BIND:-127.0.0.1}:${CS_HTTP_PORT:-8090}:80"
+    volumes:
+      - ./run:/home/commonsight
+    depends_on:
+      - php
+    restart: unless-stopped
+
+  # PHP-FPM for the status endpoint, as the account user.
+  php:
+    build:
+      context: .
+      dockerfile: docker/php/Dockerfile
+      target: fpm
+      <<: *account
+    volumes:
+      - ./run:/home/commonsight
+    restart: unless-stopped
+
+  # Cron with PHP CLI: fetcher lanes, housekeeping and the monthly tile job.
+  scheduler:
+    build:
+      context: .
+      dockerfile: docker/php/Dockerfile
+      target: scheduler
+      <<: *account
+    volumes:
+      - ./run:/home/commonsight
+    depends_on:
+      - php
+    restart: unless-stopped
+
+  # Build and test tools, only on demand.
+  composer:
+    image: composer:2
+    profiles: [tools]
+    working_dir: /src/backend
+    user: "${CS_UID:-1000}:${CS_GID:-1000}"
+    environment:
+      COMPOSER_HOME: /tmp/composer
+    volumes:
+      - .:/src
+
+  node:
+    image: node:24-bookworm-slim
+    profiles: [tools]
+    working_dir: /src/frontend
+    user: "${CS_UID:-1000}:${CS_GID:-1000}"
+    environment:
+      HOME: /tmp
+      npm_config_cache: /tmp/npm
+    volumes:
+      - .:/src
+
+  playwright:
+    image: mcr.microsoft.com/playwright:v1.63.0-noble
+    profiles: [tools]
+    working_dir: /src/frontend
+    user: "${CS_UID:-1000}:${CS_GID:-1000}"
+    ipc: host
+    environment:
+      HOME: /tmp
+    volumes:
+      - .:/src

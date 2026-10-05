@@ -1,0 +1,11 @@
+{
+  "source.open-meteo-air.fact.pm25": "PM2,5",
+  "source.open-meteo-air.fact.pm10": "PM10",
+  "source.open-meteo-air.summary.aqi.good": "Gut",
+  "source.open-meteo-air.summary.aqi.fair": "Ausreichend",
+  "source.open-meteo-air.summary.aqi.moderate": "Mäßig",
+  "source.open-meteo-air.summary.aqi.poor": "Schlecht",
+  "source.open-meteo-air.summary.aqi.veryPoor": "Sehr schlecht",
+  "source.open-meteo-air.summary.aqi.extremelyPoor": "Extrem schlecht",
+  "source.open-meteo-air.coverage": "Modellwerte (CAMS) für {count} ausgewählte Orte."
+}

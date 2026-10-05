@@ -1,0 +1,516 @@
+{
+    "schema": 1,
+    "layer": "air",
+    "scope": "AT",
+    "status": "ok",
+    "source": "CAMS · Open-Meteo",
+    "sourceUrl": "https://open-meteo.com/en/docs/air-quality-api",
+    "generatedAt": "2026-09-28T14:30:00Z",
+    "updatedAt": "2026-09-28T14:00:00Z",
+    "note": {
+        "key": "layer.air.note"
+    },
+    "coverage": [
+        {
+            "key": "source.open-meteo-air.coverage",
+            "params": {
+                "count": 9
+            }
+        }
+    ],
+    "issues": [],
+    "stats": {},
+    "items": [
+        {
+            "kind": "modelValue",
+            "id": "air:at-wien",
+            "title": "Wien",
+            "url": "https://open-meteo.com/en/docs/air-quality-api",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 48.2082,
+            "lon": 16.3738,
+            "regionIds": [
+                "AT-9"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "airQualityIndex",
+            "value": 35.0,
+            "unit": "EU-AQI",
+            "summary": {
+                "key": "source.open-meteo-air.summary.aqi.fair"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm25"
+                    },
+                    "value": 6.6,
+                    "unit": "µg/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm10"
+                    },
+                    "value": 8.6,
+                    "unit": "µg/m³"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "air:at-linz",
+            "title": "Linz",
+            "url": "https://open-meteo.com/en/docs/air-quality-api",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 48.3069,
+            "lon": 14.2858,
+            "regionIds": [
+                "AT-4"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "quantity": "airQualityIndex",
+            "value": 34.0,
+            "unit": "EU-AQI",
+            "summary": {
+                "key": "source.open-meteo-air.summary.aqi.fair"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm25"
+                    },
+                    "value": 9.2,
+                    "unit": "µg/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm10"
+                    },
+                    "value": 11.9,
+                    "unit": "µg/m³"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "air:at-graz",
+            "title": "Graz",
+            "url": "https://open-meteo.com/en/docs/air-quality-api",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 47.0707,
+            "lon": 15.4395,
+            "regionIds": [
+                "AT-6"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-9"
+                ]
+            },
+            "quantity": "airQualityIndex",
+            "value": 37.0,
+            "unit": "EU-AQI",
+            "summary": {
+                "key": "source.open-meteo-air.summary.aqi.fair"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm25"
+                    },
+                    "value": 10.9,
+                    "unit": "µg/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm10"
+                    },
+                    "value": 13.4,
+                    "unit": "µg/m³"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "air:at-salzburg",
+            "title": "Salzburg",
+            "url": "https://open-meteo.com/en/docs/air-quality-api",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 47.8095,
+            "lon": 13.055,
+            "regionIds": [
+                "AT-5"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7"
+                ]
+            },
+            "quantity": "airQualityIndex",
+            "value": 35.0,
+            "unit": "EU-AQI",
+            "summary": {
+                "key": "source.open-meteo-air.summary.aqi.fair"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm25"
+                    },
+                    "value": 7.1,
+                    "unit": "µg/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm10"
+                    },
+                    "value": 8.5,
+                    "unit": "µg/m³"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "air:at-innsbruck",
+            "title": "Innsbruck",
+            "url": "https://open-meteo.com/en/docs/air-quality-api",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 47.2692,
+            "lon": 11.4041,
+            "regionIds": [
+                "AT-7"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-2",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "airQualityIndex",
+            "value": 33.0,
+            "unit": "EU-AQI",
+            "summary": {
+                "key": "source.open-meteo-air.summary.aqi.fair"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm25"
+                    },
+                    "value": 4.9,
+                    "unit": "µg/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm10"
+                    },
+                    "value": 6.7,
+                    "unit": "µg/m³"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "air:at-klagenfurt",
+            "title": "Klagenfurt",
+            "url": "https://open-meteo.com/en/docs/air-quality-api",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 46.6247,
+            "lon": 14.3053,
+            "regionIds": [
+                "AT-2"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7"
+                ]
+            },
+            "quantity": "airQualityIndex",
+            "value": 40.0,
+            "unit": "EU-AQI",
+            "summary": {
+                "key": "source.open-meteo-air.summary.aqi.fair"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm25"
+                    },
+                    "value": 14.8,
+                    "unit": "µg/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm10"
+                    },
+                    "value": 17.8,
+                    "unit": "µg/m³"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "air:at-bregenz",
+            "title": "Bregenz",
+            "url": "https://open-meteo.com/en/docs/air-quality-api",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 47.5031,
+            "lon": 9.7471,
+            "regionIds": [
+                "AT-8"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-RP",
+                    "AT-5",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "airQualityIndex",
+            "value": 36.0,
+            "unit": "EU-AQI",
+            "summary": {
+                "key": "source.open-meteo-air.summary.aqi.fair"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm25"
+                    },
+                    "value": 6.0,
+                    "unit": "µg/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm10"
+                    },
+                    "value": 8.9,
+                    "unit": "µg/m³"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "air:at-burgenland",
+            "title": "Modellpunkt Burgenland",
+            "url": "https://open-meteo.com/en/docs/air-quality-api",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 47.47671,
+            "lon": 16.48652,
+            "regionIds": [
+                "AT-1"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "AT"
+                ],
+                "regionIds": [
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "airQualityIndex",
+            "value": 36.0,
+            "unit": "EU-AQI",
+            "summary": {
+                "key": "source.open-meteo-air.summary.aqi.fair"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm25"
+                    },
+                    "value": 5.7,
+                    "unit": "µg/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm10"
+                    },
+                    "value": 6.5,
+                    "unit": "µg/m³"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "air:at-niederoesterreich",
+            "title": "Modellpunkt Niederösterreich",
+            "url": "https://open-meteo.com/en/docs/air-quality-api",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 48.22171,
+            "lon": 15.57607,
+            "regionIds": [
+                "AT-3"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "AT-1",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-9"
+                ]
+            },
+            "quantity": "airQualityIndex",
+            "value": 35.0,
+            "unit": "EU-AQI",
+            "summary": {
+                "key": "source.open-meteo-air.summary.aqi.fair"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm25"
+                    },
+                    "value": 8.2,
+                    "unit": "µg/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-air.fact.pm10"
+                    },
+                    "value": 8.9,
+                    "unit": "µg/m³"
+                }
+            ]
+        }
+    ]
+}

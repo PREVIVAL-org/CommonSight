@@ -1,0 +1,121 @@
+{
+  "schema": 1,
+  "layer": "warnings",
+  "scope": "AT",
+  "status": "partial",
+  "source": "GeoSphere Austria",
+  "sourceUrl": "https://warnungen.zamg.at/",
+  "generatedAt": "2026-09-28T11:58:00Z",
+  "updatedAt": "2026-09-28T11:55:00Z",
+  "note": {
+    "key": "layer.warnings.note.AT"
+  },
+  "coverage": [],
+  "issues": [
+    {
+      "key": "issue.missingDetailText",
+      "params": {
+        "count": 1
+      }
+    }
+  ],
+  "stats": {},
+  "items": [
+    {
+      "kind": "warning",
+      "id": "geosphere:w123c1v1:2026-09-28T10:00:00Z:2026-09-29T06:00:00Z",
+      "title": "Gewitterwarnung · Orange",
+      "url": "https://warnungen.zamg.at/",
+      "time": "2026-09-28T09:30:00Z",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [16.2, 48.1],
+            [16.6, 48.1],
+            [16.6, 48.3],
+            [16.2, 48.3],
+            [16.2, 48.1]
+          ]
+        ]
+      },
+      "regionIds": ["AT-9", "AT-3"],
+      "regionMatch": "source",
+      "lang": "de",
+      "hazard": {
+        "key": "hazard.thunderstorm"
+      },
+      "severity": "Severe",
+      "awareness": "orange",
+      "area": "Wien, Niederösterreich",
+      "onset": "2026-09-28T10:00:00Z",
+      "expires": "2026-09-29T06:00:00Z",
+      "sections": [
+        {
+          "heading": "description",
+          "text": "Heftige Gewitter mit Starkregen, Hagel und Sturmböen bis 90 km/h."
+        },
+        {
+          "heading": "advice",
+          "text": "Gegenstände im Freien sichern und Aufenthalt im Freien meiden."
+        }
+      ],
+      "category": "weather"
+    },
+    {
+      "kind": "warning",
+      "id": "geosphere:w124c1v1:2026-09-28T12:00:00Z:2026-09-28T20:00:00Z",
+      "title": "Windwarnung · Gelb",
+      "url": "https://warnungen.zamg.at/",
+      "time": "2026-09-28T09:00:00Z",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [11.0, 47.1],
+              [11.5, 47.1],
+              [11.5, 47.4],
+              [11.0, 47.4],
+              [11.0, 47.1]
+            ]
+          ]
+        ]
+      },
+      "regionIds": ["AT-7"],
+      "regionMatch": "source",
+      "hazard": {
+        "key": "hazard.wind"
+      },
+      "severity": "Moderate",
+      "awareness": "yellow",
+      "area": "Tirol",
+      "onset": "2026-09-28T12:00:00Z",
+      "expires": "2026-09-28T20:00:00Z",
+      "sections": [],
+      "category": "weather"
+    },
+    {
+      "kind": "warning",
+      "id": "geosphere:w125c1v1:2026-09-28T08:00:00Z:2026-09-28T22:00:00Z",
+      "title": "Hitzewarnung · Gelb",
+      "url": "https://warnungen.zamg.at/",
+      "regionIds": [],
+      "regionMatch": "none",
+      "hazard": {
+        "key": "hazard.heat"
+      },
+      "severity": "Moderate",
+      "area": "Gebiet laut Quelle unbekannt",
+      "onset": "2026-09-28T08:00:00Z",
+      "expires": "2026-09-28T22:00:00Z",
+      "sections": [
+        {
+          "heading": "description",
+          "text": "Große Hitze erwartet."
+        }
+      ],
+      "category": "weather"
+    }
+  ]
+}

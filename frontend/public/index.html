@@ -1,0 +1,66 @@
+<!doctype html>
+<!--
+  Start page of CommonSight: the element full-size; it brings its own header with logo, clock and light/dark switch.
+  Colours and logo come from custom/ in the webroot, which an update never overwrites (custom/theme.css, logo.svg,
+  favicon.svg); gate.php sets the title of the tab, name, logo and favicon from custom/branding.json. Without the attribute base-url the element finds the backend two levels above its bundle
+  (<base>/app/<version>/commonsight.js), so this page works wherever the backend is installed. With an auth provider
+  gate.php delivers this page and marks the element for a visitor who is not admitted.
+-->
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>CommonSight</title>
+    <link rel="icon" type="image/svg+xml" href="./custom/favicon.svg" />
+    <style>
+      @font-face {
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-display: swap;
+        src: url('./fonts/open-sans-400.woff2') format('woff2');
+      }
+      @font-face {
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-display: swap;
+        src: url('./fonts/open-sans-600.woff2') format('woff2');
+      }
+      @font-face {
+        font-family: 'Open Sans';
+        font-weight: 700;
+        font-display: swap;
+        src: url('./fonts/open-sans-700.woff2') format('woff2');
+      }
+      html,
+      body {
+        margin: 0;
+        min-height: 100%;
+        font-family: 'Open Sans', system-ui, sans-serif;
+      }
+      /* The element decides light or dark itself; the page behind it follows the system setting. */
+      body {
+        background: #fafafa;
+      }
+      @media (prefers-color-scheme: dark) {
+        body {
+          background: #1a1d21;
+        }
+      }
+      commonsight-map {
+        display: block;
+        min-height: 100vh;
+        --cs-font-family: 'Open Sans', system-ui, sans-serif;
+      }
+    </style>
+    <!-- Colours of the operator (B-D3): the --cs-* variables, light and dark. -->
+    <link rel="stylesheet" href="./custom/theme.css" />
+    <script type="module" src="./commonsight.js"></script>
+  </head>
+  <body>
+    <!-- The host page owns the main landmark; the element itself is a region inside it. -->
+    <main>
+      <commonsight-map country="AT" logo="./custom/logo.svg" logo-link="./"></commonsight-map>
+    </main>
+  </body>
+</html>

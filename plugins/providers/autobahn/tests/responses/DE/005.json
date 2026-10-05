@@ -1,0 +1,138 @@
+{
+  "roadworks": [
+    {
+      "identifier": "2026-049618--vi-bs.2026-10-01_09-00-00-000.devi-bs.2026-10-01_09-00-00-000_004.de5",
+      "icon": "warnkegel",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.227440167077106,7.234500608092719,51.20515333744865,7.25061185571453",
+      "point": "51.227440167077106,7.234500608092719",
+      "startLcPosition": "85",
+      "impact": {
+        "lower": "Remscheid-Lennep",
+        "upper": "Wuppertal-Ronsdorf",
+        "symbols": [
+          "SEPARATE",
+          "ARROW_UP",
+          "ARROW_UP",
+          "CLOSED"
+        ]
+      },
+      "display_type": "SHORT_TERM_ROADWORKS",
+      "subtitle": " Dortmund -> Köln",
+      "title": "A1 | Wuppertal-Ronsdorf - Remscheid-Lennep",
+      "coordinate": {
+        "lat": 51.227440167077106,
+        "long": 7.234500608092719
+      },
+      "description": [
+        "Die Baustelle ist zu folgenden Zeiträumen gültig:",
+        "05.10.26 von 09:00 bis 16:00 Uhr",
+        "06.10.26 von 09:00 bis 16:00 Uhr",
+        "07.10.26 von 09:00 bis 16:00 Uhr",
+        "08.10.26 von 09:00 bis 16:00 Uhr",
+        "09.10.26 von 09:00 bis 13:00 Uhr",
+        "",
+        "A1: Dortmund -> Köln, zwischen AS Wuppertal-Ronsdorf und 0.3 km vor AS Remscheid-Lennep",
+        "",
+        "Länge: 2.99 km | Max. 80 km/h | Maximale Durchfahrtsbreite: 6.5 m",
+        "",
+        "A1 von Ehrenberg Grünpflege"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": []
+    },
+    {
+      "identifier": "2023-000357--vi-bs.2026-08-10_11-00-00-000.devi-zus.2024-10-01_00-00-00-000.f.de13",
+      "icon": "123",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.38191589297737,7.002339290843191,49.41258498396637,6.993871225155498",
+      "point": "49.38191589297737,7.002339290843191",
+      "startLcPosition": "8",
+      "impact": {
+        "lower": "Eppelborn",
+        "upper": "Saarbrücken",
+        "symbols": [
+          "BREAKDOWN_LANE",
+          "BORDER_LEFT",
+          "CLOSED",
+          "ARROW_DOWN",
+          "SEPARATE",
+          "ARROW_UP",
+          "CLOSED",
+          "BORDER_RIGHT",
+          "BREAKDOWN_LANE"
+        ]
+      },
+      "display_type": "ROADWORKS",
+      "subtitle": " Saarbrücken -> Trier",
+      "title": "A1 | Saarbrücken - Eppelborn",
+      "startTimestamp": "2026-08-10T11:00:00+02:00",
+      "coordinate": {
+        "lat": 49.38191589297737,
+        "long": 7.002339290843191
+      },
+      "description": [
+        "Zeitraum dieser Bauphase:",
+        "Beginn: 10.08.26 um 11:00 Uhr",
+        "Ende: 10.10.26 um 20:00 Uhr",
+        "(Ende der Gesamtmaßnahme: 10.10.26)",
+        "",
+        "A1: Saarbrücken -> Trier, zwischen 3.6 km hinter AK Saarbrücken und 0.3 km vor AS Eppelborn",
+        "",
+        "Länge: 4.87 km | Maximale Durchfahrtsbreite: 3.25 m",
+        "",
+        "A1 Arbeiten an Schutzeinrichtungen A.05226.00"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": []
+    },
+    {
+      "identifier": "2026-049481--vi-bs.2026-10-19_08-00-00-000.devi-zus.2026-10-19_08-00-00-000_001.de3",
+      "icon": "warnkegel",
+      "isBlocked": "false",
+      "future": true,
+      "extent": "49.41352057860197,6.989721106427894,49.45865820506334,6.982145942908978",
+      "point": "49.41352057860197,6.989721106427894",
+      "startLcPosition": "9",
+      "impact": {
+        "lower": "Schaumberg Kreuz",
+        "upper": "Illingen",
+        "symbols": [
+          "BREAKDOWN_LANE",
+          "BORDER_LEFT",
+          "ARROW_DOWN",
+          "CLOSED",
+          "SEPARATE",
+          "CLOSED",
+          "ARROW_UP",
+          "BORDER_RIGHT",
+          "BREAKDOWN_LANE"
+        ]
+      },
+      "display_type": "SHORT_TERM_ROADWORKS",
+      "subtitle": " Saarbrücken -> Trier",
+      "title": "A1 | Illingen - Schaumberg Kreuz",
+      "coordinate": {
+        "lat": 49.41352057860197,
+        "long": 6.989721106427894
+      },
+      "description": [
+        "Die Baustelle ist zu folgenden Zeiträumen gültig:",
+        "19.10.26 von 08:00 bis 16:00 Uhr",
+        "",
+        "A1: Saarbrücken -> Trier, zwischen 5.0 km hinter AS Illingen und 0.9 km vor Schaumberg Kreuz",
+        "",
+        "Länge: 6.07 km | Maximale Durchfahrtsbreite: 3.25 m",
+        "",
+        "A1 von Tholey (AS) nach Eppelborn (AS) Beschilderungsarbeiten"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": []
+    }
+  ]
+}

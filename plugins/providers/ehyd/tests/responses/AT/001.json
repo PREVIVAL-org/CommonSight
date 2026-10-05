@@ -1,0 +1,555 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.766334466,
+                    46.831631946
+                ]
+            },
+            "properties": {
+                "hzbnr": 212167,
+                "messstelle": "Lienz",
+                "gewasser": "Isel",
+                "hd": "Tirol",
+                "parameter": "Q",
+                "wert": null,
+                "einheit": "",
+                "zp": null,
+                "gesamtcode": 930,
+                "internet": "https://hydro.tirol.gv.at/#/Wasserstand?station=212167"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.091152139,
+                    47.945458466
+                ]
+            },
+            "properties": {
+                "hzbnr": 210013,
+                "messstelle": "Nickelsdorf",
+                "gewasser": "Leitha",
+                "hd": "Burgenland",
+                "parameter": "Q",
+                "wert": "0.053",
+                "einheit": "m³/s",
+                "zp": "2026-09-28T14:15:00",
+                "gesamtcode": 130,
+                "internet": "http://wasser.bgld.gv.at/hydrographie/die-fluesse/nickelsdorf-leitha"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.418381946,
+                    47.449195044
+                ]
+            },
+            "properties": {
+                "hzbnr": 210039,
+                "messstelle": "Piringsdorf",
+                "gewasser": "Rabnitz",
+                "hd": "Burgenland",
+                "parameter": "Q",
+                "wert": "0.103",
+                "einheit": "m³/s",
+                "zp": "2026-09-28T14:15:00",
+                "gesamtcode": 130,
+                "internet": "http://wasser.bgld.gv.at/hydrographie/die-fluesse/piringsdorf"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.531688973,
+                    47.432418739
+                ]
+            },
+            "properties": {
+                "hzbnr": 210054,
+                "messstelle": "Mannersdorf an der Rabnitz",
+                "gewasser": "Rabnitz",
+                "hd": "Burgenland",
+                "parameter": "Q",
+                "wert": "0.172",
+                "einheit": "m³/s",
+                "zp": "2026-09-28T14:15:00",
+                "gesamtcode": 130,
+                "internet": "http://wasser.bgld.gv.at/hydrographie/die-fluesse/mannersdorf-an-der-rabnitz"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.51069718,
+                    47.498559117
+                ]
+            },
+            "properties": {
+                "hzbnr": 210062,
+                "messstelle": "Oberpullendorf",
+                "gewasser": "Stoob",
+                "hd": "Burgenland",
+                "parameter": "Q",
+                "wert": "0.057",
+                "einheit": "m³/s",
+                "zp": "2026-09-28T14:15:00",
+                "gesamtcode": 130,
+                "internet": "http://wasser.bgld.gv.at/hydrographie/die-fluesse/oberpullendorf"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.637486667,
+                    47.85221309
+                ]
+            },
+            "properties": {
+                "hzbnr": 210096,
+                "messstelle": "Schützen am Gebirge",
+                "gewasser": "Wulka",
+                "hd": "Burgenland",
+                "parameter": "Q",
+                "wert": "0.202",
+                "einheit": "m³/s",
+                "zp": "2026-09-28T14:15:00",
+                "gesamtcode": 130,
+                "internet": "http://wasser.bgld.gv.at/hydrographie/die-fluesse/schuetzen-am-gebirge"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.698252867,
+                    47.751751824
+                ]
+            },
+            "properties": {
+                "hzbnr": 210120,
+                "messstelle": "Mörbisch am See",
+                "gewasser": "Neusiedler See",
+                "hd": "Burgenland",
+                "parameter": "W",
+                "wert": "114.91",
+                "einheit": "m ü.A",
+                "zp": "2026-09-28T14:15:00",
+                "gesamtcode": 130,
+                "internet": "http://wasser.bgld.gv.at/hydrographie/die-seen/moerbisch"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.835540033,
+                    47.929759544
+                ]
+            },
+            "properties": {
+                "hzbnr": 210146,
+                "messstelle": "Neusiedl am See (Seebad)",
+                "gewasser": "Neusiedler See",
+                "hd": "Burgenland",
+                "parameter": "W",
+                "wert": "114.96",
+                "einheit": "m ü.A",
+                "zp": "2026-09-28T14:15:00",
+                "gesamtcode": 130,
+                "internet": "http://wasser.bgld.gv.at/hydrographie/die-seen/neusiedl"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.827971736,
+                    47.860104509
+                ]
+            },
+            "properties": {
+                "hzbnr": 210153,
+                "messstelle": "Podersdorf am See (Badebucht)",
+                "gewasser": "Neusiedler See",
+                "hd": "Burgenland",
+                "parameter": "W",
+                "wert": "114.94",
+                "einheit": "m ü.A",
+                "zp": "2026-09-28T14:15:00",
+                "gesamtcode": 130,
+                "internet": "http://wasser.bgld.gv.at/hydrographie/die-seen/podersdorf"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.084976183,
+                    47.292896546
+                ]
+            },
+            "properties": {
+                "hzbnr": 210203,
+                "messstelle": "Markt Allhau",
+                "gewasser": "Stögersbach",
+                "hd": "Burgenland",
+                "parameter": "Q",
+                "wert": "0.054",
+                "einheit": "m³/s",
+                "zp": "2026-09-28T14:15:00",
+                "gesamtcode": 130,
+                "internet": "http://wasser.bgld.gv.at/hydrographie/die-fluesse/markt-allhau"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.136237708,
+                    47.021345342
+                ]
+            },
+            "properties": {
+                "hzbnr": 210211,
+                "messstelle": "Dobersdorf",
+                "gewasser": "Lafnitz",
+                "hd": "Burgenland",
+                "parameter": "Q",
+                "wert": "0.955",
+                "einheit": "m³/s",
+                "zp": "2026-09-28T14:15:00",
+                "gesamtcode": 130,
+                "internet": "http://wasser.bgld.gv.at/hydrographie/die-fluesse/dobersdorf"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.219200543,
+                    47.277369081
+                ]
+            },
+            "properties": {
+                "hzbnr": 210229,
+                "messstelle": "Oberwart",
+                "gewasser": "Pinka",
+                "hd": "Burgenland",
+                "parameter": "Q",
+                "wert": "0.267",
+                "einheit": "m³/s",
+                "zp": "2026-09-28T14:15:00",
+                "gesamtcode": 130,
+                "internet": "http://wasser.bgld.gv.at/hydrographie/die-fluesse/oberwart"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.39227058,
+                    47.203655387
+                ]
+            },
+            "properties": {
+                "hzbnr": 210237,
+                "messstelle": "Woppendorf",
+                "gewasser": "Pinka",
+                "hd": "Burgenland",
+                "parameter": "Q",
+                "wert": "0.342",
+                "einheit": "m³/s",
+                "zp": "2026-09-28T13:30:00",
+                "gesamtcode": 130,
+                "internet": "http://wasser.bgld.gv.at/hydrographie/die-fluesse/woppendorf"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.421035741,
+                    47.033183058
+                ]
+            },
+            "properties": {
+                "hzbnr": 210294,
+                "messstelle": "Heiligenbrunn",
+                "gewasser": "Strem",
+                "hd": "Burgenland",
+                "parameter": "Q",
+                "wert": "0.154",
+                "einheit": "m³/s",
+                "zp": "2026-09-28T14:15:00",
+                "gesamtcode": 130,
+                "internet": "http://wasser.bgld.gv.at/hydrographie/die-fluesse/heiligenbrunn"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.499142378,
+                    47.410432157
+                ]
+            },
+            "properties": {
+                "hzbnr": 210310,
+                "messstelle": "Rattersdorf",
+                "gewasser": "Güns",
+                "hd": "Burgenland",
+                "parameter": "Q",
+                "wert": "0.177",
+                "einheit": "m³/s",
+                "zp": "2026-09-28T14:15:00",
+                "gesamtcode": 130,
+                "internet": "http://wasser.bgld.gv.at/hydrographie/die-fluesse/rattersdorf"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.204054885,
+                    46.990417663
+                ]
+            },
+            "properties": {
+                "hzbnr": 210401,
+                "messstelle": "Eltendorf",
+                "gewasser": "Lafnitz",
+                "hd": "Burgenland",
+                "parameter": "Q",
+                "wert": "2.62",
+                "einheit": "m³/s",
+                "zp": "2026-09-28T14:15:00",
+                "gesamtcode": 130,
+                "internet": "http://wasser.bgld.gv.at/hydrographie/die-fluesse/eltendorf"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.119023816,
+                    47.370761014
+                ]
+            },
+            "properties": {
+                "hzbnr": 210419,
+                "messstelle": "Pinkafeld",
+                "gewasser": "Pinka",
+                "hd": "Burgenland",
+                "parameter": "Q",
+                "wert": "0.290",
+                "einheit": "m³/s",
+                "zp": "2026-09-28T14:15:00",
+                "gesamtcode": 130,
+                "internet": "http://wasser.bgld.gv.at/hydrographie/die-fluesse/pinkafeld"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.156924687,
+                    46.929184369
+                ]
+            },
+            "properties": {
+                "hzbnr": 210468,
+                "messstelle": "Neumarkt",
+                "gewasser": "Raab",
+                "hd": "Burgenland",
+                "parameter": "Q",
+                "wert": "0.533",
+                "einheit": "m³/s",
+                "zp": "2026-09-28T14:15:00",
+                "gesamtcode": 130,
+                "internet": "http://wasser.bgld.gv.at/hydrographie/die-fluesse/neumarkt"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.232049527,
+                    47.129864387
+                ]
+            },
+            "properties": {
+                "hzbnr": 210484,
+                "messstelle": "Rauchwart",
+                "gewasser": "Strem",
+                "hd": "Burgenland",
+                "parameter": "Q",
+                "wert": "0.089",
+                "einheit": "m³/s",
+                "zp": "2026-09-28T14:15:00",
+                "gesamtcode": 130,
+                "internet": "http://wasser.bgld.gv.at/hydrographie/die-fluesse/rauchwart"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.643193098,
+                    47.460059312
+                ]
+            },
+            "properties": {
+                "hzbnr": 210500,
+                "messstelle": "Lutzmannsburg",
+                "gewasser": "Rabnitz",
+                "hd": "Burgenland",
+                "parameter": "Q",
+                "wert": "0.223",
+                "einheit": "m³/s",
+                "zp": "2026-09-28T14:15:00",
+                "gesamtcode": 130,
+                "internet": "http://wasser.bgld.gv.at/hydrographie/die-fluesse/lutzmannsburg"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.278032676,
+                    47.262568527
+                ]
+            },
+            "properties": {
+                "hzbnr": 215012,
+                "messstelle": "Siget in der Wart",
+                "gewasser": "Zickenbach",
+                "hd": "Burgenland",
+                "parameter": "Q",
+                "wert": "0.040",
+                "einheit": "m³/s",
+                "zp": "2026-09-28T14:15:00",
+                "gesamtcode": 130,
+                "internet": "http://wasser.bgld.gv.at/hydrographie/die-fluesse/siget-in-der-wart"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.463718859,
+                    47.059283361
+                ]
+            },
+            "properties": {
+                "hzbnr": 215038,
+                "messstelle": "Moschendorf",
+                "gewasser": "Pinka",
+                "hd": "Burgenland",
+                "parameter": "Q",
+                "wert": "0.370",
+                "einheit": "m³/s",
+                "zp": "2026-09-28T14:15:00",
+                "gesamtcode": 130,
+                "internet": "http://wasser.bgld.gv.at/hydrographie/die-fluesse/moschendorf"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.255169827,
+                    46.965847785
+                ]
+            },
+            "properties": {
+                "hzbnr": 215046,
+                "messstelle": "Heiligenkreuz",
+                "gewasser": "Lafnitz",
+                "hd": "Burgenland",
+                "parameter": "Q",
+                "wert": "3.02",
+                "einheit": "m³/s",
+                "zp": "2026-09-28T14:10:00",
+                "gesamtcode": 130,
+                "internet": "http://wasser.bgld.gv.at/hydrographie/die-fluesse/heiligenkreuz"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.972969722,
+                    46.747614942
+                ]
+            },
+            "properties": {
+                "hzbnr": 212324,
+                "messstelle": "Oberdrauburg-Ort",
+                "gewasser": "Drau",
+                "hd": "Kärnten",
+                "parameter": "Q",
+                "wert": "30.5",
+                "einheit": "m³/s",
+                "zp": "2026-09-28T14:30:00",
+                "gesamtcode": 130,
+                "internet": "https://info.ktn.gv.at/asp/hydro/daten/svg/2001001q3d.svg"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.349301232,
+                    46.827063534
+                ]
+            },
+            "properties": {
+                "hzbnr": 212357,
+                "messstelle": "Sachsenburg-Süd",
+                "gewasser": "Drau",
+                "hd": "Kärnten",
+                "parameter": "Q",
+                "wert": "44.1",
+                "einheit": "m³/s",
+                "zp": "2026-09-28T14:30:00",
+                "gesamtcode": 130,
+                "internet": "https://info.ktn.gv.at/asp/hydro/daten/svg/2001003q3d.svg"
+            }
+        }
+    ]
+}

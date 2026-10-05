@@ -1,0 +1,153 @@
+{
+  "schema": 1,
+  "layer": "weather",
+  "scope": "border",
+  "status": "ok",
+  "source": "Open-Meteo",
+  "sourceUrl": "https://open-meteo.com/",
+  "generatedAt": "2026-09-28T14:30:00Z",
+  "updatedAt": "2026-10-02T11:00:00Z",
+  "note": {
+    "key": "layer.weather.note"
+  },
+  "coverage": [],
+  "issues": [],
+  "stats": {},
+  "items": [
+    {
+      "kind": "modelValue",
+      "id": "weather:fr-strasbourg",
+      "title": "Strasbourg",
+      "url": "https://open-meteo.com/",
+      "time": "2026-10-02T11:00:00Z",
+      "lat": 48.5734,
+      "lon": 7.7521,
+      "regionIds": [],
+      "regionMatch": "none",
+      "country": "FR",
+      "near": {
+        "countries": ["DE", "CH"],
+        "regionIds": ["DE-BW", "DE-RP", "DE-SL"]
+      },
+      "quantity": "temperature",
+      "value": 19.6,
+      "unit": "°C",
+      "summary": {
+        "key": "source.open-meteo-weather.summary.weather.cloudy"
+      },
+      "facts": [
+        {
+          "label": {
+            "key": "source.open-meteo-weather.fact.wind"
+          },
+          "value": 7.9,
+          "unit": "km/h"
+        },
+        {
+          "label": {
+            "key": "source.open-meteo-weather.fact.humidity"
+          },
+          "value": 64,
+          "unit": "%"
+        },
+        {
+          "label": {
+            "key": "source.open-meteo-weather.fact.precipitation"
+          },
+          "value": 0,
+          "unit": "mm"
+        }
+      ]
+    },
+    {
+      "kind": "modelValue",
+      "id": "weather:it-milano",
+      "title": "Milano",
+      "url": "https://open-meteo.com/",
+      "time": "2026-10-02T11:00:00Z",
+      "lat": 45.4642,
+      "lon": 9.19,
+      "regionIds": [],
+      "regionMatch": "none",
+      "country": "IT",
+      "near": {
+        "countries": ["CH"],
+        "regionIds": ["CH-TI"]
+      },
+      "quantity": "temperature",
+      "value": 23.1,
+      "unit": "°C",
+      "summary": {
+        "key": "source.open-meteo-weather.summary.weather.cloudy"
+      },
+      "facts": [
+        {
+          "label": {
+            "key": "source.open-meteo-weather.fact.wind"
+          },
+          "value": 6.8,
+          "unit": "km/h"
+        },
+        {
+          "label": {
+            "key": "source.open-meteo-weather.fact.humidity"
+          },
+          "value": 50,
+          "unit": "%"
+        },
+        {
+          "label": {
+            "key": "source.open-meteo-weather.fact.precipitation"
+          },
+          "value": 0,
+          "unit": "mm"
+        }
+      ]
+    },
+    {
+      "kind": "modelValue",
+      "id": "weather:it-bolzano",
+      "title": "Bolzano/Bozen",
+      "url": "https://open-meteo.com/",
+      "time": "2026-10-02T11:00:00Z",
+      "lat": 46.4983,
+      "lon": 11.3548,
+      "regionIds": [],
+      "regionMatch": "none",
+      "country": "IT",
+      "near": {
+        "countries": ["DE", "AT", "CH"],
+        "regionIds": ["AT-7", "CH-GR"]
+      },
+      "quantity": "temperature",
+      "value": 23.3,
+      "unit": "°C",
+      "summary": {
+        "key": "source.open-meteo-weather.summary.weather.cloudy"
+      },
+      "facts": [
+        {
+          "label": {
+            "key": "source.open-meteo-weather.fact.wind"
+          },
+          "value": 4.1,
+          "unit": "km/h"
+        },
+        {
+          "label": {
+            "key": "source.open-meteo-weather.fact.humidity"
+          },
+          "value": 43,
+          "unit": "%"
+        },
+        {
+          "label": {
+            "key": "source.open-meteo-weather.fact.precipitation"
+          },
+          "value": 0,
+          "unit": "mm"
+        }
+      ]
+    }
+  ]
+}

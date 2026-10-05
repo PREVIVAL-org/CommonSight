@@ -1,0 +1,117 @@
+{
+  "measuredQuantities": [
+    {
+      "id": "waterLevel",
+      "label": "Wasserstand",
+      "definition": "Water level of a river or lake at a gauge, above the gauge zero or above sea level.",
+      "contributedBy": "core"
+    },
+    {
+      "id": "discharge",
+      "label": "Abfluss",
+      "definition": "Volume of water passing a gauge per second.",
+      "contributedBy": "core"
+    },
+    {
+      "id": "doseRate",
+      "label": "Ortsdosisleistung (ODL)",
+      "definition": "Ambient gamma dose rate at a measuring station.",
+      "contributedBy": "core"
+    }
+  ],
+  "modelQuantities": [
+    {
+      "id": "temperature",
+      "label": "Temperatur",
+      "definition": "Air temperature from a weather model, not a measurement.",
+      "decimals": 1,
+      "shortSuffix": "°",
+      "contributedBy": "core"
+    },
+    {
+      "id": "airQualityIndex",
+      "label": "Luftqualitätsindex",
+      "definition": "European air quality index from an air quality model, not a measurement.",
+      "decimals": 0,
+      "shortSuffix": "",
+      "contributedBy": "core"
+    },
+    {
+      "id": "pollenConcentration",
+      "label": "Pollenkonzentration",
+      "definition": "Pollen grains per cubic metre of air from a pollen model (CAMS), not a measurement.",
+      "decimals": 1,
+      "shortSuffix": "",
+      "contributedBy": "open-meteo-pollen"
+    }
+  ],
+  "warningCategories": [
+    {
+      "id": "weather",
+      "label": "Unwetter",
+      "definition": "Warning of a weather service.",
+      "contributedBy": "core"
+    },
+    {
+      "id": "civilProtection",
+      "label": "Bevölkerungsschutz",
+      "definition": "Warning of civil protection, e.g. via MoWaS.",
+      "contributedBy": "core"
+    },
+    {
+      "id": "police",
+      "label": "Polizei",
+      "definition": "Message of the police, e.g. a search or a dangerous situation (NINA).",
+      "contributedBy": "bbk-mowas"
+    },
+    {
+      "id": "flood",
+      "label": "Hochwasser",
+      "definition": "Flood message of a state flood centre (Länderübergreifendes Hochwasserportal, NINA).",
+      "contributedBy": "bbk-mowas"
+    }
+  ],
+  "newsCategories": [
+    {
+      "id": "weather",
+      "label": "Unwetter",
+      "definition": "News about severe weather and natural hazards.",
+      "contributedBy": "core"
+    },
+    {
+      "id": "conflict",
+      "label": "Konflikte",
+      "definition": "News about armed conflicts and security.",
+      "contributedBy": "core"
+    },
+    {
+      "id": "infrastructure",
+      "label": "Infrastruktur",
+      "definition": "News about outages of supply, transport and communication.",
+      "contributedBy": "core"
+    }
+  ],
+  "newsFeeds": [
+    {
+      "id": "tagesschau",
+      "label": "tagesschau.de",
+      "country": "DE",
+      "definition": "News feed of tagesschau.de (ARD).",
+      "contributedBy": "core"
+    },
+    {
+      "id": "orf",
+      "label": "ORF.at",
+      "country": "AT",
+      "definition": "News feed of ORF.at.",
+      "contributedBy": "core"
+    },
+    {
+      "id": "srf",
+      "label": "SRF News",
+      "country": "CH",
+      "definition": "News feed of SRF News.",
+      "contributedBy": "core"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "layer": "air",
+  "scope": "AT",
+  "status": "ok",
+  "source": "CAMS · Open-Meteo",
+  "sourceUrl": "https://open-meteo.com/en/docs/air-quality-api",
+  "generatedAt": "2026-09-28T11:45:00Z",
+  "updatedAt": "2026-09-28T11:00:00Z",
+  "note": {
+    "key": "layer.air.note"
+  },
+  "coverage": [],
+  "issues": [],
+  "stats": {},
+  "items": [
+    {
+      "kind": "modelValue",
+      "id": "at-wien",
+      "title": "Wien",
+      "url": "https://open-meteo.com/en/docs/air-quality-api",
+      "time": "2026-09-28T11:00:00Z",
+      "lat": 48.2082,
+      "lon": 16.3738,
+      "regionIds": ["AT-9"],
+      "regionMatch": "source",
+      "quantity": "airQualityIndex",
+      "value": 47,
+      "unit": "EU-AQI",
+      "summary": {
+        "key": "source.open-meteo-air.summary.aqi.moderate"
+      },
+      "facts": [
+        {
+          "label": {
+            "key": "source.open-meteo-air.fact.pm25"
+          },
+          "value": 11.2,
+          "unit": "µg/m³"
+        },
+        {
+          "label": {
+            "key": "source.open-meteo-air.fact.pm10"
+          },
+          "value": 18.9,
+          "unit": "µg/m³"
+        }
+      ]
+    }
+  ]
+}

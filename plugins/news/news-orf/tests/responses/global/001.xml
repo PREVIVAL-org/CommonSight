@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:orfon="http://rss.orf.at/1.0/" xmlns="http://purl.org/rss/1.0/">
+<channel rdf:about="https://orf.at/">
+   <title>news.ORF.at</title>
+   <link>https://orf.at/</link>
+   <dc:date>2026-09-28T16:16:46+02:00</dc:date>
+      <description>Die aktuellsten Nachrichten auf einen Blick - aus Österreich und der ganzen Welt. In Text, Bild und Video.</description>
+   <dc:publisher>ORF Österreichischer Rundfunk, Wien</dc:publisher>
+   <dc:creator>ORF Online und Teletext GmbH &amp; Co KG</dc:creator>
+   <dc:language>de</dc:language>
+   <dc:rights>Copyright © 2026 ORF Online und Teletext GmbH &amp; Co KG</dc:rights>
+   <sy:updatePeriod>hourly</sy:updatePeriod>
+   <sy:updateFrequency>2</sy:updateFrequency>
+   <sy:updateBase>2000-01-01T00:00:00Z</sy:updateBase>
+   <orfon:site>news.ORF.at</orfon:site>
+
+
+
+   <items>
+      <rdf:Seq>
+         <rdf:li rdf:resource="https://orf.at/stories/3443512/"/>
+
+   <rdf:li rdf:resource="https://orf.at/stories/3443511/"/>
+
+   <rdf:li rdf:resource="https://orf.at/stories/3443509/"/>
+
+   <rdf:li rdf:resource="https://orf.at/stories/3443485/"/>
+
+   <rdf:li rdf:resource="https://orf.at/stories/3443499/"/>
+
+   <rdf:li rdf:resource="https://orf.at/stories/3443496/"/>
+
+   <rdf:li rdf:resource="https://orf.at/stories/3443492/"/>
+
+   <rdf:li rdf:resource="https://orf.at/stories/3443489/"/>
+
+   <rdf:li rdf:resource="https://orf.at/stories/3443486/"/>
+
+   <rdf:li rdf:resource="https://orf.at/stories/3443474/"/>
+
+   <rdf:li rdf:resource="https://orf.at/stories/3443481/"/>
+
+   <rdf:li rdf:resource="https://orf.at/stories/3443470/"/>
+
+   <rdf:li rdf:resource="https://orf.at/stories/3443479/"/>
+
+   <rdf:li rdf:resource="https://orf.at/stories/3443478/"/>
+
+   <rdf:li rdf:resource="https://orf.at/stories/3443477/"/>
+
+   <rdf:li rdf:resource="https://orf.at/stories/3443471/"/>
+
+   <rdf:li rdf:resource="https://orf.at/stories/3443468/"/>
+
+   <rdf:li rdf:resource="https://orf.at/stories/3443466/"/>
+
+   <rdf:li rdf:resource="https://orf.at/stories/3443455/"/>
+
+
+      </rdf:Seq>
+   </items>
+</channel>
+<item rdf:about="https://orf.at/stories/3443512/">
+   <title>Selenskyj: Auch Klinik in Kiew getroffen</title>
+   
+   <link>https://orf.at/stories/3443512/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2026-09-28T16:16:46+02:00</dc:date>
+
+   <orfon:usid>news:3443512</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland"/>
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker"/>
+</item>
+
+<item rdf:about="https://orf.at/stories/3443511/">
+   <title>Ralph Siegel will wieder bei Song Contest mitmischen</title>
+   
+   <link>https://orf.at/stories/3443511/</link>
+   <dc:subject>Kultur</dc:subject>
+   <dc:date>2026-09-28T16:12:04+02:00</dc:date>
+
+   <orfon:usid>news:3443511</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:KulturUndFreizeit/Musik"/>
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker"/>
+</item>
+
+<item rdf:about="https://orf.at/stories/3443509/">
+   <title>SpaceX-Rakete „Starship“ erreicht erstmals Erdumlaufbahn</title>
+   
+   <link>https://orf.at/stories/3443509/</link>
+   <dc:subject>Science</dc:subject>
+   <dc:date>2026-09-28T15:53:35+02:00</dc:date>
+
+   <orfon:usid>news:3443509</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Wissenschaft/WissenschaftUeberblick"/>
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker"/>
+</item>
+
+<item rdf:about="https://orf.at/stories/3443485/">
+   <title>Neue Spritpreisbremse beschlossen</title>
+   <description>Der Nationalrat hat Montagnachmittag die neue Spritpreisbremse beschlossen. Sie soll für Oktober und November gelten und laut Koalition eine Ersparnis von zwölf Cent pro Liter bringen. Dem Beschluss war eine heftige Debatte im Plenum vorangegangen.</description>
+   <link>https://orf.at/stories/3443485/</link>
+   <dc:subject>Inland</dc:subject>
+   <dc:date>2026-09-28T15:07:42+02:00</dc:date>
+
+   <orfon:usid>news:3443485</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikInland"/>
+   <orfon:storyType rdf:resource="urn:orfon:type:story"/>
+</item>
+
+<item rdf:about="https://orf.at/stories/3443499/">
+   <title>Falschaussage-Ermittlungen gegen Schmid eingestellt</title>
+   
+   <link>https://orf.at/stories/3443499/</link>
+   <dc:subject>Inland</dc:subject>
+   <dc:date>2026-09-28T14:51:24+02:00</dc:date>
+
+   <orfon:usid>news:3443499</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikInland"/>
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker"/>
+</item>
+
+<item rdf:about="https://orf.at/stories/3443496/">
+   <title>Biontech schließt mehrere Standorte</title>
+   
+   <link>https://orf.at/stories/3443496/</link>
+   <dc:subject>Wirtschaft</dc:subject>
+   <dc:date>2026-09-28T14:24:34+02:00</dc:date>
+
+   <orfon:usid>news:3443496</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Wirtschaft/Unternehmensberichterstattung"/>
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker"/>
+</item>
+
+<item rdf:about="https://orf.at/stories/3443492/">
+   <title>EU verhängt nach Duma-Wahl in Russland neue Sanktionen</title>
+   
+   <link>https://orf.at/stories/3443492/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2026-09-28T13:58:48+02:00</dc:date>
+
+   <orfon:usid>news:3443492</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland"/>
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker"/>
+</item>
+
+<item rdf:about="https://orf.at/stories/3443489/">
+   <title>Bericht zu Verteidigungsbereitschaft zeigt Lücken</title>
+   
+   <link>https://orf.at/stories/3443489/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2026-09-28T13:43:13+02:00</dc:date>
+
+   <orfon:usid>news:3443489</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland"/>
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker"/>
+</item>
+
+<item rdf:about="https://orf.at/stories/3443486/">
+   <title>Projekt für mehr Herkunftstransparenz in Gastronomie</title>
+   
+   <link>https://orf.at/stories/3443486/</link>
+   <dc:subject>Inland</dc:subject>
+   <dc:date>2026-09-28T13:16:04+02:00</dc:date>
+
+   <orfon:usid>news:3443486</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikInland"/>
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker"/>
+</item>
+
+<item rdf:about="https://orf.at/stories/3443474/">
+   <title>ÖVP und NEOS gegen SPÖ-Vorschlag</title>
+   <description>Die Regierungsparteien ÖVP, SPÖ und NEOS verhandeln derzeit über die geplante Sozialhilfereform. Sie könnte auch Einschnitte für Spitzenverdienerinnen und -verdiener bringen, zumindest, wenn es nach der SPÖ geht. ÖVP und NEOS lehnten das am Montag allerdings ab. Über die Reform wird trotzdem verhandelt.</description>
+   <link>https://orf.at/stories/3443474/</link>
+   <dc:subject>Inland</dc:subject>
+   <dc:date>2026-09-28T13:08:02+02:00</dc:date>
+
+   <orfon:usid>news:3443474</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikInland"/>
+   <orfon:storyType rdf:resource="urn:orfon:type:story"/>
+</item>
+
+<item rdf:about="https://orf.at/stories/3443481/">
+   <title>Vorfall bei Militärbasis in GB: Fünf Männer einvernommen</title>
+   
+   <link>https://orf.at/stories/3443481/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2026-09-28T11:58:26+02:00</dc:date>
+
+   <orfon:usid>news:3443481</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland"/>
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker"/>
+</item>
+
+<item rdf:about="https://orf.at/stories/3443470/">
+   <title>3.000 Tonnen landen täglich im Müll</title>
+   <description>Österreich hat sich in Sachen Lebensmittelverschwendung verbessert, dennoch werden rund 140 Lkw-Ladungen an brauchbarem Essen am Tag weggeworfen. Die Hälfte der Menge landet im privaten Müll. Der Welttag gegen Lebensmittelverschwendung am Dienstag soll Bewusstsein schaffen und Wege aufzeigen, wie Lebensmittel sinnvoll aufgebraucht oder verteilt werden können.</description>
+   <link>https://orf.at/stories/3443470/</link>
+   <dc:subject>Wirtschaft</dc:subject>
+   <dc:date>2026-09-28T11:52:03+02:00</dc:date>
+
+   <orfon:usid>news:3443470</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Wirtschaft/Wirtschaftspolitik"/>
+   <orfon:storyType rdf:resource="urn:orfon:type:story"/>
+</item>
+
+<item rdf:about="https://orf.at/stories/3443479/">
+   <title>Schwedens Sozialdemokraten: Regierungsbildung gescheitert</title>
+   
+   <link>https://orf.at/stories/3443479/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2026-09-28T11:50:34+02:00</dc:date>
+
+   <orfon:usid>news:3443479</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland"/>
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker"/>
+</item>
+
+<item rdf:about="https://orf.at/stories/3443478/">
+   <title>Schon über 8.000 Ebola-Infektionen in DR Kongo</title>
+   
+   <link>https://orf.at/stories/3443478/</link>
+   <dc:subject>Gesundheit</dc:subject>
+   <dc:date>2026-09-28T11:44:17+02:00</dc:date>
+
+   <orfon:usid>news:3443478</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Gesundheit/GesundheitUeberblick"/>
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker"/>
+</item>
+
+<item rdf:about="https://orf.at/stories/3443477/">
+   <title>Dürre: Totschnig verweist auf Bedeutung der Agrarförderungen</title>
+   
+   <link>https://orf.at/stories/3443477/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2026-09-28T11:41:31+02:00</dc:date>
+
+   <orfon:usid>news:3443477</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland"/>
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker"/>
+</item>
+
+<item rdf:about="https://orf.at/stories/3443471/">
+   <title>Überschwemmungen in Indien und Nepal: Schon über 100 Tote</title>
+   
+   <link>https://orf.at/stories/3443471/</link>
+   <dc:subject>Chronik</dc:subject>
+   <dc:date>2026-09-28T11:04:06+02:00</dc:date>
+
+   <orfon:usid>news:3443471</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten/Chronik"/>
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker"/>
+</item>
+
+<item rdf:about="https://orf.at/stories/3443468/">
+   <title>Ungarns Parlament hob Immunität von Premier Magyar auf</title>
+   
+   <link>https://orf.at/stories/3443468/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2026-09-28T10:58:23+02:00</dc:date>
+
+   <orfon:usid>news:3443468</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland"/>
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker"/>
+</item>
+
+<item rdf:about="https://orf.at/stories/3443466/">
+   <title>US-Iran-Verhandlungen ungewiss: Ölpreis steigt erneut</title>
+   
+   <link>https://orf.at/stories/3443466/</link>
+   <dc:subject>Wirtschaft</dc:subject>
+   <dc:date>2026-09-28T09:57:55+02:00</dc:date>
+
+   <orfon:usid>news:3443466</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Wirtschaft/Wirtschaftspolitik"/>
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker"/>
+</item>
+
+<item rdf:about="https://orf.at/stories/3443455/">
+   <title>Saudischer Außenminister zu Gesprächen in Washington</title>
+   
+   <link>https://orf.at/stories/3443455/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2026-09-28T08:23:40+02:00</dc:date>
+
+   <orfon:usid>news:3443455</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland"/>
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker"/>
+</item>
+
+
+</rdf:RDF>

@@ -1,0 +1,13 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[6.781234, 49.321111], [6.861234, 49.321111], [6.861234, 49.381111], [6.781234, 49.381111], [6.781234, 49.321111]]]
+      },
+      "properties": { "warnId": "mow.test", "fillColor": "#FB8C00" }
+    }
+  ]
+}

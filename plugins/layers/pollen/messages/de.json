@@ -1,0 +1,4 @@
+{
+  "layer.pollen.name": "Pollenflug",
+  "layer.pollen.note": "Modellwerte (CAMS) der Pollenkonzentration für ausgewählte Orte, je Ort die stärkste Pollenart: Erle, Birke, Gräser, Beifuß, Olive oder Ambrosia. Punktwerte in Pollen je Kubikmeter Luft, keine Messungen und keine gesundheitliche Bewertung. Daten: Open-Meteo, CC BY 4.0. Kostenlose Schnittstelle für nichtkommerzielle Nutzung."
+}

@@ -1,0 +1,15 @@
+{
+    "recordedAt": "2026-10-04T08:39:43Z",
+    "requests": [
+        {
+            "signature": "GET https://www.oeamtc.at/verkehrsservice/output/rss/oeamtc_verkehrsservice_oesterreich.xml",
+            "status": 200,
+            "headers": {
+                "etag": "\"8a63a-65cffaf34254e-gzip\"",
+                "lastModified": "Sun, 04 Oct 2026 08:38:06 GMT",
+                "contentType": "application/xml"
+            },
+            "file": "001.xml"
+        }
+    ]
+}

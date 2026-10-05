@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://commonsight.org/schema/v1/geometry.schema.json",
+  "title": "Geometry",
+  "description": "GeoJSON geometry in WGS84, coordinates as [lon, lat] (D-13).",
+  "oneOf": [
+    { "$ref": "#/$defs/point" },
+    { "$ref": "#/$defs/lineString" },
+    { "$ref": "#/$defs/multiLineString" },
+    { "$ref": "#/$defs/polygon" },
+    { "$ref": "#/$defs/multiPolygon" }
+  ],
+  "$defs": {
+    "position": {
+      "type": "array",
+      "prefixItems": [
+        { "type": "number", "minimum": -180, "maximum": 180 },
+        { "type": "number", "minimum": -90, "maximum": 90 }
+      ],
+      "items": false,
+      "minItems": 2
+    },
+    "line": { "type": "array", "items": { "$ref": "#/$defs/position" }, "minItems": 2 },
+    "ring": { "type": "array", "items": { "$ref": "#/$defs/position" }, "minItems": 4 },
+    "point": {
+      "title": "PointGeometry",
+      "type": "object",
+      "properties": {
+        "type": { "const": "Point" },
+        "coordinates": { "$ref": "#/$defs/position" }
+      },
+      "required": ["type", "coordinates"],
+      "additionalProperties": false
+    },
+    "lineString": {
+      "title": "LineStringGeometry",
+      "type": "object",
+      "properties": {
+        "type": { "const": "LineString" },
+        "coordinates": { "$ref": "#/$defs/line" }
+      },
+      "required": ["type", "coordinates"],
+      "additionalProperties": false
+    },
+    "multiLineString": {
+      "title": "MultiLineStringGeometry",
+      "type": "object",
+      "properties": {
+        "type": { "const": "MultiLineString" },
+        "coordinates": { "type": "array", "items": { "$ref": "#/$defs/line" }, "minItems": 1 }
+      },
+      "required": ["type", "coordinates"],
+      "additionalProperties": false
+    },
+    "polygon": {
+      "title": "PolygonGeometry",
+      "type": "object",
+      "properties": {
+        "type": { "const": "Polygon" },
+        "coordinates": { "type": "array", "items": { "$ref": "#/$defs/ring" }, "minItems": 1 }
+      },
+      "required": ["type", "coordinates"],
+      "additionalProperties": false
+    },
+    "multiPolygon": {
+      "title": "MultiPolygonGeometry",
+      "type": "object",
+      "properties": {
+        "type": { "const": "MultiPolygon" },
+        "coordinates": {
+          "type": "array",
+          "items": { "type": "array", "items": { "$ref": "#/$defs/ring" }, "minItems": 1 },
+          "minItems": 1
+        }
+      },
+      "required": ["type", "coordinates"],
+      "additionalProperties": false
+    }
+  }
+}

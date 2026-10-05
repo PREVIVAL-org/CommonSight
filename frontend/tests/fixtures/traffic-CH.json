@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "layer": "traffic",
+  "scope": "CH",
+  "status": "setup",
+  "source": "ASTRA · opentransportdata.swiss",
+  "sourceUrl": "https://www.tcs.ch/de/tools/verkehrsinfo-verkehrslage/",
+  "generatedAt": "2026-09-28T11:56:00Z",
+  "updatedAt": null,
+  "note": {
+    "key": "layer.traffic.note.CH"
+  },
+  "coverage": [],
+  "issues": [],
+  "stats": {},
+  "items": []
+}

@@ -1,0 +1,102 @@
+{
+  "schema": 1,
+  "layer": "radiation",
+  "scope": "AT",
+  "status": "ok",
+  "source": "EURDEP · BfS/IMIS",
+  "sourceUrl": "https://mb.strahlenschutz.gv.at/",
+  "generatedAt": "2026-09-28T11:30:00Z",
+  "updatedAt": "2026-09-28T11:00:00Z",
+  "note": {
+    "key": "layer.radiation.note",
+    "params": {
+      "elevated": 0.3,
+      "high": 1
+    }
+  },
+  "coverage": [],
+  "issues": [],
+  "stats": {
+    "colorScale": {
+      "elevated": 0.3,
+      "high": 1,
+      "unit": "µSv/h",
+      "maxAgeHours": 12,
+      "origin": "display"
+    }
+  },
+  "items": [
+    {
+      "kind": "measurement",
+      "id": "AT0001",
+      "title": "Wien-Hohe Warte",
+      "url": "https://mb.strahlenschutz.gv.at/",
+      "time": "2026-09-28T11:00:00Z",
+      "lat": 48.2486,
+      "lon": 16.3564,
+      "regionIds": ["AT-9"],
+      "regionMatch": "point",
+      "quantity": "doseRate",
+      "value": 0.0987,
+      "unit": "µSv/h",
+      "reference": {
+        "key": "reference.averaging",
+        "params": {
+          "duration": "1 h"
+        }
+      },
+      "assessment": {
+        "level": "normal",
+        "label": {
+          "key": "layer.radiation.assessment.normal"
+        },
+        "basis": {
+          "key": "layer.radiation.assessment.basis",
+          "params": {
+            "elevated": 0.3,
+            "high": 1
+          }
+        },
+        "origin": "display",
+        "validUntil": "2026-09-28T23:00:00Z"
+      },
+      "facts": []
+    },
+    {
+      "kind": "measurement",
+      "id": "AT0002",
+      "title": "Innsbruck",
+      "url": "https://mb.strahlenschutz.gv.at/",
+      "time": "2026-09-28T03:00:00Z",
+      "lat": 47.2692,
+      "lon": 11.4041,
+      "regionIds": ["AT-7"],
+      "regionMatch": "point",
+      "quantity": "doseRate",
+      "value": 0.35,
+      "unit": "µSv/h",
+      "reference": {
+        "key": "reference.averaging",
+        "params": {
+          "duration": "1 h"
+        }
+      },
+      "assessment": {
+        "level": "elevated",
+        "label": {
+          "key": "layer.radiation.assessment.elevated"
+        },
+        "basis": {
+          "key": "layer.radiation.assessment.basis",
+          "params": {
+            "elevated": 0.3,
+            "high": 1
+          }
+        },
+        "origin": "display",
+        "validUntil": "2026-09-28T15:00:00Z"
+      },
+      "facts": []
+    }
+  ]
+}

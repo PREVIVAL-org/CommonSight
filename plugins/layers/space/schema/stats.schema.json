@@ -1,0 +1,52 @@
+{
+  "title": "SpaceStats",
+  "description": "Current Kp, history of the last 16 values, NOAA scales (Q-SP-04).",
+  "type": "object",
+  "properties": {
+    "kp": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "history": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      },
+      "maxItems": 16
+    },
+    "G": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 5
+    },
+    "R": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 5
+    },
+    "S": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 5
+    }
+  },
+  "required": [
+    "kp",
+    "history",
+    "G",
+    "R",
+    "S"
+  ],
+  "additionalProperties": false
+}

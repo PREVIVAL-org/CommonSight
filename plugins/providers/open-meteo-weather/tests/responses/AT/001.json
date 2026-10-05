@@ -1,0 +1,253 @@
+[
+    {
+        "latitude": 48.2,
+        "longitude": 16.38,
+        "generationtime_ms": 0.1004934310913086,
+        "utc_offset_seconds": 0,
+        "timezone": "GMT",
+        "timezone_abbreviation": "GMT",
+        "elevation": 179.0,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "temperature_2m": "°C",
+            "relative_humidity_2m": "%",
+            "weather_code": "wmo code",
+            "wind_speed_10m": "km/h",
+            "precipitation": "mm"
+        },
+        "current": {
+            "time": "2026-09-28T14:15",
+            "interval": 900,
+            "temperature_2m": 23.6,
+            "relative_humidity_2m": 37,
+            "weather_code": 0,
+            "wind_speed_10m": 14.8,
+            "precipitation": 0.0
+        }
+    },
+    {
+        "latitude": 48.3,
+        "longitude": 14.279999,
+        "generationtime_ms": 0.11920928955078125,
+        "utc_offset_seconds": 0,
+        "timezone": "GMT",
+        "timezone_abbreviation": "GMT",
+        "elevation": 250.0,
+        "location_id": 1,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "temperature_2m": "°C",
+            "relative_humidity_2m": "%",
+            "weather_code": "wmo code",
+            "wind_speed_10m": "km/h",
+            "precipitation": "mm"
+        },
+        "current": {
+            "time": "2026-09-28T14:15",
+            "interval": 900,
+            "temperature_2m": 22.8,
+            "relative_humidity_2m": 47,
+            "weather_code": 0,
+            "wind_speed_10m": 9.2,
+            "precipitation": 0.0
+        }
+    },
+    {
+        "latitude": 47.08,
+        "longitude": 15.439999,
+        "generationtime_ms": 0.13458728790283203,
+        "utc_offset_seconds": 0,
+        "timezone": "GMT",
+        "timezone_abbreviation": "GMT",
+        "elevation": 363.0,
+        "location_id": 2,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "temperature_2m": "°C",
+            "relative_humidity_2m": "%",
+            "weather_code": "wmo code",
+            "wind_speed_10m": "km/h",
+            "precipitation": "mm"
+        },
+        "current": {
+            "time": "2026-09-28T14:15",
+            "interval": 900,
+            "temperature_2m": 21.4,
+            "relative_humidity_2m": 45,
+            "weather_code": 0,
+            "wind_speed_10m": 7.6,
+            "precipitation": 0.0
+        }
+    },
+    {
+        "latitude": 47.8,
+        "longitude": 13.059999,
+        "generationtime_ms": 0.12683868408203125,
+        "utc_offset_seconds": 0,
+        "timezone": "GMT",
+        "timezone_abbreviation": "GMT",
+        "elevation": 430.0,
+        "location_id": 3,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "temperature_2m": "°C",
+            "relative_humidity_2m": "%",
+            "weather_code": "wmo code",
+            "wind_speed_10m": "km/h",
+            "precipitation": "mm"
+        },
+        "current": {
+            "time": "2026-09-28T14:15",
+            "interval": 900,
+            "temperature_2m": 25.2,
+            "relative_humidity_2m": 39,
+            "weather_code": 0,
+            "wind_speed_10m": 5.9,
+            "precipitation": 0.0
+        }
+    },
+    {
+        "latitude": 47.260002,
+        "longitude": 11.4,
+        "generationtime_ms": 0.07510185241699219,
+        "utc_offset_seconds": 0,
+        "timezone": "GMT",
+        "timezone_abbreviation": "GMT",
+        "elevation": 580.0,
+        "location_id": 4,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "temperature_2m": "°C",
+            "relative_humidity_2m": "%",
+            "weather_code": "wmo code",
+            "wind_speed_10m": "km/h",
+            "precipitation": "mm"
+        },
+        "current": {
+            "time": "2026-09-28T14:15",
+            "interval": 900,
+            "temperature_2m": 24.8,
+            "relative_humidity_2m": 40,
+            "weather_code": 0,
+            "wind_speed_10m": 1.9,
+            "precipitation": 0.0
+        }
+    },
+    {
+        "latitude": 46.62,
+        "longitude": 14.299999,
+        "generationtime_ms": 0.08726119995117188,
+        "utc_offset_seconds": 0,
+        "timezone": "GMT",
+        "timezone_abbreviation": "GMT",
+        "elevation": 451.0,
+        "location_id": 5,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "temperature_2m": "°C",
+            "relative_humidity_2m": "%",
+            "weather_code": "wmo code",
+            "wind_speed_10m": "km/h",
+            "precipitation": "mm"
+        },
+        "current": {
+            "time": "2026-09-28T14:15",
+            "interval": 900,
+            "temperature_2m": 21.0,
+            "relative_humidity_2m": 49,
+            "weather_code": 0,
+            "wind_speed_10m": 3.4,
+            "precipitation": 0.0
+        }
+    },
+    {
+        "latitude": 47.5,
+        "longitude": 9.74,
+        "generationtime_ms": 0.08690357208251953,
+        "utc_offset_seconds": 0,
+        "timezone": "GMT",
+        "timezone_abbreviation": "GMT",
+        "elevation": 407.0,
+        "location_id": 6,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "temperature_2m": "°C",
+            "relative_humidity_2m": "%",
+            "weather_code": "wmo code",
+            "wind_speed_10m": "km/h",
+            "precipitation": "mm"
+        },
+        "current": {
+            "time": "2026-09-28T14:15",
+            "interval": 900,
+            "temperature_2m": 22.9,
+            "relative_humidity_2m": 55,
+            "weather_code": 0,
+            "wind_speed_10m": 3.1,
+            "precipitation": 0.0
+        }
+    },
+    {
+        "latitude": 47.48,
+        "longitude": 16.48,
+        "generationtime_ms": 0.08356571197509766,
+        "utc_offset_seconds": 0,
+        "timezone": "GMT",
+        "timezone_abbreviation": "GMT",
+        "elevation": 263.0,
+        "location_id": 7,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "temperature_2m": "°C",
+            "relative_humidity_2m": "%",
+            "weather_code": "wmo code",
+            "wind_speed_10m": "km/h",
+            "precipitation": "mm"
+        },
+        "current": {
+            "time": "2026-09-28T14:15",
+            "interval": 900,
+            "temperature_2m": 23.0,
+            "relative_humidity_2m": 37,
+            "weather_code": 0,
+            "wind_speed_10m": 14.0,
+            "precipitation": 0.0
+        }
+    },
+    {
+        "latitude": 48.22,
+        "longitude": 15.58,
+        "generationtime_ms": 0.0667572021484375,
+        "utc_offset_seconds": 0,
+        "timezone": "GMT",
+        "timezone_abbreviation": "GMT",
+        "elevation": 289.0,
+        "location_id": 8,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "temperature_2m": "°C",
+            "relative_humidity_2m": "%",
+            "weather_code": "wmo code",
+            "wind_speed_10m": "km/h",
+            "precipitation": "mm"
+        },
+        "current": {
+            "time": "2026-09-28T14:15",
+            "interval": 900,
+            "temperature_2m": 23.8,
+            "relative_humidity_2m": 37,
+            "weather_code": 0,
+            "wind_speed_10m": 13.4,
+            "precipitation": 0.0
+        }
+    }
+]

@@ -1,0 +1,95 @@
+{
+    "recordedAt": "2026-09-28T14:30:00Z",
+    "requests": [
+        {
+            "signature": "GET https://warnung.bund.de/api31/mowas/mapData.json",
+            "status": 200,
+            "headers": {},
+            "file": "001.json"
+        },
+        {
+            "signature": "GET https://warnung.bund.de/api31/katwarn/mapData.json",
+            "status": 200,
+            "headers": {},
+            "file": "003.json"
+        },
+        {
+            "signature": "GET https://warnung.bund.de/api31/biwapp/mapData.json",
+            "status": 200,
+            "headers": {},
+            "file": "004.json"
+        },
+        {
+            "signature": "GET https://warnung.bund.de/api31/police/mapData.json",
+            "status": 200,
+            "headers": {},
+            "file": "005.json"
+        },
+        {
+            "signature": "GET https://warnung.bund.de/api31/lhp/mapData.json",
+            "status": 200,
+            "headers": {},
+            "file": "006.json"
+        },
+        {
+            "signature": "GET https://warnung.bund.de/api31/warnings/mow.DE-SL-SLS-W038-20260904-000.geojson",
+            "status": 200,
+            "headers": {},
+            "file": "002.json"
+        },
+        {
+            "signature": "GET https://warnung.bund.de/api31/warnings/mow.DE-BW-LB-W026-20260921-000.geojson",
+            "status": 200,
+            "headers": {},
+            "file": "002.json"
+        },
+        {
+            "signature": "GET https://warnung.bund.de/api31/warnings/mow.DE-BW-KA-W138-20260925-000.geojson",
+            "status": 200,
+            "headers": {},
+            "file": "002.json"
+        },
+        {
+            "signature": "GET https://warnung.bund.de/api31/warnings/mow.DE-ST-WB-W056-20260925-001.geojson",
+            "status": 200,
+            "headers": {},
+            "file": "002.json"
+        },
+        {
+            "signature": "GET https://warnung.bund.de/api31/warnings/mow.DE-BB-P-SE082-20260925-82-000.geojson",
+            "status": 200,
+            "headers": {},
+            "file": "002.json"
+        },
+        {
+            "signature": "GET https://warnung.bund.de/api31/warnings/mow.DE-TH-G-W109-20260926-000.geojson",
+            "status": 200,
+            "headers": {},
+            "file": "002.json"
+        },
+        {
+            "signature": "GET https://warnung.bund.de/api31/warnings/mow.DE-HE-WI-W097-20260926-000.geojson",
+            "status": 200,
+            "headers": {},
+            "file": "002.json"
+        },
+        {
+            "signature": "GET https://warnung.bund.de/api31/warnings/mow.DE-NW-HAM-SE085-20260928-85-001.geojson",
+            "status": 200,
+            "headers": {},
+            "file": "002.json"
+        },
+        {
+            "signature": "GET https://warnung.bund.de/api31/warnings/mow.DE-BY-BA-W140-20260928-000.geojson",
+            "status": 200,
+            "headers": {},
+            "file": "002.json"
+        },
+        {
+            "signature": "GET https://warnung.bund.de/api31/warnings/mow.DE-BY-BA-W140-20260928-001.geojson",
+            "status": 200,
+            "headers": {},
+            "file": "002.json"
+        }
+    ]
+}

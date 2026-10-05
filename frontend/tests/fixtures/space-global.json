@@ -1,0 +1,103 @@
+{
+  "schema": 1,
+  "layer": "space",
+  "scope": "global",
+  "status": "ok",
+  "source": "NOAA SWPC",
+  "sourceUrl": "https://www.swpc.noaa.gov/",
+  "generatedAt": "2026-09-28T11:40:00Z",
+  "updatedAt": "2026-09-28T09:00:00Z",
+  "note": {
+    "key": "layer.space.note"
+  },
+  "coverage": [],
+  "issues": [],
+  "stats": {
+    "kp": 5.33,
+    "history": [2, 2.33, 3, 3.67, 4, 4.33, 5, 5.33],
+    "G": 1,
+    "R": 0,
+    "S": 0
+  },
+  "items": [
+    {
+      "kind": "index",
+      "id": "kp",
+      "title": "Kp",
+      "url": "https://www.swpc.noaa.gov/products/planetary-k-index",
+      "time": "2026-09-28T09:00:00Z",
+      "regionIds": [],
+      "regionMatch": "none",
+      "name": {
+        "key": "source.noaa-kp.index.kp.name"
+      },
+      "value": 5.33,
+      "scale": {
+        "min": 0,
+        "max": 9,
+        "name": {
+          "key": "source.noaa-kp.scale.kp"
+        }
+      },
+      "history": [2, 2.33, 3, 3.67, 4, 4.33, 5, 5.33],
+      "description": {
+        "key": "source.noaa-kp.index.kp.description"
+      }
+    },
+    {
+      "kind": "index",
+      "id": "G",
+      "title": "G",
+      "url": "https://www.swpc.noaa.gov/noaa-scales-explanation",
+      "time": "2026-09-28T09:00:00Z",
+      "regionIds": [],
+      "regionMatch": "none",
+      "name": {
+        "key": "source.noaa-scales.index.G.name"
+      },
+      "value": 1,
+      "scale": {
+        "min": 0,
+        "max": 5,
+        "name": {
+          "key": "source.noaa-scales.scale.noaa",
+          "params": {
+            "scale": "G"
+          }
+        }
+      },
+      "description": {
+        "key": "source.noaa-scales.index.noaa.description",
+        "params": {
+          "scale": "G"
+        }
+      }
+    },
+    {
+      "kind": "index",
+      "id": "S",
+      "title": "S",
+      "url": "https://www.swpc.noaa.gov/noaa-scales-explanation",
+      "time": "2026-09-28T09:00:00Z",
+      "regionIds": [],
+      "regionMatch": "none",
+      "name": {
+        "key": "source.noaa-scales.index.S.name"
+      },
+      "value": 0,
+      "scale": {
+        "min": 0,
+        "max": 5,
+        "name": {
+          "key": "source.noaa-scales.scale.noaa",
+          "params": {
+            "scale": "S"
+          }
+        }
+      },
+      "description": {
+        "key": "source.noaa-scales.index.S.description"
+      }
+    }
+  ]
+}

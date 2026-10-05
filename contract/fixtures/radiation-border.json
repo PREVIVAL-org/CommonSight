@@ -1,0 +1,653 @@
+{
+    "schema": 1,
+    "layer": "radiation",
+    "scope": "border",
+    "status": "partial",
+    "source": "PAA · Umweltagentur Südtirol",
+    "sourceUrl": "https://monitoring.paa.gov.pl/",
+    "generatedAt": "2026-10-02T15:30:00Z",
+    "updatedAt": "2026-10-02T10:00:00Z",
+    "note": {
+        "key": "layer.radiation.note",
+        "params": {
+            "elevated": 0.3,
+            "high": 1.0
+        }
+    },
+    "coverage": [],
+    "issues": [
+        {
+            "key": "issue.belowExpected",
+            "params": {
+                "source": "PAA",
+                "valid": 5,
+                "expected": 40
+            }
+        }
+    ],
+    "stats": {
+        "colorScale": {
+            "elevated": 0.3,
+            "high": 1.0,
+            "unit": "µSv/h",
+            "maxAgeHours": 12,
+            "origin": "display"
+        }
+    },
+    "items": [
+        {
+            "kind": "measurement",
+            "id": "paa:2527a430-0822-476a-9936-21d1f9a8f2af",
+            "title": "Koszalin",
+            "url": "https://monitoring.paa.gov.pl/",
+            "time": "2026-10-02T08:00:00Z",
+            "lat": 54.20452,
+            "lon": 16.15444,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "PL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-MV"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.077,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-02T20:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "paa:198810b5-ab20-42ca-8403-d215ba182690",
+            "title": "Szczecin",
+            "url": "https://monitoring.paa.gov.pl/",
+            "time": "2026-10-02T10:00:00Z",
+            "lat": 53.39521,
+            "lon": 14.6226,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "PL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BE",
+                    "DE-MV",
+                    "DE-ST"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.053,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-02T22:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "paa:faa5e035-ce88-4270-9967-82ea06d8ef73",
+            "title": "Zielona Góra",
+            "url": "https://monitoring.paa.gov.pl/",
+            "time": "2026-09-28T04:00:00Z",
+            "lat": 51.866117,
+            "lon": 15.444644,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "PL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BE",
+                    "DE-MV",
+                    "DE-SN",
+                    "DE-ST"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.043,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "assessment.basis.stale",
+                    "params": {
+                        "hours": 12
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-28T16:00:00Z",
+                "previous": {
+                    "level": "normal",
+                    "label": {
+                        "key": "layer.radiation.assessment.normal"
+                    }
+                }
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "paa:248a46df-165d-4680-8107-2133ffc4c230",
+            "title": "Wrocław",
+            "url": "https://monitoring.paa.gov.pl/",
+            "time": "2026-10-02T09:00:00Z",
+            "lat": 51.1134,
+            "lon": 16.8822,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "PL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-SN"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.077,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-02T21:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "paa:2c1d81dc-6506-4e0e-9e74-098e59f468f1",
+            "title": "Legnica",
+            "url": "https://monitoring.paa.gov.pl/",
+            "time": "2026-10-02T10:00:00Z",
+            "lat": 51.16546,
+            "lon": 16.15209,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "PL",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-SN"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.077,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-02T22:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "appa-bz:BZ",
+            "title": "Bozen",
+            "url": "https://dati.retecivica.bz.it/de/dataset/situazione-dell-aria",
+            "time": "2026-10-02T10:00:00Z",
+            "lat": 46.4983,
+            "lon": 11.3548,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "IT",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-2",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-SG",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.11,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-02T22:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "appa-bz:BR",
+            "title": "Bruneck",
+            "url": "https://dati.retecivica.bz.it/de/dataset/situazione-dell-aria",
+            "time": "2026-10-02T10:00:00Z",
+            "lat": 46.7966,
+            "lon": 11.9363,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "IT",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-2",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-GR",
+                    "CH-SG"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.1,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-02T22:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "appa-bz:AU",
+            "title": "Auer",
+            "url": "https://dati.retecivica.bz.it/de/dataset/situazione-dell-aria",
+            "time": "2026-10-02T10:00:00Z",
+            "lat": 46.3475,
+            "lon": 11.2989,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "IT",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-2",
+                    "AT-5",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-SG",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.1,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-02T22:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "appa-bz:LA",
+            "title": "Latsch",
+            "url": "https://dati.retecivica.bz.it/de/dataset/situazione-dell-aria",
+            "time": "2026-10-02T10:00:00Z",
+            "lat": 46.6178,
+            "lon": 10.8653,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "IT",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-2",
+                    "AT-5",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-LU",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.13,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-02T22:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "appa-bz:BX",
+            "title": "Brixen",
+            "url": "https://dati.retecivica.bz.it/de/dataset/situazione-dell-aria",
+            "time": "2026-10-02T10:00:00Z",
+            "lat": 46.715,
+            "lon": 11.656,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "IT",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-2",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-SG",
+                    "CH-TG"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.13,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-02T22:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "appa-bz:RE",
+            "title": "Ritten",
+            "url": "https://dati.retecivica.bz.it/de/dataset/situazione-dell-aria",
+            "time": "2026-10-02T10:00:00Z",
+            "lat": 46.5397,
+            "lon": 11.46,
+            "regionIds": [],
+            "regionMatch": "none",
+            "country": "IT",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-2",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-SG",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.14,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-10-02T22:00:00Z"
+            },
+            "facts": []
+        }
+    ]
+}

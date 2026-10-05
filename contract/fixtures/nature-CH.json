@@ -1,0 +1,17 @@
+{
+    "schema": 1,
+    "layer": "nature",
+    "scope": "CH",
+    "status": "ok",
+    "source": "USGS · Erdbebendienst",
+    "sourceUrl": "https://earthquake.usgs.gov/",
+    "generatedAt": "2026-09-28T14:30:00Z",
+    "updatedAt": "2026-09-28T14:18:16Z",
+    "note": {
+        "key": "layer.nature.note"
+    },
+    "coverage": [],
+    "issues": [],
+    "stats": {},
+    "items": []
+}

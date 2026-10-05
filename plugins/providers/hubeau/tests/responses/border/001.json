@@ -1,0 +1,509 @@
+{
+    "count": 100,
+    "first": "https://hubeau.eaufrance.fr/api/v2/hydrometrie/observations_tr?bbox=1.627,43.202,8.197,44.743&grandeur_hydro=H&date_debut_obs=2026-10-02T13:21:49Z&fields=code_station,date_obs,resultat_obs&cursor=&size=20000",
+    "prev": null,
+    "next": null,
+    "api_version": "2.0.1",
+    "data": [
+        {
+            "code_station": "O165293003",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 396.0
+        },
+        {
+            "code_station": "O303101001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 1546.0
+        },
+        {
+            "code_station": "O306403001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": -646.0
+        },
+        {
+            "code_station": "O306404001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 192.0
+        },
+        {
+            "code_station": "O312102002",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 700.0
+        },
+        {
+            "code_station": "O319401001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 112.0
+        },
+        {
+            "code_station": "O319401002",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 55.0
+        },
+        {
+            "code_station": "O331401002",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 311.0
+        },
+        {
+            "code_station": "O333402002",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 40.0
+        },
+        {
+            "code_station": "O340101002",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 449.0
+        },
+        {
+            "code_station": "O342403002",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 716.0
+        },
+        {
+            "code_station": "O353401001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 265.0
+        },
+        {
+            "code_station": "O355401101",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 674.0
+        },
+        {
+            "code_station": "O357461001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 358.0
+        },
+        {
+            "code_station": "O358461004",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 391.0
+        },
+        {
+            "code_station": "O359402002",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": -782.0
+        },
+        {
+            "code_station": "O360102001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 486.0
+        },
+        {
+            "code_station": "O375401001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": -269.0
+        },
+        {
+            "code_station": "O384000201",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 867.0
+        },
+        {
+            "code_station": "O400101001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": -418.0
+        },
+        {
+            "code_station": "O408101001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 624.0
+        },
+        {
+            "code_station": "O415251001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 274.0
+        },
+        {
+            "code_station": "O419433002",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 283.0
+        },
+        {
+            "code_station": "O419433004",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 402.0
+        },
+        {
+            "code_station": "O422251003",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 465.0
+        },
+        {
+            "code_station": "O431401001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 1405.0
+        },
+        {
+            "code_station": "O438401001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": -985.0
+        },
+        {
+            "code_station": "O454402001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 733.0
+        },
+        {
+            "code_station": "O460251001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 785.0
+        },
+        {
+            "code_station": "O469251003",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 433.0
+        },
+        {
+            "code_station": "O477402001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 27.0
+        },
+        {
+            "code_station": "O504251002",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 575.0
+        },
+        {
+            "code_station": "O509252002",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 688.0
+        },
+        {
+            "code_station": "O516000101",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 513.0
+        },
+        {
+            "code_station": "O519254001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 6.0
+        },
+        {
+            "code_station": "O541401001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 289.0
+        },
+        {
+            "code_station": "O548293002",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 83.0
+        },
+        {
+            "code_station": "O560252001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 1028.0
+        },
+        {
+            "code_station": "O566401001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 204.0
+        },
+        {
+            "code_station": "O700151002",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 194.0
+        },
+        {
+            "code_station": "O702153003",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 317.0
+        },
+        {
+            "code_station": "O709401002",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 303.0
+        },
+        {
+            "code_station": "O711502001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 125.0
+        },
+        {
+            "code_station": "O716151001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 917.0
+        },
+        {
+            "code_station": "O770154001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 318.0
+        },
+        {
+            "code_station": "O770154002",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 1206.0
+        },
+        {
+            "code_station": "O785401001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 847.0
+        },
+        {
+            "code_station": "O795151001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 703.0
+        },
+        {
+            "code_station": "O811352001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": -155.0
+        },
+        {
+            "code_station": "O811353001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": -261.0
+        },
+        {
+            "code_station": "O820151001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 616.0
+        },
+        {
+            "code_station": "V430000101",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 3028.0
+        },
+        {
+            "code_station": "V501401001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": -57.0
+        },
+        {
+            "code_station": "V501403001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 52.0
+        },
+        {
+            "code_station": "V501521001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 84.0
+        },
+        {
+            "code_station": "V503502001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 86.0
+        },
+        {
+            "code_station": "V504503001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 385.0
+        },
+        {
+            "code_station": "V505401001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": -298.0
+        },
+        {
+            "code_station": "V513101001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 1890.0
+        },
+        {
+            "code_station": "V532401002",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 235.0
+        },
+        {
+            "code_station": "V540402501",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 240073.0
+        },
+        {
+            "code_station": "V541000401",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 393.0
+        },
+        {
+            "code_station": "V542401001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 452.0
+        },
+        {
+            "code_station": "V543000202",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": -442.0
+        },
+        {
+            "code_station": "V544502001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 720.0
+        },
+        {
+            "code_station": "V545401001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": -44.0
+        },
+        {
+            "code_station": "V546401501",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 426.0
+        },
+        {
+            "code_station": "V546401503",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 404.0
+        },
+        {
+            "code_station": "V547401501",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 802.0
+        },
+        {
+            "code_station": "V602201001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 1168.0
+        },
+        {
+            "code_station": "V603501001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 361.0
+        },
+        {
+            "code_station": "V604201001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": -95.0
+        },
+        {
+            "code_station": "V605101001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 778.0
+        },
+        {
+            "code_station": "V605201001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 468.0
+        },
+        {
+            "code_station": "V620201001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 802.0
+        },
+        {
+            "code_station": "V621501001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 3468.0
+        },
+        {
+            "code_station": "V700000101",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 29880.0
+        },
+        {
+            "code_station": "V712401501",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 465.0
+        },
+        {
+            "code_station": "V713501001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 540.0
+        },
+        {
+            "code_station": "V713501701",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 659.0
+        },
+        {
+            "code_station": "V713503501",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": -245.0
+        },
+        {
+            "code_station": "V714401001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 509.0
+        },
+        {
+            "code_station": "V715501001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 532.0
+        },
+        {
+            "code_station": "V715503501",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 241290.0
+        },
+        {
+            "code_station": "V716401501",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 636.0
+        },
+        {
+            "code_station": "V717000901",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 30.0
+        },
+        {
+            "code_station": "V718401501",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 1087.0
+        },
+        {
+            "code_station": "V719401001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": -1525.0
+        },
+        {
+            "code_station": "V719401101",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 7240.0
+        },
+        {
+            "code_station": "V720001002",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 900.0
+        },
+        {
+            "code_station": "V720001003",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 1538.0
+        },
+        {
+            "code_station": "X061000201",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 1571.0
+        },
+        {
+            "code_station": "X125000201",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 511.0
+        },
+        {
+            "code_station": "X281121001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 726.0
+        },
+        {
+            "code_station": "X302001001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 423.0
+        },
+        {
+            "code_station": "X331001001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 1645.0
+        },
+        {
+            "code_station": "X331002001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 1326.0
+        },
+        {
+            "code_station": "X341401001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": -565.0
+        },
+        {
+            "code_station": "X343401201",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": 199.0
+        },
+        {
+            "code_station": "X345401001",
+            "date_obs": "2026-10-02T15:15:00Z",
+            "resultat_obs": -550.0
+        }
+    ]
+}

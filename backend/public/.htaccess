@@ -1,0 +1,116 @@
+# Delivery of snapshots and tiles (Architecture 6.4). Located on the server in the webroot of CommonSight.
+
+RewriteEngine On
+
+# Start page through gate.php (ACCESS-AND-BRANDING A-D3): it delivers index.html, with an auth provider in config.php
+# the members card for visitors it does not admit. Only the page is protected; data, tiles and status stay public.
+RewriteRule ^(index\.html)?$ gate.php [L]
+
+# Directories without an index page: 404 instead of 403, so their existence is not revealed.
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^.+/$ - [R=404,L]
+
+# --- Snapshots: serve precompressed variants -------------------------------
+
+RewriteCond %{HTTP:Accept-Encoding} \bbr\b
+RewriteCond %{REQUEST_FILENAME}.br -f
+RewriteRule ^(.+\.json)$ $1.br [L]
+
+RewriteCond %{HTTP:Accept-Encoding} \bgzip\b
+RewriteCond %{REQUEST_FILENAME}.gz -f
+RewriteRule ^(.+\.json)$ $1.gz [L]
+
+<FilesMatch "\.json\.br$">
+    ForceType application/json
+    Header set Content-Encoding br
+</FilesMatch>
+
+<FilesMatch "\.json\.gz$">
+    ForceType application/json
+    Header set Content-Encoding gzip
+</FilesMatch>
+
+# Never compress precompressed files and PMTiles a second time.
+# SetEnv instead of E= on the RewriteRule: after the internal redirect the
+# variable would otherwise be called REDIRECT_no-gzip, and mod_deflate would miss it.
+<FilesMatch "\.(json\.br|json\.gz|pmtiles)$">
+    SetEnv no-gzip 1
+</FilesMatch>
+
+<FilesMatch "\.json(\.br|\.gz)?$">
+    Header append Vary Accept-Encoding
+</FilesMatch>
+
+# --- Caching ----------------------------------------------------------------
+
+# Versioned snapshots (<layer>.<hash8>.json) never change.
+<FilesMatch "\.[0-9a-f]{8}\.json(\.br|\.gz)?$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+</FilesMatch>
+
+# Versioned tile archives never change: dach-YYYYMMDD-HHMM.pmtiles (since 2026-10-02, a new name for every build,
+# also within a month) and the older dach-YYYY-MM.pmtiles.
+<FilesMatch "^dach-([0-9]{8}-[0-9]{4}|[0-9]{4}-[0-9]{2})\.pmtiles$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+</FilesMatch>
+
+# The pointer to the current archive must always be revalidated.
+<FilesMatch "^manifest\.json$">
+    Header set Cache-Control "no-cache"
+</FilesMatch>
+
+# The start page names the current bundle (app/<version>/): always revalidate, otherwise a browser keeps the old one.
+<FilesMatch "^index\.html$">
+    Header set Cache-Control "no-cache"
+</FilesMatch>
+
+# Colours and logo of the operator (custom/) keep their names when changed: always revalidate.
+<If "%{REQUEST_URI} =~ m#/custom/#">
+    Header set Cache-Control "no-cache"
+</If>
+
+# Map areas (map/*.geojson: mask, border zone, region outlines) keep their names when rebuilt: always revalidate
+# (usually a short 304 via ETag), otherwise browsers keep an old mask for days. Apache's mime.types does not know
+# .geojson: without the type it would go out untyped and uncompressed.
+<FilesMatch "\.geojson$">
+    ForceType application/geo+json
+    Header set Cache-Control "no-cache"
+</FilesMatch>
+
+# The bundle of a release (app/<release>/, e.g. app/20261003211157-d435950/) never changes: a new release gets a new
+# folder, and index.html (revalidated) names it.
+<If "%{REQUEST_URI} =~ m#/app/[0-9]{14}-[^/]+/#">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+</If>
+
+# Map fonts (map/glyphs/*.pbf) keep their names when rebuilt: revalidate, and compress them (about half the size).
+<FilesMatch "\.pbf$">
+    ForceType application/x-protobuf
+    Header set Cache-Control "no-cache"
+</FilesMatch>
+# AddOutputFilterByType here replaces the list of the server for this directory instead of extending it: name every type
+# the webroot needs (precompressed snapshots and PMTiles are excluded above via no-gzip).
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/css text/javascript application/javascript application/json application/geo+json application/x-protobuf
+</IfModule>
+
+# --- PMTiles: byte ranges, no compression (Analysis 4.5) --------------------
+
+<FilesMatch "\.pmtiles$">
+    ForceType application/octet-stream
+    Header set Accept-Ranges bytes
+</FilesMatch>
+
+# --- License texts (licenses/): plain text, also the files without a known extension -----
+
+<FilesMatch "^(LICENSE|.+\.md|.+\.txt)$">
+    ForceType "text/plain; charset=utf-8"
+</FilesMatch>
+
+# --- For every response ----------------------------------------------------------------
+
+# No content sniffing; the start page may be framed only by its own site (the host page embeds the element, not a
+# frame). A full Content-Security-Policy is left to the host site: MapLibre needs blob: workers and inline styles.
+Header always set X-Content-Type-Options "nosniff"
+Header always set Content-Security-Policy "frame-ancestors 'self'"
+

@@ -1,0 +1,23 @@
+/*
+ * Colours of this installation (ACCESS-AND-BRANDING B-D2, B-D3). An update never overwrites this folder: change the
+ * values here, and replace logo.svg (optionally add logo-dark.svg and set the attribute logo-dark in index.html) and
+ * favicon.svg. All variables with their defaults: frontend/src/theme/tokens.css (doc/ARCHITECTURE.md 10). Warning and
+ * assessment colours are fixed (T-07). Keep text readable: at least 4.5:1 against its background (WCAG).
+ */
+commonsight-map {
+  /* Header: bar, text and the line below it */
+  --cs-header-bg: #245a82;
+  --cs-header-text: #ffffff;
+  --cs-header-line: #f2a23a;
+  /* Accent of buttons, switches and the active tab; links */
+  --cs-accent: #1d7ac5;
+  --cs-link: #2671a6;
+}
+
+/* Dark: the element marks the theme in effect as data-theme, also when chosen with its light/dark switch. */
+commonsight-map[data-theme='dark'] {
+  --cs-header-bg: #1e2734;
+  --cs-header-text: #e6e8ea;
+  --cs-accent: #1d9bd1;
+  --cs-link: #2ea7dc;
+}

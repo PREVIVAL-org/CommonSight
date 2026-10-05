@@ -1,0 +1,317 @@
+{
+  "heartbeatAgeInMillis": 4000,
+  "renderTime": "28.09.2026 12:00:00.000 +0200",
+  "alerts": [
+    {
+      "identifier": "POA-1-1",
+      "sent": "Mo., 28.09.2026, 10:00",
+      "title": {
+        "title": "Feuerverbot im Wald"
+      },
+      "description": {
+        "description": "Erhebliche Waldbrandgefahr.❘Feuer nur auf offiziellen Feuerstellen."
+      },
+      "nationWide": false,
+      "banner": false,
+      "instructions": [
+        {
+          "text": "Keine Feuer im Wald &lt;50 m."
+        }
+      ],
+      "sender": "info@alertswiss.ch",
+      "publisherName": "Kanton Bern",
+      "links": [
+        {
+          "href": "https://www.be.ch/feuerverbot",
+          "text": "Kanton Bern"
+        }
+      ],
+      "contact": {
+        "contact": ""
+      },
+      "event": "Feuerverbot",
+      "allClear": false,
+      "severity": "moderate",
+      "testAlert": false,
+      "technicalTestAlert": false,
+      "publishDate": "Mo., 28.09.2026, 10:00",
+      "images": [],
+      "imageTitles": [],
+      "imageDescriptions": [],
+      "eventIconPath": "",
+      "reference": "info@alertswiss.ch,POA-1-1,2026-09-28T10:00:00+02:00",
+      "areas": [
+        {
+          "description": {
+            "description": "Kanton Bern"
+          },
+          "polygons": [
+            {
+              "coordinates": [
+                [
+                  "46.85",
+                  "7.3"
+                ],
+                [
+                  "46.85",
+                  "7.6"
+                ],
+                [
+                  "47.05",
+                  "7.6"
+                ],
+                [
+                  "47.05",
+                  "7.3"
+                ]
+              ]
+            }
+          ],
+          "circles": [],
+          "regions": [
+            {
+              "region": "BE"
+            }
+          ],
+          "regionType": "one"
+        }
+      ]
+    },
+    {
+      "identifier": "POA-2-1",
+      "sent": "Mo., 28.09.2026, 10:00",
+      "title": {
+        "title": "Bristenstrasse gesperrt"
+      },
+      "description": {
+        "description": ""
+      },
+      "nationWide": false,
+      "banner": false,
+      "instructions": [],
+      "sender": "info@alertswiss.ch",
+      "publisherName": "Kanton Uri",
+      "links": [
+        {
+          "href": "https://www.be.ch/feuerverbot",
+          "text": "Kanton Bern"
+        }
+      ],
+      "contact": {
+        "contact": ""
+      },
+      "event": "Anderes Ereignis",
+      "allClear": false,
+      "severity": "minor",
+      "testAlert": false,
+      "technicalTestAlert": false,
+      "publishDate": "Mo., 28.09.2026, 10:00",
+      "images": [],
+      "imageTitles": [],
+      "imageDescriptions": [],
+      "eventIconPath": "",
+      "reference": "info@alertswiss.ch,POA-2-1,2026-09-27T08:00:00+02:00",
+      "areas": [
+        {
+          "description": {
+            "description": "Bristenstrasse"
+          },
+          "polygons": [],
+          "circles": [
+            {
+              "centerPosition": [
+                "46.76970",
+                "8.67591"
+              ],
+              "radius": "2.0"
+            }
+          ],
+          "regions": [
+            {
+              "region": "UR"
+            }
+          ],
+          "regionType": "one"
+        }
+      ]
+    },
+    {
+      "identifier": "POA-3-1",
+      "sent": "Mo., 28.09.2026, 10:00",
+      "title": {
+        "title": "Trinkwasser landesweit abkochen"
+      },
+      "description": {
+        "description": ""
+      },
+      "nationWide": true,
+      "banner": false,
+      "instructions": [],
+      "sender": "info@alertswiss.ch",
+      "publisherName": "BABS",
+      "links": [
+        {
+          "href": "https://www.be.ch/feuerverbot",
+          "text": "Kanton Bern"
+        }
+      ],
+      "contact": {
+        "contact": ""
+      },
+      "event": "Trinkwasser",
+      "allClear": false,
+      "severity": "severe",
+      "testAlert": false,
+      "technicalTestAlert": false,
+      "publishDate": "Mo., 28.09.2026, 10:00",
+      "images": [],
+      "imageTitles": [],
+      "imageDescriptions": [],
+      "eventIconPath": "",
+      "reference": "info@alertswiss.ch,POA-3-1,2026-09-28T09:00:00+02:00",
+      "areas": []
+    },
+    {
+      "identifier": "TEST-1",
+      "sent": "Mo., 28.09.2026, 10:00",
+      "title": {
+        "title": "*** Test Message ***"
+      },
+      "description": {
+        "description": ""
+      },
+      "nationWide": false,
+      "banner": false,
+      "instructions": [],
+      "sender": "info@alertswiss.ch",
+      "publisherName": "Kanton Bern",
+      "links": [
+        {
+          "href": "https://www.be.ch/feuerverbot",
+          "text": "Kanton Bern"
+        }
+      ],
+      "contact": {
+        "contact": ""
+      },
+      "event": "Cap Test Event",
+      "allClear": false,
+      "severity": "unknown",
+      "testAlert": false,
+      "technicalTestAlert": true,
+      "publishDate": "Mo., 28.09.2026, 10:00",
+      "images": [],
+      "imageTitles": [],
+      "imageDescriptions": [],
+      "eventIconPath": "",
+      "reference": "info@alertswiss.ch,TEST-1,2026-09-28T09:38:00+02:00",
+      "areas": []
+    },
+    {
+      "identifier": "POA-4-2",
+      "sent": "Mo., 28.09.2026, 10:00",
+      "title": {
+        "title": "Entwarnung Hochwasser"
+      },
+      "description": {
+        "description": ""
+      },
+      "nationWide": false,
+      "banner": false,
+      "instructions": [],
+      "sender": "info@alertswiss.ch",
+      "publisherName": "Kanton Bern",
+      "links": [
+        {
+          "href": "https://www.be.ch/feuerverbot",
+          "text": "Kanton Bern"
+        }
+      ],
+      "contact": {
+        "contact": ""
+      },
+      "event": "Hochwasser",
+      "allClear": true,
+      "severity": "minor",
+      "testAlert": false,
+      "technicalTestAlert": false,
+      "publishDate": "Mo., 28.09.2026, 10:00",
+      "images": [],
+      "imageTitles": [],
+      "imageDescriptions": [],
+      "eventIconPath": "",
+      "reference": "info@alertswiss.ch,POA-4-2,2026-09-28T07:00:00+02:00",
+      "areas": [
+        {
+          "description": {
+            "description": "Kanton Bern"
+          },
+          "polygons": [
+            {
+              "coordinates": [
+                [
+                  "46.85",
+                  "7.3"
+                ],
+                [
+                  "46.85",
+                  "7.6"
+                ],
+                [
+                  "47.05",
+                  "7.6"
+                ],
+                [
+                  "47.05",
+                  "7.3"
+                ]
+              ]
+            }
+          ],
+          "circles": [],
+          "regions": [
+            {
+              "region": "BE"
+            }
+          ],
+          "regionType": "one"
+        }
+      ]
+    },
+    {
+      "sent": "Mo., 28.09.2026, 10:00",
+      "title": {
+        "title": "Ohne Kennung"
+      },
+      "description": {
+        "description": ""
+      },
+      "nationWide": false,
+      "banner": false,
+      "instructions": [],
+      "sender": "info@alertswiss.ch",
+      "publisherName": "Kanton Bern",
+      "links": [
+        {
+          "href": "https://www.be.ch/feuerverbot",
+          "text": "Kanton Bern"
+        }
+      ],
+      "contact": {
+        "contact": ""
+      },
+      "event": "Anderes Ereignis",
+      "allClear": false,
+      "severity": "minor",
+      "testAlert": false,
+      "technicalTestAlert": false,
+      "publishDate": "Mo., 28.09.2026, 10:00",
+      "images": [],
+      "imageTitles": [],
+      "imageDescriptions": [],
+      "eventIconPath": "",
+      "reference": "info@alertswiss.ch,None,2026-09-28T07:00:00+02:00",
+      "areas": []
+    }
+  ]
+}

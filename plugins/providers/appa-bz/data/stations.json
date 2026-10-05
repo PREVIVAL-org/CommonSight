@@ -1,0 +1,8 @@
+[
+  {"id":"AU","name":"Auer","lat":46.3475,"lon":11.2989},
+  {"id":"BR","name":"Bruneck","lat":46.7966,"lon":11.9363},
+  {"id":"BX","name":"Brixen","lat":46.715,"lon":11.656},
+  {"id":"BZ","name":"Bozen","lat":46.4983,"lon":11.3548},
+  {"id":"LA","name":"Latsch","lat":46.6178,"lon":10.8653},
+  {"id":"RE","name":"Ritten","lat":46.5397,"lon":11.46}
+]

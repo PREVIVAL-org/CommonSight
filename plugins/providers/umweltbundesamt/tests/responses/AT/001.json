@@ -1,0 +1,705 @@
+{
+    "time": 1790946000,
+    "data": [
+        {
+            "nummer": "AT0012",
+            "name": "Braunau/Inn AMS",
+            "koordinatenX": 316,
+            "koordinatenY": 105,
+            "messwert": 94
+        },
+        {
+            "nummer": "AT0103",
+            "name": "Eisenstadt",
+            "koordinatenX": 624,
+            "koordinatenY": 152,
+            "messwert": 88
+        },
+        {
+            "nummer": "AT0104",
+            "name": "Frauenkirchen",
+            "koordinatenX": 659,
+            "koordinatenY": 151,
+            "messwert": 80
+        },
+        {
+            "nummer": "AT0106",
+            "name": "Güssing",
+            "koordinatenX": 609,
+            "koordinatenY": 254,
+            "messwert": 67
+        },
+        {
+            "nummer": "AT0112",
+            "name": "Mattersburg",
+            "koordinatenX": 613,
+            "koordinatenY": 166,
+            "messwert": 74
+        },
+        {
+            "nummer": "AT0113",
+            "name": "Neusiedl/See",
+            "koordinatenX": 650,
+            "koordinatenY": 135,
+            "messwert": 85
+        },
+        {
+            "nummer": "AT0114",
+            "name": "Oberpullendorf",
+            "koordinatenX": 623,
+            "koordinatenY": 196,
+            "messwert": 79
+        },
+        {
+            "nummer": "AT0115",
+            "name": "Oberwart",
+            "koordinatenX": 598,
+            "koordinatenY": 224,
+            "messwert": 71
+        },
+        {
+            "nummer": "AT0117",
+            "name": "Rust",
+            "koordinatenX": 637,
+            "koordinatenY": 156,
+            "messwert": 82
+        },
+        {
+            "nummer": "AT0120",
+            "name": "Stegersbach",
+            "koordinatenX": 595,
+            "koordinatenY": 241,
+            "messwert": 110
+        },
+        {
+            "nummer": "AT0305",
+            "name": "Bad Eisenkappel",
+            "koordinatenX": 456,
+            "koordinatenY": 331,
+            "messwert": 96
+        },
+        {
+            "nummer": "AT0306",
+            "name": "Feldkirchen",
+            "koordinatenX": 410,
+            "koordinatenY": 302,
+            "messwert": 86
+        },
+        {
+            "nummer": "AT0313",
+            "name": "Hermagor",
+            "koordinatenX": 344,
+            "koordinatenY": 314,
+            "messwert": 89
+        },
+        {
+            "nummer": "AT0314",
+            "name": "Klagenfurt",
+            "koordinatenX": 430,
+            "koordinatenY": 318,
+            "messwert": 76
+        },
+        {
+            "nummer": "AT0318",
+            "name": "Lavamünd",
+            "koordinatenX": 487,
+            "koordinatenY": 311,
+            "messwert": 101
+        },
+        {
+            "nummer": "AT0404",
+            "name": "St. Veit/Glan",
+            "koordinatenX": 432,
+            "koordinatenY": 298,
+            "messwert": 88
+        },
+        {
+            "nummer": "AT0405",
+            "name": "Spittal/Drau",
+            "koordinatenX": 356,
+            "koordinatenY": 293,
+            "messwert": 108
+        },
+        {
+            "nummer": "AT0408",
+            "name": "Villach",
+            "koordinatenX": 388,
+            "koordinatenY": 317,
+            "messwert": 80
+        },
+        {
+            "nummer": "AT0410",
+            "name": "Völkermarkt",
+            "koordinatenX": 457,
+            "koordinatenY": 309,
+            "messwert": 81
+        },
+        {
+            "nummer": "AT0413",
+            "name": "Wolfsberg",
+            "koordinatenX": 475,
+            "koordinatenY": 286,
+            "messwert": 103
+        },
+        {
+            "nummer": "AT0503",
+            "name": "Amstetten",
+            "koordinatenX": 477,
+            "koordinatenY": 120,
+            "messwert": 81
+        },
+        {
+            "nummer": "AT0505",
+            "name": "Baden",
+            "koordinatenX": 599,
+            "koordinatenY": 134,
+            "messwert": 97
+        },
+        {
+            "nummer": "AT0508",
+            "name": "Bruck/Leitha",
+            "koordinatenX": 644,
+            "koordinatenY": 127,
+            "messwert": 83
+        },
+        {
+            "nummer": "AT0512",
+            "name": "Gänserndorf",
+            "koordinatenX": 635,
+            "koordinatenY": 92,
+            "messwert": 97
+        },
+        {
+            "nummer": "AT0514",
+            "name": "Gmünd",
+            "koordinatenX": 483,
+            "koordinatenY": 38,
+            "messwert": 131
+        },
+        {
+            "nummer": "AT0520",
+            "name": "Hainburg",
+            "koordinatenX": 658,
+            "koordinatenY": 111,
+            "messwert": 106
+        },
+        {
+            "nummer": "AT0601",
+            "name": "Hollabrunn",
+            "koordinatenX": 580,
+            "koordinatenY": 63,
+            "messwert": 92
+        },
+        {
+            "nummer": "AT0602",
+            "name": "Horn",
+            "koordinatenX": 543,
+            "koordinatenY": 48,
+            "messwert": 106
+        },
+        {
+            "nummer": "AT0604",
+            "name": "Korneuburg",
+            "koordinatenX": 603,
+            "koordinatenY": 86,
+            "messwert": 78
+        },
+        {
+            "nummer": "AT0605",
+            "name": "Krems",
+            "koordinatenX": 540,
+            "koordinatenY": 81,
+            "messwert": 105
+        },
+        {
+            "nummer": "AT0606",
+            "name": "Laa/Thaya",
+            "koordinatenX": 607,
+            "koordinatenY": 38,
+            "messwert": 82
+        },
+        {
+            "nummer": "AT0609",
+            "name": "Lilienfeld",
+            "koordinatenX": 540,
+            "koordinatenY": 133,
+            "messwert": 80
+        },
+        {
+            "nummer": "AT0612",
+            "name": "Mannersdorf",
+            "koordinatenX": 629,
+            "koordinatenY": 135,
+            "messwert": 99
+        },
+        {
+            "nummer": "AT0614",
+            "name": "Melk",
+            "koordinatenX": 517,
+            "koordinatenY": 106,
+            "messwert": 74
+        },
+        {
+            "nummer": "AT0615",
+            "name": "Mistelbach",
+            "koordinatenX": 626,
+            "koordinatenY": 58,
+            "messwert": 102
+        },
+        {
+            "nummer": "AT0616",
+            "name": "Mödling",
+            "koordinatenX": 602,
+            "koordinatenY": 122,
+            "messwert": 91
+        },
+        {
+            "nummer": "AT0618",
+            "name": "Neunkirchen",
+            "koordinatenX": 585,
+            "koordinatenY": 168,
+            "messwert": 90
+        },
+        {
+            "nummer": "AT0702",
+            "name": "Retz",
+            "koordinatenX": 569,
+            "koordinatenY": 37,
+            "messwert": 97
+        },
+        {
+            "nummer": "AT0705",
+            "name": "St. Pölten LRG",
+            "koordinatenX": 544,
+            "koordinatenY": 107,
+            "messwert": 79
+        },
+        {
+            "nummer": "AT0707",
+            "name": "Scheibbs",
+            "koordinatenX": 503,
+            "koordinatenY": 135,
+            "messwert": 105
+        },
+        {
+            "nummer": "AT0714",
+            "name": "Tulln",
+            "koordinatenX": 579,
+            "koordinatenY": 91,
+            "messwert": 71
+        },
+        {
+            "nummer": "AT0715",
+            "name": "Waidhofen/Thaya",
+            "koordinatenX": 510,
+            "koordinatenY": 31,
+            "messwert": 103
+        },
+        {
+            "nummer": "AT0716",
+            "name": "Waidhofen/Ybbs",
+            "koordinatenX": 469,
+            "koordinatenY": 142,
+            "messwert": 94
+        },
+        {
+            "nummer": "AT0717",
+            "name": "Wr. Neustadt-FLH",
+            "koordinatenX": 597,
+            "koordinatenY": 154,
+            "messwert": 69
+        },
+        {
+            "nummer": "AT0723",
+            "name": "Zistersdorf",
+            "koordinatenX": 640,
+            "koordinatenY": 61,
+            "messwert": 95
+        },
+        {
+            "nummer": "AT0801",
+            "name": "Zwettl",
+            "koordinatenX": 506,
+            "koordinatenY": 58,
+            "messwert": 196
+        },
+        {
+            "nummer": "AT0908",
+            "name": "Eferding",
+            "koordinatenX": 399,
+            "koordinatenY": 97,
+            "messwert": 112
+        },
+        {
+            "nummer": "AT0912",
+            "name": "Freistadt",
+            "koordinatenX": 442,
+            "koordinatenY": 75,
+            "messwert": 109
+        },
+        {
+            "nummer": "AT0913",
+            "name": "Gmunden",
+            "koordinatenX": 383,
+            "koordinatenY": 145,
+            "messwert": 89
+        },
+        {
+            "nummer": "AT0915",
+            "name": "Grieskirchen",
+            "koordinatenX": 385,
+            "koordinatenY": 108,
+            "messwert": 80
+        },
+        {
+            "nummer": "AT0918",
+            "name": "Kirchdorf",
+            "koordinatenX": 411,
+            "koordinatenY": 150,
+            "messwert": 75
+        },
+        {
+            "nummer": "AT1002",
+            "name": "Linz LFK",
+            "koordinatenX": 425,
+            "koordinatenY": 96,
+            "messwert": 101
+        },
+        {
+            "nummer": "AT1012",
+            "name": "Pfaffing",
+            "koordinatenX": 302,
+            "koordinatenY": 133,
+            "messwert": 97
+        },
+        {
+            "nummer": "AT1014",
+            "name": "Perg",
+            "koordinatenX": 455,
+            "koordinatenY": 105,
+            "messwert": 174
+        },
+        {
+            "nummer": "AT1016",
+            "name": "Ried/Innkreis",
+            "koordinatenX": 354,
+            "koordinatenY": 110,
+            "messwert": 97
+        },
+        {
+            "nummer": "AT1017",
+            "name": "Rohrbach",
+            "koordinatenX": 399,
+            "koordinatenY": 64,
+            "messwert": 137
+        },
+        {
+            "nummer": "AT1020",
+            "name": "Schärding",
+            "koordinatenX": 350,
+            "koordinatenY": 78,
+            "messwert": 101
+        },
+        {
+            "nummer": "AT1021",
+            "name": "Steyr",
+            "koordinatenX": 436,
+            "koordinatenY": 133,
+            "messwert": 75
+        },
+        {
+            "nummer": "AT1102",
+            "name": "Ulrichsberg",
+            "koordinatenX": 391,
+            "koordinatenY": 51,
+            "messwert": 140
+        },
+        {
+            "nummer": "AT1104",
+            "name": "Vöcklabruck",
+            "koordinatenX": 369,
+            "koordinatenY": 137,
+            "messwert": 87
+        },
+        {
+            "nummer": "AT1105",
+            "name": "Wels",
+            "koordinatenX": 402,
+            "koordinatenY": 117,
+            "messwert": 73
+        },
+        {
+            "nummer": "AT1116",
+            "name": "Dachstein",
+            "koordinatenX": 368,
+            "koordinatenY": 206,
+            "messwert": 119
+        },
+        {
+            "nummer": "AT1207",
+            "name": "Hallein",
+            "koordinatenX": 321,
+            "koordinatenY": 178,
+            "messwert": 96
+        },
+        {
+            "nummer": "AT1208",
+            "name": "Krimml",
+            "koordinatenX": 238,
+            "koordinatenY": 237,
+            "messwert": 123
+        },
+        {
+            "nummer": "AT1210",
+            "name": "Lofer",
+            "koordinatenX": 285,
+            "koordinatenY": 191,
+            "messwert": 76
+        },
+        {
+            "nummer": "AT1216",
+            "name": "Salzburg WD",
+            "koordinatenX": 316,
+            "koordinatenY": 163,
+            "messwert": 85
+        },
+        {
+            "nummer": "AT1219",
+            "name": "St. Johann/Pongau",
+            "koordinatenX": 330,
+            "koordinatenY": 222,
+            "messwert": 67
+        },
+        {
+            "nummer": "AT1222",
+            "name": "Sonnblick",
+            "koordinatenX": 308,
+            "koordinatenY": 259,
+            "messwert": 185
+        },
+        {
+            "nummer": "AT1223",
+            "name": "Tamsweg",
+            "koordinatenX": 385,
+            "koordinatenY": 250,
+            "messwert": 110
+        },
+        {
+            "nummer": "AT1305",
+            "name": "Zell/See I",
+            "koordinatenX": 294,
+            "koordinatenY": 224,
+            "messwert": 99
+        },
+        {
+            "nummer": "AT1307",
+            "name": "Obertauern",
+            "koordinatenX": 362,
+            "koordinatenY": 234,
+            "messwert": 95
+        },
+        {
+            "nummer": "AT1407",
+            "name": "Bruck/Mur",
+            "koordinatenX": 513,
+            "koordinatenY": 212,
+            "messwert": 74
+        },
+        {
+            "nummer": "AT1409",
+            "name": "Deutschlandsberg",
+            "koordinatenX": 511,
+            "koordinatenY": 288,
+            "messwert": 101
+        },
+        {
+            "nummer": "AT1411",
+            "name": "Feldbach",
+            "koordinatenX": 571,
+            "koordinatenY": 269,
+            "messwert": 116
+        },
+        {
+            "nummer": "AT1415",
+            "name": "Fürstenfeld",
+            "koordinatenX": 587,
+            "koordinatenY": 255,
+            "messwert": 83
+        },
+        {
+            "nummer": "AT1420",
+            "name": "Graz ZAMG",
+            "koordinatenX": 531,
+            "koordinatenY": 257,
+            "messwert": 100
+        },
+        {
+            "nummer": "AT1422",
+            "name": "Hartberg",
+            "koordinatenX": 577,
+            "koordinatenY": 226,
+            "messwert": 91
+        },
+        {
+            "nummer": "AT1423",
+            "name": "Hieflau",
+            "koordinatenX": 467,
+            "koordinatenY": 187,
+            "messwert": 74
+        },
+        {
+            "nummer": "AT1501",
+            "name": "Judenburg",
+            "koordinatenX": 460,
+            "koordinatenY": 244,
+            "messwert": 110
+        },
+        {
+            "nummer": "AT1504",
+            "name": "Knittelfeld",
+            "koordinatenX": 475,
+            "koordinatenY": 237,
+            "messwert": 102
+        },
+        {
+            "nummer": "AT1508",
+            "name": "Leibnitz",
+            "koordinatenX": 540,
+            "koordinatenY": 292,
+            "messwert": 80
+        },
+        {
+            "nummer": "AT1509",
+            "name": "Leoben",
+            "koordinatenX": 497,
+            "koordinatenY": 216,
+            "messwert": 87
+        },
+        {
+            "nummer": "AT1512",
+            "name": "Liezen",
+            "koordinatenX": 422,
+            "koordinatenY": 193,
+            "messwert": 95
+        },
+        {
+            "nummer": "AT1513",
+            "name": "Mariazell",
+            "koordinatenX": 516,
+            "koordinatenY": 167,
+            "messwert": 86
+        },
+        {
+            "nummer": "AT1515",
+            "name": "Murau",
+            "koordinatenX": 417,
+            "koordinatenY": 252,
+            "messwert": 102
+        },
+        {
+            "nummer": "AT1516",
+            "name": "Mürzzuschlag",
+            "koordinatenX": 549,
+            "koordinatenY": 185,
+            "messwert": 80
+        },
+        {
+            "nummer": "AT1521",
+            "name": "Bad Radkersburg",
+            "koordinatenX": 582,
+            "koordinatenY": 303,
+            "messwert": 97
+        },
+        {
+            "nummer": "AT1604",
+            "name": "Strass",
+            "koordinatenX": 548,
+            "koordinatenY": 300,
+            "messwert": 88
+        },
+        {
+            "nummer": "AT1608",
+            "name": "Voitsberg",
+            "koordinatenX": 504,
+            "koordinatenY": 258,
+            "messwert": 116
+        },
+        {
+            "nummer": "AT1610",
+            "name": "Weiz",
+            "koordinatenX": 547,
+            "koordinatenY": 237,
+            "messwert": 107
+        },
+        {
+            "nummer": "AT1705",
+            "name": "Galtür",
+            "koordinatenX": 59,
+            "koordinatenY": 265,
+            "messwert": 104
+        },
+        {
+            "nummer": "AT1707",
+            "name": "Imst",
+            "koordinatenX": 110,
+            "koordinatenY": 233,
+            "messwert": 73
+        },
+        {
+            "nummer": "AT1708",
+            "name": "Innsbruck FW",
+            "koordinatenX": 167,
+            "koordinatenY": 232,
+            "messwert": 92
+        },
+        {
+            "nummer": "AT1712",
+            "name": "Kitzbühel",
+            "koordinatenX": 257,
+            "koordinatenY": 206,
+            "messwert": 111
+        },
+        {
+            "nummer": "AT1713",
+            "name": "Kufstein",
+            "koordinatenX": 239,
+            "koordinatenY": 191,
+            "messwert": 77
+        },
+        {
+            "nummer": "AT1714",
+            "name": "Landeck",
+            "koordinatenX": 94,
+            "koordinatenY": 245,
+            "messwert": 98
+        },
+        {
+            "nummer": "AT1715",
+            "name": "Lienz",
+            "koordinatenX": 290,
+            "koordinatenY": 289,
+            "messwert": 85
+        },
+        {
+            "nummer": "AT1718",
+            "name": "Nauders",
+            "koordinatenX": 87,
+            "koordinatenY": 276,
+            "messwert": 132
+        },
+        {
+            "nummer": "AT1801",
+            "name": "Reutte",
+            "koordinatenX": 109,
+            "koordinatenY": 200,
+            "messwert": 80
+        },
+        {
+            "nummer": "AT1804",
+            "name": "St. Jakob/Defereggen",
+            "koordinatenX": 252,
+            "koordinatenY": 277,
+            "messwert": 124
+        }
+    ]
+}

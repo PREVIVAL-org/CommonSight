@@ -1,0 +1,13 @@
+{
+    "recordedAt": "2026-10-03T19:42:38Z",
+    "requests": [
+        {
+            "signature": "GET https://air-quality-api.open-meteo.com/v1/air-quality?latitude=48.2082%2C48.3069%2C47.0707%2C47.8095%2C47.2692%2C46.6247%2C47.5031%2C47.47671%2C48.22171&longitude=16.3738%2C14.2858%2C15.4395%2C13.055%2C11.4041%2C14.3053%2C9.7471%2C16.48652%2C15.57607&current=alder_pollen%2Cbirch_pollen%2Cgrass_pollen%2Cmugwort_pollen%2Colive_pollen%2Cragweed_pollen&timezone=UTC",
+            "status": 200,
+            "headers": {
+                "contentType": "application/json; charset=utf-8"
+            },
+            "file": "001.json"
+        }
+    ]
+}

@@ -1,0 +1,1297 @@
+{
+    "schema": 1,
+    "layer": "pollen",
+    "scope": "DE",
+    "status": "ok",
+    "source": "CAMS · Open-Meteo",
+    "sourceUrl": "https://open-meteo.com/en/docs/air-quality-api",
+    "generatedAt": "2026-10-03T19:45:00Z",
+    "updatedAt": "2026-10-03T19:00:00Z",
+    "note": {
+        "key": "layer.pollen.note"
+    },
+    "coverage": [
+        {
+            "key": "source.open-meteo-pollen.coverage",
+            "params": {
+                "count": 16
+            }
+        }
+    ],
+    "issues": [],
+    "stats": {},
+    "items": [
+        {
+            "kind": "modelValue",
+            "id": "pollen:de-berlin",
+            "title": "Berlin",
+            "url": "https://open-meteo.com/en/docs/air-quality-api",
+            "time": "2026-10-03T19:00:00Z",
+            "lat": 52.52,
+            "lon": 13.405,
+            "regionIds": [
+                "DE-BE"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BE",
+                    "DE-MV",
+                    "DE-NI",
+                    "DE-SN",
+                    "DE-ST",
+                    "DE-TH"
+                ]
+            },
+            "quantity": "pollenConcentration",
+            "value": 0.0,
+            "unit": "Pollen/m³",
+            "summary": {
+                "key": "source.open-meteo-pollen.summary.none"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.alder"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.birch"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.grass"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.mugwort"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.olive"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.ragweed"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "pollen:de-hamburg",
+            "title": "Hamburg",
+            "url": "https://open-meteo.com/en/docs/air-quality-api",
+            "time": "2026-10-03T19:00:00Z",
+            "lat": 53.5511,
+            "lon": 9.9937,
+            "regionIds": [
+                "DE-HH"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-HB",
+                    "DE-HH",
+                    "DE-MV",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-SH",
+                    "DE-ST"
+                ]
+            },
+            "quantity": "pollenConcentration",
+            "value": 0.1,
+            "unit": "Pollen/m³",
+            "summary": {
+                "key": "source.open-meteo-pollen.summary.strongest.grass"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.alder"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.birch"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.grass"
+                    },
+                    "value": 0.1,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.mugwort"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.olive"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.ragweed"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "pollen:de-muenchen",
+            "title": "München",
+            "url": "https://open-meteo.com/en/docs/air-quality-api",
+            "time": "2026-10-03T19:00:00Z",
+            "lat": 48.1351,
+            "lon": 11.582,
+            "regionIds": [
+                "DE-BY"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-2",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-GR",
+                    "CH-SG",
+                    "CH-TG"
+                ]
+            },
+            "quantity": "pollenConcentration",
+            "value": 1.2,
+            "unit": "Pollen/m³",
+            "summary": {
+                "key": "source.open-meteo-pollen.summary.strongest.mugwort"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.alder"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.birch"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.grass"
+                    },
+                    "value": 0.2,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.mugwort"
+                    },
+                    "value": 1.2,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.olive"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.ragweed"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "pollen:de-koeln",
+            "title": "Köln",
+            "url": "https://open-meteo.com/en/docs/air-quality-api",
+            "time": "2026-10-03T19:00:00Z",
+            "lat": 50.9375,
+            "lon": 6.9603,
+            "regionIds": [
+                "DE-NW"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-SL"
+                ]
+            },
+            "quantity": "pollenConcentration",
+            "value": 0.0,
+            "unit": "Pollen/m³",
+            "summary": {
+                "key": "source.open-meteo-pollen.summary.none"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.alder"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.birch"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.grass"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.mugwort"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.olive"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.ragweed"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "pollen:de-frankfurt",
+            "title": "Frankfurt",
+            "url": "https://open-meteo.com/en/docs/air-quality-api",
+            "time": "2026-10-03T19:00:00Z",
+            "lat": 50.1109,
+            "lon": 8.6821,
+            "regionIds": [
+                "DE-HE"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-SL",
+                    "DE-TH"
+                ]
+            },
+            "quantity": "pollenConcentration",
+            "value": 0.9,
+            "unit": "Pollen/m³",
+            "summary": {
+                "key": "source.open-meteo-pollen.summary.strongest.mugwort"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.alder"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.birch"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.grass"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.mugwort"
+                    },
+                    "value": 0.9,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.olive"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.ragweed"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "pollen:de-stuttgart",
+            "title": "Stuttgart",
+            "url": "https://open-meteo.com/en/docs/air-quality-api",
+            "time": "2026-10-03T19:00:00Z",
+            "lat": 48.7758,
+            "lon": 9.1829,
+            "regionIds": [
+                "DE-BW"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-HE",
+                    "DE-RP",
+                    "DE-SL",
+                    "DE-TH",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "pollenConcentration",
+            "value": 2.0,
+            "unit": "Pollen/m³",
+            "summary": {
+                "key": "source.open-meteo-pollen.summary.strongest.mugwort"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.alder"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.birch"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.grass"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.mugwort"
+                    },
+                    "value": 2.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.olive"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.ragweed"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "pollen:de-dresden",
+            "title": "Dresden",
+            "url": "https://open-meteo.com/en/docs/air-quality-api",
+            "time": "2026-10-03T19:00:00Z",
+            "lat": 51.0504,
+            "lon": 13.7373,
+            "regionIds": [
+                "DE-SN"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BE",
+                    "DE-BY",
+                    "DE-SN",
+                    "DE-ST",
+                    "DE-TH"
+                ]
+            },
+            "quantity": "pollenConcentration",
+            "value": 0.2,
+            "unit": "Pollen/m³",
+            "summary": {
+                "key": "source.open-meteo-pollen.summary.strongest.mugwort"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.alder"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.birch"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.grass"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.mugwort"
+                    },
+                    "value": 0.2,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.olive"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.ragweed"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "pollen:de-brandenburg",
+            "title": "Modellpunkt Brandenburg",
+            "url": "https://open-meteo.com/en/docs/air-quality-api",
+            "time": "2026-10-03T19:00:00Z",
+            "lat": 52.45789,
+            "lon": 14.15975,
+            "regionIds": [
+                "DE-BB"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BE",
+                    "DE-MV",
+                    "DE-NI",
+                    "DE-SN",
+                    "DE-ST",
+                    "DE-TH"
+                ]
+            },
+            "quantity": "pollenConcentration",
+            "value": 0.0,
+            "unit": "Pollen/m³",
+            "summary": {
+                "key": "source.open-meteo-pollen.summary.none"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.alder"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.birch"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.grass"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.mugwort"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.olive"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.ragweed"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "pollen:de-bremen",
+            "title": "Modellpunkt Bremen",
+            "url": "https://open-meteo.com/en/docs/air-quality-api",
+            "time": "2026-10-03T19:00:00Z",
+            "lat": 53.12027,
+            "lon": 8.80673,
+            "regionIds": [
+                "DE-HB"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-HB",
+                    "DE-HE",
+                    "DE-HH",
+                    "DE-MV",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-SH",
+                    "DE-ST"
+                ]
+            },
+            "quantity": "pollenConcentration",
+            "value": 0.1,
+            "unit": "Pollen/m³",
+            "summary": {
+                "key": "source.open-meteo-pollen.summary.strongest.grass"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.alder"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.birch"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.grass"
+                    },
+                    "value": 0.1,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.mugwort"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.olive"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.ragweed"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "pollen:de-mecklenburg-vorpommern",
+            "title": "Modellpunkt Mecklenburg-Vorpommern",
+            "url": "https://open-meteo.com/en/docs/air-quality-api",
+            "time": "2026-10-03T19:00:00Z",
+            "lat": 53.89753,
+            "lon": 12.66011,
+            "regionIds": [
+                "DE-MV"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BE",
+                    "DE-HH",
+                    "DE-MV",
+                    "DE-NI",
+                    "DE-SH",
+                    "DE-ST"
+                ]
+            },
+            "quantity": "pollenConcentration",
+            "value": 0.1,
+            "unit": "Pollen/m³",
+            "summary": {
+                "key": "source.open-meteo-pollen.summary.strongest.grass"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.alder"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.birch"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.grass"
+                    },
+                    "value": 0.1,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.mugwort"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.olive"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.ragweed"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "pollen:de-niedersachsen",
+            "title": "Modellpunkt Niedersachsen",
+            "url": "https://open-meteo.com/en/docs/air-quality-api",
+            "time": "2026-10-03T19:00:00Z",
+            "lat": 52.59437,
+            "lon": 8.83805,
+            "regionIds": [
+                "DE-NI"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-HB",
+                    "DE-HE",
+                    "DE-HH",
+                    "DE-MV",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-SH",
+                    "DE-ST",
+                    "DE-TH"
+                ]
+            },
+            "quantity": "pollenConcentration",
+            "value": 0.2,
+            "unit": "Pollen/m³",
+            "summary": {
+                "key": "source.open-meteo-pollen.summary.strongest.grass"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.alder"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.birch"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.grass"
+                    },
+                    "value": 0.2,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.mugwort"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.olive"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.ragweed"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "pollen:de-rheinland-pfalz",
+            "title": "Modellpunkt Rheinland-Pfalz",
+            "url": "https://open-meteo.com/en/docs/air-quality-api",
+            "time": "2026-10-03T19:00:00Z",
+            "lat": 49.95425,
+            "lon": 7.27348,
+            "regionIds": [
+                "DE-RP"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-HE",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-SL"
+                ]
+            },
+            "quantity": "pollenConcentration",
+            "value": 0.2,
+            "unit": "Pollen/m³",
+            "summary": {
+                "key": "source.open-meteo-pollen.summary.strongest.mugwort"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.alder"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.birch"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.grass"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.mugwort"
+                    },
+                    "value": 0.2,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.olive"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.ragweed"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "pollen:de-saarland",
+            "title": "Modellpunkt Saarland",
+            "url": "https://open-meteo.com/en/docs/air-quality-api",
+            "time": "2026-10-03T19:00:00Z",
+            "lat": 49.37664,
+            "lon": 6.97006,
+            "regionIds": [
+                "DE-SL"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-HE",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-SL"
+                ]
+            },
+            "quantity": "pollenConcentration",
+            "value": 0.8,
+            "unit": "Pollen/m³",
+            "summary": {
+                "key": "source.open-meteo-pollen.summary.strongest.mugwort"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.alder"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.birch"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.grass"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.mugwort"
+                    },
+                    "value": 0.8,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.olive"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.ragweed"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "pollen:de-sachsen-anhalt",
+            "title": "Modellpunkt Sachsen-Anhalt",
+            "url": "https://open-meteo.com/en/docs/air-quality-api",
+            "time": "2026-10-03T19:00:00Z",
+            "lat": 51.99039,
+            "lon": 11.55876,
+            "regionIds": [
+                "DE-ST"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BE",
+                    "DE-BY",
+                    "DE-HE",
+                    "DE-HH",
+                    "DE-MV",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-SH",
+                    "DE-SN",
+                    "DE-ST",
+                    "DE-TH"
+                ]
+            },
+            "quantity": "pollenConcentration",
+            "value": 0.0,
+            "unit": "Pollen/m³",
+            "summary": {
+                "key": "source.open-meteo-pollen.summary.none"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.alder"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.birch"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.grass"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.mugwort"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.olive"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.ragweed"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "pollen:de-schleswig-holstein",
+            "title": "Modellpunkt Schleswig-Holstein",
+            "url": "https://open-meteo.com/en/docs/air-quality-api",
+            "time": "2026-10-03T19:00:00Z",
+            "lat": 54.20991,
+            "lon": 9.95874,
+            "regionIds": [
+                "DE-SH"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-HB",
+                    "DE-HH",
+                    "DE-MV",
+                    "DE-NI",
+                    "DE-SH",
+                    "DE-ST"
+                ]
+            },
+            "quantity": "pollenConcentration",
+            "value": 0.0,
+            "unit": "Pollen/m³",
+            "summary": {
+                "key": "source.open-meteo-pollen.summary.none"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.alder"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.birch"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.grass"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.mugwort"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.olive"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.ragweed"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                }
+            ]
+        },
+        {
+            "kind": "modelValue",
+            "id": "pollen:de-thueringen",
+            "title": "Modellpunkt Thüringen",
+            "url": "https://open-meteo.com/en/docs/air-quality-api",
+            "time": "2026-10-03T19:00:00Z",
+            "lat": 50.92712,
+            "lon": 11.31553,
+            "regionIds": [
+                "DE-TH"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-SN",
+                    "DE-ST",
+                    "DE-TH"
+                ]
+            },
+            "quantity": "pollenConcentration",
+            "value": 0.1,
+            "unit": "Pollen/m³",
+            "summary": {
+                "key": "source.open-meteo-pollen.summary.strongest.mugwort"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.alder"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.birch"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.grass"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.mugwort"
+                    },
+                    "value": 0.1,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.olive"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                },
+                {
+                    "label": {
+                        "key": "source.open-meteo-pollen.type.ragweed"
+                    },
+                    "value": 0.0,
+                    "unit": "Pollen/m³"
+                }
+            ]
+        }
+    ]
+}

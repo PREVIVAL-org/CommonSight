@@ -1,0 +1,11 @@
+{
+    "recordedAt": "2026-09-28T14:30:00Z",
+    "requests": [
+        {
+            "signature": "GET https://maps.dwd.de/geoserver/dwd/ows?service=WFS&version=2.0.0&request=GetFeature&typeNames=dwd%3AWarnungen_Landkreise&outputFormat=application%2Fjson&count=500&startIndex=0",
+            "status": 200,
+            "headers": {},
+            "file": "001.json"
+        }
+    ]
+}

@@ -1,0 +1,228 @@
+{
+    "schema": 1,
+    "layer": "traffic",
+    "scope": "DE",
+    "status": "ok",
+    "source": "Autobahn GmbH",
+    "sourceUrl": "https://www.autobahn.de/unterwegs",
+    "generatedAt": "2026-09-28T14:30:00Z",
+    "updatedAt": "2026-10-02T18:00:00Z",
+    "note": {
+        "key": "layer.traffic.note.DE"
+    },
+    "coverage": [
+        {
+            "key": "source.autobahn.coverage",
+            "params": {
+                "roads": "A1, A2, A3, A4, A5, A6, A7, A8, A9, A10, A81, A93"
+            }
+        }
+    ],
+    "issues": [],
+    "stats": {},
+    "items": [
+        {
+            "kind": "trafficNotice",
+            "id": "autobahn:INRIX--vi-avl.2026-09-28_12-53-00-000_009.de0",
+            "title": "A1 | Köln-Nord - Leverkusen-West",
+            "url": "https://www.autobahn.de/unterwegs",
+            "time": "2026-09-28T12:53:00Z",
+            "lat": 51.005055987228175,
+            "lon": 6.907316109670157,
+            "regionIds": [
+                "DE-NW"
+            ],
+            "regionMatch": "point",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-SL"
+                ]
+            },
+            "road": "Euskirchen -> Dortmund",
+            "noticeType": "Stockender Verkehr",
+            "category": "jam",
+            "start": "2026-09-28T12:53:00Z",
+            "description": "Beginn: 28.09.26 um 14:53 Uhr Angespannte Verkehrslage, seit 28.09.2026, 12:53 A1: Euskirchen -> Dortmund, zwischen 1.5 km hinter AK Köln-Nord und 0.1 km vor AK Leverkusen-West Ereignismeldung: - Stockender Verkehr - Durchschnittsgeschwindigkeit: 30 km/h - Reisezeitverlust: 6 Minuten (zunehmend)"
+        },
+        {
+            "kind": "trafficNotice",
+            "id": "autobahn:INRIX--vi-avl.2026-09-28_03-27-00-000_007.de0",
+            "title": "A1 | Krummhörens Kuhlen - Bremen-Hemelingen",
+            "url": "https://www.autobahn.de/unterwegs",
+            "time": "2026-09-28T03:27:00Z",
+            "lat": 53.02368066266646,
+            "lon": 8.824769969045523,
+            "regionIds": [
+                "DE-HB"
+            ],
+            "regionMatch": "point",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-HB",
+                    "DE-HE",
+                    "DE-HH",
+                    "DE-MV",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-SH",
+                    "DE-ST",
+                    "DE-TH"
+                ]
+            },
+            "road": "Osnabrück -> Bremen",
+            "noticeType": "Stau",
+            "category": "jam",
+            "start": "2026-09-28T03:27:00Z",
+            "description": "Beginn: 28.09.26 um 05:27 Uhr Angespannte Verkehrslage, seit 28.09.2026, 03:27 A1: Osnabrück -> Bremen, zwischen Krummhörens Kuhlen und 1.5 km vor AS Bremen-Hemelingen Ereignismeldung: - Im Stillstand - Reisezeitverlust: 14 Minuten"
+        },
+        {
+            "kind": "trafficNotice",
+            "id": "autobahn:INRIX--vi-avl.2026-09-28_04-29-00-000_024.de0",
+            "title": "A1 | Uphusen/Bremen-Mahndorf - Bremen-Arsten",
+            "url": "https://www.autobahn.de/unterwegs",
+            "time": "2026-09-28T04:29:00Z",
+            "lat": 53.027450485343415,
+            "lon": 8.944800381457494,
+            "regionIds": [
+                "DE-HB"
+            ],
+            "regionMatch": "point",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-HB",
+                    "DE-HE",
+                    "DE-HH",
+                    "DE-MV",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-SH",
+                    "DE-ST",
+                    "DE-TH"
+                ]
+            },
+            "road": "Hamburg -> Osnabrück",
+            "noticeType": "Stau",
+            "category": "jam",
+            "start": "2026-09-28T04:29:00Z",
+            "description": "Beginn: 28.09.26 um 06:29 Uhr Angespannte Verkehrslage, seit 28.09.2026, 04:29 A1: Hamburg -> Osnabrück, zwischen 1.3 km hinter AS Uphusen/Bremen-Mahndorf und 0.6 km vor AS Bremen-Arsten Ereignismeldung: - Im Stillstand - Reisezeitverlust: 16 Minuten (zunehmend)"
+        },
+        {
+            "kind": "trafficNotice",
+            "id": "autobahn:2026-000572--vi-fbm.2026-10-02_20-00-00-000.devi-zus.2026-05-08_20-00-00-000_005.de12",
+            "title": "A1 | Kamen-Zentrum - Dortmund/Unna",
+            "url": "https://www.autobahn.de/unterwegs",
+            "time": "2026-10-02T18:00:00Z",
+            "lat": 51.57544940522507,
+            "lon": 7.670347617845843,
+            "regionIds": [
+                "DE-NW"
+            ],
+            "regionMatch": "point",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "DE-HB",
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-TH"
+                ]
+            },
+            "road": "Münster -> Dortmund",
+            "noticeType": "Sperrung",
+            "category": "closure",
+            "start": "2026-10-02T18:00:00Z",
+            "description": "Zeitraum dieser Bauphase: Beginn: 02.10.26 um 20:00 Uhr Ende: 05.10.26 um 05:00 Uhr (Ende der Gesamtmaßnahme: 05.10.26) A1: Münster -> Dortmund, zwischen AS Kamen-Zentrum und AK Dortmund/Unna Länge: konnte nicht ermittelt werden A1 - Erneuerung an der Decke - AlD 572"
+        },
+        {
+            "kind": "trafficNotice",
+            "id": "autobahn:2026-049618--vi-bs.2026-10-01_09-00-00-000.devi-bs.2026-10-01_09-00-00-000_004.de5",
+            "title": "A1 | Wuppertal-Ronsdorf - Remscheid-Lennep",
+            "url": "https://www.autobahn.de/unterwegs",
+            "lat": 51.227440167077106,
+            "lon": 7.234500608092719,
+            "regionIds": [
+                "DE-NW"
+            ],
+            "regionMatch": "point",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-SL",
+                    "DE-TH"
+                ]
+            },
+            "road": "Dortmund -> Köln",
+            "noticeType": "Tagesbaustelle",
+            "category": "roadworks",
+            "description": "Die Baustelle ist zu folgenden Zeiträumen gültig: 05.10.26 von 09:00 bis 16:00 Uhr 06.10.26 von 09:00 bis 16:00 Uhr 07.10.26 von 09:00 bis 16:00 Uhr 08.10.26 von 09:00 bis 16:00 Uhr 09.10.26 von 09:00 bis 13:00 Uhr A1: Dortmund -> Köln, zwischen AS Wuppertal-Ronsdorf und 0.3 km vor AS Remscheid-Lennep Länge: 2.99 km | Max. 80 km/h | Maximale Durchfahrtsbreite: 6.5 m A1 von Ehrenberg Grünpflege"
+        },
+        {
+            "kind": "trafficNotice",
+            "id": "autobahn:INRIX--vi-avl.2026-09-28_11-41-00-000_006.de0",
+            "title": "A10 | Phöben - Werder",
+            "url": "https://www.autobahn.de/unterwegs",
+            "time": "2026-09-28T11:41:00Z",
+            "lat": 52.39512565433226,
+            "lon": 12.840801623637255,
+            "regionIds": [
+                "DE-BB"
+            ],
+            "regionMatch": "point",
+            "lang": "de",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BE",
+                    "DE-MV",
+                    "DE-NI",
+                    "DE-SH",
+                    "DE-SN",
+                    "DE-ST",
+                    "DE-TH"
+                ]
+            },
+            "road": "Dreieck Havelland -> Dreieck Potsdam",
+            "noticeType": "Stau",
+            "category": "jam",
+            "start": "2026-09-28T11:41:00Z",
+            "description": "Beginn: 28.09.26 um 13:41 Uhr Angespannte Verkehrslage, seit 28.09.2026, 11:41 A10: Dreieck Havelland -> Dreieck Potsdam, zwischen 4.6 km hinter AS Phöben und 3.3 km vor AD Werder Ereignismeldung: - Im Stillstand - Reisezeitverlust: 14 Minuten (zunehmend)"
+        }
+    ]
+}

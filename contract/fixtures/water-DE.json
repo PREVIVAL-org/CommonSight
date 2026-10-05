@@ -1,0 +1,1009 @@
+{
+    "schema": 1,
+    "layer": "water",
+    "scope": "DE",
+    "status": "partial",
+    "source": "WSV · PEGELONLINE",
+    "sourceUrl": "https://www.pegelonline.wsv.de/",
+    "generatedAt": "2026-09-28T14:30:00Z",
+    "updatedAt": "2026-09-28T14:15:00Z",
+    "note": {
+        "key": "layer.water.note.DE"
+    },
+    "coverage": [],
+    "issues": [
+        {
+            "key": "issue.belowExpected",
+            "params": {
+                "source": "PEGELONLINE",
+                "valid": 18,
+                "expected": 400
+            }
+        }
+    ],
+    "stats": {},
+    "items": [
+        {
+            "kind": "measurement",
+            "id": "pegelonline:b475386c-30cc-453a-b3b7-1d17ace13595",
+            "title": "CELLE · ALLER",
+            "url": "https://www.pegelonline.wsv.de/gast/stammdaten?pegelnr=48300105",
+            "time": "2026-09-28T14:15:00Z",
+            "lat": 52.622706,
+            "lon": 10.062164,
+            "regionIds": [
+                "DE-NI"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-HB",
+                    "DE-HE",
+                    "DE-HH",
+                    "DE-MV",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-SH",
+                    "DE-SN",
+                    "DE-ST",
+                    "DE-TH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 114.0,
+            "unit": "cm",
+            "reference": {
+                "key": "reference.gaugeZero"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.pegelonline.assessment.label.deLowWater"
+                },
+                "basis": {
+                    "key": "source.pegelonline.assessment.basis.deBelowMhw"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T20:15:00Z",
+                "sourceValue": "MHW: low · HSW: normal"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.pegelonline.fact.gaugeZero"
+                    },
+                    "value": 31.82,
+                    "unit": "m. ü. NN"
+                }
+            ]
+        },
+        {
+            "kind": "measurement",
+            "id": "pegelonline:8b4f9f7c-3376-4dd8-95c1-de55b1be4dfd",
+            "title": "MARKLENDORF · ALLER",
+            "url": "https://www.pegelonline.wsv.de/gast/stammdaten?pegelnr=48700103",
+            "time": "2026-09-28T14:15:00Z",
+            "lat": 52.682757,
+            "lon": 9.703456,
+            "regionIds": [
+                "DE-NI"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-HB",
+                    "DE-HE",
+                    "DE-HH",
+                    "DE-MV",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-SH",
+                    "DE-ST",
+                    "DE-TH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 85.0,
+            "unit": "cm",
+            "reference": {
+                "key": "reference.gaugeZero"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.pegelonline.assessment.label.deLowWater"
+                },
+                "basis": {
+                    "key": "source.pegelonline.assessment.basis.deBelowMhw"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T20:15:00Z",
+                "sourceValue": "MHW: low · HSW: normal"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.pegelonline.fact.gaugeZero"
+                    },
+                    "value": 23.01,
+                    "unit": "m. ü. NN"
+                }
+            ]
+        },
+        {
+            "kind": "measurement",
+            "id": "pegelonline:522286e2-b2b3-4d0d-9a11-01b3ea418c76",
+            "title": "AHLDEN · ALLER",
+            "url": "https://www.pegelonline.wsv.de/gast/stammdaten?pegelnr=48900102",
+            "time": "2026-09-28T14:15:00Z",
+            "lat": 52.762431,
+            "lon": 9.570881,
+            "regionIds": [
+                "DE-NI"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-HB",
+                    "DE-HE",
+                    "DE-HH",
+                    "DE-MV",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-SH",
+                    "DE-ST",
+                    "DE-TH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": -9.0,
+            "unit": "cm",
+            "reference": {
+                "key": "reference.gaugeZero"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.pegelonline.assessment.label.deLowWater"
+                },
+                "basis": {
+                    "key": "source.pegelonline.assessment.basis.deBelowMhw"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T20:15:00Z",
+                "sourceValue": "MHW: low · HSW: normal"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "pegelonline:5aaed954-de4e-4528-8f65-f3f530bc8325",
+            "title": "RETHEM · ALLER",
+            "url": "https://www.pegelonline.wsv.de/gast/stammdaten?pegelnr=48900204",
+            "time": "2026-09-28T14:15:00Z",
+            "lat": 52.789098,
+            "lon": 9.382841,
+            "regionIds": [
+                "DE-NI"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-HB",
+                    "DE-HE",
+                    "DE-HH",
+                    "DE-MV",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-SH",
+                    "DE-ST",
+                    "DE-TH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 17.0,
+            "unit": "cm",
+            "reference": {
+                "key": "reference.gaugeZero"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.pegelonline.assessment.label.deLowWater"
+                },
+                "basis": {
+                    "key": "source.pegelonline.assessment.basis.deBelowMhw"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T20:15:00Z",
+                "sourceValue": "MHW: low · HSW: normal"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.pegelonline.fact.gaugeZero"
+                    },
+                    "value": 14.31,
+                    "unit": "m. ü. NN"
+                }
+            ]
+        },
+        {
+            "kind": "measurement",
+            "id": "pegelonline:47174d8f-1b8e-4599-8a59-b580dd55bc87",
+            "title": "EITZE · ALLER",
+            "url": "https://www.pegelonline.wsv.de/gast/stammdaten?pegelnr=48900237",
+            "time": "2026-09-28T14:15:00Z",
+            "lat": 52.904065,
+            "lon": 9.276769,
+            "regionIds": [
+                "DE-NI"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-HB",
+                    "DE-HE",
+                    "DE-HH",
+                    "DE-MV",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-SH",
+                    "DE-ST",
+                    "DE-TH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 222.0,
+            "unit": "cm",
+            "reference": {
+                "key": "reference.gaugeZero"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.pegelonline.assessment.label.deLowWater"
+                },
+                "basis": {
+                    "key": "source.pegelonline.assessment.basis.deBelowMhw"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T20:15:00Z",
+                "sourceValue": "MHW: low · HSW: unknown"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.pegelonline.fact.gaugeZero"
+                    },
+                    "value": 8.0,
+                    "unit": "m. ü. NN"
+                }
+            ]
+        },
+        {
+            "kind": "measurement",
+            "id": "pegelonline:ee52ce62-212c-4735-b438-26fbdc37e3e2",
+            "title": "BERLIN-PLÖTZENSEE OP · BERLIN-SPANDAUER-SCHIFFFAHRTSKANAL",
+            "url": "https://www.pegelonline.wsv.de/gast/stammdaten?pegelnr=586640",
+            "time": "2026-09-28T14:15:00Z",
+            "lat": 52.5437,
+            "lon": 13.323142,
+            "regionIds": [
+                "DE-BE"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BE",
+                    "DE-MV",
+                    "DE-NI",
+                    "DE-SH",
+                    "DE-SN",
+                    "DE-ST",
+                    "DE-TH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 327.0,
+            "unit": "cm",
+            "reference": {
+                "key": "reference.gaugeZero"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.pegelonline.assessment.label.deBelowMhw"
+                },
+                "basis": {
+                    "key": "source.pegelonline.assessment.basis.deBelowMhw"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T20:15:00Z",
+                "sourceValue": "MHW: normal · HSW: unknown"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.pegelonline.fact.gaugeZero"
+                    },
+                    "value": 28.0,
+                    "unit": "m. ü. NHN"
+                }
+            ]
+        },
+        {
+            "kind": "measurement",
+            "id": "pegelonline:45721a68-566c-4e2a-a6c7-a7595982a779",
+            "title": "BERLIN-PLÖTZENSEE UP · BERLIN-SPANDAUER-SCHIFFFAHRTSKANAL",
+            "url": "https://www.pegelonline.wsv.de/gast/stammdaten?pegelnr=586650",
+            "time": "2026-09-28T14:15:00Z",
+            "lat": 52.543036,
+            "lon": 13.323859,
+            "regionIds": [
+                "DE-BE"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BE",
+                    "DE-MV",
+                    "DE-NI",
+                    "DE-SH",
+                    "DE-SN",
+                    "DE-ST",
+                    "DE-TH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 273.0,
+            "unit": "cm",
+            "reference": {
+                "key": "reference.gaugeZero"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.pegelonline.assessment.label.deBelowMhw"
+                },
+                "basis": {
+                    "key": "source.pegelonline.assessment.basis.deBelowMhw"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T20:15:00Z",
+                "sourceValue": "MHW: normal · HSW: unknown"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.pegelonline.fact.gaugeZero"
+                    },
+                    "value": 28.0,
+                    "unit": "m. ü. NHN"
+                }
+            ]
+        },
+        {
+            "kind": "measurement",
+            "id": "pegelonline:aa9179c1-17ef-4c61-a48a-74193fa7bfdf",
+            "title": "KONSTANZ · BODENSEE",
+            "url": "https://www.pegelonline.wsv.de/gast/stammdaten?pegelnr=906",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 47.66075,
+            "lon": 9.181039,
+            "regionIds": [],
+            "regionMatch": "none",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-HE",
+                    "DE-RP",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 253.0,
+            "unit": "cm",
+            "reference": {
+                "key": "reference.gaugeZero"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.pegelonline.assessment.label.deLowWater"
+                },
+                "basis": {
+                    "key": "source.pegelonline.assessment.basis.deBelowMhw"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T20:00:00Z",
+                "sourceValue": "MHW: low · HSW: unknown"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.pegelonline.fact.gaugeZero"
+                    },
+                    "value": 391.89,
+                    "unit": "m. ü. NHN"
+                }
+            ]
+        },
+        {
+            "kind": "measurement",
+            "id": "pegelonline:6b595707-8c47-4bc7-a803-dbc327775c26",
+            "title": "BERLIN-SCHMÖCKWITZ · DAHME-WASSERSTRASSE",
+            "url": "https://www.pegelonline.wsv.de/gast/stammdaten?pegelnr=586810",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 52.374398,
+            "lon": 13.653581,
+            "regionIds": [
+                "DE-BE"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BE",
+                    "DE-MV",
+                    "DE-NI",
+                    "DE-SN",
+                    "DE-ST",
+                    "DE-TH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 39.0,
+            "unit": "cm",
+            "reference": {
+                "key": "reference.gaugeZero"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.pegelonline.assessment.label.deBelowMhw"
+                },
+                "basis": {
+                    "key": "source.pegelonline.assessment.basis.deBelowMhw"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T20:00:00Z",
+                "sourceValue": "MHW: normal · HSW: unknown"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.pegelonline.fact.gaugeZero"
+                    },
+                    "value": 31.957,
+                    "unit": "m. ü. NHN"
+                }
+            ]
+        },
+        {
+            "kind": "measurement",
+            "id": "pegelonline:c9a6c3bf-02d4-4945-83e8-b7c6cf9701fa",
+            "title": "NEUE MÜHLE SCHLEUSE UP · DAHME-WASSERSTRASSE",
+            "url": "https://www.pegelonline.wsv.de/gast/stammdaten?pegelnr=586280",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 52.297475,
+            "lon": 13.649641,
+            "regionIds": [
+                "DE-BB"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BE",
+                    "DE-MV",
+                    "DE-NI",
+                    "DE-SN",
+                    "DE-ST",
+                    "DE-TH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 125.0,
+            "unit": "cm",
+            "reference": {
+                "key": "reference.gaugeZero"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.pegelonline.assessment.label.deBelowMhw"
+                },
+                "basis": {
+                    "key": "source.pegelonline.assessment.basis.deBelowMhw"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T20:00:00Z",
+                "sourceValue": "MHW: normal · HSW: unknown"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.pegelonline.fact.gaugeZero"
+                    },
+                    "value": 31.117,
+                    "unit": "m. ü. NHN"
+                }
+            ]
+        },
+        {
+            "kind": "measurement",
+            "id": "pegelonline:0e0dbcc9-0a7d-494a-bc92-52e56a7fffe2",
+            "title": "NEUE MÜHLE SCHLEUSE OP · DAHME-WASSERSTRASSE",
+            "url": "https://www.pegelonline.wsv.de/gast/stammdaten?pegelnr=586270",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 52.296816,
+            "lon": 13.651758,
+            "regionIds": [
+                "DE-BB"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BE",
+                    "DE-MV",
+                    "DE-NI",
+                    "DE-SN",
+                    "DE-ST",
+                    "DE-TH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 266.0,
+            "unit": "cm",
+            "reference": {
+                "key": "reference.gaugeZero"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.pegelonline.assessment.label.deBelowMhw"
+                },
+                "basis": {
+                    "key": "source.pegelonline.assessment.basis.deBelowMhw"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T20:00:00Z",
+                "sourceValue": "MHW: normal · HSW: unknown"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.pegelonline.fact.gaugeZero"
+                    },
+                    "value": 31.117,
+                    "unit": "m. ü. NHN"
+                }
+            ]
+        },
+        {
+            "kind": "measurement",
+            "id": "pegelonline:facc5c16-f700-4248-9893-a395bffaf2e4",
+            "title": "WALTROP · DATTELN-HAMM-KANAL",
+            "url": "https://www.pegelonline.wsv.de/gast/stammdaten?pegelnr=27800090",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 51.639741,
+            "lon": 7.380201,
+            "regionIds": [
+                "DE-NW"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HB",
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-TH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 56.55,
+            "unit": "m+NN",
+            "reference": {
+                "key": "reference.seaLevel"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "source.pegelonline.assessment.basis.deNoState"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T20:00:00Z",
+                "sourceValue": "MHW: unknown · HSW: unknown"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "pegelonline:4ef9dd9c-b32b-43fc-bc5e-3849d4ab7ecc",
+            "title": "HAMM UW · DATTELN-HAMM-KANAL",
+            "url": "https://www.pegelonline.wsv.de/gast/stammdaten?pegelnr=27800080",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 51.684812,
+            "lon": 7.815789,
+            "regionIds": [
+                "DE-NW"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "DE-HB",
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-ST",
+                    "DE-TH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 56.54,
+            "unit": "m+NN",
+            "reference": {
+                "key": "reference.seaLevel"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "source.pegelonline.assessment.basis.deNoState"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T20:00:00Z",
+                "sourceValue": "MHW: unknown · HSW: unknown"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "pegelonline:4dbce62d-a015-4011-afcd-423bb8d4b7a1",
+            "title": "HAMM OW · DATTELN-HAMM-KANAL",
+            "url": "https://www.pegelonline.wsv.de/gast/stammdaten?pegelnr=27800060",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 51.693782,
+            "lon": 7.842759,
+            "regionIds": [
+                "DE-NW"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "DE-HB",
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-ST",
+                    "DE-TH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 58.19,
+            "unit": "m+NN",
+            "reference": {
+                "key": "reference.seaLevel"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "source.pegelonline.assessment.basis.deNoState"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T20:00:00Z",
+                "sourceValue": "MHW: unknown · HSW: unknown"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "pegelonline:d31767ef-2cf8-4046-9881-d5651d81ade8",
+            "title": "WERRIES OW · DATTELN-HAMM-KANAL",
+            "url": "https://www.pegelonline.wsv.de/gast/stammdaten?pegelnr=27800050",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 51.695153,
+            "lon": 7.870046,
+            "regionIds": [
+                "DE-NW"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BY",
+                    "DE-HB",
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-ST",
+                    "DE-TH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 63.29,
+            "unit": "m+NN",
+            "reference": {
+                "key": "reference.seaLevel"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "source.pegelonline.assessment.basis.deNoState"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T20:00:00Z",
+                "sourceValue": "MHW: unknown · HSW: unknown"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "pegelonline:33092c28-201a-4210-89c9-ce68cad61ed1",
+            "title": "HELMINGHAUSEN · DIEMEL",
+            "url": "https://www.pegelonline.wsv.de/gast/stammdaten?pegelnr=44100206",
+            "time": "2026-09-28T14:15:00Z",
+            "lat": 51.381475,
+            "lon": 8.73078,
+            "regionIds": [
+                "DE-NW"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-HB",
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-ST",
+                    "DE-TH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 67.0,
+            "unit": "cm",
+            "reference": {
+                "key": "reference.gaugeZero"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.pegelonline.assessment.label.deBelowMhw"
+                },
+                "basis": {
+                    "key": "source.pegelonline.assessment.basis.deBelowMhw"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T20:15:00Z",
+                "sourceValue": "MHW: normal · HSW: unknown"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.pegelonline.fact.gaugeZero"
+                    },
+                    "value": 336.97,
+                    "unit": "m. ü. NN"
+                }
+            ]
+        },
+        {
+            "kind": "measurement",
+            "id": "pegelonline:5cdc6555-87d7-4fcd-834d-cbbe24c9d08b",
+            "title": "DIEMELTALSPERRE · DIEMEL",
+            "url": "https://www.pegelonline.wsv.de/gast/stammdaten?pegelnr=44100104",
+            "time": "2026-09-28T14:15:00Z",
+            "lat": 51.377695,
+            "lon": 8.728648,
+            "regionIds": [
+                "DE-NW"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-HB",
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-ST",
+                    "DE-TH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 370.89,
+            "unit": "m+PNP",
+            "reference": {
+                "key": "reference.gaugeZero"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "source.pegelonline.assessment.basis.deNoState"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T20:15:00Z",
+                "sourceValue": "MHW: unknown · HSW: unknown"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.pegelonline.fact.gaugeZero"
+                    },
+                    "value": 0.041,
+                    "unit": "m. ü. NN"
+                }
+            ]
+        },
+        {
+            "kind": "measurement",
+            "id": "pegelonline:7deedc21-2878-40cc-ab47-f6da0d9002f1",
+            "title": "WILHELMSBRÜCKE · DIEMEL",
+            "url": "https://www.pegelonline.wsv.de/gast/stammdaten?pegelnr=44100024",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 51.346315,
+            "lon": 8.723953,
+            "regionIds": [
+                "DE-HE"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-HB",
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-ST",
+                    "DE-TH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 4.0,
+            "unit": "cm",
+            "reference": {
+                "key": "reference.gaugeZero"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.pegelonline.assessment.label.deLowWater"
+                },
+                "basis": {
+                    "key": "source.pegelonline.assessment.basis.deBelowMhw"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T20:00:00Z",
+                "sourceValue": "MHW: low · HSW: unknown"
+            },
+            "facts": [
+                {
+                    "label": {
+                        "key": "source.pegelonline.fact.gaugeZero"
+                    },
+                    "value": 376.978,
+                    "unit": "m. ü. NN"
+                }
+            ]
+        }
+    ]
+}

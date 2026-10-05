@@ -1,0 +1,192 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://commonsight.org/schema/v1/item.schema.json",
+  "title": "Item",
+  "description": "Item of a snapshot. Union by kind, each kind with fixed fields (D-10, D-11, V14).",
+  "oneOf": [
+    { "$ref": "#/$defs/warningItem" },
+    { "$ref": "#/$defs/measurementItem" },
+    { "$ref": "#/$defs/modelValueItem" },
+    { "$ref": "#/$defs/earthquakeItem" },
+    { "$ref": "#/$defs/trafficNoticeItem" },
+    { "$ref": "#/$defs/indexItem" },
+    { "$ref": "#/$defs/newsItem" }
+  ],
+  "$defs": {
+    "itemBase": {
+      "title": "ItemBase",
+      "description": "Fields shared by all kinds (D-10).",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "minLength": 1, "description": "stable, unique per layer" },
+        "title": { "type": "string", "description": "title in the original language of the source, plain text (D-14)" },
+        "url": { "$ref": "common.schema.json#/$defs/httpUrl" },
+        "source": { "type": "string", "description": "short name of the source, if different from the layer default" },
+        "time": { "$ref": "common.schema.json#/$defs/utcInstant" },
+        "lat": { "type": "number", "minimum": -90, "maximum": 90 },
+        "lon": { "type": "number", "minimum": -180, "maximum": 180 },
+        "geometry": { "$ref": "geometry.schema.json" },
+        "regionIds": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/regionId" }, "uniqueItems": true },
+        "regionMatch": {
+          "description": "How the regions were determined (Architecture 4.11); none = without reliable location assignment",
+          "type": "string",
+          "enum": ["geometry", "point", "source", "area", "none"]
+        },
+        "lang": { "type": "string", "pattern": "^[a-z]{2}$", "description": "language of the source texts (D-15)" },
+        "country": {
+          "description": "only in the border zone: the foreign country of the item",
+          "$ref": "common.schema.json#/$defs/isoCountry"
+        },
+        "near": {
+          "description": "the DACH countries and regions within the border radius (vicinityKm in config.php) of the item (section Grenzgebiet, ADR 0038); for items of a DACH country its own country and regions included (other regions of a selected region)",
+          "type": "object",
+          "properties": {
+            "countries": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/country" }, "uniqueItems": true },
+            "regionIds": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/regionId" }, "uniqueItems": true }
+          },
+          "required": ["countries", "regionIds"],
+          "additionalProperties": false
+        }
+      },
+      "required": ["id", "title", "url", "regionIds", "regionMatch"],
+      "dependentRequired": { "lat": ["lon"], "lon": ["lat"] }
+    },
+    "severity": { "type": "string", "enum": ["Extreme", "Severe", "Moderate", "Minor", "Unknown"] },
+    "fact": {
+      "title": "Fact",
+      "description": "Additional value (D-16), e.g. wind 12 km/h.",
+      "type": "object",
+      "properties": {
+        "label": { "$ref": "msg.schema.json" },
+        "value": { "type": ["number", "string"] },
+        "unit": { "type": "string" }
+      },
+      "required": ["label", "value"],
+      "additionalProperties": false
+    },
+    "warningSection": {
+      "title": "WarningSection",
+      "type": "object",
+      "properties": {
+        "heading": { "type": "string", "enum": ["description", "situation", "impact", "advice", "update"] },
+        "text": { "type": "string", "minLength": 1 }
+      },
+      "required": ["heading", "text"],
+      "additionalProperties": false
+    },
+    "warningItem": {
+      "title": "WarningItem",
+      "allOf": [{ "$ref": "#/$defs/itemBase" }],
+      "properties": {
+        "kind": { "const": "warning" },
+        "hazard": { "$ref": "msg.schema.json", "description": "warning type, e.g. thunderstorm" },
+        "severity": { "$ref": "#/$defs/severity" },
+        "awareness": {
+          "description": "color level of the source, if it has one (GeoSphere: yellow, orange, red)",
+          "type": "string",
+          "enum": ["yellow", "orange", "red"]
+        },
+        "area": { "type": "string", "description": "area as stated by the source" },
+        "onset": { "$ref": "common.schema.json#/$defs/utcInstant" },
+        "expires": { "$ref": "common.schema.json#/$defs/utcInstant" },
+        "sections": { "type": "array", "items": { "$ref": "#/$defs/warningSection" } },
+        "category": { "$ref": "catalog.schema.json#/$defs/warningCategory" }
+      },
+      "required": ["kind", "hazard", "severity", "area", "sections", "category"],
+      "unevaluatedProperties": false
+    },
+    "measurementItem": {
+      "title": "MeasurementItem",
+      "allOf": [{ "$ref": "#/$defs/itemBase" }],
+      "properties": {
+        "kind": { "const": "measurement" },
+        "quantity": { "$ref": "catalog.schema.json#/$defs/measuredQuantity" },
+        "value": { "type": "number" },
+        "unit": { "type": "string", "minLength": 1 },
+        "reference": { "$ref": "msg.schema.json", "description": "reference of the value, e.g. above gauge zero" },
+        "assessment": { "$ref": "assessment.schema.json" },
+        "facts": { "type": "array", "items": { "$ref": "#/$defs/fact" } }
+      },
+      "required": ["kind", "quantity", "value", "unit", "reference", "assessment", "facts"],
+      "unevaluatedProperties": false
+    },
+    "modelValueItem": {
+      "title": "ModelValueItem",
+      "allOf": [{ "$ref": "#/$defs/itemBase" }],
+      "properties": {
+        "kind": { "const": "modelValue" },
+        "quantity": { "$ref": "catalog.schema.json#/$defs/modelQuantity" },
+        "value": { "type": "number" },
+        "unit": { "type": "string", "minLength": 1 },
+        "summary": { "$ref": "msg.schema.json", "description": "short text, e.g. \"Bewölkt\" (cloudy) or \"Ausreichend\" (sufficient)" },
+        "facts": { "type": "array", "items": { "$ref": "#/$defs/fact" } }
+      },
+      "required": ["kind", "quantity", "value", "unit", "summary", "facts"],
+      "unevaluatedProperties": false
+    },
+    "earthquakeItem": {
+      "title": "EarthquakeItem",
+      "allOf": [{ "$ref": "#/$defs/itemBase" }],
+      "properties": {
+        "kind": { "const": "earthquake" },
+        "magnitude": { "type": "number" },
+        "depthKm": { "type": "number" },
+        "place": { "type": "string" }
+      },
+      "required": ["kind", "magnitude", "depthKm", "place"],
+      "unevaluatedProperties": false
+    },
+    "trafficNoticeItem": {
+      "title": "TrafficNoticeItem",
+      "allOf": [{ "$ref": "#/$defs/itemBase" }],
+      "properties": {
+        "kind": { "const": "trafficNotice" },
+        "road": { "type": "string" },
+        "noticeType": { "type": "string", "description": "kind in the words of the source, German" },
+        "category": {
+          "type": "string",
+          "enum": ["jam", "closure", "roadworks", "other"],
+          "description": "kind for the map colour, the same for every source"
+        },
+        "start": { "$ref": "common.schema.json#/$defs/utcInstant" },
+        "description": { "type": "string" }
+      },
+      "required": ["kind"],
+      "unevaluatedProperties": false
+    },
+    "indexItem": {
+      "title": "IndexItem",
+      "allOf": [{ "$ref": "#/$defs/itemBase" }],
+      "properties": {
+        "kind": { "const": "index" },
+        "name": { "$ref": "msg.schema.json", "description": "display name of the index" },
+        "value": { "type": "number" },
+        "scale": {
+          "type": "object",
+          "properties": {
+            "min": { "type": "number" },
+            "max": { "type": "number" },
+            "name": { "$ref": "msg.schema.json" }
+          },
+          "required": ["min", "max", "name"],
+          "additionalProperties": false
+        },
+        "history": { "type": "array", "items": { "type": "number" } },
+        "description": { "$ref": "msg.schema.json" }
+      },
+      "required": ["kind", "name", "value", "scale", "description"],
+      "unevaluatedProperties": false
+    },
+    "newsItem": {
+      "title": "NewsItem",
+      "allOf": [{ "$ref": "#/$defs/itemBase" }],
+      "properties": {
+        "kind": { "const": "news" },
+        "category": { "$ref": "catalog.schema.json#/$defs/newsCategory" },
+        "feed": { "$ref": "catalog.schema.json#/$defs/newsFeed" }
+      },
+      "required": ["kind", "category", "feed"],
+      "unevaluatedProperties": false
+    }
+  }
+}

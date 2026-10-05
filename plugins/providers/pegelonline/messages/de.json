@@ -1,0 +1,14 @@
+{
+  "source.pegelonline.assessment.label.deHsw": "HSW erreicht / überschritten",
+  "source.pegelonline.assessment.basis.deHsw": "PEGELONLINE: höchster Schifffahrtswasserstand erreicht oder überschritten. Schifffahrtsgrenze, keine allgemeine Überflutungsgrenze.",
+  "source.pegelonline.assessment.label.deMhw": "MHW erreicht / überschritten",
+  "source.pegelonline.assessment.basis.deMhw": "PEGELONLINE: mittlerer Hochwasserstand erreicht oder überschritten. Stationsbezogener Vergleich, keine amtliche Hochwasserwarnung.",
+  "source.pegelonline.assessment.label.deBelowMhw": "Unter MHW",
+  "source.pegelonline.assessment.label.deLowWater": "Niedrigwasserbereich",
+  "source.pegelonline.assessment.basis.deBelowMhw": "PEGELONLINE meldet keine MHW-Überschreitung. Fehlende weitere Schwellen bleiben unbewertet.",
+  "source.pegelonline.assessment.label.deBelowHsw": "Unter HSW · MHW unbekannt",
+  "source.pegelonline.assessment.basis.deBelowHsw": "Nur der höchste Schifffahrtswasserstand ist eingeordnet; eine MHW-Einordnung fehlt.",
+  "source.pegelonline.assessment.basis.deDisturbed": "PEGELONLINE kennzeichnet den Messwert als gestört oder veraltet.",
+  "source.pegelonline.assessment.basis.deNoState": "Für diese Station liefert PEGELONLINE keine verwertbare MHW-/HSW-Einstufung.",
+  "source.pegelonline.fact.gaugeZero": "Pegelnullpunkt"
+}

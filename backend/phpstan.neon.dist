@@ -1,0 +1,22 @@
+includes:
+    - vendor/tomasvotruba/cognitive-complexity/config/extension.neon
+
+parameters:
+    level: max
+    phpVersion: 80300
+    paths:
+        - src
+        - bin
+        - public
+        # The plugins' code (concept: sources as plugins); their tests and tools like tests/ of the core are not analysed.
+        - ../plugins
+    excludePaths:
+        analyse:
+            - ../plugins/*/*/tests/*
+            - ../plugins/*/*/tools/*
+    tmpDir: .phpstan.cache
+    treatPhpDocTypesAsCertain: false
+    cognitive_complexity:
+        # Architecture 1.3.6: check from cognitive complexity 10 per function.
+        function: 10
+        class: 60

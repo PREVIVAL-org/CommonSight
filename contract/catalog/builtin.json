@@ -1,0 +1,26 @@
+{
+  "$comment": "Catalog terms contributed by the core until the layer plugins take them over (concept: sources as plugins, V14). Plugins contribute further terms in plugins/<group>/<id>/catalog.json. bin/build-contract.php joins them into catalog.json, ../schema/catalog.schema.json and TERMS.md. Labels are shown verbatim in the user interface; the order of a list is its display order.",
+  "measuredQuantities": [
+    { "id": "waterLevel", "label": "Wasserstand", "definition": "Water level of a river or lake at a gauge, above the gauge zero or above sea level." },
+    { "id": "discharge", "label": "Abfluss", "definition": "Volume of water passing a gauge per second." },
+    { "id": "doseRate", "label": "Ortsdosisleistung (ODL)", "definition": "Ambient gamma dose rate at a measuring station." }
+  ],
+  "modelQuantities": [
+    { "id": "temperature", "label": "Temperatur", "definition": "Air temperature from a weather model, not a measurement.", "decimals": 1, "shortSuffix": "°" },
+    { "id": "airQualityIndex", "label": "Luftqualitätsindex", "definition": "European air quality index from an air quality model, not a measurement.", "decimals": 0, "shortSuffix": "" }
+  ],
+  "warningCategories": [
+    { "id": "weather", "label": "Unwetter", "definition": "Warning of a weather service." },
+    { "id": "civilProtection", "label": "Bevölkerungsschutz", "definition": "Warning of civil protection, e.g. via MoWaS." }
+  ],
+  "newsCategories": [
+    { "id": "weather", "label": "Unwetter", "definition": "News about severe weather and natural hazards." },
+    { "id": "conflict", "label": "Konflikte", "definition": "News about armed conflicts and security." },
+    { "id": "infrastructure", "label": "Infrastruktur", "definition": "News about outages of supply, transport and communication." }
+  ],
+  "newsFeeds": [
+    { "id": "tagesschau", "label": "tagesschau.de", "country": "DE", "definition": "News feed of tagesschau.de (ARD)." },
+    { "id": "orf", "label": "ORF.at", "country": "AT", "definition": "News feed of ORF.at." },
+    { "id": "srf", "label": "SRF News", "country": "CH", "definition": "News feed of SRF News." }
+  ]
+}

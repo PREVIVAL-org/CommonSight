@@ -1,0 +1,18 @@
+{
+  "DE": {
+    "name": "BfS · ODL",
+    "url": "https://odlinfo.bfs.de/"
+  },
+  "AT": {
+    "name": "Umweltbundesamt · Strahlenfrühwarnsystem",
+    "url": "https://mb.strahlenschutz.gv.at/"
+  },
+  "CH": {
+    "name": "EURDEP · BfS/IMIS",
+    "url": "https://www.naz.ch/de/aktuell/tagesmittelwerte"
+  },
+  "border": {
+    "name": "PAA · Umweltagentur Südtirol",
+    "url": "https://monitoring.paa.gov.pl/"
+  }
+}

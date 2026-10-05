@@ -1,0 +1,12 @@
+{
+  "layer.water.name": "Wasserpegel",
+  "layer.water.legend.title": "Pegel",
+  "layer.water.legend.DE": "Deutschland: orange ab MHW (mittlerer Hochwasserstand), rot ab HSW (höchster Schifffahrtswasserstand), nach PEGELONLINE. HSW ist eine Schifffahrtsgrenze und keine allgemeine Überflutungsgrenze. Fehlende Schwellen werden nicht geschätzt.",
+  "layer.water.legend.AT": "Österreich: orange bei eHYD-Hochwasserstufe 1 (HQ1 bis unter HQ10), rot bei Stufe 2 und 3 (ab HQ10). Niedrig-/Mittelwasser und erhöhte Wasserführung unter HQ1 behalten die Ebenenfarbe.",
+  "layer.water.legend.CH": "Schweiz: orange bei BAFU-Gefahrenstufen 2 und 3, rot bei Stufen 4 und 5. Die genaue amtliche Stufe steht am Messpunkt; die Farben der Karte fassen Stufen zusammen.",
+  "layer.water.legend.default": "Ohne Schwellenüberschreitung blau; grau, wenn der letzte Wert älter als 6 Stunden ist.",
+  "layer.water.note.DE": "Wasserstand über lokalem Pegelnullpunkt. Ungeprüfte Rohdaten; kein länderübergreifend vergleichbarer Höhenwert. Orange/Rot folgen den stationsbezogenen WSV-Einstufungen; Grau: Einordnung fehlt oder Messwert älter als 6 Stunden. Die Farben ersetzen keine amtliche Hochwasserwarnung.",
+  "layer.water.note.AT": "Aktuelle, ungeprüfte Daten der hydrographischen Dienste. Wasserstand und Abfluss sind unterschiedliche Messgrößen; der zuständige Dienst steht an jeder Station. Orange/Rot folgen den stationsbezogenen eHYD-Einstufungen; Grau: Einordnung fehlt oder Messwert älter als 6 Stunden. Die Farben ersetzen keine amtliche Hochwasserwarnung.",
+  "layer.water.note.CH": "Wasserstand in Metern über Meer, nicht mit Pegeln über lokalem Nullpunkt vergleichen. Ungeprüfte BAFU-Messwerte, bereitgestellt über LINDAS. Orange/Rot folgen den stationsbezogenen BAFU-Gefahrenstufen; Grau: Einordnung fehlt oder Messwert älter als 6 Stunden. Die Farben ersetzen keine amtliche Hochwasserwarnung.",
+  "layer.water.note.border": "Grenzgebiet: Pegel in Frankreich (Hub'Eau), den Niederlanden (Rijkswaterstaat), Tschechien (ČHMÚ) und Polen (IMGW-PIB). Ungeprüfte Rohdaten; Höhen über dem lokalen Pegelnullpunkt, in den Niederlanden über NAP. Orange/Rot folgen den Hochwasserstufen der tschechischen und polnischen Dienste; Frankreich und die Niederlande liefern keine Stufen (grau). Die Farben ersetzen keine amtliche Hochwasserwarnung."
+}

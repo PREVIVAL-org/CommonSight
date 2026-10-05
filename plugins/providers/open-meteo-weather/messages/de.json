@@ -1,0 +1,15 @@
+{
+  "source.open-meteo-weather.fact.wind": "Wind",
+  "source.open-meteo-weather.fact.humidity": "Luftfeuchte",
+  "source.open-meteo-weather.fact.precipitation": "Niederschlag",
+  "source.open-meteo-weather.summary.weather.clear": "Klar",
+  "source.open-meteo-weather.summary.weather.cloudy": "Bewölkt",
+  "source.open-meteo-weather.summary.weather.fog": "Nebel",
+  "source.open-meteo-weather.summary.weather.rain": "Regen",
+  "source.open-meteo-weather.summary.weather.snow": "Schneefall",
+  "source.open-meteo-weather.summary.weather.rainShowers": "Regenschauer",
+  "source.open-meteo-weather.summary.weather.snowShowers": "Schneeschauer",
+  "source.open-meteo-weather.summary.weather.thunderstorm": "Gewitter",
+  "source.open-meteo-weather.summary.weather.unknown": "Wetterdaten",
+  "source.open-meteo-weather.coverage": "Modellwerte für {count} ausgewählte Orte."
+}

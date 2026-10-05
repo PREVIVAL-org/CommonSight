@@ -1,0 +1,13 @@
+node_modules/
+backend/.deptrac.cache
+# Glyphs of the map, reproducible via tools/tiles/fetch-map-assets.sh
+map-assets/glyphs/
+# Re-include files that global excludes on developer machines would drop (e.g. `*status*`, `bin/`):
+# status endpoint, status schema and fetcher entry points belong to the project.
+!*status*
+!bin/
+run/
+build/
+.env
+# Server of deploy.sh (host, port, socket); stays on the machine that deploys.
+deploy.local

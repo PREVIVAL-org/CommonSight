@@ -1,0 +1,11 @@
+{
+    "recordedAt": "2026-10-02T15:30:00Z",
+    "requests": [
+        {
+            "signature": "GET https://danepubliczne.imgw.pl/api/data/hydro/",
+            "status": 200,
+            "headers": {},
+            "file": "001.json"
+        }
+    ]
+}

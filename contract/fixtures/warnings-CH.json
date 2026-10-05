@@ -1,0 +1,354 @@
+{
+    "schema": 1,
+    "layer": "warnings",
+    "scope": "CH",
+    "status": "partial",
+    "source": "MeteoSchweiz · MeteoAlarm · Alertswiss",
+    "sourceUrl": "https://www.naturgefahren.ch/",
+    "generatedAt": "2026-09-28T12:00:00Z",
+    "updatedAt": "2026-09-28T11:05:15Z",
+    "note": {
+        "key": "layer.warnings.note.CH"
+    },
+    "coverage": [],
+    "issues": [
+        {
+            "key": "issue.missingGeometry",
+            "params": {
+                "source": "MeteoAlarm",
+                "count": 1
+            }
+        },
+        {
+            "key": "issue.formatDrift",
+            "params": {
+                "source": "Alertswiss (BABS)",
+                "rejected": 1,
+                "total": 4
+            }
+        }
+    ],
+    "stats": {},
+    "items": [
+        {
+            "kind": "warning",
+            "id": "alertswiss:POA-3-1",
+            "title": "Trinkwasser landesweit abkochen",
+            "url": "https://www.be.ch/feuerverbot",
+            "source": "Alertswiss · BABS",
+            "time": "2026-09-28T07:00:00Z",
+            "regionIds": [],
+            "regionMatch": "none",
+            "lang": "de",
+            "near": {
+                "countries": [],
+                "regionIds": []
+            },
+            "hazard": {
+                "key": "hazard.source",
+                "params": {
+                    "text": "Trinkwasser"
+                }
+            },
+            "severity": "Severe",
+            "area": "",
+            "onset": "2026-09-28T07:00:00Z",
+            "sections": [],
+            "category": "civilProtection"
+        },
+        {
+            "kind": "warning",
+            "id": "meteoalarm:https://feeds.meteoalarm.org/api/v1/warnings/feeds-switzerland/ticino-1",
+            "title": "Severe rain warning issued for Switzerland - Ticino",
+            "url": "https://www.naturgefahren.ch/",
+            "time": "2026-09-28T09:00:00Z",
+            "regionIds": [
+                "CH-TI"
+            ],
+            "regionMatch": "area",
+            "near": {
+                "countries": [],
+                "regionIds": []
+            },
+            "hazard": {
+                "key": "hazard.source",
+                "params": {
+                    "text": "Severe rain warning"
+                }
+            },
+            "severity": "Severe",
+            "area": "Ticino",
+            "expires": "2026-09-29T04:00:00Z",
+            "sections": [
+                {
+                    "heading": "description",
+                    "text": "Forti piogge."
+                }
+            ],
+            "category": "weather"
+        },
+        {
+            "kind": "warning",
+            "id": "alertswiss:POA-1-1",
+            "title": "Feuerverbot im Wald",
+            "url": "https://www.be.ch/feuerverbot",
+            "source": "Alertswiss · Kanton Bern",
+            "time": "2026-09-28T08:00:00Z",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            7.3,
+                            46.85
+                        ],
+                        [
+                            7.6,
+                            46.85
+                        ],
+                        [
+                            7.6,
+                            47.05
+                        ],
+                        [
+                            7.3,
+                            47.05
+                        ],
+                        [
+                            7.3,
+                            46.85
+                        ]
+                    ]
+                ]
+            },
+            "regionIds": [
+                "CH-BE"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [],
+                "regionIds": []
+            },
+            "hazard": {
+                "key": "hazard.source",
+                "params": {
+                    "text": "Feuerverbot"
+                }
+            },
+            "severity": "Moderate",
+            "area": "Kanton Bern",
+            "onset": "2026-09-28T08:00:00Z",
+            "sections": [
+                {
+                    "heading": "description",
+                    "text": "Erhebliche Waldbrandgefahr. Feuer nur auf offiziellen Feuerstellen."
+                },
+                {
+                    "heading": "advice",
+                    "text": "Keine Feuer im Wald <50 m."
+                }
+            ],
+            "category": "civilProtection"
+        },
+        {
+            "kind": "warning",
+            "id": "meteoalarm:https://feeds.meteoalarm.org/api/v1/warnings/feeds-switzerland/bern-1",
+            "title": "Gewitterwarnung Stufe 2",
+            "url": "https://www.meteoswiss.admin.ch/warnungen",
+            "time": "2026-09-28T08:00:00Z",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            7.3,
+                            46.85
+                        ],
+                        [
+                            7.6,
+                            46.85
+                        ],
+                        [
+                            7.6,
+                            47.05
+                        ],
+                        [
+                            7.3,
+                            47.05
+                        ],
+                        [
+                            7.3,
+                            46.85
+                        ]
+                    ]
+                ]
+            },
+            "regionIds": [
+                "CH-BE"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [],
+                "regionIds": []
+            },
+            "hazard": {
+                "key": "hazard.source",
+                "params": {
+                    "text": "Gewitter"
+                }
+            },
+            "severity": "Moderate",
+            "area": "Bern",
+            "onset": "2026-09-28T10:00:00Z",
+            "expires": "2026-09-28T20:00:00Z",
+            "sections": [
+                {
+                    "heading": "description",
+                    "text": "Gewitter mit Hagel möglich."
+                },
+                {
+                    "heading": "advice",
+                    "text": "Schutz in Gebäuden suchen."
+                }
+            ],
+            "category": "weather"
+        },
+        {
+            "kind": "warning",
+            "id": "alertswiss:POA-2-1",
+            "title": "Bristenstrasse gesperrt",
+            "url": "https://www.be.ch/feuerverbot",
+            "source": "Alertswiss · Kanton Uri",
+            "time": "2026-09-27T06:00:00Z",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.7021,
+                            46.7697
+                        ],
+                        [
+                            8.7012,
+                            46.7744
+                        ],
+                        [
+                            8.6986,
+                            46.7787
+                        ],
+                        [
+                            8.6945,
+                            46.7824
+                        ],
+                        [
+                            8.689,
+                            46.7853
+                        ],
+                        [
+                            8.6827,
+                            46.7871
+                        ],
+                        [
+                            8.6759,
+                            46.7877
+                        ],
+                        [
+                            8.6691,
+                            46.7871
+                        ],
+                        [
+                            8.6628,
+                            46.7853
+                        ],
+                        [
+                            8.6574,
+                            46.7824
+                        ],
+                        [
+                            8.6532,
+                            46.7787
+                        ],
+                        [
+                            8.6506,
+                            46.7744
+                        ],
+                        [
+                            8.6497,
+                            46.7697
+                        ],
+                        [
+                            8.6506,
+                            46.765
+                        ],
+                        [
+                            8.6532,
+                            46.7607
+                        ],
+                        [
+                            8.6574,
+                            46.757
+                        ],
+                        [
+                            8.6628,
+                            46.7541
+                        ],
+                        [
+                            8.6691,
+                            46.7523
+                        ],
+                        [
+                            8.6759,
+                            46.7517
+                        ],
+                        [
+                            8.6827,
+                            46.7523
+                        ],
+                        [
+                            8.689,
+                            46.7541
+                        ],
+                        [
+                            8.6945,
+                            46.757
+                        ],
+                        [
+                            8.6986,
+                            46.7607
+                        ],
+                        [
+                            8.7012,
+                            46.765
+                        ],
+                        [
+                            8.7021,
+                            46.7697
+                        ]
+                    ]
+                ]
+            },
+            "regionIds": [
+                "CH-UR"
+            ],
+            "regionMatch": "geometry",
+            "lang": "de",
+            "near": {
+                "countries": [],
+                "regionIds": []
+            },
+            "hazard": {
+                "key": "hazard.source",
+                "params": {
+                    "text": "Anderes Ereignis"
+                }
+            },
+            "severity": "Minor",
+            "area": "Bristenstrasse",
+            "onset": "2026-09-27T06:00:00Z",
+            "sections": [],
+            "category": "civilProtection"
+        }
+    ]
+}

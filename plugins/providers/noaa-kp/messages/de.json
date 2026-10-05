@@ -1,0 +1,5 @@
+{
+  "source.noaa-kp.index.kp.name": "Planetarer Kp-Index",
+  "source.noaa-kp.index.kp.description": "Geschätzter planetarer geomagnetischer Aktivitätsindex 0-9, 3-Stunden-Intervalle. Keine lokale Messung.",
+  "source.noaa-kp.scale.kp": "Kp 0-9"
+}

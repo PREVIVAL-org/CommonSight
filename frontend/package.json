@@ -1,0 +1,63 @@
+{
+  "name": "commonsight-frontend",
+  "version": "2.0.0",
+  "private": true,
+  "description": "CommonSight: custom element <commonsight-map> (core TypeScript, UI React, map MapLibre)",
+  "license": "SEE LICENSE IN ../LICENSE",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "postinstall": "npm run generate",
+    "generate": "node scripts/generate-contract-types.mjs && node scripts/generate-layer-plugins.mjs",
+    "typecheck": "npm run generate --silent && tsc --noEmit",
+    "lint": "npm run generate --silent && eslint . '../plugins/layers/*/frontend/**/*.{ts,tsx}'",
+    "depcruise": "npm run generate --silent && depcruise src ../plugins/layers/*/frontend --config .dependency-cruiser.cjs",
+    "format": "prettier --write . ../plugins/layers/*/frontend",
+    "format:check": "prettier --check . ../plugins/layers/*/frontend",
+    "test": "npm run generate --silent && vitest run",
+    "build": "npm run generate && vite build && node scripts/collect-licenses.mjs",
+    "size": "node scripts/report-bundle-size.mjs",
+    "check": "npm run typecheck && npm run lint && npm run depcruise && npm run test && npm run build",
+    "e2e": "playwright test"
+  },
+  "dependencies": {
+    "@protomaps/basemaps": "^5.7.2",
+    "@radix-ui/react-dialog": "^1.1.23",
+    "@radix-ui/react-select": "^2.3.7",
+    "@radix-ui/react-switch": "^1.3.7",
+    "@radix-ui/react-tabs": "^1.1.21",
+    "@radix-ui/react-tooltip": "^1.2.16",
+    "lucide-react": "^1.48.0",
+    "maplibre-gl": "^6.11.2",
+    "pmtiles": "^4.5.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "zustand": "^5.0.15"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@playwright/test": "^1.63.0",
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.3",
+    "@testing-library/user-event": "^14.6.7",
+    "@types/geojson": "^7946.0.16",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "ajv": "^8.20.0",
+    "dependency-cruiser": "^18.4.0",
+    "eslint": "^10.11.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "globals": "^17.12.0",
+    "jsdom": "^30.1.1",
+    "json-schema-to-typescript": "^16.0.0",
+    "prettier": "^3.9.9",
+    "typescript": "~6.0.3",
+    "typescript-eslint": "^8.70.1",
+    "vite": "^8.3.1",
+    "vitest": "^5.0.2"
+  }
+}

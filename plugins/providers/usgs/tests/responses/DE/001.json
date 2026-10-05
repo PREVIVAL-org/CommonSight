@@ -1,0 +1,54 @@
+{
+    "type": "FeatureCollection",
+    "metadata": {
+        "generated": 1790605095000,
+        "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-09-21T14%3A18%3A11Z&minlatitude=46.75&maxlatitude=55.58&minlongitude=5.1&maxlongitude=15.95&orderby=time&limit=150",
+        "title": "USGS Earthquakes",
+        "status": 200,
+        "api": "2.7.0",
+        "limit": 150,
+        "offset": 1
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3.5,
+                "place": "0 km NNW of Baumkirchen, Austria",
+                "time": 1790409416068,
+                "updated": 1790581674161,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txrr",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000txrr&format=geojson",
+                "felt": 3,
+                "cdi": 3.4,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 189,
+                "net": "us",
+                "code": "6000txrr",
+                "ids": ",us6000txrr,",
+                "sources": ",us,",
+                "types": ",dyfi,origin,phase-data,",
+                "nst": 13,
+                "dmin": 1.259,
+                "rms": 0.87,
+                "gap": 75,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 3.5 - 0 km NNW of Baumkirchen, Austria"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.5616,
+                    47.3058,
+                    10
+                ]
+            },
+            "id": "us6000txrr"
+        }
+    ]
+}

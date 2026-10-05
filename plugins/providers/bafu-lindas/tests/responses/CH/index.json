@@ -1,0 +1,11 @@
+{
+    "recordedAt": "2026-09-28T14:30:00Z",
+    "requests": [
+        {
+            "signature": "GET https://lindas.admin.ch/query?query=PREFIX%20d%3A%20%3Chttps%3A%2F%2Fenvironment.ld.admin.ch%2Ffoen%2Fhydro%2Fdimension%2F%3E%0APREFIX%20schema%3A%20%3Chttp%3A%2F%2Fschema.org%2F%3E%0APREFIX%20geo%3A%20%3Chttp%3A%2F%2Fwww.opengis.net%2Font%2Fgeosparql%23%3E%0ASELECT%20%3Fid%20%3Fname%20%3FwaterName%20%3Fwkt%20%3Ftime%20%3Flevel%20%3Fflow%20%3Ftemperature%20%3Fdanger%0AFROM%20%3Chttps%3A%2F%2Flindas.admin.ch%2Ffoen%2Fhydro%3E%0AWHERE%20%7B%0A%20%20%7B%0A%20%20%20%20SELECT%20%3Fstation%20%28MAX%28%3Ft%29%20AS%20%3Ftime%29%0A%20%20%20%20WHERE%20%7B%20%3Fo%20a%20%3Chttps%3A%2F%2Fcube.link%2FObservation%3E%3B%20d%3Astation%20%3Fstation%3B%20d%3AmeasurementTime%20%3Ft.%20%7D%0A%20%20%20%20GROUP%20BY%20%3Fstation%0A%20%20%7D%0A%20%20%3Fobservation%20a%20%3Chttps%3A%2F%2Fcube.link%2FObservation%3E%3B%20d%3Astation%20%3Fstation%3B%20d%3AmeasurementTime%20%3Ftime.%0A%20%20%3Fstation%20schema%3Aidentifier%20%3Fid%3B%20schema%3Aname%20%3Fname%3B%20geo%3AhasGeometry%2Fgeo%3AasWKT%20%3Fwkt.%0A%20%20OPTIONAL%20%7B%20%3Fstation%20schema%3AcontainedInPlace%2Fschema%3Aname%20%3FwaterName.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fobservation%20d%3AwaterLevel%20%3Flevel.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fobservation%20d%3Adischarge%20%3Fflow.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fobservation%20d%3AwaterTemperature%20%3Ftemperature.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fobservation%20d%3AdangerLevel%20%3Fdanger.%20%7D%0A%7D",
+            "status": 200,
+            "headers": {},
+            "file": "001.json"
+        }
+    ]
+}

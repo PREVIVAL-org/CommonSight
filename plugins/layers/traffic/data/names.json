@@ -1,0 +1,14 @@
+{
+  "DE": {
+    "name": "Autobahn GmbH",
+    "url": "https://www.autobahn.de/unterwegs"
+  },
+  "AT": {
+    "name": "ÖAMTC · GeoRSS",
+    "url": "https://www.oeamtc.at/verkehrsservice/"
+  },
+  "CH": {
+    "name": "ASTRA · opentransportdata.swiss",
+    "url": "https://opentransportdata.swiss/"
+  }
+}

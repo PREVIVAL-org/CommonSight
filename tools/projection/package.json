@@ -1,0 +1,12 @@
+{
+  "name": "commonsight-projection-reference",
+  "private": true,
+  "description": "Generates reference points EPSG:31287 <-> WGS84 for the tests of the in-house conversion (Architecture 4.10, Q-W-AT-04).",
+  "type": "module",
+  "scripts": {
+    "reference": "node reference.mjs"
+  },
+  "dependencies": {
+    "proj4": "^2.15.0"
+  }
+}

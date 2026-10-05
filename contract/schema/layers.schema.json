@@ -1,0 +1,387 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://commonsight.org/schema/v1/layers.schema.json",
+  "title": "Layers",
+  "description": "Generated from the layer plugins by bin/build-contract.php: key figures and scopes per layer. Do not edit.",
+  "$defs": {
+    "emptyStats": {
+      "title": "EmptyStats",
+      "type": "object",
+      "additionalProperties": false
+    },
+    "radiationStats": {
+      "title": "RadiationStats",
+      "description": "Color scale of the radiation (Q-RA-05).",
+      "type": "object",
+      "properties": {
+        "colorScale": {
+          "type": "object",
+          "properties": {
+            "elevated": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "high": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "unit": {
+              "const": "µSv/h"
+            },
+            "maxAgeHours": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "origin": {
+              "const": "display"
+            }
+          },
+          "required": [
+            "elevated",
+            "high",
+            "unit",
+            "maxAgeHours",
+            "origin"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "colorScale"
+      ],
+      "additionalProperties": false
+    },
+    "spaceStats": {
+      "title": "SpaceStats",
+      "description": "Current Kp, history of the last 16 values, NOAA scales (Q-SP-04).",
+      "type": "object",
+      "properties": {
+        "kp": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "history": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          },
+          "maxItems": 16
+        },
+        "G": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 5
+        },
+        "R": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 5
+        },
+        "S": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 5
+        }
+      },
+      "required": [
+        "kp",
+        "history",
+        "G",
+        "R",
+        "S"
+      ],
+      "additionalProperties": false
+    },
+    "layerStats": {
+      "title": "LayerStats",
+      "anyOf": [
+        {
+          "$ref": "#/$defs/radiationStats"
+        },
+        {
+          "$ref": "#/$defs/spaceStats"
+        },
+        {
+          "$ref": "#/$defs/emptyStats"
+        }
+      ]
+    },
+    "byLayer": {
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "layer": {
+                "const": "warnings"
+              }
+            },
+            "required": [
+              "layer"
+            ]
+          },
+          "then": {
+            "properties": {
+              "stats": {
+                "$ref": "#/$defs/emptyStats"
+              },
+              "scope": {
+                "enum": [
+                  "DE",
+                  "AT",
+                  "CH"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "layer": {
+                "const": "weather"
+              }
+            },
+            "required": [
+              "layer"
+            ]
+          },
+          "then": {
+            "properties": {
+              "stats": {
+                "$ref": "#/$defs/emptyStats"
+              },
+              "scope": {
+                "enum": [
+                  "DE",
+                  "AT",
+                  "CH",
+                  "border"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "layer": {
+                "const": "air"
+              }
+            },
+            "required": [
+              "layer"
+            ]
+          },
+          "then": {
+            "properties": {
+              "stats": {
+                "$ref": "#/$defs/emptyStats"
+              },
+              "scope": {
+                "enum": [
+                  "DE",
+                  "AT",
+                  "CH",
+                  "border"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "layer": {
+                "const": "pollen"
+              }
+            },
+            "required": [
+              "layer"
+            ]
+          },
+          "then": {
+            "properties": {
+              "stats": {
+                "$ref": "#/$defs/emptyStats"
+              },
+              "scope": {
+                "enum": [
+                  "DE",
+                  "AT",
+                  "CH",
+                  "border"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "layer": {
+                "const": "water"
+              }
+            },
+            "required": [
+              "layer"
+            ]
+          },
+          "then": {
+            "properties": {
+              "stats": {
+                "$ref": "#/$defs/emptyStats"
+              },
+              "scope": {
+                "enum": [
+                  "DE",
+                  "AT",
+                  "CH",
+                  "border"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "layer": {
+                "const": "radiation"
+              }
+            },
+            "required": [
+              "layer"
+            ]
+          },
+          "then": {
+            "properties": {
+              "stats": {
+                "$ref": "#/$defs/radiationStats"
+              },
+              "scope": {
+                "enum": [
+                  "DE",
+                  "AT",
+                  "CH",
+                  "border"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "layer": {
+                "const": "space"
+              }
+            },
+            "required": [
+              "layer"
+            ]
+          },
+          "then": {
+            "properties": {
+              "stats": {
+                "$ref": "#/$defs/spaceStats"
+              },
+              "scope": {
+                "enum": [
+                  "global"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "layer": {
+                "const": "nature"
+              }
+            },
+            "required": [
+              "layer"
+            ]
+          },
+          "then": {
+            "properties": {
+              "stats": {
+                "$ref": "#/$defs/emptyStats"
+              },
+              "scope": {
+                "enum": [
+                  "DE",
+                  "AT",
+                  "CH",
+                  "border"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "layer": {
+                "const": "traffic"
+              }
+            },
+            "required": [
+              "layer"
+            ]
+          },
+          "then": {
+            "properties": {
+              "stats": {
+                "$ref": "#/$defs/emptyStats"
+              },
+              "scope": {
+                "enum": [
+                  "DE",
+                  "AT",
+                  "CH"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "layer": {
+                "const": "news"
+              }
+            },
+            "required": [
+              "layer"
+            ]
+          },
+          "then": {
+            "properties": {
+              "stats": {
+                "$ref": "#/$defs/emptyStats"
+              },
+              "scope": {
+                "enum": [
+                  "global"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

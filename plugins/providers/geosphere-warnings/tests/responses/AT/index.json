@@ -1,0 +1,11 @@
+{
+    "recordedAt": "2026-09-28T14:30:00Z",
+    "requests": [
+        {
+            "signature": "GET https://warnungen.zamg.at/wsapp/api/getWarnstatus",
+            "status": 200,
+            "headers": {},
+            "file": "001.json"
+        }
+    ]
+}

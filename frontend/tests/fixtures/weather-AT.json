@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "layer": "weather",
+  "scope": "AT",
+  "status": "ok",
+  "source": "Open-Meteo",
+  "sourceUrl": "https://open-meteo.com/",
+  "generatedAt": "2026-09-28T11:45:00Z",
+  "updatedAt": "2026-09-28T11:45:00Z",
+  "note": {
+    "key": "layer.weather.note"
+  },
+  "coverage": [],
+  "issues": [],
+  "stats": {},
+  "items": [
+    {
+      "kind": "modelValue",
+      "id": "at-wien",
+      "title": "Wien",
+      "url": "https://open-meteo.com/",
+      "time": "2026-09-28T11:45:00Z",
+      "lat": 48.2082,
+      "lon": 16.3738,
+      "regionIds": ["AT-9"],
+      "regionMatch": "source",
+      "quantity": "temperature",
+      "value": 18.46,
+      "unit": "°C",
+      "summary": {
+        "key": "source.open-meteo-weather.summary.weather.cloudy"
+      },
+      "facts": [
+        {
+          "label": {
+            "key": "source.open-meteo-weather.fact.wind"
+          },
+          "value": 12.3,
+          "unit": "km/h"
+        },
+        {
+          "label": {
+            "key": "source.open-meteo-weather.fact.humidity"
+          },
+          "value": 64,
+          "unit": "%"
+        },
+        {
+          "label": {
+            "key": "source.open-meteo-weather.fact.precipitation"
+          },
+          "value": 0,
+          "unit": "mm"
+        }
+      ]
+    },
+    {
+      "kind": "modelValue",
+      "id": "at-niederoesterreich",
+      "title": "Modellpunkt Niederösterreich",
+      "url": "https://open-meteo.com/",
+      "time": "2026-09-28T11:45:00Z",
+      "lat": 48.22171,
+      "lon": 15.57607,
+      "regionIds": ["AT-3"],
+      "regionMatch": "source",
+      "quantity": "temperature",
+      "value": 16.9,
+      "unit": "°C",
+      "summary": {
+        "key": "source.open-meteo-weather.summary.weather.rain"
+      },
+      "facts": []
+    }
+  ]
+}

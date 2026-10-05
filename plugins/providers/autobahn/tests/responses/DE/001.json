@@ -1,0 +1,96 @@
+{
+    "warning": [
+        {
+            "identifier": "INRIX--vi-avl.2026-09-28_12-53-00-000_009.de0",
+            "icon": "101",
+            "isBlocked": "false",
+            "future": false,
+            "point": "51.005055987228175,6.907316109670157",
+            "startLcPosition": "75",
+            "display_type": "WARNING",
+            "subtitle": " Euskirchen -> Dortmund",
+            "title": "A1 | Köln-Nord - Leverkusen-West",
+            "startTimestamp": "2026-09-28T12:53:00Z",
+            "delayTimeValue": "6",
+            "abnormalTrafficType": "SLOW_TRAFFIC",
+            "averageSpeed": "30",
+            "coordinate": {
+                "lat": 51.005055987228175,
+                "long": 6.907316109670157
+            },
+            "description": [
+                "Beginn: 28.09.26 um 14:53 Uhr",
+                "",
+                "Angespannte Verkehrslage, seit 28.09.2026, 12:53",
+                "A1: Euskirchen -> Dortmund, zwischen 1.5 km hinter AK Köln-Nord und 0.1 km vor AK Leverkusen-West",
+                "",
+                "Ereignismeldung:",
+                "- Stockender Verkehr",
+                "- Durchschnittsgeschwindigkeit: 30 km/h",
+                "- Reisezeitverlust: 6 Minuten (zunehmend)"
+            ],
+            "routeRecommendation": [],
+            "source": "inrix"
+        },
+        {
+            "identifier": "INRIX--vi-avl.2026-09-28_03-27-00-000_007.de0",
+            "icon": "101",
+            "isBlocked": "false",
+            "future": false,
+            "point": "53.02368066266646,8.824769969045523",
+            "startLcPosition": "182",
+            "display_type": "WARNING",
+            "subtitle": " Osnabrück -> Bremen",
+            "title": "A1 | Krummhörens Kuhlen - Bremen-Hemelingen",
+            "startTimestamp": "2026-09-28T03:27:00Z",
+            "delayTimeValue": "14",
+            "abnormalTrafficType": "QUEUING_TRAFFIC",
+            "coordinate": {
+                "lat": 53.02368066266646,
+                "long": 8.824769969045523
+            },
+            "description": [
+                "Beginn: 28.09.26 um 05:27 Uhr",
+                "",
+                "Angespannte Verkehrslage, seit 28.09.2026, 03:27",
+                "A1: Osnabrück -> Bremen, zwischen Krummhörens Kuhlen und 1.5 km vor AS Bremen-Hemelingen",
+                "",
+                "Ereignismeldung:",
+                "- Im Stillstand",
+                "- Reisezeitverlust: 14 Minuten"
+            ],
+            "routeRecommendation": [],
+            "source": "inrix"
+        },
+        {
+            "identifier": "INRIX--vi-avl.2026-09-28_04-29-00-000_024.de0",
+            "icon": "101",
+            "isBlocked": "false",
+            "future": false,
+            "point": "53.027450485343415,8.944800381457494",
+            "startLcPosition": "187",
+            "display_type": "WARNING",
+            "subtitle": " Hamburg -> Osnabrück",
+            "title": "A1 | Uphusen/Bremen-Mahndorf - Bremen-Arsten",
+            "startTimestamp": "2026-09-28T04:29:00Z",
+            "delayTimeValue": "16",
+            "abnormalTrafficType": "QUEUING_TRAFFIC",
+            "coordinate": {
+                "lat": 53.027450485343415,
+                "long": 8.944800381457494
+            },
+            "description": [
+                "Beginn: 28.09.26 um 06:29 Uhr",
+                "",
+                "Angespannte Verkehrslage, seit 28.09.2026, 04:29",
+                "A1: Hamburg -> Osnabrück, zwischen 1.3 km hinter AS Uphusen/Bremen-Mahndorf und 0.6 km vor AS Bremen-Arsten",
+                "",
+                "Ereignismeldung:",
+                "- Im Stillstand",
+                "- Reisezeitverlust: 16 Minuten (zunehmend)"
+            ],
+            "routeRecommendation": [],
+            "source": "inrix"
+        }
+    ]
+}

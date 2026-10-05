@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection",
+  "totalFeatures": 4,
+  "numberMatched": 5,
+  "numberReturned": 5,
+  "timeStamp": "2026-09-28T11:58:00.000Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "Warnungen_Landkreise.stormarn-1",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[10.1511, 53.6003], [10.4876, 53.6003], [10.4876, 53.8412], [10.1511, 53.8412], [10.1511, 53.6003]]]
+      },
+      "properties": {
+        "AREADESC": "Kreis Stormarn",
+        "IDENTIFIER": "2.49.0.0.276.0.DWD.PVW.1790589600000.a",
+        "SENT": "2026-09-28T10:00:00Z",
+        "STATUS": "Actual",
+        "MSGTYPE": "Alert",
+        "CATEGORY": "Met",
+        "EVENT": "STURMBÖEN",
+        "SEVERITY": "Moderate",
+        "ONSET": "2026-09-28T11:00:00Z",
+        "EXPIRES": "2026-09-28T20:00:00Z",
+        "HEADLINE": "Amtliche WARNUNG vor STURMBÖEN",
+        "DESCRIPTION": "Es treten Sturmböen mit Geschwindigkeiten um 70 km/h (20m/s, 38kn, Bft 8) aus westlicher Richtung auf.",
+        "INSTRUCTION": "ACHTUNG! Hinweis auf mögliche Gefahren: Es können zum Beispiel einzelne Äste herabstürzen.",
+        "WEB": "https://www.wettergefahren.de"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Warnungen_Landkreise.cancel-1",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[10.1511, 53.6003], [10.4876, 53.6003], [10.4876, 53.8412], [10.1511, 53.6003]]]
+      },
+      "properties": {
+        "AREADESC": "Kreis Stormarn",
+        "MSGTYPE": "Cancel",
+        "EVENT": "FROST",
+        "SEVERITY": "Minor",
+        "EXPIRES": "2026-09-28T20:00:00Z",
+        "HEADLINE": "Aufhebung der Warnung vor FROST"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Warnungen_Landkreise.exercise-1",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[11.5, 48.1], [11.7, 48.1], [11.7, 48.2], [11.5, 48.2], [11.5, 48.1]]]
+      },
+      "properties": {
+        "AREADESC": "Stadt München",
+        "MSGTYPE": "Alert",
+        "STATUS": "Exercise",
+        "EVENT": "GEWITTER",
+        "SEVERITY": "Moderate",
+        "SENT": "2026-09-28T11:00:00Z",
+        "EXPIRES": "2026-09-28T18:00:00Z",
+        "HEADLINE": "Übung: Amtliche WARNUNG vor GEWITTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Warnungen_Landkreise.expired-1",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[11.5, 48.1], [11.7, 48.1], [11.7, 48.2], [11.5, 48.2], [11.5, 48.1]]]
+      },
+      "properties": {
+        "AREADESC": "Stadt München",
+        "MSGTYPE": "Alert",
+        "EVENT": "GEWITTER",
+        "SEVERITY": "Moderate",
+        "SENT": "2026-09-28T06:00:00Z",
+        "EXPIRES": "2026-09-28T09:00:00Z",
+        "HEADLINE": "Amtliche WARNUNG vor GEWITTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Warnungen_Landkreise.brokengeo-1",
+      "geometry": { "type": "Polygon", "coordinates": [] },
+      "properties": {
+        "AREADESC": "Landkreis Berchtesgadener Land",
+        "MSGTYPE": "Update",
+        "EVENT": "SCHWERES GEWITTER mit ORKANBÖEN",
+        "SEVERITY": "Severe",
+        "SENT": "2026-09-28T11:30:00Z",
+        "ONSET": "2026-09-28T12:00:00Z",
+        "EXPIRES": "2026-09-28T18:00:00Z",
+        "HEADLINE": "Amtliche UNWETTERWARNUNG vor SCHWEREM GEWITTER mit ORKANBÖEN",
+        "DESCRIPTION": "Von Südwesten ziehen Gewitter auf.",
+        "WEB": "javascript:alert(1)"
+      }
+    }
+  ]
+}

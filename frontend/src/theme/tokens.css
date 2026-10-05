@@ -1,0 +1,175 @@
+/*
+ * Default values of the theming variables (doc/ARCHITECTURE.md 10). Internally each variable is
+ * `--_x: var(--cs-x, default)`, so that a value set by the host page applies in both modes and the defaults
+ * switch per mode.
+ */
+:host {
+  display: block;
+  position: relative;
+  /*
+   * Only style containment: `contain: layout` would make the element the containing block of everything with
+   * position: fixed (detail sheet, overlay, toasts, place list). On long pages, above all on phones, these would
+   * then sit at the top of the element instead of the visible screen.
+   */
+  contain: style;
+}
+
+:host([hidden]) {
+  display: none;
+}
+
+/*
+ * Surfaces, text, lines, accent and input fields follow the PREVIVAL forum (WoltLab style "Standard Stil Neu",
+ * light and dark, as of 2026-10-01). Kept on purpose: the secondary text (the forum's dimmed text reaches only
+ * 4.4:1), secondary buttons, state, map and layer colors.
+ */
+.root {
+  /* 2.1 Surfaces */
+  --_bg: var(--cs-bg, #fafafa);
+  --_surface: var(--cs-surface, #ffffff);
+  --_surface-subtle: var(--cs-surface-subtle, #ecf1f7);
+  --_surface-raised: var(--cs-surface-raised, #ffffff);
+  --_overlay: var(--cs-overlay, rgb(15 23 42 / 0.35));
+  /* 2.2 Text */
+  --_text: var(--cs-text, #3a3a3d);
+  --_text-strong: var(--cs-text-strong, #3a3a3d);
+  /* Secondary text with contrast ≥ 7:1 on surface and background (WCAG AAA), readable even at small sizes. */
+  --_text-muted: var(--cs-text-muted, #434f5f);
+  --_link: var(--cs-link, #2671a6);
+  --_link-hover: var(--cs-link-hover, color-mix(in srgb, var(--_link) 80%, var(--_text)));
+  /* 2.3 Lines */
+  --_border: var(--cs-border, #e0e0e0);
+  --_border-strong: var(--cs-border-strong, #b0c8e0);
+  /* Borders of controls (buttons, fields) and the switch when off: at least 3:1 against the surfaces (WCAG 1.4.11). */
+  --_control-border: var(--cs-control-border, #7489a0);
+  /* 2.4 Accent */
+  --_accent: var(--cs-accent, #1d7ac5);
+  --_accent-text: var(--cs-accent-text, #ffffff);
+  --_accent-hover: var(--cs-accent-hover, color-mix(in srgb, var(--_accent) 85%, var(--_text)));
+  --_accent-subtle: var(--cs-accent-subtle, #e8f1f9);
+  /* 2.5 States */
+  --_hover: var(--cs-hover, #eef3f8);
+  --_selected: var(--cs-selected, #edf4fa);
+  --_focus-ring: var(--cs-focus-ring, var(--_accent));
+  --_ok: var(--cs-ok, #27745a);
+  --_ok-bg: var(--cs-ok-bg, #e8f4ee);
+  --_warn: var(--cs-warn, #946124);
+  --_warn-bg: var(--cs-warn-bg, #fcf2e4);
+  --_error: var(--cs-error, #b84040);
+  --_error-bg: var(--cs-error-bg, #fbecec);
+  /* 2.6 Typography */
+  /* Sans-serif as an accessibility requirement; the host page can set its own sans-serif font. */
+  --_font-family: var(
+    --cs-font-family,
+    'Open Sans',
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    Roboto,
+    'Noto Sans',
+    'Helvetica Neue',
+    Arial,
+    sans-serif
+  );
+  --_font-family-mono: var(--cs-font-family-mono, ui-monospace, SFMono-Regular, Menlo, monospace);
+  --_font-size-sm: var(--cs-font-size-sm, 0.875rem);
+  --_font-size: var(--cs-font-size, 0.9375rem);
+  --_font-size-lg: var(--cs-font-size-lg, 1.0625rem);
+  --_font-size-xl: var(--cs-font-size-xl, 1.375rem);
+  --_font-size-2xl: var(--cs-font-size-2xl, 1.75rem);
+  --_font-weight: var(--cs-font-weight, 400);
+  --_font-weight-strong: var(--cs-font-weight-strong, 600);
+  --_line-height: var(--cs-line-height, 1.5);
+  /* 2.7 Shape */
+  --_space-1: var(--cs-space-1, 4px);
+  --_space-2: var(--cs-space-2, 8px);
+  --_space-3: var(--cs-space-3, 12px);
+  --_space-4: var(--cs-space-4, 16px);
+  --_space-5: var(--cs-space-5, 24px);
+  --_space-6: var(--cs-space-6, 32px);
+  --_radius-sm: var(--cs-radius-sm, 0.25rem);
+  --_radius: var(--cs-radius, 0.45rem);
+  --_radius-lg: var(--cs-radius-lg, 0.75rem);
+  --_shadow: var(--cs-shadow, 0 1px 2px rgb(15 23 42 / 0.06));
+  --_shadow-raised: var(--cs-shadow-raised, 0 8px 24px rgb(15 23 42 / 0.16));
+  --_focus-ring-width: var(--cs-focus-ring-width, 3px);
+  /* 2.8 Controls */
+  --_button-bg: var(--cs-button-bg, #ffffff);
+  --_button-text: var(--cs-button-text, var(--_text));
+  --_button-border: var(--cs-button-border, var(--_control-border));
+  --_button-hover: var(--cs-button-hover, var(--_hover));
+  --_input-bg: var(--cs-input-bg, #f1f6fb);
+  --_input-text: var(--cs-input-text, var(--_text));
+  --_input-border: var(--cs-input-border, var(--_control-border));
+  --_switch-on: var(--cs-switch-on, var(--_accent));
+  --_switch-off: var(--cs-switch-off, var(--_control-border));
+  --_tab-active: var(--cs-tab-active, var(--_accent));
+  --_tab-active-text: var(--cs-tab-active-text, var(--_accent-text));
+  /* 2.9 Map */
+  --_map-land: var(--cs-map-land, #e4e8ec);
+  --_map-water: var(--cs-map-water, #c7d9ea);
+  --_map-park: var(--cs-map-park, #dbe6d8);
+  --_map-building: var(--cs-map-building, #d6dbe1);
+  --_map-road: var(--cs-map-road, #ffffff);
+  --_map-road-major: var(--cs-map-road-major, #f5deb0);
+  --_map-boundary: var(--cs-map-boundary, #8a96a3);
+  --_map-label: var(--cs-map-label, #3a3a3d);
+  --_map-label-halo: var(--cs-map-label-halo, rgb(255 255 255 / 0.93));
+  --_map-mask: var(--cs-map-mask, var(--_bg));
+  --_map-region: var(--cs-map-region, #1d6cb2);
+  /* 2.10 Layers: --_layer-<id> per layer from the registry (stylesheets.ts) */
+  /* 2.11 Header (B-D2): bar, its text and the line below it */
+  --_header-bg: var(--cs-header-bg, #245a82);
+  --_header-text: var(--cs-header-text, #ffffff);
+  --_header-line: var(--cs-header-line, #f2a23a);
+  color-scheme: light;
+}
+
+.root[data-theme='dark'] {
+  --_bg: var(--cs-bg, #1a1d21);
+  --_surface: var(--cs-surface, #222529);
+  --_surface-subtle: var(--cs-surface-subtle, #1e2734);
+  --_surface-raised: var(--cs-surface-raised, #282e36);
+  --_overlay: var(--cs-overlay, rgb(0 0 0 / 0.55));
+  --_text: var(--cs-text, #d1d2d3);
+  --_text-strong: var(--cs-text-strong, #d1d2d3);
+  --_text-muted: var(--cs-text-muted, #b9c3cf);
+  --_link: var(--cs-link, #2ea7dc);
+  --_border: var(--cs-border, #36373b);
+  --_border-strong: var(--cs-border-strong, #575856);
+  --_control-border: var(--cs-control-border, #767774);
+  /* The forum's dark primary blue #01579b has only 2:1 against the background: too weak for switches and the
+     focus ring (3:1). It stays on surfaces with text (active tab); the accent is the link blue. */
+  --_accent: var(--cs-accent, #1d9bd1);
+  --_accent-text: var(--cs-accent-text, #ffffff);
+  --_tab-active: var(--cs-tab-active, #01579b);
+  --_tab-active-text: var(--cs-tab-active-text, #e7ecf5);
+  --_accent-subtle: var(--cs-accent-subtle, #2a3b4f);
+  --_hover: var(--cs-hover, #324153);
+  --_selected: var(--cs-selected, #273a4c);
+  --_ok: var(--cs-ok, #8dd6b6);
+  --_ok-bg: var(--cs-ok-bg, #20382f);
+  --_warn: var(--cs-warn, #e0b57c);
+  --_warn-bg: var(--cs-warn-bg, #3a3023);
+  --_error: var(--cs-error, #f07f7b);
+  --_error-bg: var(--cs-error-bg, #3a2323);
+  --_shadow: var(--cs-shadow, 0 1px 2px rgb(0 0 0 / 0.4));
+  --_shadow-raised: var(--cs-shadow-raised, 0 8px 24px rgb(0 0 0 / 0.5));
+  --_button-bg: var(--cs-button-bg, #2a333f);
+  --_input-bg: var(--cs-input-bg, #1a1d21);
+  --_switch-off: var(--cs-switch-off, #6b7a8c);
+  --_map-land: var(--cs-map-land, #1c2731);
+  --_map-water: var(--cs-map-water, #0f1b26);
+  --_map-park: var(--cs-map-park, #1c2b25);
+  --_map-building: var(--cs-map-building, #243039);
+  --_map-road: var(--cs-map-road, #2c3845);
+  --_map-road-major: var(--cs-map-road-major, #4a4430);
+  --_map-boundary: var(--cs-map-boundary, #6c7b8c);
+  --_map-label: var(--cs-map-label, #c8d6e4);
+  --_map-label-halo: var(--cs-map-label-halo, rgb(32 44 58 / 0.93));
+  --_map-region: var(--cs-map-region, #91cdf1);
+  --_header-bg: var(--cs-header-bg, #1e2734);
+  --_header-text: var(--cs-header-text, #e6e8ea);
+  --_header-line: var(--cs-header-line, #f2a23a);
+  color-scheme: dark;
+}

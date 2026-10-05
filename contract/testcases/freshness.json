@@ -1,0 +1,18 @@
+{
+  "description": "Gemeinsame Testfälle der erneuten Frische-Prüfung einer Einordnung (B-03, Architektur 3.4). Backend (FreshnessCheck) und Frontend (domain/freshness.ts) laufen beide gegen diese Fälle. 'recheck' prüft eine gelieferte Einordnung gegen die aktuelle Zeit; 'atFetch' prüft beim Abruf aus Messzeit und Höchstalter (B-01, nur Backend).",
+  "recheck": [
+    { "name": "gültig", "assessment": { "level": "elevated", "validUntil": "2026-09-28T12:00:00Z" }, "now": "2026-09-28T11:59:59Z", "expected": "current" },
+    { "name": "genau abgelaufen", "assessment": { "level": "elevated", "validUntil": "2026-09-28T12:00:00Z" }, "now": "2026-09-28T12:00:00Z", "expected": "expired" },
+    { "name": "lange abgelaufen", "assessment": { "level": "normal", "validUntil": "2026-09-27T12:00:00Z" }, "now": "2026-09-28T12:00:00Z", "expected": "expired" },
+    { "name": "ohne validUntil", "assessment": { "level": "high" }, "now": "2026-09-28T12:00:00Z", "expected": "missing" },
+    { "name": "bereits unbekannt", "assessment": { "level": "unknown", "validUntil": "2026-09-28T18:00:00Z" }, "now": "2026-09-28T12:00:00Z", "expected": "missing" }
+  ],
+  "atFetch": [
+    { "name": "frisch", "time": "2026-09-28T10:00:00Z", "maxAgeHours": 6, "now": "2026-09-28T12:00:00Z", "expected": "current", "validUntil": "2026-09-28T16:00:00Z" },
+    { "name": "genau Höchstalter", "time": "2026-09-28T06:00:00Z", "maxAgeHours": 6, "now": "2026-09-28T12:00:00Z", "expected": "expired", "validUntil": "2026-09-28T12:00:00Z" },
+    { "name": "Strahlung 11 h alt", "time": "2026-09-28T01:00:00Z", "maxAgeHours": 12, "now": "2026-09-28T12:00:00Z", "expected": "current", "validUntil": "2026-09-28T13:00:00Z" },
+    { "name": "Zeit fehlt", "time": null, "maxAgeHours": 6, "now": "2026-09-28T12:00:00Z", "expected": "timeMissing", "validUntil": null },
+    { "name": "15 min in der Zukunft ist noch plausibel", "time": "2026-09-28T12:15:00Z", "maxAgeHours": 6, "now": "2026-09-28T12:00:00Z", "expected": "current", "validUntil": "2026-09-28T18:15:00Z" },
+    { "name": "mehr als 15 min in der Zukunft", "time": "2026-09-28T12:15:01Z", "maxAgeHours": 6, "now": "2026-09-28T12:00:00Z", "expected": "timeMissing", "validUntil": null }
+  ]
+}

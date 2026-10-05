@@ -1,0 +1,17 @@
+{
+  "DE": [
+    { "label": "Warnung Bund", "url": "https://warnung.bund.de/" },
+    { "label": "Hochwasserzentralen", "url": "https://www.hochwasserzentralen.de/" },
+    { "label": "Lawinenwarndienst Bayern", "url": "https://lawinenwarndienst.bayern.de/" }
+  ],
+  "AT": [
+    { "label": "AT-Alert", "url": "https://warnungen.at-alert.at/" },
+    { "label": "HORA · Naturgefahren", "url": "https://hora.gv.at/" },
+    { "label": "Lawinenwarndienste", "url": "https://lawinen.at/" }
+  ],
+  "CH": [
+    { "label": "Alertswiss", "url": "https://www.alert.swiss/de/home.html" },
+    { "label": "Naturgefahrenportal", "url": "https://www.naturgefahren.ch/" },
+    { "label": "SLF · Lawinenbulletin", "url": "https://www.slf.ch/de/lawinenbulletin-und-schneesituation/" }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+    "schema": 1,
+    "layer": "nature",
+    "scope": "AT",
+    "status": "ok",
+    "source": "USGS · Erdbebendienst",
+    "sourceUrl": "https://earthquake.usgs.gov/",
+    "generatedAt": "2026-09-28T14:30:00Z",
+    "updatedAt": "2026-09-28T14:18:16Z",
+    "note": {
+        "key": "layer.nature.note"
+    },
+    "coverage": [],
+    "issues": [],
+    "stats": {},
+    "items": [
+        {
+            "kind": "earthquake",
+            "id": "usgs:us6000txrr",
+            "title": "Erdbeben · 0 km NNW von Baumkirchen, Österreich",
+            "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txrr",
+            "time": "2026-09-26T07:56:56Z",
+            "lat": 47.3058,
+            "lon": 11.5616,
+            "regionIds": [
+                "AT-7"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-2",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-SG",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-ZH"
+                ]
+            },
+            "magnitude": 3.5,
+            "depthKm": 10.0,
+            "place": "0 km NNW von Baumkirchen, Österreich"
+        }
+    ]
+}

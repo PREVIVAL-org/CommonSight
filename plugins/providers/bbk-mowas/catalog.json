@@ -1,0 +1,14 @@
+{
+  "warningCategories": [
+    {
+      "id": "police",
+      "label": "Polizei",
+      "definition": "Message of the police, e.g. a search or a dangerous situation (NINA)."
+    },
+    {
+      "id": "flood",
+      "label": "Hochwasser",
+      "definition": "Flood message of a state flood centre (Länderübergreifendes Hochwasserportal, NINA)."
+    }
+  ]
+}

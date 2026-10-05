@@ -1,0 +1,1336 @@
+{
+    "schema": 1,
+    "layer": "radiation",
+    "scope": "DE",
+    "status": "partial",
+    "source": "BfS · ODL",
+    "sourceUrl": "https://odlinfo.bfs.de/",
+    "generatedAt": "2026-09-28T14:30:00Z",
+    "updatedAt": "2026-09-28T13:00:00Z",
+    "note": {
+        "key": "layer.radiation.note",
+        "params": {
+            "elevated": 0.3,
+            "high": 1.0
+        }
+    },
+    "coverage": [],
+    "issues": [
+        {
+            "key": "issue.belowExpected",
+            "params": {
+                "source": "BfS ODL",
+                "valid": 22,
+                "expected": 1000
+            }
+        }
+    ],
+    "stats": {
+        "colorScale": {
+            "elevated": 0.3,
+            "high": 1.0,
+            "unit": "µSv/h",
+            "maxAgeHours": 12,
+            "origin": "display"
+        }
+    },
+    "items": [
+        {
+            "kind": "measurement",
+            "id": "odl:DEZ2126",
+            "title": "Neuglobsow",
+            "url": "https://odlinfo.bfs.de/",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 53.14,
+            "lon": 13.03,
+            "regionIds": [
+                "DE-BB"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BE",
+                    "DE-HH",
+                    "DE-MV",
+                    "DE-NI",
+                    "DE-SH",
+                    "DE-SN",
+                    "DE-ST"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.086,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:DEZ1361",
+            "title": "München-Neuperlach",
+            "url": "https://odlinfo.bfs.de/",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 48.09,
+            "lon": 11.66,
+            "regionIds": [
+                "DE-BY"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-2",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-GR",
+                    "CH-SG",
+                    "CH-TG"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.097,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:DEZ2525",
+            "title": "Plauen",
+            "url": "https://odlinfo.bfs.de/",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 50.48,
+            "lon": 12.13,
+            "regionIds": [
+                "DE-SN"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-SN",
+                    "DE-ST",
+                    "DE-TH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.124,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:DEZ1210",
+            "title": "Pfalzgrafenweiler",
+            "url": "https://odlinfo.bfs.de/",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 48.52,
+            "lon": 8.56,
+            "regionIds": [
+                "DE-BW"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-HE",
+                    "DE-RP",
+                    "DE-SL",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-UR",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.144,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:DEZ2944",
+            "title": "Bichl",
+            "url": "https://odlinfo.bfs.de/",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 47.72,
+            "lon": 11.41,
+            "regionIds": [
+                "DE-BY"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-2",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.111,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:DEZ3130",
+            "title": "Lahr",
+            "url": "https://odlinfo.bfs.de/",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 48.36,
+            "lon": 7.83,
+            "regionIds": [
+                "DE-BW"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-HE",
+                    "DE-RP",
+                    "DE-SL",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.155,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:DEZ1232",
+            "title": "Wyhl",
+            "url": "https://odlinfo.bfs.de/",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 48.16,
+            "lon": 7.64,
+            "regionIds": [
+                "DE-BW"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-HE",
+                    "DE-RP",
+                    "DE-SL",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.118,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:DEZ0790",
+            "title": "Waldmichelbach ST Gadern",
+            "url": "https://odlinfo.bfs.de/",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 49.59,
+            "lon": 8.81,
+            "regionIds": [
+                "DE-HE"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-HE",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-SL",
+                    "DE-TH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.149,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:DEZ0652",
+            "title": "Senden",
+            "url": "https://odlinfo.bfs.de/",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 51.85,
+            "lon": 7.48,
+            "regionIds": [
+                "DE-NW"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HB",
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-TH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.094,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:DEZ3513",
+            "title": "Groß Wokern",
+            "url": "https://odlinfo.bfs.de/",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 53.76,
+            "lon": 12.49,
+            "regionIds": [
+                "DE-MV"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BE",
+                    "DE-HH",
+                    "DE-MV",
+                    "DE-NI",
+                    "DE-SH",
+                    "DE-ST"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.093,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:DEZ2867",
+            "title": "Brunsbüttel",
+            "url": "https://odlinfo.bfs.de/",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 53.9,
+            "lon": 9.13,
+            "regionIds": [
+                "DE-SH"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-HB",
+                    "DE-HH",
+                    "DE-MV",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-SH",
+                    "DE-ST"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.093,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:DEZ3561",
+            "title": "Königswinter",
+            "url": "https://odlinfo.bfs.de/",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 50.73,
+            "lon": 7.2,
+            "regionIds": [
+                "DE-NW"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-SL",
+                    "DE-TH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.135,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:DEZ2995",
+            "title": "Seßlach",
+            "url": "https://odlinfo.bfs.de/",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 50.18,
+            "lon": 10.84,
+            "regionIds": [
+                "DE-BY"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-HE",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-SN",
+                    "DE-ST",
+                    "DE-TH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.136,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:DEZ2795",
+            "title": "Groß Rheide",
+            "url": "https://odlinfo.bfs.de/",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 54.44,
+            "lon": 9.43,
+            "regionIds": [
+                "DE-SH"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-HB",
+                    "DE-HH",
+                    "DE-MV",
+                    "DE-NI",
+                    "DE-SH",
+                    "DE-ST"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.081,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:DEZ3443",
+            "title": "Villingen-Schw. OT Rietheim",
+            "url": "https://odlinfo.bfs.de/",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 48.02,
+            "lon": 8.44,
+            "regionIds": [
+                "DE-BW"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-HE",
+                    "DE-RP",
+                    "DE-SL",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.098,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:DEZ3160",
+            "title": "Großsolt",
+            "url": "https://odlinfo.bfs.de/",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 54.71,
+            "lon": 9.5,
+            "regionIds": [
+                "DE-SH"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-HB",
+                    "DE-HH",
+                    "DE-MV",
+                    "DE-NI",
+                    "DE-SH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.064,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:DEZ1492",
+            "title": "Ergolding",
+            "url": "https://odlinfo.bfs.de/",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 48.57,
+            "lon": 12.17,
+            "regionIds": [
+                "DE-BY"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-SN",
+                    "DE-TH",
+                    "AT-2",
+                    "AT-3",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-8"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.117,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:DEZ2558",
+            "title": "Altenberg-Zinnwald-Georgenfeld",
+            "url": "https://odlinfo.bfs.de/",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 50.73,
+            "lon": 13.75,
+            "regionIds": [
+                "DE-SN"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BE",
+                    "DE-BY",
+                    "DE-SN",
+                    "DE-ST",
+                    "DE-TH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.163,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:DEZ0287",
+            "title": "Stadtoldendorf",
+            "url": "https://odlinfo.bfs.de/",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 51.89,
+            "lon": 9.63,
+            "regionIds": [
+                "DE-NI"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BY",
+                    "DE-HB",
+                    "DE-HE",
+                    "DE-HH",
+                    "DE-MV",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-SH",
+                    "DE-SN",
+                    "DE-ST",
+                    "DE-TH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.105,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:DEZ0709",
+            "title": "Rahden",
+            "url": "https://odlinfo.bfs.de/",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 52.43,
+            "lon": 8.6,
+            "regionIds": [
+                "DE-NW"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-HB",
+                    "DE-HE",
+                    "DE-HH",
+                    "DE-MV",
+                    "DE-NI",
+                    "DE-NW",
+                    "DE-RP",
+                    "DE-SH",
+                    "DE-ST",
+                    "DE-TH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.08,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:DEZ2928",
+            "title": "Calau",
+            "url": "https://odlinfo.bfs.de/",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 51.75,
+            "lon": 13.96,
+            "regionIds": [
+                "DE-BB"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE"
+                ],
+                "regionIds": [
+                    "DE-BB",
+                    "DE-BE",
+                    "DE-MV",
+                    "DE-SN",
+                    "DE-ST",
+                    "DE-TH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.08,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "odl:DEZ2978",
+            "title": "Garmisch-P. OT Zugspitze",
+            "url": "https://odlinfo.bfs.de/",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 47.42,
+            "lon": 10.98,
+            "regionIds": [],
+            "regionMatch": "none",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-2",
+                    "AT-4",
+                    "AT-5",
+                    "AT-6",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-LU",
+                    "CH-NW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "doseRate",
+            "value": 0.118,
+            "unit": "µSv/h",
+            "reference": {
+                "key": "reference.averaging",
+                "params": {
+                    "duration": "1h"
+                }
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "layer.radiation.assessment.normal"
+                },
+                "basis": {
+                    "key": "layer.radiation.assessment.basis",
+                    "params": {
+                        "elevated": 0.3,
+                        "high": 1.0
+                    }
+                },
+                "origin": "display",
+                "validUntil": "2026-09-29T01:00:00Z"
+            },
+            "facts": []
+        }
+    ]
+}

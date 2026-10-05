@@ -1,0 +1,18 @@
+{
+  "DE": {
+    "name": "WSV · PEGELONLINE",
+    "url": "https://www.pegelonline.wsv.de/"
+  },
+  "AT": {
+    "name": "Hydrographie Österreich · eHYD",
+    "url": "https://ehyd.gv.at/"
+  },
+  "CH": {
+    "name": "BAFU · LINDAS",
+    "url": "https://www.hydrodaten.admin.ch/"
+  },
+  "border": {
+    "name": "Hub'Eau · Rijkswaterstaat · ČHMÚ · IMGW-PIB",
+    "url": "https://hubeau.eaufrance.fr/page/api-hydrometrie"
+  }
+}

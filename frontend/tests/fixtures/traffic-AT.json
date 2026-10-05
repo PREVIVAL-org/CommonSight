@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "layer": "traffic",
+  "scope": "AT",
+  "status": "ok",
+  "source": "ÖAMTC",
+  "sourceUrl": "https://www.oeamtc.at/verkehrsservice/",
+  "generatedAt": "2026-09-28T11:56:00Z",
+  "updatedAt": "2026-09-28T11:55:00Z",
+  "note": {
+    "key": "layer.traffic.note.AT"
+  },
+  "coverage": [],
+  "issues": [],
+  "stats": {},
+  "items": [
+    {
+      "kind": "trafficNotice",
+      "id": "oeamtc:987",
+      "title": "A1 Westautobahn: Baustelle",
+      "url": "https://www.oeamtc.at/verkehrsservice/",
+      "time": "2026-09-28T07:00:00Z",
+      "lat": 48.19,
+      "lon": 16.05,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [16.0, 48.18],
+          [16.1, 48.2]
+        ]
+      },
+      "regionIds": ["AT-3"],
+      "regionMatch": "geometry",
+      "lang": "en",
+      "road": "A1 Westautobahn",
+      "noticeType": "Baustelle",
+      "start": "2026-09-28T06:00:00Z",
+      "description": "Roadworks between Pressbaum and Altlengbach, one lane closed in direction Salzburg."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "source.bafu-lindas.assessment.label.chLevel1": "BAFU-Stufe 1 · keine oder geringe Gefahr",
+  "source.bafu-lindas.assessment.label.chLevel2": "BAFU-Stufe 2 · mässige Gefahr",
+  "source.bafu-lindas.assessment.label.chLevel3": "BAFU-Stufe 3 · erhebliche Gefahr",
+  "source.bafu-lindas.assessment.label.chLevel4": "BAFU-Stufe 4 · grosse Gefahr",
+  "source.bafu-lindas.assessment.label.chLevel5": "BAFU-Stufe 5 · sehr grosse Gefahr",
+  "source.bafu-lindas.assessment.basis.chLevel": "BAFU: Gefahrenstufe {level} von 5. Stufen 2-3 werden orange, 4-5 rot zusammengefasst; die Originalstufe bleibt erhalten.",
+  "source.bafu-lindas.assessment.basis.chMissing": "Für diese Station liefert BAFU/LINDAS keine Gefahrenstufe.",
+  "source.bafu-lindas.fact.waterTemperature": "Wassertemperatur"
+}

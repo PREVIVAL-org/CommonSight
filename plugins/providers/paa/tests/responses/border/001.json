@@ -1,0 +1,115 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "id": "kcad_siec_pms_moc_dawki_mapa.fid-25063bca_1a0fc9a2404_-72a3",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.15444,
+                    54.20452
+                ]
+            },
+            "geometry_name": "koordynaty",
+            "properties": {
+                "id": "2527a430-0822-476a-9936-21d1f9a8f2af",
+                "stacja": "Koszalin",
+                "color": "#1dadae",
+                "tip_value": "0.077 µSv/h",
+                "tip_name": "Koszalin",
+                "tip_date": "2026-10-02 10:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "kcad_siec_pms_moc_dawki_mapa.fid-25063bca_1a0fc9a2404_-7285",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.6226,
+                    53.39521
+                ]
+            },
+            "geometry_name": "koordynaty",
+            "properties": {
+                "id": "198810b5-ab20-42ca-8403-d215ba182690",
+                "stacja": "Szczecin",
+                "color": "#1dadae",
+                "tip_value": "0.053 µSv/h",
+                "tip_name": "Szczecin",
+                "tip_date": "2026-10-02 12:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "kcad_siec_pms_moc_dawki_mapa.fid-25063bca_1a0fc9a2404_-7282",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.444644,
+                    51.866117
+                ]
+            },
+            "geometry_name": "koordynaty",
+            "properties": {
+                "id": "faa5e035-ce88-4270-9967-82ea06d8ef73",
+                "stacja": "Zielona Góra",
+                "color": "#1dadae",
+                "tip_value": "0.043 µSv/h",
+                "tip_name": "Zielona Góra",
+                "tip_date": "2026-09-28 06:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "kcad_siec_pms_moc_dawki_mapa.fid-25063bca_1a0fc9a2404_-726d",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.8822,
+                    51.1134
+                ]
+            },
+            "geometry_name": "koordynaty",
+            "properties": {
+                "id": "248a46df-165d-4680-8107-2133ffc4c230",
+                "stacja": "Wrocław",
+                "color": "#1dadae",
+                "tip_value": "0.077 µSv/h",
+                "tip_name": "Wrocław",
+                "tip_date": "2026-10-02 11:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "kcad_siec_pms_moc_dawki_mapa.fid-25063bca_1a0fc9a2404_-726b",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.15209,
+                    51.16546
+                ]
+            },
+            "geometry_name": "koordynaty",
+            "properties": {
+                "id": "2c1d81dc-6506-4e0e-9e74-098e59f468f1",
+                "stacja": "Legnica",
+                "color": "#1dadae",
+                "tip_value": "0.077 µSv/h",
+                "tip_name": "Legnica",
+                "tip_date": "2026-10-02 12:00"
+            }
+        }
+    ],
+    "totalFeatures": 62,
+    "numberMatched": 62,
+    "numberReturned": 62,
+    "timeStamp": "2026-10-02T12:58:15.479Z",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+        }
+    }
+}

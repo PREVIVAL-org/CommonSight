@@ -1,0 +1,5 @@
+{
+  "private": true,
+  "type": "module",
+  "description": "Marks the frontend parts and the lint configuration of the plugin packages as ES modules; no dependencies of its own."
+}

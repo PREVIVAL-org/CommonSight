@@ -1,0 +1,5 @@
+{
+  "layer.weather.name": "Wetter",
+  "layer.weather.note": "Modellwerte für ausgewählte Orte, mindestens ein Modellpunkt je Bundesland bzw. Kanton. Punktwerte, keine regionalen Mittelwerte oder Stationsmessungen. Daten: Open-Meteo, CC BY 4.0. Kostenlose Schnittstelle für nichtkommerzielle Nutzung.",
+  "layer.weather.tile.title": "Wetter"
+}

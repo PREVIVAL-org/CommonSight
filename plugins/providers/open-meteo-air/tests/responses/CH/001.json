@@ -1,0 +1,625 @@
+[
+    {
+        "latitude": 46.9,
+        "longitude": 7.4000015,
+        "generationtime_ms": 0.3210306167602539,
+        "utc_offset_seconds": 0,
+        "timezone": "GMT",
+        "timezone_abbreviation": "GMT",
+        "elevation": 554.0,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "european_aqi": "EAQI",
+            "pm2_5": "μg/m³",
+            "pm10": "μg/m³"
+        },
+        "current": {
+            "time": "2026-09-28T14:00",
+            "interval": 3600,
+            "european_aqi": 46,
+            "pm2_5": 5.5,
+            "pm10": 8.5
+        }
+    },
+    {
+        "latitude": 47.4,
+        "longitude": 8.5,
+        "generationtime_ms": 0.3368854522705078,
+        "utc_offset_seconds": 0,
+        "timezone": "GMT",
+        "timezone_abbreviation": "GMT",
+        "elevation": 409.0,
+        "location_id": 1,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "european_aqi": "EAQI",
+            "pm2_5": "μg/m³",
+            "pm10": "μg/m³"
+        },
+        "current": {
+            "time": "2026-09-28T14:00",
+            "interval": 3600,
+            "european_aqi": 45,
+            "pm2_5": 6.2,
+            "pm10": 10.1
+        }
+    },
+    {
+        "latitude": 47.6,
+        "longitude": 7.6000023,
+        "generationtime_ms": 0.2589225769042969,
+        "utc_offset_seconds": 0,
+        "timezone": "GMT",
+        "timezone_abbreviation": "GMT",
+        "elevation": 247.0,
+        "location_id": 2,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "european_aqi": "EAQI",
+            "pm2_5": "μg/m³",
+            "pm10": "μg/m³"
+        },
+        "current": {
+            "time": "2026-09-28T14:00",
+            "interval": 3600,
+            "european_aqi": 59,
+            "pm2_5": 6.6,
+            "pm10": 10.8
+        }
+    },
+    {
+        "latitude": 46.2,
+        "longitude": 6.1000004,
+        "generationtime_ms": 0.3006458282470703,
+        "utc_offset_seconds": 0,
+        "timezone": "GMT",
+        "timezone_abbreviation": "GMT",
+        "elevation": 368.0,
+        "location_id": 3,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "european_aqi": "EAQI",
+            "pm2_5": "μg/m³",
+            "pm10": "μg/m³"
+        },
+        "current": {
+            "time": "2026-09-28T14:00",
+            "interval": 3600,
+            "european_aqi": 36,
+            "pm2_5": 5.4,
+            "pm10": 10.3
+        }
+    },
+    {
+        "latitude": 47.1,
+        "longitude": 8.299999,
+        "generationtime_ms": 0.2522468566894531,
+        "utc_offset_seconds": 0,
+        "timezone": "GMT",
+        "timezone_abbreviation": "GMT",
+        "elevation": 437.0,
+        "location_id": 4,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "european_aqi": "EAQI",
+            "pm2_5": "μg/m³",
+            "pm10": "μg/m³"
+        },
+        "current": {
+            "time": "2026-09-28T14:00",
+            "interval": 3600,
+            "european_aqi": 48,
+            "pm2_5": 8.0,
+            "pm10": 12.3
+        }
+    },
+    {
+        "latitude": 46.0,
+        "longitude": 9.0,
+        "generationtime_ms": 0.20694732666015625,
+        "utc_offset_seconds": 0,
+        "timezone": "GMT",
+        "timezone_abbreviation": "GMT",
+        "elevation": 286.0,
+        "location_id": 5,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "european_aqi": "EAQI",
+            "pm2_5": "μg/m³",
+            "pm10": "μg/m³"
+        },
+        "current": {
+            "time": "2026-09-28T14:00",
+            "interval": 3600,
+            "european_aqi": 50,
+            "pm2_5": 9.7,
+            "pm10": 14.5
+        }
+    },
+    {
+        "latitude": 46.9,
+        "longitude": 9.5,
+        "generationtime_ms": 0.29861927032470703,
+        "utc_offset_seconds": 0,
+        "timezone": "GMT",
+        "timezone_abbreviation": "GMT",
+        "elevation": 603.0,
+        "location_id": 6,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "european_aqi": "EAQI",
+            "pm2_5": "μg/m³",
+            "pm10": "μg/m³"
+        },
+        "current": {
+            "time": "2026-09-28T14:00",
+            "interval": 3600,
+            "european_aqi": 28,
+            "pm2_5": 3.0,
+            "pm10": 5.3
+        }
+    },
+    {
+        "latitude": 47.4,
+        "longitude": 8.200001,
+        "generationtime_ms": 0.17392635345458984,
+        "utc_offset_seconds": 0,
+        "timezone": "GMT",
+        "timezone_abbreviation": "GMT",
+        "elevation": 475.0,
+        "location_id": 7,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "european_aqi": "EAQI",
+            "pm2_5": "μg/m³",
+            "pm10": "μg/m³"
+        },
+        "current": {
+            "time": "2026-09-28T14:00",
+            "interval": 3600,
+            "european_aqi": 52,
+            "pm2_5": 6.0,
+            "pm10": 10.6
+        }
+    },
+    {
+        "latitude": 47.4,
+        "longitude": 9.299999,
+        "generationtime_ms": 0.4984140396118164,
+        "utc_offset_seconds": 0,
+        "timezone": "GMT",
+        "timezone_abbreviation": "GMT",
+        "elevation": 871.0,
+        "location_id": 8,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "european_aqi": "EAQI",
+            "pm2_5": "μg/m³",
+            "pm10": "μg/m³"
+        },
+        "current": {
+            "time": "2026-09-28T14:00",
+            "interval": 3600,
+            "european_aqi": 35,
+            "pm2_5": 5.2,
+            "pm10": 9.0
+        }
+    },
+    {
+        "latitude": 47.300003,
+        "longitude": 9.400002,
+        "generationtime_ms": 0.1513957977294922,
+        "utc_offset_seconds": 0,
+        "timezone": "GMT",
+        "timezone_abbreviation": "GMT",
+        "elevation": 1203.0,
+        "location_id": 9,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "european_aqi": "EAQI",
+            "pm2_5": "μg/m³",
+            "pm10": "μg/m³"
+        },
+        "current": {
+            "time": "2026-09-28T14:00",
+            "interval": 3600,
+            "european_aqi": 37,
+            "pm2_5": 5.4,
+            "pm10": 8.3
+        }
+    },
+    {
+        "latitude": 47.5,
+        "longitude": 7.799999,
+        "generationtime_ms": 0.13709068298339844,
+        "utc_offset_seconds": 0,
+        "timezone": "GMT",
+        "timezone_abbreviation": "GMT",
+        "elevation": 535.0,
+        "location_id": 10,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "european_aqi": "EAQI",
+            "pm2_5": "μg/m³",
+            "pm10": "μg/m³"
+        },
+        "current": {
+            "time": "2026-09-28T14:00",
+            "interval": 3600,
+            "european_aqi": 42,
+            "pm2_5": 6.2,
+            "pm10": 9.9
+        }
+    },
+    {
+        "latitude": 46.7,
+        "longitude": 7.1000023,
+        "generationtime_ms": 0.15354156494140625,
+        "utc_offset_seconds": 0,
+        "timezone": "GMT",
+        "timezone_abbreviation": "GMT",
+        "elevation": 672.0,
+        "location_id": 11,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "european_aqi": "EAQI",
+            "pm2_5": "μg/m³",
+            "pm10": "μg/m³"
+        },
+        "current": {
+            "time": "2026-09-28T14:00",
+            "interval": 3600,
+            "european_aqi": 33,
+            "pm2_5": 5.4,
+            "pm10": 8.4
+        }
+    },
+    {
+        "latitude": 47.0,
+        "longitude": 9.100002,
+        "generationtime_ms": 0.14770030975341797,
+        "utc_offset_seconds": 0,
+        "timezone": "GMT",
+        "timezone_abbreviation": "GMT",
+        "elevation": 994.0,
+        "location_id": 12,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "european_aqi": "EAQI",
+            "pm2_5": "μg/m³",
+            "pm10": "μg/m³"
+        },
+        "current": {
+            "time": "2026-09-28T14:00",
+            "interval": 3600,
+            "european_aqi": 28,
+            "pm2_5": 3.5,
+            "pm10": 5.1
+        }
+    },
+    {
+        "latitude": 47.300003,
+        "longitude": 7.299999,
+        "generationtime_ms": 0.15234947204589844,
+        "utc_offset_seconds": 0,
+        "timezone": "GMT",
+        "timezone_abbreviation": "GMT",
+        "elevation": 554.0,
+        "location_id": 13,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "european_aqi": "EAQI",
+            "pm2_5": "μg/m³",
+            "pm10": "μg/m³"
+        },
+        "current": {
+            "time": "2026-09-28T14:00",
+            "interval": 3600,
+            "european_aqi": 37,
+            "pm2_5": 5.6,
+            "pm10": 9.2
+        }
+    },
+    {
+        "latitude": 47.0,
+        "longitude": 6.800001,
+        "generationtime_ms": 0.13959407806396484,
+        "utc_offset_seconds": 0,
+        "timezone": "GMT",
+        "timezone_abbreviation": "GMT",
+        "elevation": 982.0,
+        "location_id": 14,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "european_aqi": "EAQI",
+            "pm2_5": "μg/m³",
+            "pm10": "μg/m³"
+        },
+        "current": {
+            "time": "2026-09-28T14:00",
+            "interval": 3600,
+            "european_aqi": 39,
+            "pm2_5": 4.8,
+            "pm10": 8.4
+        }
+    },
+    {
+        "latitude": 46.9,
+        "longitude": 8.400002,
+        "generationtime_ms": 0.1518726348876953,
+        "utc_offset_seconds": 0,
+        "timezone": "GMT",
+        "timezone_abbreviation": "GMT",
+        "elevation": 756.0,
+        "location_id": 15,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "european_aqi": "EAQI",
+            "pm2_5": "μg/m³",
+            "pm10": "μg/m³"
+        },
+        "current": {
+            "time": "2026-09-28T14:00",
+            "interval": 3600,
+            "european_aqi": 29,
+            "pm2_5": 4.9,
+            "pm10": 7.1
+        }
+    },
+    {
+        "latitude": 46.9,
+        "longitude": 8.200001,
+        "generationtime_ms": 0.19276142120361328,
+        "utc_offset_seconds": 0,
+        "timezone": "GMT",
+        "timezone_abbreviation": "GMT",
+        "elevation": 469.0,
+        "location_id": 16,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "european_aqi": "EAQI",
+            "pm2_5": "μg/m³",
+            "pm10": "μg/m³"
+        },
+        "current": {
+            "time": "2026-09-28T14:00",
+            "interval": 3600,
+            "european_aqi": 32,
+            "pm2_5": 5.2,
+            "pm10": 8.0
+        }
+    },
+    {
+        "latitude": 47.7,
+        "longitude": 8.600002,
+        "generationtime_ms": 0.1481771469116211,
+        "utc_offset_seconds": 0,
+        "timezone": "GMT",
+        "timezone_abbreviation": "GMT",
+        "elevation": 691.0,
+        "location_id": 17,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "european_aqi": "EAQI",
+            "pm2_5": "μg/m³",
+            "pm10": "μg/m³"
+        },
+        "current": {
+            "time": "2026-09-28T14:00",
+            "interval": 3600,
+            "european_aqi": 43,
+            "pm2_5": 5.8,
+            "pm10": 9.7
+        }
+    },
+    {
+        "latitude": 47.1,
+        "longitude": 8.700001,
+        "generationtime_ms": 0.21338462829589844,
+        "utc_offset_seconds": 0,
+        "timezone": "GMT",
+        "timezone_abbreviation": "GMT",
+        "elevation": 1238.0,
+        "location_id": 18,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "european_aqi": "EAQI",
+            "pm2_5": "μg/m³",
+            "pm10": "μg/m³"
+        },
+        "current": {
+            "time": "2026-09-28T14:00",
+            "interval": 3600,
+            "european_aqi": 34,
+            "pm2_5": 5.3,
+            "pm10": 7.6
+        }
+    },
+    {
+        "latitude": 47.300003,
+        "longitude": 7.6000023,
+        "generationtime_ms": 0.14388561248779297,
+        "utc_offset_seconds": 0,
+        "timezone": "GMT",
+        "timezone_abbreviation": "GMT",
+        "elevation": 676.0,
+        "location_id": 19,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "european_aqi": "EAQI",
+            "pm2_5": "μg/m³",
+            "pm10": "μg/m³"
+        },
+        "current": {
+            "time": "2026-09-28T14:00",
+            "interval": 3600,
+            "european_aqi": 39,
+            "pm2_5": 5.3,
+            "pm10": 8.6
+        }
+    },
+    {
+        "latitude": 47.2,
+        "longitude": 9.200001,
+        "generationtime_ms": 0.13399124145507812,
+        "utc_offset_seconds": 0,
+        "timezone": "GMT",
+        "timezone_abbreviation": "GMT",
+        "elevation": 1156.0,
+        "location_id": 20,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "european_aqi": "EAQI",
+            "pm2_5": "μg/m³",
+            "pm10": "μg/m³"
+        },
+        "current": {
+            "time": "2026-09-28T14:00",
+            "interval": 3600,
+            "european_aqi": 34,
+            "pm2_5": 4.1,
+            "pm10": 6.6
+        }
+    },
+    {
+        "latitude": 47.5,
+        "longitude": 9.200001,
+        "generationtime_ms": 0.13637542724609375,
+        "utc_offset_seconds": 0,
+        "timezone": "GMT",
+        "timezone_abbreviation": "GMT",
+        "elevation": 442.0,
+        "location_id": 21,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "european_aqi": "EAQI",
+            "pm2_5": "μg/m³",
+            "pm10": "μg/m³"
+        },
+        "current": {
+            "time": "2026-09-28T14:00",
+            "interval": 3600,
+            "european_aqi": 41,
+            "pm2_5": 6.6,
+            "pm10": 10.1
+        }
+    },
+    {
+        "latitude": 46.800003,
+        "longitude": 8.600002,
+        "generationtime_ms": 0.13637542724609375,
+        "utc_offset_seconds": 0,
+        "timezone": "GMT",
+        "timezone_abbreviation": "GMT",
+        "elevation": 1208.0,
+        "location_id": 22,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "european_aqi": "EAQI",
+            "pm2_5": "μg/m³",
+            "pm10": "μg/m³"
+        },
+        "current": {
+            "time": "2026-09-28T14:00",
+            "interval": 3600,
+            "european_aqi": 25,
+            "pm2_5": 3.1,
+            "pm10": 4.3
+        }
+    },
+    {
+        "latitude": 46.6,
+        "longitude": 6.5,
+        "generationtime_ms": 0.20265579223632812,
+        "utc_offset_seconds": 0,
+        "timezone": "GMT",
+        "timezone_abbreviation": "GMT",
+        "elevation": 457.0,
+        "location_id": 23,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "european_aqi": "EAQI",
+            "pm2_5": "μg/m³",
+            "pm10": "μg/m³"
+        },
+        "current": {
+            "time": "2026-09-28T14:00",
+            "interval": 3600,
+            "european_aqi": 44,
+            "pm2_5": 5.8,
+            "pm10": 10.2
+        }
+    },
+    {
+        "latitude": 46.300003,
+        "longitude": 7.6000023,
+        "generationtime_ms": 0.21004676818847656,
+        "utc_offset_seconds": 0,
+        "timezone": "GMT",
+        "timezone_abbreviation": "GMT",
+        "elevation": 2411.0,
+        "location_id": 24,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "european_aqi": "EAQI",
+            "pm2_5": "μg/m³",
+            "pm10": "μg/m³"
+        },
+        "current": {
+            "time": "2026-09-28T14:00",
+            "interval": 3600,
+            "european_aqi": 25,
+            "pm2_5": 3.6,
+            "pm10": 4.9
+        }
+    },
+    {
+        "latitude": 47.2,
+        "longitude": 8.5,
+        "generationtime_ms": 0.17535686492919922,
+        "utc_offset_seconds": 0,
+        "timezone": "GMT",
+        "timezone_abbreviation": "GMT",
+        "elevation": 710.0,
+        "location_id": 25,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "european_aqi": "EAQI",
+            "pm2_5": "μg/m³",
+            "pm10": "μg/m³"
+        },
+        "current": {
+            "time": "2026-09-28T14:00",
+            "interval": 3600,
+            "european_aqi": 44,
+            "pm2_5": 6.0,
+            "pm10": 10.3
+        }
+    }
+]

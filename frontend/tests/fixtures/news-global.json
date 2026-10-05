@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "layer": "news",
+  "scope": "global",
+  "status": "partial",
+  "source": "ORF · tagesschau · SRF",
+  "sourceUrl": "https://www.tagesschau.de/infoservices/rssfeeds",
+  "generatedAt": "2026-09-28T11:58:00Z",
+  "updatedAt": "2026-09-28T11:50:00Z",
+  "note": {
+    "key": "layer.news.note"
+  },
+  "coverage": [],
+  "issues": [
+    {
+      "key": "issue.sourceFailed",
+      "params": {
+        "source": "SRF News"
+      }
+    }
+  ],
+  "stats": {},
+  "items": [
+    {
+      "kind": "news",
+      "id": "https://tagesschau.de/a",
+      "title": "Unwetter in Süddeutschland: Starkregen erwartet",
+      "url": "https://www.tagesschau.de/inland/unwetter-100.html",
+      "time": "2026-09-28T11:30:00Z",
+      "regionIds": [],
+      "regionMatch": "none",
+      "category": "weather",
+      "feed": "tagesschau"
+    },
+    {
+      "kind": "news",
+      "id": "https://orf.at/b",
+      "title": "Stromausfall in mehreren Bezirken",
+      "url": "https://orf.at/stories/1234567/",
+      "time": "2026-09-28T11:30:00Z",
+      "regionIds": [],
+      "regionMatch": "none",
+      "category": "infrastructure",
+      "feed": "orf"
+    },
+    {
+      "kind": "news",
+      "id": "https://orf.at/c",
+      "title": "NATO berät über Lage",
+      "url": "https://orf.at/stories/7654321/",
+      "time": "2026-09-28T09:10:00Z",
+      "regionIds": [],
+      "regionMatch": "none",
+      "category": "conflict",
+      "feed": "orf"
+    }
+  ]
+}

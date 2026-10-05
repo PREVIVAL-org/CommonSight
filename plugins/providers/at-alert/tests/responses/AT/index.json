@@ -1,0 +1,13 @@
+{
+    "recordedAt": "2026-10-04T08:30:21Z",
+    "requests": [
+        {
+            "signature": "POST https://warnungen.at-alert.at/api/rpc/alert/list 21387234dc43ad316788fb906da681491ae91714",
+            "status": 200,
+            "headers": {
+                "contentType": "application/json"
+            },
+            "file": "001.json"
+        }
+    ]
+}

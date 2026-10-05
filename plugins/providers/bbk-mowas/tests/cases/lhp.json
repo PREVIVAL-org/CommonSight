@@ -1,0 +1,13 @@
+[
+    {
+        "id": "lhp.HOCHWASSERZENTRALEN.DE.NI",
+        "version": 1,
+        "startDate": "2026-09-28T10:00:00+02:00",
+        "severity": "Moderate",
+        "urgency": "Immediate",
+        "type": "Alert",
+        "i18nTitle": {
+            "de": "Hochwasserinformation für die Aller"
+        }
+    }
+]

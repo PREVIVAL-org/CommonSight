@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>bern-1</identifier>
+  <sender>meteoswiss</sender>
+  <sent>2026-09-28T10:00:00+02:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <info>
+    <language>en</language>
+    <event>Moderate thunderstorm warning</event>
+    <headline>Thunderstorm warning level 2</headline>
+    <description>Thunderstorms with hail possible.</description>
+  </info>
+  <info>
+    <language>de-CH</language>
+    <event>Gewitter</event>
+    <headline>Gewitterwarnung Stufe 2</headline>
+    <description>Gewitter mit Hagel möglich.</description>
+    <instruction>Schutz in Gebäuden suchen.</instruction>
+  </info>
+  <info>
+    <language>fr</language>
+    <event>Orages</event>
+    <headline>Avis d'orages degré 2</headline>
+    <description>Orages avec grêle possibles.</description>
+  </info>
+</alert>

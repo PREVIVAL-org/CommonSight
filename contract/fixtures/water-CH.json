@@ -1,0 +1,1777 @@
+{
+    "schema": 1,
+    "layer": "water",
+    "scope": "CH",
+    "status": "partial",
+    "source": "BAFU · LINDAS",
+    "sourceUrl": "https://www.hydrodaten.admin.ch/",
+    "generatedAt": "2026-09-28T14:30:00Z",
+    "updatedAt": "2026-09-28T14:00:00Z",
+    "note": {
+        "key": "layer.water.note.CH"
+    },
+    "coverage": [],
+    "issues": [
+        {
+            "key": "issue.belowExpected",
+            "params": {
+                "source": "BAFU/LINDAS",
+                "valid": 25,
+                "expected": 150
+            }
+        }
+    ],
+    "stats": {},
+    "items": [
+        {
+            "kind": "measurement",
+            "id": "bafu:2043",
+            "title": "Berlingen · Bodensee, Untersee",
+            "url": "https://www.hydrodaten.admin.ch/de/aktuelle-lage",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 47.675465671121394,
+            "lon": 9.017571136862344,
+            "regionIds": [
+                "CH-TG"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-HE",
+                    "DE-RP",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 394.216,
+            "unit": "m ü. M.",
+            "reference": {
+                "key": "reference.seaLevel"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.bafu-lindas.assessment.label.chLevel1"
+                },
+                "basis": {
+                    "key": "source.bafu-lindas.assessment.basis.chLevel",
+                    "params": {
+                        "level": 1
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T20:00:00Z",
+                "sourceValue": 1
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "bafu:2074",
+            "title": "Brissago · Lago Maggiore",
+            "url": "https://www.hydrodaten.admin.ch/de/aktuelle-lage",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 46.118122093495536,
+            "lon": 8.710904470043026,
+            "regionIds": [
+                "CH-TI"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 192.475,
+            "unit": "m ü. M.",
+            "reference": {
+                "key": "reference.seaLevel"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "source.bafu-lindas.assessment.basis.chMissing"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T20:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "bafu:2025",
+            "title": "Brunnen · Vierwaldstättersee",
+            "url": "https://www.hydrodaten.admin.ch/de/aktuelle-lage",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 46.993467758748615,
+            "lon": 8.603783594054601,
+            "regionIds": [
+                "CH-SZ"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 433.366,
+            "unit": "m ü. M.",
+            "reference": {
+                "key": "reference.seaLevel"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "source.bafu-lindas.assessment.basis.chMissing"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T20:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "bafu:2026",
+            "title": "Chillon · Lac Léman",
+            "url": "https://www.hydrodaten.admin.ch/de/aktuelle-lage",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 46.414610106681224,
+            "lon": 6.927748882278786,
+            "regionIds": [
+                "CH-VD"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "CH-AG",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 372.137,
+            "unit": "m ü. M.",
+            "reference": {
+                "key": "reference.seaLevel"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "source.bafu-lindas.assessment.basis.chMissing"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T20:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "bafu:2137",
+            "title": "Gelfingen · Baldeggersee",
+            "url": "https://www.hydrodaten.admin.ch/de/aktuelle-lage",
+            "time": "2026-09-28T13:00:00Z",
+            "lat": 47.209860225565016,
+            "lon": 8.266401090627538,
+            "regionIds": [
+                "CH-LU"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-RP",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 462.479,
+            "unit": "m ü. M.",
+            "reference": {
+                "key": "reference.seaLevel"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "source.bafu-lindas.assessment.basis.chMissing"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T19:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "bafu:2028",
+            "title": "Genève, Sécheron · Lac Léman",
+            "url": "https://www.hydrodaten.admin.ch/de/aktuelle-lage",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 46.218636691415625,
+            "lon": 6.15235732549977,
+            "regionIds": [
+                "CH-GE"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "CH-AG",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 372.178,
+            "unit": "m ü. M.",
+            "reference": {
+                "key": "reference.seaLevel"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "source.bafu-lindas.assessment.basis.chMissing"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T20:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "bafu:2154",
+            "title": "Grandson · Lac de Neuchâtel",
+            "url": "https://www.hydrodaten.admin.ch/de/aktuelle-lage",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 46.805777134617735,
+            "lon": 6.642366435215077,
+            "regionIds": [
+                "CH-VD"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "CH-AG",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 429.184,
+            "unit": "m ü. M.",
+            "reference": {
+                "key": "reference.seaLevel"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "source.bafu-lindas.assessment.basis.chMissing"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T20:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "bafu:2082",
+            "title": "Greifensee · Greifensee",
+            "url": "https://www.hydrodaten.admin.ch/de/aktuelle-lage",
+            "time": "2026-09-28T13:40:00Z",
+            "lat": 47.365212204966106,
+            "lon": 8.673537466436075,
+            "regionIds": [
+                "CH-ZH"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-RP",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 434.623,
+            "unit": "m ü. M.",
+            "reference": {
+                "key": "reference.seaLevel"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "source.bafu-lindas.assessment.basis.chMissing"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T19:40:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "bafu:2484",
+            "title": "Lauerz, Chlostermatt · Lauerzersee",
+            "url": "https://www.hydrodaten.admin.ch/de/aktuelle-lage",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 47.03096384025147,
+            "lon": 8.596637856167128,
+            "regionIds": [
+                "CH-SZ"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 446.67,
+            "unit": "m ü. M.",
+            "reference": {
+                "key": "reference.seaLevel"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "source.bafu-lindas.assessment.basis.chMissing"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T20:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "bafu:2007",
+            "title": "Le Pont · Lac de Joux",
+            "url": "https://www.hydrodaten.admin.ch/de/aktuelle-lage",
+            "time": "2026-09-28T12:00:00Z",
+            "lat": 46.66533635470922,
+            "lon": 6.324020007130208,
+            "regionIds": [
+                "CH-VD"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "CH-AG",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 1002.723,
+            "unit": "m ü. M.",
+            "reference": {
+                "key": "reference.seaLevel"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "source.bafu-lindas.assessment.basis.chMissing"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T18:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "bafu:2057",
+            "title": "Les Brenets · Lac des Brenets",
+            "url": "https://www.hydrodaten.admin.ch/de/aktuelle-lage",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 47.08260878026404,
+            "lon": 6.708576476968432,
+            "regionIds": [
+                "CH-NE"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 743.415,
+            "unit": "m ü. M.",
+            "reference": {
+                "key": "reference.seaLevel"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "source.bafu-lindas.assessment.basis.chMissing"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T20:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "bafu:2208",
+            "title": "Ligerz, Klein Twann · Bielersee",
+            "url": "https://www.hydrodaten.admin.ch/de/aktuelle-lage",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 47.091679312964544,
+            "lon": 7.1530998108383965,
+            "regionIds": [
+                "CH-BE"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 429.16,
+            "unit": "m ü. M.",
+            "reference": {
+                "key": "reference.seaLevel"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.bafu-lindas.assessment.label.chLevel1"
+                },
+                "basis": {
+                    "key": "source.bafu-lindas.assessment.basis.chLevel",
+                    "params": {
+                        "level": 1
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T20:00:00Z",
+                "sourceValue": 1
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "bafu:2022",
+            "title": "Locarno · Lago Maggiore",
+            "url": "https://www.hydrodaten.admin.ch/de/aktuelle-lage",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 46.16363438902525,
+            "lon": 8.804286329824714,
+            "regionIds": [
+                "CH-TI"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 192.484,
+            "unit": "m ü. M.",
+            "reference": {
+                "key": "reference.seaLevel"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.bafu-lindas.assessment.label.chLevel1"
+                },
+                "basis": {
+                    "key": "source.bafu-lindas.assessment.basis.chLevel",
+                    "params": {
+                        "level": 1
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T20:00:00Z",
+                "sourceValue": 1
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "bafu:2207",
+            "title": "Luzern · Vierwaldstättersee",
+            "url": "https://www.hydrodaten.admin.ch/de/aktuelle-lage",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 47.05487732128306,
+            "lon": 8.319817434422085,
+            "regionIds": [
+                "CH-LU"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 433.363,
+            "unit": "m ü. M.",
+            "reference": {
+                "key": "reference.seaLevel"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.bafu-lindas.assessment.label.chLevel1"
+                },
+                "basis": {
+                    "key": "source.bafu-lindas.assessment.basis.chLevel",
+                    "params": {
+                        "level": 1
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T20:00:00Z",
+                "sourceValue": 1
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "bafu:2097",
+            "title": "Meisterschwanden · Hallwilersee",
+            "url": "https://www.hydrodaten.admin.ch/de/aktuelle-lage",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 47.29576996676205,
+            "lon": 8.220333360318698,
+            "regionIds": [
+                "CH-AG"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-RP",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 448.029,
+            "unit": "m ü. M.",
+            "reference": {
+                "key": "reference.seaLevel"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "source.bafu-lindas.assessment.basis.chMissing"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T20:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "bafu:2101",
+            "title": "Melide, Ferrera · Lago di Lugano",
+            "url": "https://www.hydrodaten.admin.ch/de/aktuelle-lage",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 45.96628633198344,
+            "lon": 8.94889237091612,
+            "regionIds": [
+                "CH-TI"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-FR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 270.367,
+            "unit": "m ü. M.",
+            "reference": {
+                "key": "reference.seaLevel"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.bafu-lindas.assessment.label.chLevel1"
+                },
+                "basis": {
+                    "key": "source.bafu-lindas.assessment.basis.chLevel",
+                    "params": {
+                        "level": 1
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T20:00:00Z",
+                "sourceValue": 1
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "bafu:2118",
+            "title": "Murg · Walensee",
+            "url": "https://www.hydrodaten.admin.ch/de/aktuelle-lage",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 47.11337769264534,
+            "lon": 9.210023378410574,
+            "regionIds": [
+                "CH-SG"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 418.139,
+            "unit": "m ü. M.",
+            "reference": {
+                "key": "reference.seaLevel"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.bafu-lindas.assessment.label.chLevel1"
+                },
+                "basis": {
+                    "key": "source.bafu-lindas.assessment.basis.chLevel",
+                    "params": {
+                        "level": 1
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T20:00:00Z",
+                "sourceValue": 1
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "bafu:2004",
+            "title": "Murten · Murtensee",
+            "url": "https://www.hydrodaten.admin.ch/de/aktuelle-lage",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 46.93075003176807,
+            "lon": 7.116924504057154,
+            "regionIds": [
+                "CH-FR"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 429.169,
+            "unit": "m ü. M.",
+            "reference": {
+                "key": "reference.seaLevel"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.bafu-lindas.assessment.label.chLevel1"
+                },
+                "basis": {
+                    "key": "source.bafu-lindas.assessment.basis.chLevel",
+                    "params": {
+                        "level": 1
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T20:00:00Z",
+                "sourceValue": 1
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "bafu:2642",
+            "title": "Neuchâtel, Nid-du-Crô · Lac de Neuchâtel",
+            "url": "https://www.hydrodaten.admin.ch/de/aktuelle-lage",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 46.996504923513506,
+            "lon": 6.951044797867279,
+            "regionIds": [
+                "CH-NE"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 429.182,
+            "unit": "m ü. M.",
+            "reference": {
+                "key": "reference.seaLevel"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.bafu-lindas.assessment.label.chLevel1"
+                },
+                "basis": {
+                    "key": "source.bafu-lindas.assessment.basis.chLevel",
+                    "params": {
+                        "level": 1
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T20:00:00Z",
+                "sourceValue": 1
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "bafu:2081",
+            "title": "Pfäffikon · Pfäffikersee",
+            "url": "https://www.hydrodaten.admin.ch/de/aktuelle-lage",
+            "time": "2026-09-28T13:30:00Z",
+            "lat": 47.364040792728495,
+            "lon": 8.778633328215287,
+            "regionIds": [
+                "CH-ZH"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-RP",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 536.475,
+            "unit": "m ü. M.",
+            "reference": {
+                "key": "reference.seaLevel"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "source.bafu-lindas.assessment.basis.chMissing"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T19:30:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "bafu:2021",
+            "title": "Ponte Tresa · Lago di Lugano",
+            "url": "https://www.hydrodaten.admin.ch/de/aktuelle-lage",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 45.96878965357925,
+            "lon": 8.860322192803666,
+            "regionIds": [
+                "CH-TI"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-FR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 270.365,
+            "unit": "m ü. M.",
+            "reference": {
+                "key": "reference.seaLevel"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.bafu-lindas.assessment.label.chLevel1"
+                },
+                "basis": {
+                    "key": "source.bafu-lindas.assessment.basis.chLevel",
+                    "params": {
+                        "level": 1
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T20:00:00Z",
+                "sourceValue": 1
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "bafu:2023",
+            "title": "Ringgenberg · Brienzersee",
+            "url": "https://www.hydrodaten.admin.ch/de/aktuelle-lage",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 46.72992714437881,
+            "lon": 7.975536043144536,
+            "regionIds": [
+                "CH-BE"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 563.734,
+            "unit": "m ü. M.",
+            "reference": {
+                "key": "reference.seaLevel"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.bafu-lindas.assessment.label.chLevel1"
+                },
+                "basis": {
+                    "key": "source.bafu-lindas.assessment.basis.chLevel",
+                    "params": {
+                        "level": 1
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T20:00:00Z",
+                "sourceValue": 1
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "bafu:2032",
+            "title": "Romanshorn · Bodensee, Obersee",
+            "url": "https://www.hydrodaten.admin.ch/de/aktuelle-lage",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 47.56479123049356,
+            "lon": 9.380992701081867,
+            "regionIds": [
+                "CH-TG"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-RP",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 394.728,
+            "unit": "m ü. M.",
+            "reference": {
+                "key": "reference.seaLevel"
+            },
+            "assessment": {
+                "level": "normal",
+                "label": {
+                    "key": "source.bafu-lindas.assessment.label.chLevel1"
+                },
+                "basis": {
+                    "key": "source.bafu-lindas.assessment.basis.chLevel",
+                    "params": {
+                        "level": 1
+                    }
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T20:00:00Z",
+                "sourceValue": 1
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "bafu:2088",
+            "title": "Sarnen · Sarnersee",
+            "url": "https://www.hydrodaten.admin.ch/de/aktuelle-lage",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 46.88772145912117,
+            "lon": 8.24241906491016,
+            "regionIds": [
+                "CH-OW"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GE",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 469.055,
+            "unit": "m ü. M.",
+            "reference": {
+                "key": "reference.seaLevel"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "source.bafu-lindas.assessment.basis.chMissing"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T20:00:00Z"
+            },
+            "facts": []
+        },
+        {
+            "kind": "measurement",
+            "id": "bafu:2014",
+            "title": "Schmerikon · Zürichsee",
+            "url": "https://www.hydrodaten.admin.ch/de/aktuelle-lage",
+            "time": "2026-09-28T14:00:00Z",
+            "lat": 47.2247734515484,
+            "lon": 8.940080355324334,
+            "regionIds": [
+                "CH-SG"
+            ],
+            "regionMatch": "point",
+            "near": {
+                "countries": [
+                    "DE",
+                    "AT",
+                    "CH"
+                ],
+                "regionIds": [
+                    "DE-BW",
+                    "DE-BY",
+                    "DE-RP",
+                    "AT-7",
+                    "AT-8",
+                    "CH-AG",
+                    "CH-AI",
+                    "CH-AR",
+                    "CH-BE",
+                    "CH-BL",
+                    "CH-BS",
+                    "CH-FR",
+                    "CH-GL",
+                    "CH-GR",
+                    "CH-JU",
+                    "CH-LU",
+                    "CH-NE",
+                    "CH-NW",
+                    "CH-OW",
+                    "CH-SG",
+                    "CH-SH",
+                    "CH-SO",
+                    "CH-SZ",
+                    "CH-TG",
+                    "CH-TI",
+                    "CH-UR",
+                    "CH-VD",
+                    "CH-VS",
+                    "CH-ZG",
+                    "CH-ZH"
+                ]
+            },
+            "quantity": "waterLevel",
+            "value": 405.227,
+            "unit": "m ü. M.",
+            "reference": {
+                "key": "reference.seaLevel"
+            },
+            "assessment": {
+                "level": "unknown",
+                "label": {
+                    "key": "assessment.label.none"
+                },
+                "basis": {
+                    "key": "source.bafu-lindas.assessment.basis.chMissing"
+                },
+                "origin": "source",
+                "validUntil": "2026-09-28T20:00:00Z"
+            },
+            "facts": []
+        }
+    ]
+}

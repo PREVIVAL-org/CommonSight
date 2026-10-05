@@ -1,0 +1,38 @@
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [16.37, 48.2] },
+  "properties": {
+    "location": { "type": "Feature", "properties": { "name": "Wien" } },
+    "warnings": [
+      {
+        "type": "Feature",
+        "properties": {
+          "warnid": 12345, "chgid": 1, "verlaufid": 3,
+          "text": "Nachbarwarnung mit anderem Verlauf.",
+          "rawinfo": { "wtype": 5, "wlevel": 2, "start": "1790586000", "end": "1790625600" }
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "warnid": 12345, "chgid": 1, "verlaufid": 2,
+          "text": "Gewitter mit Starkregen, Hagel und Sturmböen.",
+          "meteotext": "Eine Kaltfront überquert den Osten.",
+          "auswirkungen": "<p>Überflutungen von Straßen &amp; Unterführungen möglich.</p>",
+          "empfehlungen": "Aufenthalt im Freien vermeiden.",
+          "updategrund": "",
+          "create": "2026-09-28T08:45:00Z",
+          "rawinfo": { "wtype": 5, "wlevel": 2, "start": "1790586000", "end": "1790625600" }
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "warnid": 999, "chgid": 1, "verlaufid": 1,
+          "text": "Warnung einer Nachbargemeinde.",
+          "rawinfo": { "wtype": 5, "wlevel": 1, "start": "1790586000", "end": "1790625600" }
+        }
+      }
+    ]
+  }
+}

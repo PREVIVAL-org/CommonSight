@@ -1,0 +1,138 @@
+{
+  "json": {
+    "totalCount": 4,
+    "alerts": [
+      {
+        "alert_level": "AlertLevel1",
+        "consolidation_identifier": "AlertLevel1.German.20656.20261003",
+        "title": "PROBEALARM - TESTALERT",
+        "description": "<br/>Probewarnung - Österreichweite Testauslösung von Sirenen und AT-Alert<br/>ENDE des Zivilschutzprobealarms.",
+        "info_description": "PROBEALARM - TESTALERT\n\nProbewarnung - Österreichweite Testauslösung von Sirenen und AT-Alert\nENDE des Zivilschutzprobealarms.\nEs besteht keine Gefahr!",
+        "info_area_description": "Burgenland",
+        "info_expires": "2026-10-03T13:01:09+02:00",
+        "sender": "LszB",
+        "sent": "2026-10-03T12:46:09+02:00",
+        "begin_date": "2026-10-03T12:46:14.742000+02:00",
+        "end_date": "2026-10-03T13:01:15.227000+02:00",
+        "geometries": [
+          {
+            "type": "MultiPolygon",
+            "coordinates": [
+              [
+                [
+                  [
+                    16.3,
+                    47.6
+                  ],
+                  [
+                    16.7,
+                    47.6
+                  ],
+                  [
+                    16.7,
+                    47.9
+                  ],
+                  [
+                    16.3,
+                    47.9
+                  ],
+                  [
+                    16.3,
+                    47.6
+                  ]
+                ]
+              ]
+            ]
+          }
+        ],
+        "matched_polygons": [
+          {
+            "id": 2244,
+            "type": "State",
+            "name": "Burgenland",
+            "iso": "1",
+            "polygon_type": "multipolygon",
+            "polygon": []
+          }
+        ]
+      },
+      {
+        "alert_level": "AlertLevel2",
+        "consolidation_identifier": "AlertLevel2.German.30001.20261003",
+        "title": "Hochwasser an der Mur",
+        "description": "Die Mur tritt über die Ufer.",
+        "info_description": "Hochwasser an der Mur\nDie Mur tritt in Graz über die Ufer. Meiden Sie das Ufer &lt;100 m.",
+        "info_area_description": "DefaultAreaDescription",
+        "info_expires": "2026-10-03T23:00:00+02:00",
+        "sender": "LwzSt",
+        "sent": "2026-10-03T14:00:00+02:00",
+        "begin_date": "2026-10-03T14:00:05+02:00",
+        "end_date": "2026-10-03T23:00:00+02:00",
+        "geometries": [
+          {
+            "type": "MultiPolygon",
+            "coordinates": [
+              [
+                [
+                  [
+                    15.3,
+                    47.0
+                  ],
+                  [
+                    15.700000000000001,
+                    47.0
+                  ],
+                  [
+                    15.700000000000001,
+                    47.3
+                  ],
+                  [
+                    15.3,
+                    47.3
+                  ],
+                  [
+                    15.3,
+                    47.0
+                  ]
+                ]
+              ]
+            ]
+          }
+        ],
+        "matched_polygons": []
+      },
+      {
+        "alert_level": "AlertLevel3",
+        "consolidation_identifier": "AlertLevel3.German.21500.20261002",
+        "title": "Amtliche Information!",
+        "description": "Amtliche Information!<br/>SYSTEMTEST für AT-ALERT",
+        "info_description": "Amtliche Information!\n2026-10-02 11:59:33\nFür den Bereich Kärnten.\nSYSTEMTEST für AT-ALERT\nDies ist nur ein Systemtest.",
+        "info_area_description": "Kärnten",
+        "info_expires": "2026-10-03T23:00:00+02:00",
+        "sender": "LawzK",
+        "sent": "2026-10-02T11:59:33+02:00",
+        "begin_date": "2026-10-02T12:00:00+02:00",
+        "end_date": "2026-10-03T23:00:00+02:00",
+        "geometries": [],
+        "matched_polygons": [
+          {
+            "id": 2245,
+            "type": "State",
+            "name": "Kärnten",
+            "iso": "2",
+            "polygon_type": "multipolygon",
+            "polygon": []
+          }
+        ]
+      },
+      {
+        "alert_level": "AlertLevel3",
+        "title": "Ohne Kennung",
+        "info_description": "",
+        "sent": "2026-10-03T14:00:00+02:00",
+        "geometries": [],
+        "matched_polygons": []
+      }
+    ]
+  }
+}

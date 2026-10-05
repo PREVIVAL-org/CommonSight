@@ -1,0 +1,15 @@
+/*
+ * PREVIVAL (lagezentrum.previval.org): the header like the forum (wcfHeaderBackground, wcfHeaderText,
+ * the orange line). Copy this folder to <WEBROOT>/custom/ (doc/INSTALLATION.md, Colours and logo).
+ */
+commonsight-map {
+  --cs-header-bg: #3a6d9c;
+  --cs-header-text: #ffffff;
+  --cs-header-line: #ff9800;
+}
+
+commonsight-map[data-theme='dark'] {
+  --cs-header-bg: #1e2734;
+  --cs-header-text: #d1d2d3;
+  --cs-header-line: #ff9800;
+}

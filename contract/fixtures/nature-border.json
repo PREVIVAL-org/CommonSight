@@ -1,0 +1,17 @@
+{
+    "schema": 1,
+    "layer": "nature",
+    "scope": "border",
+    "status": "ok",
+    "source": "USGS · Erdbebendienst",
+    "sourceUrl": "https://earthquake.usgs.gov/",
+    "generatedAt": "2026-09-28T14:30:00Z",
+    "updatedAt": "2026-10-02T12:00:09Z",
+    "note": {
+        "key": "layer.nature.note"
+    },
+    "coverage": [],
+    "issues": [],
+    "stats": {},
+    "items": []
+}

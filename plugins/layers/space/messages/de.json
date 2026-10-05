@@ -1,0 +1,9 @@
+{
+  "layer.space.name": "Weltraumwetter",
+  "layer.space.note": "Globale geomagnetische Aktivität und NOAA-Skalen G, R und S. Mögliche Kurzwellenbeeinträchtigungen; keine Garantie für lokale Funk-, Mobilfunk- oder GNSS-Verfügbarkeit.",
+  "layer.space.tile.title": "Weltraumwetter",
+  "layer.space.tile.kp": "Kp {value}",
+  "layer.space.tile.scales": "G{G} · R{R} · S{S}",
+  "layer.space.tile.scaleMissing": "-",
+  "layer.space.tile.history": "Kp-Verlauf der letzten Messintervalle"
+}

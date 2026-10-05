@@ -1,0 +1,685 @@
+/* Base layout: header bar, page header, views, footer, grid of the map view (U-01 to U-07, T-10). */
+.root {
+  /* Width of the country selector and of the layer column below it, so that both line up. */
+  --_picker-width: 18rem;
+  box-sizing: border-box;
+  min-height: 100%;
+  background: var(--_bg);
+  color: var(--_text);
+  font-family: var(--_font-family);
+  font-size: var(--_font-size);
+  font-weight: var(--_font-weight);
+  line-height: var(--_line-height);
+  -webkit-font-smoothing: antialiased;
+}
+
+.root *,
+.root *::before,
+.root *::after,
+.portal *,
+.portal *::before,
+.portal *::after {
+  box-sizing: border-box;
+}
+
+.root :focus-visible,
+.portal :focus-visible {
+  outline: var(--_focus-ring-width) solid var(--_focus-ring);
+  outline-offset: 2px;
+}
+
+.root a,
+.portal a {
+  color: var(--_link);
+}
+
+.root a:hover,
+.portal a:hover {
+  color: var(--_link-hover);
+}
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Combined country and region selector in the page header (U-10 to U-12): own list with SVG flags (Radix Select). */
+.select.place-picker {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--_space-2);
+  /* Fixed width like the former native field, so that the tabs do not jump with long region names. */
+  width: var(--_picker-width);
+  max-width: 100%;
+  height: var(--bar-height);
+  color: var(--_text-strong);
+  font-size: var(--_font-size-lg);
+  font-weight: var(--_font-weight-strong);
+  text-align: left;
+  cursor: pointer;
+}
+
+/* While the list is open Radix lets the page ignore pointers; the field takes them, so a second tap closes the list. */
+.select.place-picker[data-state='open'] {
+  pointer-events: auto;
+}
+
+/* The value element of Radix (first child of the field) takes no class; it fills the field up to the arrow. */
+.select.place-picker > span:first-child {
+  display: flex;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.place-picker-label {
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+  gap: var(--_space-2);
+  min-width: 0;
+}
+
+.place-picker-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.place-picker-arrow {
+  display: flex;
+  flex: none;
+  color: var(--_text-muted);
+}
+
+/* The list: in the portal of the element, above the detail sheet (z-index 60/61), below tooltips. */
+.place-picker-content {
+  z-index: 65;
+  overflow: hidden;
+  min-width: var(--radix-select-trigger-width);
+  max-height: min(var(--radix-select-content-available-height), 480px);
+  border: 1px solid var(--_border);
+  border-radius: var(--_radius);
+  background: var(--_surface-raised);
+  box-shadow: var(--_shadow-raised);
+  color: var(--_text);
+  font-family: var(--_font-family);
+  font-size: var(--_font-size);
+}
+
+.place-picker-viewport {
+  padding: var(--_space-1);
+}
+
+.place-picker-item {
+  display: flex;
+  align-items: center;
+  gap: var(--_space-2);
+  min-height: 40px;
+  padding: var(--_space-1) var(--_space-6) var(--_space-1) var(--_space-3);
+  position: relative;
+  border-radius: var(--_radius-sm);
+  font-weight: var(--_font-weight-strong);
+  cursor: pointer;
+  user-select: none;
+  outline: none;
+}
+
+/* Regions indented below their country, in normal weight. */
+.place-picker-item[data-region='true'] {
+  padding-left: calc(var(--_space-3) + 29px);
+  font-weight: var(--_font-weight);
+}
+
+.place-picker-item[data-highlighted] {
+  background: var(--_hover);
+}
+
+.place-picker-item[data-state='checked'] {
+  background: var(--_selected);
+}
+
+.place-picker-check {
+  position: absolute;
+  right: var(--_space-2);
+  display: flex;
+  color: var(--_accent);
+}
+
+.place-picker-scroll {
+  display: flex;
+  justify-content: center;
+  padding: var(--_space-1);
+  color: var(--_text-muted);
+  cursor: default;
+}
+
+.country-flag {
+  flex: none;
+  border-radius: 2px;
+}
+
+.icon-button {
+  display: inline-grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border: 1px solid var(--_button-border);
+  border-radius: var(--_radius);
+  background: var(--_button-bg);
+  color: var(--_button-text);
+  cursor: pointer;
+}
+
+.icon-button:hover {
+  background: var(--_button-hover);
+}
+
+/* Main area */
+.main {
+  /*
+   * Shared height of the country/region selector and the view selector: tab (24px line + 2 × 8px) plus padding
+   * and border of the bar (2 × 4px + 2 × 1px).
+   */
+  --bar-height: 50px;
+
+  display: flex;
+  flex-direction: column;
+  gap: var(--_space-4);
+  padding: var(--_space-4);
+  max-width: 1680px;
+  margin: 0 auto;
+}
+
+.root[data-embedded='true'] .main {
+  max-width: none;
+}
+
+/* Version below the content: right-aligned, small, in the width of the content (U-04). */
+.app-version {
+  max-width: 1680px;
+  margin: calc(-1 * var(--_space-2)) auto 0;
+  padding: 0 var(--_space-4) var(--_space-3);
+  color: var(--_text-muted);
+  font-size: 0.75rem;
+  text-align: right;
+}
+
+.app-powered {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25em;
+  vertical-align: bottom;
+}
+
+.app-glyph {
+  width: 1em;
+  height: 1em;
+  flex: none;
+}
+
+.root[data-embedded='true'] .app-version {
+  max-width: none;
+}
+
+/* Page header: country/region selector and the views next to it (ADR 0034) */
+.toolbar-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--_space-3);
+  /* Same spacing to the view as between the other areas (gap of .main). */
+  margin-bottom: var(--_space-4);
+}
+
+/* Switch "Grenzgebiet" next to the country selection (ADR 0038). */
+.border-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--_space-2);
+  height: var(--bar-height);
+  color: var(--_text-strong);
+  font-weight: var(--_font-weight-strong);
+  white-space: nowrap;
+}
+
+.border-toggle label {
+  cursor: pointer;
+}
+
+/* "i" for the closed map notice: only on narrow screens (see media query below). */
+.notice-toggle {
+  display: none;
+}
+
+.view-tabs {
+  display: flex;
+  height: var(--bar-height);
+  gap: var(--_space-1);
+  padding: var(--_space-1);
+  border: 1px solid var(--_border);
+  border-radius: var(--_radius-lg);
+  background: var(--_surface);
+  overflow-x: auto;
+}
+
+.view-tab {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--_space-2);
+  padding: var(--_space-2) var(--_space-3);
+  border: 0;
+  border-radius: var(--_radius);
+  background: transparent;
+  color: var(--_text);
+  font: inherit;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.view-tab:hover {
+  background: var(--_hover);
+}
+
+.view-tab[data-state='active'] {
+  background: var(--_tab-active);
+  color: var(--_tab-active-text);
+}
+
+.region-summary {
+  color: var(--_text-muted);
+  font-size: var(--_font-size-sm);
+}
+
+/* Grid of the map view */
+.overview {
+  display: flex;
+  flex-direction: column;
+  gap: var(--_space-4);
+}
+
+/*
+ * Layers, map and news stand side by side at equal height. The height is set by the layer list alone:
+ * via `contain: size`, map and news contribute nothing to the row height and only fill it.
+ * The height therefore does not depend on the window height.
+ */
+.overview-row {
+  display: grid;
+  grid-template-columns: var(--_picker-width) minmax(0, 1fr) 330px;
+  grid-template-areas: 'layers map news';
+  gap: var(--_space-4);
+  align-items: stretch;
+}
+
+.overview-layers {
+  grid-area: layers;
+}
+
+.overview-map {
+  grid-area: map;
+  min-width: 0;
+  contain: size;
+}
+
+/* The news list scrolls within the row height. */
+.overview-news {
+  display: flex;
+  flex-direction: column;
+  grid-area: news;
+  contain: size;
+}
+
+@media (max-width: 1200px) {
+  .overview-row {
+    grid-template-columns: var(--_picker-width) minmax(0, 1fr);
+    grid-template-areas:
+      'layers map'
+      'news news';
+  }
+
+  .overview-news {
+    contain: none;
+  }
+
+  .overview-news .news-list {
+    max-height: 480px;
+  }
+}
+
+@media (max-width: 860px) {
+  .overview-row {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: 'map' 'layers' 'news';
+  }
+
+  /* First line: country selector and "i"; the view tabs always in the second line. */
+  .toolbar-row .place-picker {
+    flex: 1 1 auto;
+    width: auto;
+    min-width: 0;
+  }
+
+  .notice-toggle {
+    display: inline-flex;
+  }
+
+  /* Same height as the country selector. */
+  .notice-toggle .icon-button {
+    width: var(--bar-height);
+    height: var(--bar-height);
+  }
+
+  .toolbar-row .view-tabs {
+    flex-basis: 100%;
+    height: auto;
+    min-height: var(--bar-height);
+  }
+
+  /* All three tabs stay visible: they share the width and a long label wraps instead of scrolling out of view. */
+  .view-tab {
+    flex: 1 1 auto;
+    justify-content: center;
+    padding: var(--_space-1) var(--_space-2);
+    line-height: 1.2;
+    text-align: center;
+    white-space: normal;
+  }
+
+  .view-tab svg {
+    flex-shrink: 0;
+  }
+
+  /* The closed notice shows again via "i", not via a button covering the map. */
+  .map-notice.map-notice-show {
+    display: none;
+  }
+
+  .overview-map {
+    contain: none;
+  }
+
+  .overview-map .map-stage {
+    flex: 0 0 auto;
+    height: 480px;
+  }
+
+  .main {
+    padding: var(--_space-3);
+  }
+}
+
+.offline-banner {
+  display: flex;
+  align-items: center;
+  gap: var(--_space-2);
+  padding: var(--_space-2) var(--_space-4);
+  background: var(--_error-bg);
+  color: var(--_error);
+  font-weight: var(--_font-weight-strong);
+}
+
+/* Phones: country selector and "i" share the first line, whatever the length of the place name; the switch
+   "Grenzgebiet" gets its own line (it does not fit next to both), the view tabs follow. */
+@media (max-width: 560px) {
+  .toolbar-row .place-picker {
+    flex-basis: 0;
+  }
+
+  .toolbar-row .border-toggle {
+    flex-basis: 100%;
+  }
+}
+
+/* Phones: the map notice uses the width between the map controls (left column, zoom on the right) instead of a
+   narrow pill that wraps word by word. */
+@media (max-width: 560px) {
+  .map-notice:not(.map-notice-show) {
+    left: 58px;
+    right: 52px;
+    max-width: none;
+    border-radius: var(--_radius-lg);
+    transform: none;
+  }
+}
+
+/* Very narrow screens (320 px): the labels alone, so all three tabs fit. */
+@media (max-width: 360px) {
+  .view-tab svg {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .root *,
+  .portal * {
+    animation-duration: 0.01ms !important;
+    /* Endless animations (spinner, loading placeholders) stop instead of flickering through random frames. */
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Header (B-D1, U-01): logo, name, clock, light/dark switch; colours from the header tokens (B-D2). */
+.site-header {
+  display: flex;
+  align-items: center;
+  gap: var(--_space-3);
+  min-height: 56px;
+  padding: 0 var(--_space-4);
+  background: var(--_header-bg);
+  border-bottom: 3px solid var(--_header-line);
+  color: var(--_header-text);
+}
+
+.site-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+
+.site-brand a {
+  display: block;
+  border-radius: var(--_radius-sm);
+}
+
+.site-brand a:focus-visible,
+.theme-switch:focus-visible {
+  outline: var(--_focus-ring-width) solid currentColor;
+  outline-offset: 2px;
+}
+
+/* Square icons and wide logos alike: the height is fixed, the width follows. */
+.site-logo {
+  display: block;
+  width: auto;
+  max-width: 220px;
+  height: 32px;
+}
+
+.site-title {
+  margin: 0;
+  overflow: hidden;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Clock with seconds and the date below; not on narrow screens. */
+.site-clock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: auto;
+  line-height: 1.25;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.site-clock-time {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.site-clock-date {
+  font-size: 0.8125rem;
+}
+
+.theme-switch {
+  display: flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+
+.theme-switch:hover {
+  background: rgb(255 255 255 / 0.12);
+}
+
+@media (max-width: 860px) {
+  .site-clock {
+    display: none;
+  }
+
+  .theme-switch {
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .site-header {
+    gap: var(--_space-2);
+    padding: 0 var(--_space-2);
+  }
+
+  .site-title {
+    font-size: 1.125rem;
+  }
+
+  .site-logo {
+    max-width: 140px;
+  }
+}
+
+/* Members card (A-D2): instead of the map for a visitor the start page does not admit. */
+.members {
+  display: flex;
+  justify-content: center;
+  padding: 48px var(--_space-4) 64px;
+}
+
+.members-card {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 640px;
+  padding: 40px 40px 32px;
+  border: 1px solid var(--_border);
+  border-top: 4px solid var(--_header-line);
+  border-radius: var(--_radius-lg);
+  background: var(--_surface);
+  box-shadow: var(--_shadow-raised);
+  color: var(--_text);
+}
+
+.members-card h2 {
+  margin: 0 0 var(--_space-3);
+  color: var(--_text-strong);
+  font-size: var(--_font-size-xl);
+}
+
+.members-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  background: var(--_accent-subtle);
+  color: var(--_accent);
+}
+
+.members-list {
+  margin: 0 0 28px;
+  padding-left: 1.25em;
+}
+
+.members-list li {
+  margin-bottom: var(--_space-2);
+}
+
+.members-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--_space-3);
+  margin-bottom: 28px;
+}
+
+.members-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0 20px;
+  border: 2px solid var(--_accent);
+  border-radius: var(--_radius);
+  font-weight: var(--_font-weight-strong);
+  text-decoration: none;
+}
+
+.members-button.primary {
+  background: var(--_accent);
+  color: var(--_accent-text);
+}
+
+.members-button.secondary {
+  background: transparent;
+  color: var(--_link);
+}
+
+.members-button:focus-visible,
+.members-card a:focus-visible {
+  outline: var(--_focus-ring-width) solid var(--_focus-ring);
+  outline-offset: 2px;
+}
+
+.members-foot {
+  margin: 0;
+  padding-top: 20px;
+  border-top: 1px solid var(--_border);
+}
+
+.members-foot a {
+  color: var(--_link);
+  font-weight: var(--_font-weight-strong);
+}
+
+@media (max-width: 480px) {
+  .members {
+    padding: 24px var(--_space-3) 40px;
+  }
+
+  .members-card {
+    padding: 28px 20px 24px;
+  }
+
+  .members-button {
+    flex: 1 1 100%;
+  }
+}

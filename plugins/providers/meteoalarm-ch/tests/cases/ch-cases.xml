@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:cap="urn:oasis:names:tc:emergency:cap:1.2">
+  <link type="text/html" rel="alternate" href="https://meteoalarm.org"/>
+  <id>tag:meteoalarm.org,2021-02-19:CH</id>
+  <title>MeteoAlarm - Alerting Europe for Extreme Weather</title>
+  <updated>2026-09-28T11:05:15.733663Z</updated>
+  <entry>
+    <cap:areaDesc>Bern</cap:areaDesc>
+    <cap:event>Moderate thunderstorm warning</cap:event>
+    <cap:sent>2026-09-28T10:00:00+02:00</cap:sent>
+    <cap:onset>2026-09-28T12:00:00+02:00</cap:onset>
+    <cap:expires>2026-09-28T22:00:00+02:00</cap:expires>
+    <cap:severity>Moderate</cap:severity>
+    <cap:message_type>Alert</cap:message_type>
+    <cap:polygon>46.85,7.30 46.85,7.60 47.05,7.60 47.05,7.30</cap:polygon>
+    <id>https://feeds.meteoalarm.org/api/v1/warnings/feeds-switzerland/bern-1</id>
+    <link hreflang="de" href="https://www.meteoswiss.admin.ch/warnungen" rel="alternate"/>
+    <title>Moderate thunderstorm warning issued for Switzerland - Bern</title>
+    <summary>Gewitter mit Hagel möglich.</summary>
+    <updated>2026-09-28T10:00:00+02:00</updated>
+    <published>2026-09-28T10:00:00+02:00</published>
+  </entry>
+  <entry>
+    <cap:areaDesc>Ticino</cap:areaDesc>
+    <cap:event>Severe rain warning</cap:event>
+    <cap:expires>2026-09-29T06:00:00+02:00</cap:expires>
+    <cap:severity>Severe</cap:severity>
+    <cap:message_type>Update</cap:message_type>
+    <cap:polygon>46.0,8.9</cap:polygon>
+    <id>https://feeds.meteoalarm.org/api/v1/warnings/feeds-switzerland/ticino-1</id>
+    <link hreflang="it" href="javascript:void(0)" rel="alternate"/>
+    <title>Severe rain warning issued for Switzerland - Ticino</title>
+    <summary>Forti piogge.</summary>
+    <updated>2026-09-28T11:00:00+02:00</updated>
+  </entry>
+  <entry>
+    <cap:areaDesc>Zürich</cap:areaDesc>
+    <cap:event>Heat warning</cap:event>
+    <cap:expires>2026-09-28T10:00:00+02:00</cap:expires>
+    <cap:severity>Minor</cap:severity>
+    <cap:message_type>Alert</cap:message_type>
+    <id>https://feeds.meteoalarm.org/api/v1/warnings/feeds-switzerland/zh-expired</id>
+    <title>Heat warning - Zürich</title>
+    <updated>2026-09-28T06:00:00+02:00</updated>
+  </entry>
+  <entry>
+    <cap:areaDesc>Luzern</cap:areaDesc>
+    <cap:event>Wind warning</cap:event>
+    <cap:expires>2026-09-28T23:00:00+02:00</cap:expires>
+    <cap:severity>Minor</cap:severity>
+    <cap:message_type>Cancel</cap:message_type>
+    <id>https://feeds.meteoalarm.org/api/v1/warnings/feeds-switzerland/lu-cancel</id>
+    <title>Wind warning - Luzern</title>
+    <updated>2026-09-28T11:00:00+02:00</updated>
+  </entry>
+</feed>

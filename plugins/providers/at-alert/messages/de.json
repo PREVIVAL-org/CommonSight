@@ -1,0 +1,9 @@
+{
+  "source.at-alert.level.AlertLevel1": "Notfallalarm",
+  "source.at-alert.level.AlertLevel2": "Extreme Gefahr",
+  "source.at-alert.level.AlertLevel3": "Erhebliche Gefahr",
+  "source.at-alert.level.AlertLevel4": "Gefahreninformation",
+  "source.at-alert.level.Amber": "Suche nach abgängiger Person",
+  "source.at-alert.level.unknown": "Bevölkerungswarnung",
+  "source.at-alert.level.test": "Probealarm"
+}

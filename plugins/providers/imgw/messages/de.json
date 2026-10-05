@@ -1,0 +1,9 @@
+{
+  "source.imgw.assessment.label.plBelow": "Unter dem Warnwasserstand",
+  "source.imgw.assessment.label.plWarning": "Warnwasserstand erreicht (stan ostrzegawczy)",
+  "source.imgw.assessment.label.plAlarm": "Alarmwasserstand erreicht (stan alarmowy)",
+  "source.imgw.assessment.basis.plBelow": "IMGW-PIB: Wasserstand unter dem Warnwasserstand dieses Pegels.",
+  "source.imgw.assessment.basis.plWarning": "IMGW-PIB: Warnwasserstand des Pegels erreicht oder überschritten. Stationsbezogener Vergleich, keine amtliche Hochwasserwarnung.",
+  "source.imgw.assessment.basis.plAlarm": "IMGW-PIB: Alarmwasserstand des Pegels erreicht oder überschritten. Stationsbezogener Vergleich, keine amtliche Hochwasserwarnung.",
+  "source.imgw.assessment.basis.plMissing": "Für diesen Pegel nennt IMGW-PIB keinen Warn- oder Alarmwasserstand."
+}

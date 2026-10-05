@@ -1,0 +1,9 @@
+{
+  "source.chmi.assessment.label.czBelowSpa": "Unter der 1. Hochwasserstufe (SPA)",
+  "source.chmi.assessment.label.czSpa1": "1. SPA · Bereitschaft (bdělost)",
+  "source.chmi.assessment.label.czSpa2": "2. SPA · Alarmbereitschaft (pohotovost)",
+  "source.chmi.assessment.label.czSpa3": "3. SPA · Gefahr (ohrožení)",
+  "source.chmi.assessment.basis.czBelowSpa": "ČHMÚ: Wert unter der ersten Stufe der Hochwasseraktivität (SPA) dieses Pegels.",
+  "source.chmi.assessment.basis.czSpa": "ČHMÚ: {stage}. Stufe der Hochwasseraktivität (SPA) des Pegels erreicht. Stufen 1-2 orange, 3 rot; stationsbezogener Vergleich, keine amtliche Hochwasserwarnung.",
+  "source.chmi.assessment.basis.czMissing": "Für den Vergleich mit den SPA-Stufen fehlt der Abfluss."
+}

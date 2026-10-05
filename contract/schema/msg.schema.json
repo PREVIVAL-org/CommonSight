@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://commonsight.org/schema/v1/msg.schema.json",
+  "title": "Msg",
+  "description": "Translatable text: key plus parameters (E12, V10). The keys are listed in contract/messages/de.json.",
+  "type": "object",
+  "properties": {
+    "key": { "type": "string", "pattern": "^[a-zA-Z][a-zA-Z0-9]*(\\.[a-zA-Z0-9][a-zA-Z0-9-]*)+$" },
+    "params": {
+      "type": "object",
+      "additionalProperties": { "type": ["string", "number"] }
+    }
+  },
+  "required": ["key"],
+  "additionalProperties": false
+}
