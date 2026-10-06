@@ -207,6 +207,15 @@ describe('App', () => {
     expect(within(dialog).getByText('Österreich · Quellenstatus und Aktualität')).toBeInTheDocument();
     expect(within(dialog).getByText('Datennutzung')).toBeInTheDocument();
     expect(within(dialog).getAllByText('Daten ansehen')).toHaveLength(LAYER_IDS.length);
+    expect(within(dialog).getByText(/GNU Affero General Public License/)).toBeInTheDocument();
+    expect(within(dialog).getByRole('link', { name: 'Quellcode' })).toHaveAttribute(
+      'href',
+      'https://github.com/PREVIVAL-org/CommonSight',
+    );
+    expect(within(dialog).getByRole('link', { name: 'Lizenztext (AGPL-3.0)' })).toHaveAttribute(
+      'href',
+      'https://github.com/PREVIVAL-org/CommonSight/blob/main/LICENSE',
+    );
     fireEvent.click(within(dialog).getByRole('button', { name: 'Schließen' }));
     expect(bundle.store.getState().ui.sheet).toBeNull();
   });

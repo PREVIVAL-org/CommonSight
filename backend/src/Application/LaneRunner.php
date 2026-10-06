@@ -36,7 +36,7 @@ final class LaneRunner
             $due = $this->due->among($this->plans->inLane($lane), $this->clock->now());
             $report = $this->batch->run($due, static fn(SourcePlan $plan): UtcInstant => $deadline, 'cron', $lane, $this->due);
 
-            return new LaneReport(false, $report->outcomes + $this->batch->publishLayersWithoutSources(), $report->skippedForBudget);
+            return new LaneReport(false, $report->outcomes + $this->batch->publishLayersWithoutSources('cron'), $report->skippedForBudget);
         } finally {
             $lock->release();
         }

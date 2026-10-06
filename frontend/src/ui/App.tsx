@@ -8,7 +8,7 @@ import * as Tooltip from '@radix-ui/react-tooltip';
 import { ListChecks, MapPinned, TriangleAlert } from 'lucide-react';
 import { LIST_VIEWS } from '../domain/layer-slots';
 import type { ViewId } from '../domain/selection';
-import { APP_VERSION } from '../version';
+import { APP_VERSION, REPOSITORY_URL } from '../version';
 import { useActions, useAppState, usePage, useTexts } from './hooks';
 import { BorderToggle } from './layout/BorderToggle';
 import { MembersCard } from './layout/MembersCard';
@@ -20,9 +20,6 @@ import { ListView } from './lists/ListView';
 import { NoticeToggle } from './overview/MapNotice';
 import { OverviewView } from './overview/OverviewView';
 import { Sheet } from './sheet/Sheet';
-
-/** Source code of CommonSight, linked in the footer. */
-const REPOSITORY_URL = 'https://github.com/PREVIVAL-org/CommonSight';
 
 /** The CommonSight glyph (as custom/logo.svg), inline: an installation's own logo does not replace it. */
 function Glyph() {

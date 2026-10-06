@@ -67,21 +67,19 @@ final class SourceBatch
     }
 
     /**
-     * Assembles once the layers without any state yet that no source will ever trigger (no sources in their scope).
+     * Reassembles the layers that no source will ever trigger (no sources in their scope), e.g. "setup". Every run, not
+     * only once: a snapshot from an earlier release must not outlive an update; unchanged content writes no new file.
      *
      * @return array<string, RunOutcome>
      */
-    public function publishLayersWithoutSources(): array
+    public function publishLayersWithoutSources(string $trigger): array
     {
-        $outcomes = [];
+        $targets = [];
         foreach ($this->plans->targetsWithoutSources() as $target) {
-            $outcome = $this->publisher->publishIfMissing($target, $this->clock->now());
-            if ($outcome !== null) {
-                $outcomes[$target->name()] = $outcome;
-            }
+            $targets[$target->name()] = $target;
         }
 
-        return $outcomes;
+        return $this->publish($targets, $trigger);
     }
 
     /** Assembles a layer from the latest outcomes of its sources, without running any of them. */

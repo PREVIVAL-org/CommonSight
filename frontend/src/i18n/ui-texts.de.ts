@@ -225,6 +225,11 @@ export const uiTextsDe = {
     'Die Daten werden nach den Nutzungsbedingungen der jeweiligen Anbieter verwendet; Rechte an Meldungen und Überschriften liegen bei den Anbietern. Maßgeblich sind die verlinkten Originalmeldungen.',
   'sheet.sources.privacy':
     'Daten und Karte kommen vom eigenen Server dieses Angebots. Beim Anzeigen erhalten keine Drittanbieter Verbindungsdaten.',
+  'sheet.sources.software': 'Software',
+  'sheet.sources.license':
+    'Diese Lagekarte läuft mit CommonSight {version}, freier Software unter der GNU Affero General Public License, Version 3 (AGPL-3.0). Den vollständigen Quellcode gibt es kostenlos zum Herunterladen.',
+  'sheet.sources.sourceCode': 'Quellcode',
+  'sheet.sources.licenseText': 'Lizenztext (AGPL-3.0)',
   'sheet.layer.subtitle': '{country} · Quelle, Datenstand und Einordnung',
   'sheet.layer.openOfficial': 'Offizielle Quelle öffnen',
   'sheet.layer.moreOfficial': 'Weitere amtliche Informationen',

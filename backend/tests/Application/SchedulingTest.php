@@ -167,11 +167,12 @@ final class SchedulingTest extends TestCase
         self::assertSame([], $this->chain->marker->running, 'the marker is cleared all the same');
     }
 
-    public function testLayerWithoutSourcesIsAssembledOnce(): void
+    /** Every run, so that a snapshot an earlier release wrote does not outlive an update; unchanged writes no new file. */
+    public function testLayerWithoutSourcesIsReassembledEveryRun(): void
     {
         self::assertSame(RunOutcome::Updated, $this->lane('12:00:00')->outcomes['CH-traffic']);
         self::assertSame(FeedStatus::Setup, $this->chain->states->read(LayerId::from('traffic'), Scope::CH)?->status);
-        self::assertArrayNotHasKey('CH-traffic', $this->lane('12:20:00')->outcomes);
+        self::assertSame(RunOutcome::Unchanged, $this->lane('12:20:00')->outcomes['CH-traffic']);
     }
 
     public function testFallbackRefreshesTheDueSourcesOfTheMostStaleLayer(): void

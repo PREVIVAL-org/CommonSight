@@ -62,12 +62,6 @@ final class LayerPublisher
         return $outcome;
     }
 
-    /** A layer without any state yet is assembled once, e.g. one without sources, which shows "setup". */
-    public function publishIfMissing(LayerTarget $target, UtcInstant $now): ?RunOutcome
-    {
-        return $this->states->read($target->layer, $target->scope) === null ? $this->publish($target, [], $now, 'initial') : null;
-    }
-
     /** @param list<SourcePlan> $plans */
     private function publishLocked(LayerTarget $target, array $plans, UtcInstant $now): RunOutcome
     {

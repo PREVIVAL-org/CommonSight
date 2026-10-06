@@ -1,10 +1,11 @@
 /**
  * Detail sheet "Datenquellen & Abdeckung" (data sources & coverage): intervals, status per layer incl. news, and
  * data use (U-40, R-01, R-02, R-05); for "Alle" (all) with merged status and the boundary data of all countries
- * (ADR 0037).
+ * (ADR 0037); license and source code of CommonSight (AGPL-3.0).
  */
 import { attribution, LAYER_IDS, sources } from '../../contract/master-data';
 import type { LayerStatusView } from '../../domain/views/layer-status-view';
+import { APP_VERSION, LICENSE_URL, REPOSITORY_URL } from '../../version';
 import { useActions, useAppState, useTexts } from '../hooks';
 import { AvailabilityBadge } from '../parts/AvailabilityBadge';
 import { ExternalLink } from '../parts/ExternalLink';
@@ -100,6 +101,21 @@ function DataUse() {
   );
 }
 
+/** License and source code of CommonSight itself (AGPL-3.0, section 13); the only place in the UI for it. */
+function Software() {
+  const t = useTexts();
+  return (
+    <section className="sheet-section">
+      <h3>{t.ui('sheet.sources.software')}</h3>
+      <p>{t.ui('sheet.sources.license', { version: APP_VERSION })}</p>
+      <span className="card-footer">
+        <ExternalLink href={REPOSITORY_URL}>{t.ui('sheet.sources.sourceCode')}</ExternalLink>
+        <ExternalLink href={LICENSE_URL}>{t.ui('sheet.sources.licenseText')}</ExternalLink>
+      </span>
+    </section>
+  );
+}
+
 export function SourcesSheet() {
   const statuses = useAppState((state, selectors) => selectors.allStatusViews(state));
   return (
@@ -111,6 +127,7 @@ export function SourcesSheet() {
         ))}
       </ul>
       <DataUse />
+      <Software />
     </>
   );
 }
