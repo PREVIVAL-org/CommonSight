@@ -348,6 +348,7 @@ Principle: these are **display categories, not an official cross-country warning
 | A-05 | PMTiles static with range requests, without compression | MUST |
 | A-06 | No access check in the component | MUST |
 | A-07 | Security headers: `X-Content-Type-Options: nosniff`, `Referrer-Policy: strict-origin-when-cross-origin` | SHOULD |
+| A-08 | **Error reports of the browsers** (2026-10-11): when the map fails, the browser reports the error with what it allows the map (WebGL, graphics card, workers, readable canvas, browser and system) to the server, which keeps it for a configurable number of days. Only from visitors the start page admits; no IP address, no cookie; off by default (`clientReports`) | SHOULD |
 
 ---
 

@@ -66,7 +66,7 @@ fi
 echo "→ Switching to $RELEASE"
 # The backend first, then the web part: the new start page never meets the old backend.
 ln -sfn "releases/$RELEASE" "$APP/current.new" && mv -T "$APP/current.new" "$APP/current"
-sed -i "s#@APP@#$APP#g" "$PKG/web/api/status.php" "$PKG/web/gate.php"
+sed -i "s#@APP@#$APP#g" "$PKG/web/api/status.php" "$PKG/web/api/report.php" "$PKG/web/gate.php"
 rm -rf "$WEB/map" "$WEB/licenses"
 cp -a "$PKG/web/." "$WEB/"
 # Defaults for missing files, then the colours and logo of this installation from install/custom-previval.

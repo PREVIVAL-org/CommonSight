@@ -191,7 +191,7 @@ final class FetcherCli
     private function housekeeping(Config $config, GeneratedData $data): int
     {
         $factory = new FetcherFactory($config, $data, 'housekeeping', microtime(true));
-        $result = (new Housekeeping($config->paths, new SnapshotCleaner($config->paths->data, $factory->stateReader())))->run($factory->targets(), time());
+        $result = (new Housekeeping($config->paths, new SnapshotCleaner($config->paths->data, $factory->stateReader()), $config->clientReports->keepDays))->run($factory->targets(), time());
         $factory->logger()->log('info', 'housekeeping', $result);
 
         return self::OK;

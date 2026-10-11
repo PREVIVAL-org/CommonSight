@@ -9,6 +9,7 @@ import type { BoundingBox } from '../domain/item-location';
 import { focusTarget } from '../domain/item-location';
 import { findRegion } from '../domain/region-options';
 import type { Translator } from '../i18n/translator';
+import type { ErrorReporter } from '../application/error-reporter';
 import type { AppState } from '../state/app-state';
 import { itemOf, layerStatusOf, snapshotOf } from '../state/selectors/data-selectors';
 import type { Selectors } from '../state/selectors';
@@ -39,6 +40,7 @@ export interface MapBindingDeps {
   selectors: Selectors;
   view: MapView;
   style: MapStyleSource;
+  reporter: ErrorReporter;
 }
 
 const LAYER_VARIABLES = LAYER_IDS.map((id) => `--_layer-${id}`);
@@ -72,7 +74,8 @@ export class MapBinding {
       onItemClick: (layer, itemId) =>
         this.deps.actions.openSheet({ type: 'item', layer: layer as LayerId, itemId }),
       tooltipFor: (layer, itemId) => this.tooltip(layer as LayerId, itemId),
-      onError: (sourceId) => this.onError(sourceId),
+      onError: (sourceId, message) => this.onError(sourceId, message),
+      onContextLost: () => this.deps.reporter.report({ kind: 'context-lost', message: 'webglcontextlost' }),
       onAttributionToggle: (collapsed) => this.deps.actions.setAttributionHidden(collapsed),
       onMoveEnd: (camera) => this.deps.actions.setMapView(camera),
     });
@@ -200,8 +203,12 @@ export class MapBinding {
     return view === null ? null : tooltipHtml(view);
   }
 
-  /** Basemap errors lead to the message from K-12; missing map assets (mask, glyphs, sprites) have no effect. */
-  private onError(sourceId: string | null): void {
+  /**
+   * Every error goes to the server (6.6); basemap errors lead to the message from K-12; missing map assets (mask,
+   * glyphs, sprites) have no further effect.
+   */
+  private onError(sourceId: string | null, message: string): void {
+    this.deps.reporter.report({ kind: 'map-error', message, source: sourceId });
     if (sourceId !== BASEMAP_SOURCE || this.deps.store.getState().map.mapError) return;
     this.deps.actions.mapFailed();
     this.deps.actions.pushToast('toast.mapError', 'error');

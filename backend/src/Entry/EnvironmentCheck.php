@@ -49,6 +49,7 @@ final class EnvironmentCheck
         array_push($results, ...$this->missingSecrets($plans));
         array_push($results, ...$this->switchedOff($config));
         $results[] = $this->access($config, $data);
+        $results[] = self::clientReports($config);
         foreach ($config->lanes->names() as $lane) {
             $results[] = $this->lane($lane, $config->lanes->budget($lane), $plans->inLane($lane), $health);
         }
@@ -212,5 +213,19 @@ final class EnvironmentCheck
         }
 
         return [true, sprintf('Start page: members only, provider %s (auth.provider)', $config->auth->provider)];
+    }
+
+    /**
+     * Whether api/report.php keeps the error reports of the browsers (Architecture 6.6), and from whom.
+     *
+     * @return array{bool, string}
+     */
+    private static function clientReports(Config $config): array
+    {
+        if (!$config->clientReports->enabled) {
+            return [true, 'Error reports of the browsers: off (clientReports.enabled)'];
+        }
+
+        return [true, sprintf('Error reports of the browsers: from %s, kept %d days in logs/client-*.log', $config->auth === null ? 'every visitor' : 'admitted members', $config->clientReports->keepDays)];
     }
 }

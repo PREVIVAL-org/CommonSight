@@ -793,6 +793,15 @@ The rules are checked in the local environment (12.6), which uses them unchanged
 
 Concept and decisions: `internal/ACCESS-AND-BRANDING.md`. `gate.php` delivers the start page. Without `auth` in `config.php` it is the page as it is. With a provider (a plugin in `plugins/auth/<id>/`, `AuthProviderFactory` → `AuthProvider`) the provider decides from the cookies of the request whether the visitor is admitted (`StartPageGate`); if not, `StartPageEndpoint` marks the element with `access="denied"` and the name and links of the community (`community`, `login-url`, `register-url`), and the element shows its header and the members card instead of the map, without loading data. A provider that cannot decide (e.g. its database is not reachable) closes the page; the reason is logged (`auth.failed`), never anything about the visitor. Only the start page is protected: snapshots, tiles and the status endpoint stay public (A-D1), so no status poll costs a question to the provider.
 
+### 6.6 Error reports of the browsers
+
+Problems with the map often depend on the visitor's browser or system (WebGL switched off or blocklisted, fingerprinting protection, a strict policy of the company); without access to that browser they cannot be found. So the element reports them (A-08):
+
+- **What:** `map-start` (the map could not be built, e.g. no WebGL; `assemble-map.ts`), `map-error` (an `error` event of MapLibre with its source, e.g. a tile or the style; `map-binding.ts`), `context-lost` (`webglcontextlost`), `script-error` (an uncaught error or rejected promise whose file or stack lies below the bundle; the element shares the window with the host page, `script-errors.ts`). With message, stack, release and the diagnostics of `browser-diagnostics.ts`: user agent, language, WebGL version, graphics card (`WEBGL_debug_renderer_info`), software rendering (no context with `failIfMajorPerformanceCaveat`), workers, whether a canvas pixel reads back unchanged, pixel ratio, window size. The diagnostics are read at the first report only, and their WebGL contexts are released at once.
+- **How often:** `error-reporter.ts` sends each error (kind, source, message) once per page and at most five per page, as a beacon (`report-api.ts`), else as a `fetch` with `keepalive`. Only admitted visitors start a reporter.
+- **Server:** `public/report.php` (webroot `api/report.php`, one line like `status.php`) → `ClientReportEndpoint`: only `POST` (`405`), not from a foreign site (`Sec-Fetch-Site`, `403`), at most 16 KB (`413`). `ClientReportIntake` asks the `StartPageGate` first, the same check as the start page (`403` for a visitor it does not admit, also when the provider cannot decide); then `ClientReportParser` keeps only the known fields, cut to their length (`400` for anything else), and `ClientReportFile` appends one JSON line to `logs/client-YYYY-MM-DD.log` (`204`). A day keeps at most 2 MB (`429` beyond). No IP address, no cookie.
+- **Switch and retention:** `clientReports` in `config.php` (CONFIGURATION.md), off by default (`404`): the reports name browser, system and graphics card. The housekeeping removes files older than `keepDays` (30).
+
 ---
 
 ## 7. Layout on the server
@@ -807,7 +816,7 @@ Concept and decisions: `internal/ACCESS-AND-BRANDING.md`. `gate.php` delivers th
 ├─ cache/sources/                        latest outcome per source and scope (4.7)
 ├─ cache/plugins/<id>/                   store of each plugin, e.g. detail caches (4.9)
 ├─ locks/
-├─ logs/
+├─ logs/                                 fetcher.log, cron.log, tiles.log, client-YYYY-MM-DD.log (6.6)
 ├─ tiles-work/                           working directory of the tile job
 └─ bin/pmtiles                           Go binary
 
@@ -816,6 +825,7 @@ Concept and decisions: `internal/ACCESS-AND-BRANDING.md`. `gate.php` delivers th
 ├─ gate.php                              thin entry point of the start page: require .../current/public/gate.php
 ├─ custom/                               colours and logo of the installation (theme.css, logo.svg, favicon.svg)
 ├─ api/status.php                        thin entry point: require .../current/public/status.php
+├─ api/report.php                        thin entry point: require .../current/public/report.php (6.6)
 ├─ data/v1/{AT,DE,CH,global}/*.json(.br|.gz)
 ├─ tiles/dach-20261002-1055.pmtiles
 ├─ tiles/manifest.json                   current file name of the archive
@@ -1169,6 +1179,7 @@ These are starting values. They will be measured and fixed after the first end-t
 
 - Fetcher and status endpoint write JSON lines to `logs/` (time, process, peak memory, event with its context: `layer.run` with duration and outcome, `source.failed`, `source.requestFailed`, `source.exception`, `source.crashed`, `source.skippedMemory`, `source.unconfigured`, `drift`, `details.fetched`, `lane.budgetExhausted`; trigger `cron`/`fallback`/`manual`).
 - `php bin/fetcher.php status` shows the state of all layers on the console, `php bin/fetcher.php sources` the health of every source (failures, backoff, typical duration); `check` warns when a lane is close to its budget (D8 of the plugin concept).
+- Error reports of the browsers (map failures, uncaught errors of the bundle) go to `logs/client-YYYY-MM-DD.log`, if switched on (6.6).
 - Automatic notification is deferred. The status endpoint already delivers everything a later monitoring needs, though. A frequent trigger `fallback` in the log indicates that the cron does not run reliably.
 
 ### 12.4 Tests

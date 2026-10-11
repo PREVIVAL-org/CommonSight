@@ -14,7 +14,7 @@ final readonly class Config
     /** What config.php may set per source (sources.<id>). */
     private const SOURCE_KEYS = ['enabled', 'reason', 'lane', 'intervalSec', 'order', 'secrets'];
     /** The sections of config.php; the former ones (assessment, budgets, memberGate) are refused with a hint of their own. */
-    private const TOP_KEYS = ['paths', 'http', 'lanes', 'staleFactor', 'triggerMinIntervalSec', 'vicinityKm', 'layers', 'sources', 'drift', 'auth', 'assessment', 'budgets', 'memberGate'];
+    private const TOP_KEYS = ['paths', 'http', 'lanes', 'staleFactor', 'triggerMinIntervalSec', 'vicinityKm', 'layers', 'sources', 'drift', 'auth', 'clientReports', 'assessment', 'budgets', 'memberGate'];
     private const HTTP_KEYS = ['connectTimeoutSec', 'requestTimeoutSec', 'maxBytes', 'maxBytesBySource', 'requestTimeoutBySource', 'perHostConcurrency', 'totalConcurrency', 'caFile', 'contact'];
     private const LANE_KEYS = ['budgetSec', 'fallbackSec', 'everySec'];
 
@@ -36,6 +36,7 @@ final readonly class Config
         public ?AuthSettings $auth = null,
         /** radius ("Umkreis") around the selected country or region within which items count as its vicinity (ADR 0038) */
         public float $vicinityKm = 200.0,
+        public ClientReportSettings $clientReports = new ClientReportSettings(),
     ) {
         $this->sourceSwitches = array_map(static fn(SourceSettings $s): bool => $s->enabled, $sources);
     }
@@ -60,6 +61,7 @@ final readonly class Config
                 self::positiveFloat($data->get('drift', 'maxRejectedShare'), 0.10, 'drift.maxRejectedShare'),
                 self::auth($data->get('auth')),
                 self::positiveFloat($data->get('vicinityKm'), 200.0, 'vicinityKm'),
+                self::clientReports($data->get('clientReports')),
             );
         } catch (\InvalidArgumentException $e) {
             throw new ConfigError($e->getMessage(), 0, $e);
@@ -183,6 +185,15 @@ final readonly class Config
         }
 
         return new AuthSettings($provider, $settings->array());
+    }
+
+    /** Error reports of the browsers: `['enabled' => true, 'keepDays' => 30]`; absent for none. */
+    private static function clientReports(Decoded $section): ClientReportSettings
+    {
+        self::refuseUnknown($section, ['enabled', 'keepDays'], 'clientReports');
+        $enabled = self::typed($section->get('enabled'), $section->get('enabled')->bool(), 'clientReports.enabled must be true or false');
+
+        return new ClientReportSettings($enabled ?? false, self::positiveInt($section->get('keepDays'), 30, 'clientReports.keepDays'));
     }
 
     /** @param list<string> $known */

@@ -84,4 +84,8 @@ return [
     //         // 'forumConfig' => '/path/of/the/forum/config.inc.php',
     //     ],
     // ],
+    // Error reports of the browsers (doc/CONFIGURATION.md, clientReports): when the map fails, the browser sends the
+    // error with browser, system and graphics card to api/report.php, which keeps it in logs/client-YYYY-MM-DD.log.
+    // With auth only from admitted members. Off by default; mention it in the privacy notice before switching it on.
+    // 'clientReports' => ['enabled' => true, 'keepDays' => 30],
 ];

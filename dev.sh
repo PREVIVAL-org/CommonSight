@@ -121,6 +121,7 @@ cmd_build() {
     # One line each in the webroot, pointing to the active release (@APP@ is replaced on installation).
     printf '<?php\nrequire %s;\n' "'@APP@/current/public/status.php'" > "$PACKAGE/web/api/status.php"
     printf '<?php\nrequire %s;\n' "'@APP@/current/public/gate.php'" > "$PACKAGE/web/gate.php"
+    printf '<?php\nrequire %s;\n' "'@APP@/current/public/report.php'" > "$PACKAGE/web/api/report.php"
     # Start page at the root of the webroot: assets from app/<release>/, the element finds the backend itself.
     sed -E "s#\./(favicon\.svg|fonts/|commonsight\.js)#app/$RELEASE/\1#g" "$ROOT/frontend/dist/index.html" > "$PACKAGE/web/index.html"
     # The release keeps its start page too, for a rollback (INSTALLATION.md).
@@ -143,7 +144,7 @@ cmd_deploy() {
     rm -rf "$WEB/map" "$WEB/licenses"
     # status.php gets its path before it reaches the webroot: no request finds the placeholder.
     rm -rf "$PACKAGE/web-installed" && cp -a "$PACKAGE/web" "$PACKAGE/web-installed"
-    sed -i "${PLACEHOLDERS[@]}" "$PACKAGE/web-installed/api/status.php" "$PACKAGE/web-installed/gate.php"
+    sed -i "${PLACEHOLDERS[@]}" "$PACKAGE/web-installed/api/status.php" "$PACKAGE/web-installed/api/report.php" "$PACKAGE/web-installed/gate.php"
     cp -a "$PACKAGE/web-installed/." "$WEB/" && rm -rf "$PACKAGE/web-installed"
     # The operator's colours and logo stay; only files that are missing are added.
     cp -rn "$PACKAGE/custom" "$WEB/"

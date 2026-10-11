@@ -5,21 +5,26 @@ declare(strict_types=1);
 namespace CommonSight\Entry;
 
 use CommonSight\Config\Paths;
+use CommonSight\Infrastructure\Log\ClientReportFile;
 use CommonSight\Infrastructure\Storage\SnapshotCleaner;
 use CommonSight\Model\Layer\LayerTarget;
 
-/** Cleans up: old snapshot versions, orphaned temporary files, oversized logs (Architecture 5.2). */
+/** Cleans up: old snapshot versions, orphaned temporary files, oversized logs, old error reports of the browsers (Architecture 5.2, 6.6). */
 final class Housekeeping
 {
     private const LOG_MAX_BYTES = 5_000_000;
     private const LOG_KEEP_BYTES = 1_000_000;
     private const TEMP_MAX_AGE_SEC = 3600;
 
-    public function __construct(private readonly Paths $paths, private readonly SnapshotCleaner $snapshots) {}
+    public function __construct(
+        private readonly Paths $paths,
+        private readonly SnapshotCleaner $snapshots,
+        private readonly int $clientReportKeepDays = 30,
+    ) {}
 
     /**
      * @param list<LayerTarget> $targets
-     * @return array{snapshots: int, temporary: int, logs: int}
+     * @return array{snapshots: int, temporary: int, logs: int, clientReports: int}
      */
     public function run(array $targets, int $now): array
     {
@@ -27,6 +32,7 @@ final class Housekeeping
             'snapshots' => $this->snapshots->clean($targets, $now),
             'temporary' => $this->removeTemporaryFiles($now),
             'logs' => $this->truncateLogs(),
+            'clientReports' => (new ClientReportFile($this->paths->logs))->removeOlderThan($this->clientReportKeepDays, $now),
         ];
     }
 

@@ -78,6 +78,14 @@ final class ConfigAndXmlTest extends TestCase
         self::assertSame(['woltlab', ['cookie' => 'wsc_1_user_session']], [$auth?->provider, $auth?->settings]);
     }
 
+    public function testReadsTheClientReports(): void
+    {
+        $off = Config::fromArray(['paths' => self::PATHS])->clientReports;
+        self::assertSame([false, 30], [$off->enabled, $off->keepDays], 'off unless the operator switches them on');
+        $on = Config::fromArray(['paths' => self::PATHS, 'clientReports' => ['enabled' => true, 'keepDays' => 7]])->clientReports;
+        self::assertSame([true, 7], [$on->enabled, $on->keepDays]);
+    }
+
     /** @return iterable<string, array{array<mixed>}> */
     public static function invalidConfigs(): iterable
     {
@@ -105,6 +113,9 @@ final class ConfigAndXmlTest extends TestCase
         yield 'secret not a string' => [['paths' => self::PATHS, 'sources' => ['usgs' => ['secrets' => ['apiKey' => 42]]]]];
         yield 'invalid lane name' => [['paths' => self::PATHS, 'lanes' => ['Fast Lane' => ['budgetSec' => 50]]]];
         yield 'new lane without budget' => [['paths' => self::PATHS, 'lanes' => ['night' => ['fallbackSec' => 60]]]];
+        yield 'client reports switched on as a string' => [['paths' => self::PATHS, 'clientReports' => ['enabled' => 'yes']]];
+        yield 'client reports kept zero days' => [['paths' => self::PATHS, 'clientReports' => ['keepDays' => 0]]];
+        yield 'misspelled client report setting' => [['paths' => self::PATHS, 'clientReports' => ['enable' => true]]];
         yield 'timeout as text' => [['paths' => self::PATHS, 'http' => ['requestTimeoutSec' => 'viel']]];
     }
 

@@ -73,7 +73,7 @@ The result is `build/commonsight-<release>.tar.gz` with:
    ```sh
    cp -a app <APP>/releases/<release>
    ln -sfn releases/<release> <APP>/current
-   sed -i 's#@APP@#<APP>#g' web/api/status.php web/gate.php
+   sed -i 's#@APP@#<APP>#g' web/api/status.php web/api/report.php web/gate.php
    cp -a web/. <WEBROOT>/
    cp -rn custom <WEBROOT>/
    ```
@@ -99,7 +99,7 @@ The result is `build/commonsight-<release>.tar.gz` with:
    The check runs the new release against the existing `config.php` while the old one still serves everything. Only when it passes (adjust `config.php` first, see step 3), switch and then copy the web part: the new backend first, so that the new start page never meets the old one. The path in `status.php` is set in the package before copying, so no request meets the placeholder; map assets and licenses are replaced as a whole:
    ```sh
    ln -sfn releases/<release> <APP>/current.new && mv -T <APP>/current.new <APP>/current
-   sed -i 's#@APP@#<APP>#g' web/api/status.php web/gate.php
+   sed -i 's#@APP@#<APP>#g' web/api/status.php web/api/report.php web/gate.php
    rm -rf <WEBROOT>/map <WEBROOT>/licenses
    cp -a web/. <WEBROOT>/
    cp -rn custom <WEBROOT>/
@@ -148,7 +148,7 @@ CS_APP=<APP> CS_WEB=<WEBROOT> <APP>/current/bin/update-tiles.sh --install <file>
 
 ## Access control
 
-By default the start page is open to everyone. It can be closed to everyone but the members of a community through an auth provider (`plugins/auth/`); the first is WoltLab Suite. Only the start page is protected: data, tiles and `api/status.php` stay public, their content comes from public sources. A visitor who is not admitted sees the header and a card with the way to log in or register at the community. On any failure (provider not reachable, wrong settings) the page stays closed and the reason goes to `logs/fetcher.log` (`auth.failed`, `gate.exception`); nothing about visitors is kept or logged.
+By default the start page is open to everyone. It can be closed to everyone but the members of a community through an auth provider (`plugins/auth/`); the first is WoltLab Suite. Only the start page is protected: data, tiles and `api/status.php` stay public, their content comes from public sources. A visitor who is not admitted sees the header and a card with the way to log in or register at the community. On any failure (provider not reachable, wrong settings) the page stays closed and the reason goes to `logs/fetcher.log` (`auth.failed`, `gate.exception`); nothing about visitors is kept or logged. The error reports of the browsers (`clientReports` in `config.php`, off by default) go through the same check: only admitted members can send them.
 
 For a WoltLab forum, in `config.php`:
 

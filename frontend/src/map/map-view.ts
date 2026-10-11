@@ -52,7 +52,10 @@ export interface MapViewOptions {
 export interface MapHandlers {
   onItemClick(layer: string, itemId: string): void;
   tooltipFor(layer: string, itemId: string): string | null;
-  onError(sourceId: string | null): void;
+  /** An error of MapLibre: the source it concerns (null: none) and its message. */
+  onError(sourceId: string | null, message: string): void;
+  /** The browser took the WebGL context away (driver reset, too many contexts, GPU process crash). */
+  onContextLost(): void;
   /** Attribution collapsed (`true`) or expanded via "i". */
   onAttributionToggle(collapsed: boolean): void;
   /** The map came to rest after a movement (user or program). */
@@ -222,9 +225,11 @@ export class MapView {
   private listen(): void {
     this.map.on('styledataloading', () => (this.styleReady = false));
     this.map.on('style.load', () => (this.styleReady = true));
-    this.map.on('error', (event) =>
-      this.handlers?.onError((event as { sourceId?: string }).sourceId ?? null),
-    );
+    this.map.on('error', (event) => {
+      const { sourceId, error } = event as { sourceId?: string; error?: unknown };
+      this.handlers?.onError(sourceId ?? null, error instanceof Error ? error.message : String(error));
+    });
+    this.map.on('webglcontextlost', () => this.handlers?.onContextLost());
     this.map.on('mousemove', (event) => this.hover(event));
     this.map.on('mouseout', () => this.clearHover());
     this.map.on('click', (event) => this.click(event));

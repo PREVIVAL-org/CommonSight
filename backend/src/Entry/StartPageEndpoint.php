@@ -5,8 +5,6 @@ declare(strict_types=1);
 namespace CommonSight\Entry;
 
 use CommonSight\Application\StartPageGate;
-use CommonSight\Model\Value\UtcInstant;
-use CommonSight\Sdk\Auth\AuthRequest;
 use CommonSight\Sdk\Auth\Community;
 
 /**
@@ -36,12 +34,7 @@ final class StartPageEndpoint
      */
     public function respond(array $cookies, string $pageUrl): string
     {
-        $request = new AuthRequest(
-            array_filter($cookies, static fn(mixed $v, mixed $k): bool => is_string($k) && is_string($v), ARRAY_FILTER_USE_BOTH),
-            $pageUrl,
-            UtcInstant::fromTimestamp(time()),
-        );
-        $refused = $this->gate->refuse($request);
+        $refused = $this->gate->refuse(VisitorRequest::of($cookies, $pageUrl));
 
         return $this->branding->apply(self::page($this->indexFile, $refused));
     }

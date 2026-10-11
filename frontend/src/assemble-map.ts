@@ -4,6 +4,7 @@
  */
 import { cameraFor } from './domain/map-camera';
 import { choiceBounds } from './domain/country-choice';
+import type { ErrorReporter } from './application/error-reporter';
 import type { Core, ElementConfig, ElementDom } from './entry-types';
 import { createColorResolver } from './infrastructure/theme-colors';
 
@@ -38,13 +39,19 @@ function deploymentOf(assetBaseUrl: string): string {
   return encodeURIComponent(/\/app\/([^/]+)\/$/.exec(assetBaseUrl)?.[1] ?? 'dev');
 }
 
+/** What the map needs from the element besides core and nodes. */
+interface MapContext {
+  config: ElementConfig;
+  reporter: ErrorReporter;
+}
+
 /** Builds the map view and binding and returns the function that tears both down again. */
 // eslint-disable-next-line max-lines-per-function -- Assembly: each line wires exactly one building block; splitting would only scatter the wiring (Architecture 1.3.3, 1.3.6).
 function connectMap(
   modules: [ViewModule, BindingModule],
   core: Core,
   dom: ElementDom,
-  config: ElementConfig,
+  { config, reporter }: MapContext,
 ): () => void {
   const [viewModule, bindingModule] = modules;
   const { actions, store } = core.bundle;
@@ -75,6 +82,7 @@ function connectMap(
     selectors: core.selectors,
     view,
     style,
+    reporter,
   }).start(core.t);
   return () => {
     unsubscribe();
@@ -82,16 +90,27 @@ function connectMap(
   };
 }
 
-export function startMap(core: Core, dom: ElementDom, config: ElementConfig): () => void {
+export function startMap(
+  core: Core,
+  dom: ElementDom,
+  config: ElementConfig,
+  reporter: ErrorReporter,
+): () => void {
   let stop: (() => void) | null = null;
   let disposed = false;
   void Promise.all([import('./map/map-view'), import('./map/map-binding')])
     .then((modules) => {
-      if (!disposed) stop = connectMap(modules, core, dom, config);
+      if (!disposed) stop = connectMap(modules, core, dom, { config, reporter });
     })
-    .catch(() => {
-      // Without a map (no WebGL, chunk not loadable) the lists remain usable (K-12).
-      if (!disposed) core.bundle.actions.mapFailed();
+    .catch((error: unknown) => {
+      if (disposed) return;
+      // Without a map (no WebGL, chunk not loadable) the lists remain usable (K-12); the cause goes to the server (6.6).
+      reporter.report({
+        kind: 'map-start',
+        message: error instanceof Error ? `${error.name}: ${error.message}` : String(error),
+        stack: error instanceof Error ? (error.stack ?? null) : null,
+      });
+      core.bundle.actions.mapFailed();
     });
   return () => {
     disposed = true;

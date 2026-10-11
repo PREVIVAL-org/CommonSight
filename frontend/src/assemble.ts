@@ -8,6 +8,8 @@ import { startChangeNotifier } from './application/change-notifier';
 import type { ChangeDetail } from './application/change-notifier';
 import { startClockTicker } from './application/clock-ticker';
 import { DataSync } from './application/data-sync';
+import type { ErrorReporter } from './application/error-reporter';
+import { createErrorReporter } from './application/error-reporter';
 import { startDeviceCommands } from './application/device-commands';
 import { startEnvironmentSync } from './application/environment-sync';
 import { startNewEntriesNotifier } from './application/new-entries-notifier';
@@ -28,6 +30,9 @@ import { HttpJsonFileApi } from './infrastructure/json-file-api';
 import { createPageEnvironment } from './infrastructure/page-visibility';
 import { createRootAttributes } from './infrastructure/root-attributes';
 import { createBrowserHistory } from './infrastructure/browser-history';
+import { readDiagnostics } from './infrastructure/browser-diagnostics';
+import { HttpReportApi } from './infrastructure/report-api';
+import { onScriptError } from './infrastructure/script-errors';
 import { browserStorage, createSettingsStorage } from './infrastructure/settings-storage';
 import { HttpSnapshotApi } from './infrastructure/snapshot-api';
 import { HttpStatusApi } from './infrastructure/status-api';
@@ -40,6 +45,7 @@ import type { AppStoreBundle } from './state/store';
 import { createAppStore } from './state/store';
 import { ELEMENT_STYLESHEETS } from './theme/stylesheets';
 import { mountUi } from './ui/mount';
+import { APP_VERSION } from './version';
 import { adoptStyles } from './infrastructure/adopted-styles';
 
 export interface Instance {
@@ -102,6 +108,7 @@ function startApplication(
   core: ReturnType<typeof createCore>,
   dom: ElementDom,
   config: ElementConfig,
+  reporter: ErrorReporter,
 ): (() => void)[] {
   const win = dom.host.ownerDocument.defaultView ?? window;
   const { store, actions } = core.bundle;
@@ -133,7 +140,22 @@ function startApplication(
     }),
     startChangeNotifier(store, emit),
     startSheetHistory(store, actions, createBrowserHistory(win, dom.host)),
+    onScriptError(win, config.assetBaseUrl, (error) => reporter.report({ kind: 'script-error', ...error })),
   ];
+}
+
+/** Error reports to the server (6.6); only for admitted visitors, whom api/report.php accepts. */
+function createReporter(config: ElementConfig, win: Window): ErrorReporter {
+  const nav = win.navigator;
+  return createErrorReporter({
+    api: new HttpReportApi(
+      config.baseUrl,
+      win.fetch.bind(win),
+      typeof nav.sendBeacon === 'function' ? nav.sendBeacon.bind(nav) : null,
+    ),
+    diagnostics: () => readDiagnostics(win),
+    release: APP_VERSION,
+  });
 }
 
 /** A visitor the start page does not admit (A-D2): header and members card only, no map, no data. */
@@ -152,9 +174,10 @@ export function assemble(dom: ElementDom, config: ElementConfig): Instance {
   const win = dom.host.ownerDocument.defaultView ?? window;
   const core = createCore(config, win);
   const admitted = config.access.admitted;
+  const reporter = admitted ? createReporter(config, win) : null;
   // The map library is loaded immediately and in parallel with the UI (Architecture 9.7).
-  const stopMap = admitted ? startMap(core, dom, config) : () => undefined;
-  const stops = admitted ? startApplication(core, dom, config) : startPage(core, dom);
+  const stopMap = reporter !== null ? startMap(core, dom, config, reporter) : () => undefined;
+  const stops = reporter !== null ? startApplication(core, dom, config, reporter) : startPage(core, dom);
   const unmount = mountUi(
     { root: dom.app, portal: dom.portal, mapContainer: dom.mapContainer },
     { store: core.bundle.store, actions: core.bundle.actions, selectors: core.selectors, t: core.t },

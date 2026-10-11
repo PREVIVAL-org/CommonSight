@@ -343,6 +343,29 @@ Without a user of its own, read the forum's configuration instead of `database` 
 
 `fetcher.php check` reports the access to the start page. To open the start page to everyone again, delete `auth`.
 
+## `clientReports` – error reports of the browsers
+
+When the map fails in a browser (no WebGL, a lost graphics context, a tile or style error, an uncaught error of the bundle), the browser sends the error to `api/report.php` with what it allows the map: browser and system (user agent), language, WebGL version, graphics card, software rendering, workers, whether a canvas reads back unchanged (fingerprinting protection), pixel ratio and window size (ARCHITECTURE 6.6). Each line goes to `logs/client-YYYY-MM-DD.log`; no IP address, no cookie, no user name.
+
+| Key | Type, default | Meaning |
+|---|---|---|
+| `enabled` | `true`/`false`, `false` | whether `api/report.php` accepts reports; off, it answers `404` |
+| `keepDays` | integer > 0, `30` | days a log file is kept; the housekeeping removes older ones |
+
+With `auth` only visitors the start page admits can send reports (the same check as the start page); without it everyone, like the page itself. A browser sends at most five reports per page, each error once; a day keeps at most 2 MB, further reports are dropped. The reports name browser, system and graphics card of a visitor: mention them in the privacy notice before switching them on.
+
+```php
+'clientReports' => ['enabled' => true, 'keepDays' => 30],
+```
+
+Reading them, e.g. the reasons of the last days with their browsers:
+
+```sh
+cat <APP>/logs/client-*.log | jq -c '{time, kind, message, webgl: .env.webgl, renderer: .env.renderer, ua: .env.userAgent}'
+```
+
+`fetcher.php check` reports whether they are on.
+
 ## Refused keys of former releases
 
 | Key | Replaced by |

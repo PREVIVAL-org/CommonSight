@@ -78,12 +78,13 @@ run/
 │  ├─ current -> releases/…  active release
 │  ├─ config.php             configuration (from install/config.example.php, never overwritten)
 │  ├─ state/ cache/ locks/   status files, detail caches, locks
-│  ├─ logs/                  fetcher.log, cron.log, tiles.log
+│  ├─ logs/                  fetcher.log, cron.log, tiles.log, client-YYYY-MM-DD.log
 │  └─ tiles-work/            working directory of the tile job
 └─ public_html/              webroot, root of the (sub)domain
    ├─ index.html             start page
    ├─ .htaccess
    ├─ api/status.php         status endpoint (one line, requires the code of the active release)
+   ├─ api/report.php         error reports of the browsers (one line, like status.php)
    ├─ data/v1/               snapshots
    ├─ tiles/                 tile archive and manifest.json
    ├─ map/                   glyphs, regions, mask, border zone
