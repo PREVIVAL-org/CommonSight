@@ -56,6 +56,21 @@ services:
     volumes:
       - .:/src
 
+  # Bash, coreutils, curl and tar for the file steps of tools/dev/ and the map assets, where the machine has no Bash
+  # (dev.ps1 on Windows). The base stage of the PHP image: no image of its own to download.
+  shell:
+    build:
+      context: .
+      dockerfile: docker/php/Dockerfile
+      target: base
+      <<: *account
+    profiles: [tools]
+    working_dir: /src
+    user: "${CS_UID:-1000}:${CS_GID:-1000}"
+    entrypoint: ["bash"]
+    volumes:
+      - .:/src
+
   node:
     image: node:24-bookworm-slim
     profiles: [tools]

@@ -1,0 +1,4 @@
+# Line endings LF in every checkout, also with Git for Windows (core.autocrlf): the shell scripts, the crontab and
+# config.php run in Linux containers, where a CR breaks them (doc/DEVELOPMENT.md, Windows).
+* text=auto eol=lf
+*.ps1 text eol=crlf

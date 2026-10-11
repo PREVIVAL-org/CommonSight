@@ -1,40 +1,139 @@
 # Development and local environment
 
-The local environment is set up like an instance in operation: same web server configuration, PHP settings, schedule and tile depth. Everything runs in Docker; only Docker (with Compose v2), Bash and Git are needed on the machine.
+The local environment is set up like an instance in operation: same web server configuration, PHP settings, schedule and tile depth. Everything runs in Docker; the machine only needs Docker, Git and a shell to start the commands: `dev.sh` (Bash) on Linux, `dev.ps1` (PowerShell) on Windows. Both have the same commands and produce the same environment in `run/`.
 
-## First start
+## Prerequisites
 
-From a fresh clone to the running map, in this order:
+For every system:
 
-1. **Start the environment**
+- **Disk space:** about 15 GB free, most of it for the tile archive (about 9 GB) and the images.
+- **Port 8090** free on the machine, or another one chosen at the first start.
+- **Internet access** to GitHub, Docker Hub, `mcr.microsoft.com` (Playwright), npm, Packagist and the Protomaps builds (tiles); a proxy must let these through.
+
+### Linux
+
+| Tool | Check | Notes |
+|---|---|---|
+| Docker Engine with Compose v2 | `docker compose version` | the user in the group `docker`, so that `docker` runs without `sudo` |
+| Git | `git --version` | |
+| Bash with GNU coreutils | `bash --version` | part of every common distribution |
+
+### Windows
+
+| Tool | Install | Check |
+|---|---|---|
+| Windows 10 22H2 or Windows 11, 64 bit, virtualization switched on in the firmware | | Task Manager, Performance, CPU: "Virtualization: Enabled" |
+| WSL 2 | `wsl --install` (administrator), then restart | `wsl --status` |
+| Docker Desktop with the WSL 2 backend (default) | `winget install Docker.DockerDesktop`, then start it once and accept the terms | `docker compose version` |
+| Git for Windows | `winget install Git.Git` | `git --version` |
+| PowerShell 7 | `winget install Microsoft.PowerShell`, then start it as `pwsh` (Start menu: "PowerShell 7") | `$PSVersionTable.PSVersion` shows 7.x |
+
+Docker Desktop must be running whenever `dev.ps1` is used (whale icon in the taskbar). Open a new PowerShell 7 window after the installations, so that `docker` and `git` are found. The built-in Windows PowerShell 5.1 runs `dev.ps1` too, but writes files with `>` and `>>` as UTF-16, which Git and the containers cannot read; use PowerShell 7 for all commands in this document.
+
+## First start on Linux
+
+1. **Clone the repo**
+
+   ```sh
+   git clone git@github.com:PREVIVAL-org/CommonSight.git       # ssh use
+   git clone https://github.com/PREVIVAL-org/CommonSight.git   # https use
+   cd CommonSight
+   ```
+
+   Clones the main branch of CommonSight to a local folder on the user's machine.
+
+2. **Start the environment**
+
    ```sh
    ./dev.sh up            # or ./dev.sh up 8100 for another port
    ```
+
    Builds the images from `docker/` (Apache, PHP-FPM, scheduler with cron and pmtiles), creates `run/` with the directories of the account and `config.php`, and starts the three containers. The first run takes a few minutes. The web server answers, but there is no release yet.
 
-2. **Deliver the code**
+3. **Deliver the code**
+
    ```sh
    ./dev.sh deploy
    ```
+
    Installs the dependencies, generates the master data, builds the frontend, downloads the glyphs of the map, assembles the package and installs it as the first release. Ends with the environment check (`check`). From now on the scheduler fetches the sources on its schedule.
 
-3. **Fetch the data**
+4. **Fetch the data**
+
    ```sh
    ./dev.sh update-data
    ```
+
    Fetches every layer at once, about two minutes. Without this step the schedule fills the layers within about 15 minutes.
 
-4. **Build the tile archive**
+5. **Build the tile archive**
+
    ```sh
    ./dev.sh update-tiles
    ```
+
    Downloads the basemap for DACH plus the border zone up to zoom 14 (about 9 GB, 2 to 15 minutes). Until then the map has no basemap; lists, key figures and points work already.
 
-5. Open <http://localhost:8090/> (or the chosen port). The site listens on this machine only; `CS_HTTP_BIND=0.0.0.0` in `.env` opens it to the network, e.g. to test on a phone.
+6. Open <http://localhost:8090/> (or the chosen port). The site listens on this machine only; `CS_HTTP_BIND=0.0.0.0` in `.env` opens it to the network, e.g. to test on a phone.
 
 Steps 3 and 4 are needed only once: data and tiles stay in `run/`, also across `down`, `up` and later deploys.
 
+## First start on Windows
+
+In PowerShell 7 (`pwsh`, not as administrator), with Docker Desktop running:
+
+1. **Clone the repo**
+
+   ```powershell
+   git clone https://github.com/PREVIVAL-org/CommonSight.git
+   cd CommonSight
+   ```
+
+   The repository sets LF line endings for every file (`.gitattributes`), whatever Git for Windows is set to: the shell scripts, the crontab and `config.php` run in Linux containers, where a CR breaks them. A clone made before `.gitattributes` existed is fixed with a fresh clone (or `git add --renormalize .`).
+
+2. **Allow local scripts** (once per Windows user)
+
+   ```powershell
+   Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+   ```
+
+   Usually already set in PowerShell 7; the command does no harm then. Without changing the policy, each call can be started as `pwsh -ExecutionPolicy Bypass -File .\dev.ps1 <command>`.
+
+3. **Start the environment**
+
+   ```powershell
+   .\dev.ps1 up          # or .\dev.ps1 up 8100 for another port
+   ```
+
+   As on Linux, plus the tool container `shell` (Bash, coreutils, curl, tar), in which `dev.ps1` runs the file steps of `tools/dev/`: the same scripts `dev.sh` runs on the machine.
+
+4. **Deliver the code, fetch the data, build the tile archive**
+
+   ```powershell
+   .\dev.ps1 deploy
+   .\dev.ps1 update-data
+   .\dev.ps1 update-tiles
+   ```
+
+   The same steps as 3 to 5 on Linux.
+
+5. Open <http://localhost:8090/> (or the chosen port).
+
+The checkout on the Windows drive works, but Docker reaches it through a slow file bridge: `npm ci`, the build and the tests take noticeably longer than on Linux. Faster: clone into the Linux file system of WSL (in the WSL shell, e.g. `~/CommonSight`, reachable in Explorer as `\\wsl$\Ubuntu\home\<user>\CommonSight`) and follow the first start on Linux there; Docker Desktop provides `docker` in WSL (Settings, Resources, WSL integration).
+
+## Local AI tool settings
+
+AI conding agents keeps its local settings in the folder `.claude/`, Codex in `.codex/`. They must not get into the repository. Ignore both folders once per machine in Git's global ignore file, for all repositories (on Windows in PowerShell 7 or Git Bash):
+
+```sh
+git config --global core.excludesFile ~/.gitignore_global
+echo ".claude/" >> ~/.gitignore_global
+echo ".codex/" >> ~/.gitignore_global
+```
+
 ## Afterwards
+
+On Windows `.\dev.ps1` with the same command instead of `./dev.sh`.
 
 | Situation | Command |
 |---|---|
@@ -131,4 +230,4 @@ The release name (`<UTC timestamp>-<commit>`, e.g. `20261003095147-cd8c0fd`; `-d
 
 ## Notes
 
-- The containers run with the user and group of the machine (`CS_UID`, `CS_GID`), so that the files in `run/` belong to you.
+- The containers run with the user and group of the machine (`CS_UID`, `CS_GID`), so that the files in `run/` belong to you. On Windows `dev.ps1` uses 1000; Docker Desktop gives the files to the Windows user anyway.
