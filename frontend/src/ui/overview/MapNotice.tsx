@@ -16,7 +16,7 @@ function ShowNoticeButton() {
   return (
     <button
       type="button"
-      className="map-overlay map-notice map-notice-show button"
+      className="map-notice map-notice-show button"
       onClick={() => actions.setMapNoticeHidden(false)}
     >
       <Info size={14} aria-hidden="true" /> {t.ui('notice.show')}
@@ -81,7 +81,7 @@ export function MapNotice() {
   if (notice === null) return null;
   if (hidden) return <ShowNoticeButton />;
   return (
-    <div className="map-overlay map-notice" data-tone={notice.tone} role="status">
+    <div className="map-notice" data-tone={notice.tone} role="status">
       <TriangleAlert size={16} aria-hidden="true" className="map-notice-icon" />
       {/* "Anzeigen" sits inline in the text, not as a separate column. */}
       <span className="map-notice-text">

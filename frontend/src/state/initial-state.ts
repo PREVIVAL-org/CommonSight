@@ -85,7 +85,7 @@ export function createInitialState(config: StartConfig): AppState {
       syncStartedAtMs: null,
     },
     env: initialEnvironment(config),
-    map: { tilesUrl: undefined, mapError: false, focus: null, outline: { state: 'idle' } },
+    map: { tilesUrl: undefined, mapError: null, focus: null, outline: { state: 'idle' } },
     ui: {
       sheet: null,
       toasts: [],

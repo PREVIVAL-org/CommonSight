@@ -123,7 +123,7 @@ The checkout on the Windows drive works, but Docker reaches it through a slow fi
 
 ## Local AI tool settings
 
-AI conding agents keeps its local settings in the folder `.claude/`, Codex in `.codex/`. They must not get into the repository. Ignore both folders once per machine in Git's global ignore file, for all repositories (on Windows in PowerShell 7 or Git Bash):
+AI coding agents keeps its local settings in the folder `.claude/`, Codex in `.codex/`. They must not get into the repository. Ignore both folders once per machine in Git's global ignore file, for all repositories (on Windows in PowerShell 7 or Git Bash):
 
 ```sh
 git config --global core.excludesFile ~/.gitignore_global

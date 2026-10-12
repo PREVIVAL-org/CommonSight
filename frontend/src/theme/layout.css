@@ -436,15 +436,21 @@
   }
 }
 
-/* Phones: the map notice uses the width between the map controls (left column, zoom on the right) instead of a
-   narrow pill that wraps word by word. */
+/* Phones: the map notice and "map unavailable" use the width between the map controls (left column, zoom on the
+   right) instead of a narrow pill that wraps word by word. */
 @media (max-width: 560px) {
-  .map-notice:not(.map-notice-show) {
-    left: 58px;
+  .map-top {
     right: 52px;
+    left: 58px;
+    align-items: stretch;
+  }
+
+  .map-top > * {
     max-width: none;
+  }
+
+  .map-notice:not(.map-notice-show) {
     border-radius: var(--_radius-lg);
-    transform: none;
   }
 }
 

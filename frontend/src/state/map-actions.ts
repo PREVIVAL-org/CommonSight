@@ -2,12 +2,13 @@
  * Map-related actions: basemap, map error, camera focus and region outline (K-01, K-02, K-12, U-17).
  */
 import type { GeoJSON } from 'geojson';
+import type { MapError } from './app-state';
 import type { AppStore } from './patch';
 import { patch } from './patch';
 
 export interface MapActions {
   tilesResolved(url: string | null): void;
-  mapFailed(): void;
+  mapFailed(reason: MapError): void;
   focusPoint(lon: number, lat: number): void;
   outlineCleared(): void;
   outlineLoading(regionId: string): void;
@@ -23,7 +24,7 @@ function forCurrentRegion(store: AppStore, regionId: string, apply: () => void):
 export function createMapActions(store: AppStore): MapActions {
   return {
     tilesResolved: (tilesUrl) => patch(store, 'map', { tilesUrl }),
-    mapFailed: () => patch(store, 'map', { mapError: true }),
+    mapFailed: (mapError) => patch(store, 'map', { mapError }),
     focusPoint: (lon, lat) =>
       patch(store, 'map', (map) => ({
         focus: { seq: (map.focus?.seq ?? 0) + 1, type: 'point' as const, lon, lat },

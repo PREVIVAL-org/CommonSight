@@ -209,8 +209,8 @@ export class MapBinding {
    */
   private onError(sourceId: string | null, message: string): void {
     this.deps.reporter.report({ kind: 'map-error', message, source: sourceId });
-    if (sourceId !== BASEMAP_SOURCE || this.deps.store.getState().map.mapError) return;
-    this.deps.actions.mapFailed();
+    if (sourceId !== BASEMAP_SOURCE || this.deps.store.getState().map.mapError !== null) return;
+    this.deps.actions.mapFailed('failed');
     this.deps.actions.pushToast('toast.mapError', 'error');
   }
 }

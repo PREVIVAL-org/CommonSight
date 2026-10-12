@@ -74,6 +74,8 @@ export const uiTextsDe = {
 
   'map.aria': 'Interaktive Karte für {place}',
   'map.error': 'Die Karte konnte nicht geladen werden. Die Datenlisten bleiben verfügbar.',
+  'map.noWebgl':
+    'Dein Browser kann die Karte nicht anzeigen, weil ihm die Grafikbeschleunigung fehlt. Meist hilft es, in den Browser-Einstellungen die Hardwarebeschleunigung einzuschalten und den Browser neu zu starten. Die Datenlisten kannst du weiter nutzen.',
   'map.tools': 'Kartenwerkzeuge',
   'map.resetCountry': 'Landesansicht zurücksetzen',
   'map.resetRegion': 'Regionsansicht zurücksetzen',

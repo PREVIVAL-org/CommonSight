@@ -11,6 +11,7 @@ import { createColorResolver } from './infrastructure/theme-colors';
 import type * as MapViewModule from './map/map-view';
 import type * as MapBindingModule from './map/map-binding';
 import { adoptStyles } from './infrastructure/adopted-styles';
+import { hasWebgl2 } from './infrastructure/browser-diagnostics';
 
 type ViewModule = typeof MapViewModule;
 type BindingModule = typeof MapBindingModule;
@@ -110,7 +111,7 @@ export function startMap(
         message: error instanceof Error ? `${error.name}: ${error.message}` : String(error),
         stack: error instanceof Error ? (error.stack ?? null) : null,
       });
-      core.bundle.actions.mapFailed();
+      core.bundle.actions.mapFailed(hasWebgl2(dom.host.ownerDocument) ? 'failed' : 'no-webgl');
     });
   return () => {
     disposed = true;

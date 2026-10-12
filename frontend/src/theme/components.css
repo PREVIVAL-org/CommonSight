@@ -296,19 +296,32 @@
   z-index: 3;
 }
 
-.map-notice {
+/* Notice and "map unavailable" under each other, centered between the map tools and the zoom buttons. */
+.map-top {
   top: var(--_space-3);
-  left: 50%;
+  right: 70px;
+  left: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--_space-2);
+  pointer-events: none;
+}
+
+.map-top > * {
+  max-width: 560px;
+  pointer-events: auto;
+}
+
+.map-notice {
   display: flex;
   align-items: center;
   gap: var(--_space-2);
-  max-width: min(560px, calc(100% - 140px));
   padding: var(--_space-1) var(--_space-2) var(--_space-1) var(--_space-3);
   border: 1px solid var(--_border);
   border-radius: 999px;
   background: var(--_surface-raised);
   box-shadow: var(--_shadow-raised);
-  transform: translateX(-50%);
   font-size: var(--_font-size-sm);
 }
 

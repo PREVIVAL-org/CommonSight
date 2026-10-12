@@ -290,3 +290,16 @@ describe('App', () => {
     expect(bundle.store.getState().map.focus?.type).toBe('item');
   });
 });
+
+describe('map messages', () => {
+  it('asks to switch on hardware acceleration without WebGL2 and stays general for other failures', () => {
+    const bundle = loadedStore();
+    renderWithServices(<App />, bundle);
+    act(() => bundle.actions.mapFailed('no-webgl'));
+    expect(screen.getByRole('alert')).toHaveTextContent(/Hardwarebeschleunigung einzuschalten/);
+    act(() => bundle.actions.mapFailed('failed'));
+    expect(screen.getByRole('alert')).toHaveTextContent(
+      'Die Karte konnte nicht geladen werden. Die Datenlisten bleiben verfügbar.',
+    );
+  });
+});

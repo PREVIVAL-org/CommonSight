@@ -78,10 +78,13 @@ export type OutlineState =
   | { state: 'ready'; regionId: string; data: GeoJSON }
   | { state: 'error'; regionId: string };
 
+/** Why the map is missing: the browser offers no WebGL2, or anything else (chunk, basemap). */
+export type MapError = 'no-webgl' | 'failed';
+
 export interface MapState {
   /** URL of the PMTiles archive; `undefined` = not yet known, `null` = not available (K-12). */
   tilesUrl: string | null | undefined;
-  mapError: boolean;
+  mapError: MapError | null;
   focus: FocusRequest | null;
   outline: OutlineState;
 }

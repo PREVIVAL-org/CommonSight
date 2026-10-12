@@ -34,6 +34,13 @@ function release(gl: GlContext): void {
   gl.getExtension('WEBGL_lose_context')?.loseContext();
 }
 
+/** MapLibre needs WebGL2; without it the map cannot start (switched off, blocklisted, no graphics card). */
+export function hasWebgl2(doc: Document): boolean {
+  const gl = context(doc, 'webgl2', false);
+  if (gl !== null) release(gl);
+  return gl !== null;
+}
+
 function rendererOf(gl: GlContext): string | null {
   try {
     const info = gl.getExtension('WEBGL_debug_renderer_info');
