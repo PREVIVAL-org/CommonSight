@@ -73,7 +73,7 @@ The result is `build/commonsight-<release>.tar.gz` with:
    ```sh
    cp -a app <APP>/releases/<release>
    ln -sfn releases/<release> <APP>/current
-   sed -i 's#@APP@#<APP>#g' web/api/status.php web/api/report.php web/gate.php
+   sed -i 's#@APP@#<APP>#g' web/api/status.php web/api/report.php web/api/situation.php web/gate.php
    cp -a web/. <WEBROOT>/
    cp -rn custom <WEBROOT>/
    ```
@@ -99,7 +99,7 @@ The result is `build/commonsight-<release>.tar.gz` with:
    The check runs the new release against the existing `config.php` while the old one still serves everything. Only when it passes (adjust `config.php` first, see step 3), switch and then copy the web part: the new backend first, so that the new start page never meets the old one. The path in `status.php` is set in the package before copying, so no request meets the placeholder; map assets and licenses are replaced as a whole:
    ```sh
    ln -sfn releases/<release> <APP>/current.new && mv -T <APP>/current.new <APP>/current
-   sed -i 's#@APP@#<APP>#g' web/api/status.php web/api/report.php web/gate.php
+   sed -i 's#@APP@#<APP>#g' web/api/status.php web/api/report.php web/api/situation.php web/gate.php
    rm -rf <WEBROOT>/map <WEBROOT>/licenses
    cp -a web/. <WEBROOT>/
    cp -rn custom <WEBROOT>/
@@ -169,6 +169,27 @@ For a WoltLab forum, in `config.php`:
 - `database`: a user of its own that may only read, best: `GRANT SELECT ON forum.wcf1_user_session TO 'cs_read'@'localhost'; GRANT SELECT ON forum.wcf1_user TO 'cs_read'@'localhost';` (`instance` for a prefix other than `wcf1_`). PHP needs `pdo_mysql`.
 - `forumConfig`: reads the access data of the forum from its `config.inc.php` (no setup, but with the forum's full rights).
 - `fetcher.php check` names the provider and refuses wrong settings.
+
+## Situation box in a forum
+
+A box in the sidebar of a forum can show per country the situation level from 1 (nothing) to 5 (massive situation), formed only from the official warnings (`internal/SITUATION-LEVEL.md`). In WoltLab Suite:
+
+1. In `config.php` the address of the forum, without path (CONFIGURATION.md, `situation`); also for a forum on the parent domain of CommonSight:
+
+   ```php
+   'situation' => ['allowOrigins' => ['https://previval.org']],
+   ```
+
+2. In the ACP of the forum: Appearance, Boxes, add box, type "HTML", position e.g. "Sidebar right", title e.g. "Lage DACH", content (the address of CommonSight twice):
+
+   ```html
+   <div data-commonsight-situation="https://lagezentrum.previval.org/"></div>
+   <script src="https://lagezentrum.previval.org/box/situation.js" defer></script>
+   ```
+
+   Then choose the pages that show it and save.
+
+The box looks like the forum's own sidebar lists. A country whose warnings cannot be read or are outdated shows "Lage unbekannt", never level 1. The forum must not forbid the script by a Content-Security-Policy of its own (WoltLab sets none by default). Checking the data: `curl -H 'Origin: https://previval.org' -i https://lagezentrum.previval.org/api/situation.php` names the origin in `Access-Control-Allow-Origin`.
 
 ## Colours and logo
 

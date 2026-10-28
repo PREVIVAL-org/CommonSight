@@ -14,7 +14,7 @@ final readonly class Config
     /** What config.php may set per source (sources.<id>). */
     private const SOURCE_KEYS = ['enabled', 'reason', 'lane', 'intervalSec', 'order', 'secrets'];
     /** The sections of config.php; the former ones (assessment, budgets, memberGate) are refused with a hint of their own. */
-    private const TOP_KEYS = ['paths', 'http', 'lanes', 'staleFactor', 'triggerMinIntervalSec', 'vicinityKm', 'layers', 'sources', 'drift', 'auth', 'clientReports', 'assessment', 'budgets', 'memberGate'];
+    private const TOP_KEYS = ['paths', 'http', 'lanes', 'staleFactor', 'triggerMinIntervalSec', 'vicinityKm', 'layers', 'sources', 'drift', 'auth', 'clientReports', 'situation', 'assessment', 'budgets', 'memberGate'];
     private const HTTP_KEYS = ['connectTimeoutSec', 'requestTimeoutSec', 'maxBytes', 'maxBytesBySource', 'requestTimeoutBySource', 'perHostConcurrency', 'totalConcurrency', 'caFile', 'contact'];
     private const LANE_KEYS = ['budgetSec', 'fallbackSec', 'everySec'];
 
@@ -37,6 +37,7 @@ final readonly class Config
         /** radius ("Umkreis") around the selected country or region within which items count as its vicinity (ADR 0038) */
         public float $vicinityKm = 200.0,
         public ClientReportSettings $clientReports = new ClientReportSettings(),
+        public SituationSettings $situation = new SituationSettings(),
     ) {
         $this->sourceSwitches = array_map(static fn(SourceSettings $s): bool => $s->enabled, $sources);
     }
@@ -62,6 +63,7 @@ final readonly class Config
                 self::auth($data->get('auth')),
                 self::positiveFloat($data->get('vicinityKm'), 200.0, 'vicinityKm'),
                 self::clientReports($data->get('clientReports')),
+                self::situation($data->get('situation')),
             );
         } catch (\InvalidArgumentException $e) {
             throw new ConfigError($e->getMessage(), 0, $e);
@@ -194,6 +196,18 @@ final readonly class Config
         $enabled = self::typed($section->get('enabled'), $section->get('enabled')->bool(), 'clientReports.enabled must be true or false');
 
         return new ClientReportSettings($enabled ?? false, self::positiveInt($section->get('keepDays'), 30, 'clientReports.keepDays'));
+    }
+
+    /** Situation endpoint: `['allowOrigins' => ['https://forum.example.org']]`; absent for this site only. */
+    private static function situation(Decoded $section): SituationSettings
+    {
+        self::refuseUnknown($section, ['allowOrigins'], 'situation');
+        $origins = $section->get('allowOrigins');
+        if (!$origins->isNull() && (!$origins->isList() || count($origins->strings()) !== count($origins->list()))) {
+            throw new ConfigError('situation.allowOrigins must be a list of origins, e.g. [\'https://forum.example.org\']');
+        }
+
+        return new SituationSettings($origins->strings());
     }
 
     /** @param list<string> $known */

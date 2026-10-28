@@ -50,7 +50,30 @@
             }
         }
     ],
-    "stats": {},
+    "stats": {
+        "situation": {
+            "level": 4,
+            "regionCount": 9,
+            "grades": {
+                "yellow": {
+                    "warnings": 3,
+                    "regions": 6
+                },
+                "orange": {
+                    "warnings": 1,
+                    "regions": 3
+                },
+                "red": {
+                    "warnings": 1,
+                    "regions": 2
+                },
+                "violet": {
+                    "warnings": 1,
+                    "regions": 1
+                }
+            }
+        }
+    },
     "items": [
         {
             "kind": "warning",

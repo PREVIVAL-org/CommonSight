@@ -1,0 +1,118 @@
+{
+  "title": "WarningsStats",
+  "description": "Situation level of the country from its official warnings (concept: situation level, L-D3).",
+  "type": "object",
+  "properties": {
+    "situation": {
+      "type": "object",
+      "properties": {
+        "level": {
+          "description": "1 nothing (at most yellow) to 5 massive situation",
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "regionCount": {
+          "description": "states or cantons of the country",
+          "type": "integer",
+          "minimum": 0
+        },
+        "grades": {
+          "description": "per grade of the common scale the number of warnings of exactly this grade and the number of regions with a warning of at least this grade",
+          "type": "object",
+          "properties": {
+            "yellow": {
+              "type": "object",
+              "properties": {
+                "warnings": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "regions": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              },
+              "required": [
+                "warnings",
+                "regions"
+              ],
+              "additionalProperties": false
+            },
+            "orange": {
+              "type": "object",
+              "properties": {
+                "warnings": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "regions": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              },
+              "required": [
+                "warnings",
+                "regions"
+              ],
+              "additionalProperties": false
+            },
+            "red": {
+              "type": "object",
+              "properties": {
+                "warnings": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "regions": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              },
+              "required": [
+                "warnings",
+                "regions"
+              ],
+              "additionalProperties": false
+            },
+            "violet": {
+              "type": "object",
+              "properties": {
+                "warnings": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "regions": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              },
+              "required": [
+                "warnings",
+                "regions"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "yellow",
+            "orange",
+            "red",
+            "violet"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "level",
+        "regionCount",
+        "grades"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "situation"
+  ],
+  "additionalProperties": false
+}

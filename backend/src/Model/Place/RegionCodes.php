@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace CommonSight\Model\Place;
 
 use CommonSight\Model\Value\RegionId;
+use CommonSight\Model\Value\Scope;
 
 /**
  * Maps stable official codes to regions (concept: sources as plugins, V2), so that no plugin keeps its own tables:
@@ -28,6 +29,20 @@ final readonly class RegionCodes
     public function nameOf(RegionId $region): ?string
     {
         return $this->names[$region->value] ?? null;
+    }
+
+    /** @return list<RegionId> the regions of a country (states, cantons) */
+    public function regionsIn(Scope $country): array
+    {
+        $prefix = $country->value . '-';
+        $regions = [];
+        foreach (array_keys($this->names) as $id) {
+            if (str_starts_with((string) $id, $prefix)) {
+                $regions[] = RegionId::fromString((string) $id);
+            }
+        }
+
+        return $regions;
     }
 
     /** The region of a code, null if the code is unknown (the caller then assigns by geometry). */

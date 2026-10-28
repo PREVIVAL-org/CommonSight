@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://commonsight.org/schema/v1/situation.schema.json",
+  "title": "SituationResponse",
+  "description": "Response of the situation endpoint (concept: situation level, L-D4): the situation level of every country from its official warnings, e.g. for a box in a forum.",
+  "type": "object",
+  "properties": {
+    "schema": { "const": 1 },
+    "serverTime": { "$ref": "common.schema.json#/$defs/utcInstant" },
+    "countries": {
+      "type": "object",
+      "properties": {
+        "DE": { "$ref": "#/$defs/countrySituation" },
+        "AT": { "$ref": "#/$defs/countrySituation" },
+        "CH": { "$ref": "#/$defs/countrySituation" }
+      },
+      "required": ["DE", "AT", "CH"],
+      "additionalProperties": false
+    }
+  },
+  "required": ["schema", "serverTime", "countries"],
+  "additionalProperties": false,
+  "$defs": {
+    "countrySituation": {
+      "type": "object",
+      "properties": {
+        "level": {
+          "description": "1 nothing to 5 massive situation; null = unknown (no snapshot yet, layer failed or stale): no all-clear",
+          "oneOf": [{ "type": "integer", "minimum": 1, "maximum": 5 }, { "type": "null" }]
+        },
+        "status": { "type": "string", "enum": ["ok", "partial", "error", "setup", "pending"] },
+        "stale": { "type": "boolean" },
+        "generatedAt": { "oneOf": [{ "$ref": "common.schema.json#/$defs/utcInstant" }, { "type": "null" }] },
+        "checkedAt": { "oneOf": [{ "$ref": "common.schema.json#/$defs/utcInstant" }, { "type": "null" }] },
+        "regionCount": { "oneOf": [{ "type": "integer", "minimum": 0 }, { "type": "null" }] },
+        "grades": {
+          "description": "as stats.situation.grades of the warnings snapshot; null with an unknown level",
+          "oneOf": [{ "type": "object" }, { "type": "null" }]
+        }
+      },
+      "required": ["level", "status", "stale", "generatedAt", "checkedAt", "regionCount", "grades"],
+      "additionalProperties": false
+    }
+  }
+}

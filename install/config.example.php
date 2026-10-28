@@ -88,4 +88,7 @@ return [
     // error with browser, system and graphics card to api/report.php, which keeps it in logs/client-YYYY-MM-DD.log.
     // With auth only from admitted members. Off by default; mention it in the privacy notice before switching it on.
     // 'clientReports' => ['enabled' => true, 'keepDays' => 30],
+    // Situation level per country for a box of another site, e.g. the forum (doc/CONFIGURATION.md, situation): the
+    // origins that may read api/situation.php in the browser. A subdomain is another origin too.
+    // 'situation' => ['allowOrigins' => ['https://forum.example.org']],
 ];

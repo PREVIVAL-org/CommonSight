@@ -86,6 +86,16 @@ final class ConfigAndXmlTest extends TestCase
         self::assertSame([true, 7], [$on->enabled, $on->keepDays]);
     }
 
+    public function testReadsTheOriginsOfTheSituation(): void
+    {
+        self::assertSame([], Config::fromArray(['paths' => self::PATHS])->situation->allowOrigins, 'only this site');
+        $situation = Config::fromArray(['paths' => self::PATHS, 'situation' => ['allowOrigins' => ['https://forum.example.org']]])->situation;
+        self::assertTrue($situation->allows('https://forum.example.org'));
+        self::assertFalse($situation->allows('https://forum.example.org.evil.test'));
+        $withPort = Config::fromArray(['paths' => self::PATHS, 'situation' => ['allowOrigins' => ['https://forum.example.org:443', 'http://localhost:8080']]])->situation;
+        self::assertSame(['https://forum.example.org', 'http://localhost:8080'], $withPort->allowOrigins, 'the browser leaves the default port out');
+    }
+
     /** @return iterable<string, array{array<mixed>}> */
     public static function invalidConfigs(): iterable
     {
@@ -116,6 +126,9 @@ final class ConfigAndXmlTest extends TestCase
         yield 'client reports switched on as a string' => [['paths' => self::PATHS, 'clientReports' => ['enabled' => 'yes']]];
         yield 'client reports kept zero days' => [['paths' => self::PATHS, 'clientReports' => ['keepDays' => 0]]];
         yield 'misspelled client report setting' => [['paths' => self::PATHS, 'clientReports' => ['enable' => true]]];
+        yield 'origin with a path' => [['paths' => self::PATHS, 'situation' => ['allowOrigins' => ['https://forum.example.org/']]]];
+        yield 'origin as a string' => [['paths' => self::PATHS, 'situation' => ['allowOrigins' => 'https://forum.example.org']]];
+        yield 'origin as a number' => [['paths' => self::PATHS, 'situation' => ['allowOrigins' => [42]]]];
         yield 'timeout as text' => [['paths' => self::PATHS, 'http' => ['requestTimeoutSec' => 'viel']]];
     }
 

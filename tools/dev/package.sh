@@ -36,6 +36,8 @@ assemble() {
     cp -a "$ROOT/frontend/dist" "$PACKAGE/web/app/$RELEASE"
     # Colours and logo of the operator (ACCESS-AND-BRANDING B-D3): defaults beside web/, copied without overwriting.
     mv "$PACKAGE/web/app/$RELEASE/custom" "$PACKAGE/custom"
+    # The box script for other sites (situation level) under a fixed address: a forum links it once.
+    mv "$PACKAGE/web/app/$RELEASE/box" "$PACKAGE/web/box"
     # All license texts in one place: own code, third-party parts, libraries of the bundle.
     cp "$ROOT/LICENSE" "$ROOT"/LICENSES/* "$PACKAGE/web/licenses/"
     mv "$PACKAGE/web/app/$RELEASE/licenses/THIRD-PARTY-LICENSES.txt" "$PACKAGE/web/licenses/"
@@ -46,6 +48,7 @@ assemble() {
     printf '<?php\nrequire %s;\n' "'@APP@/current/public/status.php'" > "$PACKAGE/web/api/status.php"
     printf '<?php\nrequire %s;\n' "'@APP@/current/public/gate.php'" > "$PACKAGE/web/gate.php"
     printf '<?php\nrequire %s;\n' "'@APP@/current/public/report.php'" > "$PACKAGE/web/api/report.php"
+    printf '<?php\nrequire %s;\n' "'@APP@/current/public/situation.php'" > "$PACKAGE/web/api/situation.php"
     # Start page at the root of the webroot: assets from app/<release>/, the element finds the backend itself.
     sed -E "s#\./(favicon\.svg|fonts/|commonsight\.js)#app/$RELEASE/\1#g" "$ROOT/frontend/dist/index.html" > "$PACKAGE/web/index.html"
     # The release keeps its start page too, for a rollback (INSTALLATION.md).

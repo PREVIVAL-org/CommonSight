@@ -802,6 +802,10 @@ Problems with the map often depend on the visitor's browser or system (WebGL swi
 - **Server:** `public/report.php` (webroot `api/report.php`, one line like `status.php`) → `ClientReportEndpoint`: only `POST` (`405`), not from a foreign site (`Sec-Fetch-Site`, `403`), at most 16 KB (`413`). `ClientReportIntake` asks the `StartPageGate` first, the same check as the start page (`403` for a visitor it does not admit, also when the provider cannot decide); then `ClientReportParser` keeps only the known fields, cut to their length (`400` for anything else), and `ClientReportFile` appends one JSON line to `logs/client-YYYY-MM-DD.log` (`204`). A day keeps at most 2 MB (`429` beyond). No IP address, no cookie.
 - **Switch and retention:** `clientReports` in `config.php` (CONFIGURATION.md), off by default (`404`): the reports name browser, system and graphics card. The housekeeping removes files older than `keepDays` (30).
 
+### 6.7 Situation level for other sites
+
+Concept and decisions: `internal/SITUATION-LEVEL.md`. The warnings layer computes as key figure the situation level of its country (`stats.situation`, 1 to 5, with the warnings and regions per grade): each warning on one scale yellow/orange/red/violet (`WarningGrade`: the colour of the source where it names one, otherwise the CAP severity as the DWD reads it), orange 2, red 3, violet 4, one more from a quarter of the regions (`SituationStatsBuilder`). `public/situation.php` (webroot `api/situation.php`) → `SituationEndpoint` → `SituationQuery` reads the state of the layer in DE, AT and CH and, unless the ETag matches, the situation from the current snapshot (`SnapshotReader`); `SituationView` answers `level: null` for a layer without snapshot, failed or stale (schema `situation.schema.json`). `Cache-Control: public, max-age=60`; `Access-Control-Allow-Origin` only for the origins in `situation.allowOrigins`. No fallback. The box script `box/situation.js` (from `frontend/public/box/`, a classic script, packaged at a fixed address beside `app/`) shows it in a WoltLab sidebar box (INSTALLATION.md).
+
 ---
 
 ## 7. Layout on the server
@@ -826,6 +830,8 @@ Problems with the map often depend on the visitor's browser or system (WebGL swi
 ├─ custom/                               colours and logo of the installation (theme.css, logo.svg, favicon.svg)
 ├─ api/status.php                        thin entry point: require .../current/public/status.php
 ├─ api/report.php                        thin entry point: require .../current/public/report.php (6.6)
+├─ api/situation.php                     thin entry point: require .../current/public/situation.php (6.7)
+├─ box/situation.js                      box script for other sites, fixed address (6.7)
 ├─ data/v1/{AT,DE,CH,global}/*.json(.br|.gz)
 ├─ tiles/dach-20261002-1055.pmtiles
 ├─ tiles/manifest.json                   current file name of the archive

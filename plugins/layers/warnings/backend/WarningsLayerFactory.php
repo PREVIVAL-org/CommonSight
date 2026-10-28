@@ -30,6 +30,6 @@ final class WarningsLayerFactory implements LayerPluginFactory
 
     public function create(LayerEnvironment $environment): LayerPlugin
     {
-        return new WarningsLayer($environment->mechanics, $environment->data->readOwnJson('names.json'));
+        return new WarningsLayer($environment->mechanics, $environment->data->readOwnJson('names.json'), $environment->data->regionCodes());
     }
 }

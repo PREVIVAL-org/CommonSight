@@ -5,14 +5,19 @@ declare(strict_types=1);
 namespace CommonSight\Entry;
 
 use CommonSight\Application\FallbackTrigger;
+use CommonSight\Application\SituationQuery;
 use CommonSight\Application\StatusQuery;
 use CommonSight\Config\Config;
 use CommonSight\Domain\Schedule\StalenessPolicy;
 use CommonSight\Domain\Status\ConditionalResponse;
 use CommonSight\Domain\Status\ScopeParameter;
+use CommonSight\Domain\Status\SituationView;
 use CommonSight\Domain\Status\StatusView;
 use CommonSight\Infrastructure\Contract\GeneratedData;
 use CommonSight\Infrastructure\Http\ResponseCompletion;
+use CommonSight\Infrastructure\Storage\AtomicFile;
+use CommonSight\Infrastructure\Storage\SnapshotFileReader;
+use CommonSight\Model\Value\LayerId;
 
 /** Builds the objects of the status endpoint; the fallback only after the response has been sent (Architecture 6.3). */
 final class StatusEndpointFactory
@@ -34,6 +39,21 @@ final class StatusEndpointFactory
             new ConditionalResponse(),
             $this->data->layerMetas(),
         );
+    }
+
+    /** The situation level per country comes from the key figures of the layer of official warnings (L-D4). */
+    public function situationEndpoint(): SituationEndpoint
+    {
+        $fetcher = new FetcherFactory($this->config, $this->data, 'situation', microtime(true));
+        $query = new SituationQuery(
+            $fetcher->stateReader(),
+            new SnapshotFileReader($this->config->paths->data, new AtomicFile()),
+            new SituationView($this->stalenessPolicy()),
+            new ConditionalResponse(),
+            LayerId::from('warnings'),
+        );
+
+        return new SituationEndpoint($query, $this->config->situation);
     }
 
     public function stalenessPolicy(): StalenessPolicy

@@ -139,4 +139,10 @@ export default tseslint.config(
     languageOptions: { globals: { ...globals.node } },
     rules: { 'max-lines-per-function': 'off', '@typescript-eslint/no-require-imports': 'off' },
   },
+  {
+    // The box script for other sites (situation level): a classic script without bundle, as old browsers read it.
+    files: ['public/box/**/*.js'],
+    languageOptions: { sourceType: 'script', globals: { ...globals.browser } },
+    rules: { 'no-var': 'off', 'prefer-arrow-callback': 'off', 'max-lines-per-function': 'off' },
+  },
 );

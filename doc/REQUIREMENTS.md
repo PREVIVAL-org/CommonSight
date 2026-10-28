@@ -511,6 +511,7 @@ Technology: MapLibre GL with PMTiles, map style from the theming variables.
 | E-04 | For geolocation the page needs the permission in the context of the host page | MUST |
 | E-05 | **Start page for members only** (ACCESS-AND-BRANDING A-D1 to A-D5): an auth provider (plugin in `plugins/auth/`, `auth` in `config.php`) decides per request whether the start page shows the map; a visitor who is not admitted sees the header and a members card with the name of the community and its login (back to CommonSight) and registration links. Only the start page is protected; data, tiles and status stay public. Closed on every failure, which is logged; nothing about visitors is kept or logged. Without a provider the page is open | MUST |
 | E-06 | **WoltLab provider:** members are users of the forum with a session active within 60 days who are not banned (session cookie of WoltLab Suite 6, read from the forum database with own read-only access data or the forum's `config.inc.php`); logging out takes effect at once | MUST |
+| E-07 | **Situation level for the forum** (SITUATION-LEVEL L-D1 to L-D5): per country a level from 1 (nothing) to 5 (massive situation) only from the official warnings, the sources made comparable on one colour scale (yellow, orange, red, violet); orange 2, red 3, violet 4, one more from a quarter of the states or cantons; served by `api/situation.php`, readable by the sites named in `situation.allowOrigins`; "unknown", never 1, for a failed, stale or missing layer; shown by `box/situation.js` in a WoltLab sidebar box | SHOULD |
 
 ---
 

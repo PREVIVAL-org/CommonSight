@@ -366,6 +366,18 @@ cat <APP>/logs/client-*.log | jq -c '{time, kind, message, webgl: .env.webgl, re
 
 `fetcher.php check` reports whether they are on.
 
+## `situation` – the situation level for other sites
+
+`api/situation.php` answers per country the situation level from 1 (nothing) to 5 (massive situation), formed only from the official warnings (concept in `internal/SITUATION-LEVEL.md`), e.g. for a box in a forum (INSTALLATION, "Situation box in a forum"). The data is public like the snapshots; a page of another site may read it in the browser only when its origin is named here (CORS). A subdomain is another origin too: a forum at `https://example.org` reading CommonSight at `https://lagezentrum.example.org` needs its entry.
+
+| Key | Type, default | Meaning |
+|---|---|---|
+| `allowOrigins` | list of origins, `[]` | scheme and host (and port) of the sites that may read it, without path or `/` at the end |
+
+```php
+'situation' => ['allowOrigins' => ['https://forum.example.org']],
+```
+
 ## Refused keys of former releases
 
 | Key | Replaced by |

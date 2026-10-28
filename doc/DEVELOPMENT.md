@@ -184,6 +184,8 @@ run/
    ├─ .htaccess
    ├─ api/status.php         status endpoint (one line, requires the code of the active release)
    ├─ api/report.php         error reports of the browsers (one line, like status.php)
+   ├─ api/situation.php      situation level per country for other sites (one line, like status.php)
+   ├─ box/situation.js       box script for a forum, fixed address
    ├─ data/v1/               snapshots
    ├─ tiles/                 tile archive and manifest.json
    ├─ map/                   glyphs, regions, mask, border zone

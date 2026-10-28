@@ -28,7 +28,30 @@
             }
         }
     ],
-    "stats": {},
+    "stats": {
+        "situation": {
+            "level": 3,
+            "regionCount": 26,
+            "grades": {
+                "yellow": {
+                    "warnings": 2,
+                    "regions": 3
+                },
+                "orange": {
+                    "warnings": 2,
+                    "regions": 2
+                },
+                "red": {
+                    "warnings": 1,
+                    "regions": 0
+                },
+                "violet": {
+                    "warnings": 0,
+                    "regions": 0
+                }
+            }
+        }
+    },
     "items": [
         {
             "kind": "warning",
@@ -77,6 +100,7 @@
                 }
             },
             "severity": "Severe",
+            "awareness": "orange",
             "area": "Ticino",
             "expires": "2026-09-29T04:00:00Z",
             "sections": [
@@ -200,6 +224,7 @@
                 }
             },
             "severity": "Moderate",
+            "awareness": "yellow",
             "area": "Bern",
             "onset": "2026-09-28T10:00:00Z",
             "expires": "2026-09-28T20:00:00Z",

@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace CommonSight\Plugin\MeteoAlarm;
 
 use CommonSight\Model\Geometry;
+use CommonSight\Model\Item\Awareness;
 use CommonSight\Model\Item\CatalogTerm;
 use CommonSight\Model\Item\Item;
 use CommonSight\Model\Item\ItemCommon;
@@ -38,16 +39,33 @@ final class MeteoAlarmMapper implements ItemMapper
             lang: $record->language,
         );
 
+        $severity = Severity::fromSource($record->severity);
+
         return new WarningItem(
             $common,
             $record->event !== '' ? new Msg('hazard.source', ['text' => $record->event]) : new Msg('hazard.weather'),
-            Severity::fromSource($record->severity),
+            $severity,
             $record->areaDesc,
             $record->onset,
             $record->expires,
             $this->sections->of([SectionHeading::Description->value => $record->description, SectionHeading::Advice->value => $record->instruction]),
             new CatalogTerm('weather'),
+            $this->awareness($severity),
         );
+    }
+
+    /**
+     * MeteoAlarm states its colour level as severity one step higher than CAP is read elsewhere: yellow is Moderate,
+     * orange Severe, red Extreme ("Yellow Low-temperature Warning" with severity Moderate, MeteoSchweiz level 2).
+     */
+    private function awareness(Severity $severity): ?Awareness
+    {
+        return match ($severity) {
+            Severity::Moderate => Awareness::Yellow,
+            Severity::Severe => Awareness::Orange,
+            Severity::Extreme => Awareness::Red,
+            default => null,
+        };
     }
 
     private function polygon(string $raw): ?Geometry

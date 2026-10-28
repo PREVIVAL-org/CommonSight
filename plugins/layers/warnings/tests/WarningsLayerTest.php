@@ -91,6 +91,8 @@ final class WarningsLayerTest extends TestCase
         self::assertInstanceOf(WarningItem::class, $bern);
         self::assertSame(['Gewitterwarnung Stufe 2', 'Gewitter', 'de'], [$bern->common->title, $bern->hazard->params['text'] ?? null, $bern->common->lang]);
         self::assertSame(['Gewitter mit Hagel möglich.', 'Schutz in Gebäuden suchen.'], array_map(static fn($s): string => $s->text, $bern->sections));
+        self::assertSame(['Moderate', 'yellow'], [$bern->severity->value, $bern->awareness?->value], 'L-D2: MeteoAlarm level 2 is yellow');
+        self::assertSame(['level' => 3, 'regionCount' => 26], array_slice($snapshot->stats->jsonSerialize()['situation'], 0, 2), 'L-D3: red in one canton');
         // Alertswiss: civil protection named after its event and canton, the time from the CAP reference, circles as areas.
         $byId = array_combine(array_map(static fn($i): string => $i->common()->id, $snapshot->items), $snapshot->items);
         $fireBan = $byId['alertswiss:POA-1-1'] ?? null;

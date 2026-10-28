@@ -69,6 +69,12 @@ RewriteRule ^(.+\.json)$ $1.gz [L]
     Header set Cache-Control "no-cache"
 </If>
 
+# The box script for other sites (box/situation.js) keeps its address across releases: a forum page may keep it an
+# hour, then revalidates.
+<If "%{REQUEST_URI} =~ m#/box/#">
+    Header set Cache-Control "public, max-age=3600"
+</If>
+
 # Map areas (map/*.geojson: mask, border zone, region outlines) keep their names when rebuilt: always revalidate
 # (usually a short 304 via ETag), otherwise browsers keep an old mask for days. Apache's mime.types does not know
 # .geojson: without the type it would go out untyped and uncompressed.

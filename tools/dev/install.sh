@@ -29,7 +29,7 @@ release() {
     rm -rf "$WEB/map" "$WEB/licenses"
     # status.php gets its path before it reaches the webroot: no request finds the placeholder.
     rm -rf "$package/web-installed" && cp -a "$package/web" "$package/web-installed"
-    sed -i "${PLACEHOLDERS[@]}" "$package/web-installed/api/status.php" "$package/web-installed/api/report.php" "$package/web-installed/gate.php"
+    sed -i "${PLACEHOLDERS[@]}" "$package/web-installed/api/status.php" "$package/web-installed/api/report.php" "$package/web-installed/api/situation.php" "$package/web-installed/gate.php"
     cp -a "$package/web-installed/." "$WEB/" && rm -rf "$package/web-installed"
     # The operator's colours and logo stay; only files that are missing are added.
     cp -rn "$package/custom" "$WEB/"
